@@ -6,7 +6,8 @@ const languages = require("../src/config/language.json");
 const JSON_FOLDER = "./.json";
 const CONTENT_ROOT = "src/content";
 const CONTENT_DEPTH = 3;
-const BLOG_FOLDER = "blog";
+
+const GROUPS = ["models", "blog"];
 
 // get data from markdown
 const getData = (folder, groupDepth, langIndex = 0) => {
@@ -36,17 +37,17 @@ const getData = (folder, groupDepth, langIndex = 0) => {
             let slug;
             if (data.slug) {
               const slugParts = data.slug.split("/");
-              slugParts[0] = BLOG_FOLDER;
+              slugParts[0] = folder;
               slug = slugParts.join("/");
             } else {
               slug = pathParts
                 .slice(CONTENT_DEPTH)
                 .join("/")
                 .replace(/\.[^/.]+$/, "");
-              slug = `${BLOG_FOLDER}/${slug.split("/").slice(1).join("/")}`;
+              slug = `${folder}/${slug.split("/").slice(1).join("/")}`;
             }
             data.slug = slug;
-            const group = "blog";
+            const group = folder;
 
             return {
               lang: languages[index].languageCode, // Set the correct language code dynamically
@@ -70,11 +71,14 @@ try {
     fs.mkdirSync(JSON_FOLDER);
   }
 
+  let jsonData = [];
+  for (const group of GROUPS) {
+    jsonData = [...jsonData, ...getData(group, 3)];
+  }
+
   // create json files
-  fs.writeFileSync(
-    `${JSON_FOLDER}/posts.json`,
-    JSON.stringify(getData(BLOG_FOLDER, 3)),
-  );
+  fs.writeFileSync(`${JSON_FOLDER}/posts.json`, JSON.stringify(jsonData));
+  
 
   // merge json files for search
   const posts = require(`../${JSON_FOLDER}/posts.json`);
