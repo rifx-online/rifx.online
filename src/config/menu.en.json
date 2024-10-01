@@ -1,6 +1,8 @@
 {
   "main": [
     { "name": "Home", "url": "/" },
+    { "name": "Models", "url": "/models" },
+    { "name": "Blog", "url": "/blog" },
     { "name": "About", "url": "/about" },
     { "name": "Elements", "url": "/elements" },
     {
