@@ -109,6 +109,31 @@ To access the shell within the container:
 docker run -it --rm astroplate ash
 ```
 
+
+## UI
+
+```shell
+npx shadcn@latest add switch
+```
+
+## 数据库迁移
+
+```shell
+wrangler d1 migrations apply furz-db
+```
+
+## 数据导入
+
+```shell
+wrangler d1 execute furz-db --file=./data/data.sql
+```
+
+## KV 初始化
+
+```shell
+npx wrangler kv namespace create furz-kv
+```
+
 <!-- reporting issue -->
 
 ## 🐞 Reporting Issues
