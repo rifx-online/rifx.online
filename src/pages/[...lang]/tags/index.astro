@@ -9,6 +9,7 @@ import type { ContentEntryMap } from "astro:content";
 
 export const prerender = true;
 const { default_language } = config.settings;
+const cates = config.categories;
 
 export function getStaticPaths() {
   const paths = supportedLang.map((lang) => ({
@@ -23,8 +24,18 @@ if (!lang) {
   lang = default_language;
 }
 const langCollection: keyof ContentEntryMap = lang as keyof ContentEntryMap;
-const tags = await getTaxonomy(langCollection, "tags");
-const allTags = await getAllTaxonomy(langCollection, "tags");
+
+let tags: string[] = [];
+let allTags: string[] = [];
+
+for (const cate of cates) {
+  const sub_tags = await getTaxonomy(langCollection, "tags", cate);
+  const sub_allTags = await getAllTaxonomy(langCollection, "tags", cate);
+
+  tags.push(...sub_tags);
+  allTags.push(...sub_allTags);
+}
+
 ---
 
 <Base title={"Tags"}>

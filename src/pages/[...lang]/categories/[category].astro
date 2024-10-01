@@ -76,7 +76,6 @@ for (const cate of cates) {
   posts.push(...sub_posts);
 }
 
-
 const filterByCategories = taxonomyFilter(posts, "categories", category!);
 const sortedPosts = sortByDate(filterByCategories);
 ---
