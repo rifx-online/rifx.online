@@ -10,9 +10,9 @@ tags: ["OpenAI", "GPT-4o-mini"]
 draft: false
 
 id: "openai/gpt-4o-mini"
-context: 128000
-input: 0.15
-output: 0.6
+context: 128K
+input: $0.15/M
+output: $0.6/M
 ---
 
 GPT-4o mini is OpenAI's newest model after GPT-4 Omni, supporting both text and image inputs with text outputs.

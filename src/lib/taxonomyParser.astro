@@ -6,7 +6,7 @@ import type { ContentEntryMap } from "astro:content";
 import { getCollection } from "astro:content";
 
 // get taxonomy from frontmatter
-export const getTaxonomy = async (collection: string, name: string) => {
+export const getTaxonomy = async (collection: string, name: string, category: string = 'blog') => {
   const { default_language } = config.settings;
 
   const language = languages.find((l) => l.languageCode === collection);
@@ -24,7 +24,7 @@ export const getTaxonomy = async (collection: string, name: string) => {
   }
 
   const singlePages = await getCollection(
-    "blog" as keyof ContentEntryMap,
+    category as keyof ContentEntryMap,
     ({ id }: any) => {
       return id.startsWith(actualCollection) && !id.endsWith("-index.md");
     }
@@ -42,7 +42,7 @@ export const getTaxonomy = async (collection: string, name: string) => {
 };
 
 // get all taxonomies from frontmatter
-export const getAllTaxonomy = async (collection: string, name: string) => {
+export const getAllTaxonomy = async (collection: string, name: string, category: string = 'blog') => {
   const { default_language } = config.settings;
 
   const language = languages.find((l) => l.languageCode === collection);
@@ -60,7 +60,7 @@ export const getAllTaxonomy = async (collection: string, name: string) => {
   }
 
   const singlePages = await getCollection(
-    "blog" as keyof ContentEntryMap,
+    category as keyof ContentEntryMap,
     ({ id }: any) => {
       return id.startsWith(actualCollection) && !id.endsWith("-index.md");
     }
