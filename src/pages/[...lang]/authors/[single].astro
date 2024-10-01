@@ -7,8 +7,10 @@ import { getSinglePage } from "@/lib/contentParser.astro";
 import { supportedLang } from "@/lib/utils/languageParser";
 import { slugify } from "@/lib/utils/textConverter";
 import type { ContentEntryMap } from "astro:content";
+import config from "@/config/config.json";
 
 export const prerender = true;
+export const cates = config.categories;
 
 // get all static paths for authors
 export async function getStaticPaths() {
@@ -40,9 +42,14 @@ const { author, lang } = Astro.props;
 const { title, social, meta_title, description, image } = author.data;
 const { Content } = await author.render();
 
+
 // get all posts by author
-const BLOG_FOLDER = "blog";
-const posts = await getSinglePage(BLOG_FOLDER, lang as keyof ContentEntryMap);
+let posts: any[] = [];
+for (const cate of cates) {
+  const sub_posts = await getSinglePage(cate as keyof ContentEntryMap, lang as keyof ContentEntryMap);
+  posts.push(...sub_posts);
+} 
+
 const postFilterByAuthor = posts.filter(
   (post) => slugify(post.data.author) === slugify(title)
 );

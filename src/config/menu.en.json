@@ -3,24 +3,23 @@
     { "name": "Home", "url": "/" },
     { "name": "Models", "url": "/models" },
     { "name": "Blog", "url": "/blog" },
-    { "name": "About", "url": "/about" },
-    { "name": "Elements", "url": "/elements" },
+    { "name": "Tags", "url": "/tags" },
     {
       "name": "Pages",
       "url": "",
       "hasChildren": true,
       "children": [
-        { "name": "Contact", "url": "/contact" },
-        { "name": "Blog", "url": "/blog" },
         { "name": "Authors", "url": "/authors" },
-        { "name": "Categories", "url": "/categories" },
-        { "name": "Tags", "url": "/tags" },
-        { "name": "404 Page", "url": "/404" }
+        { "name": "Categories", "url": "/categories" }
       ]
     }
   ],
   "footer": [
+    { "name": "About", "url": "/about" },
+    { "name": "Contact", "url": "/contact" },
     { "name": "Elements", "url": "/elements" },
+    { "name": "Authors", "url": "/authors" },
+    { "name": "Categories", "url": "/categories" },
     { "name": "Privacy Policy", "url": "/privacy-policy" }
   ]
 }
