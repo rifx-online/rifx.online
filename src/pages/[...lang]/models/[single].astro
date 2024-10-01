@@ -28,6 +28,8 @@ export async function getStaticPaths() {
       }));
     })
   );
+  
+  console.log("Generated paths:", paths.flat());  // 添加这行来调试
   return paths.flat();
 }
 

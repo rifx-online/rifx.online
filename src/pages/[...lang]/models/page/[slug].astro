@@ -1,5 +1,5 @@
 ---
-import BlogCard from "@/components/BlogCard.astro";
+import ModelCard from "@/components/ModelCard.astro";
 import Pagination from "@/components/Pagination.astro";
 import config from "@/config/config.json";
 import Base from "@/layouts/Base.astro";
@@ -51,13 +51,12 @@ export async function getStaticPaths() {
         lang as keyof ContentEntryMap
       );
       const totalPages = Math.ceil(posts.length / config.settings.pagination);
-      const langString = lang.toString();
       const langPaths = [];
 
       for (let i = 1; i < totalPages; i++) {
         langPaths.push({
           params: {
-            lang: langString || undefined,
+            lang: lang || undefined,
             slug: (i + 1).toString(),
           },
         });
@@ -69,6 +68,7 @@ export async function getStaticPaths() {
 
   return paths.flat();
 }
+
 ---
 
 <Base
@@ -87,7 +87,7 @@ export async function getStaticPaths() {
             {
               currentPosts.map((post) => (
                 <div class="mb-14 md:col-6">
-                  <BlogCard data={post} />
+                  <ModelCard data={post} />
                 </div>
               ))
             }
