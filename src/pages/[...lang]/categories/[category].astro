@@ -1,5 +1,6 @@
 ---
 import BlogCard from "@/components/BlogCard.astro";
+import ModelCard from "@/components/ModelCard.astro";
 import config from "@/config/config.json";
 import Base from "@/layouts/Base.astro";
 import { getSinglePage } from "@/lib/contentParser.astro";
@@ -11,6 +12,7 @@ import PageHeader from "@/partials/PageHeader.astro";
 import type { ContentEntryMap } from "astro:content";
 
 export const prerender = true;
+export const cates = config.categories;
 
 // get all static paths for categories
 export async function getStaticPaths() {
@@ -18,10 +20,16 @@ export async function getStaticPaths() {
 
   const paths = await Promise.all(
     supportedLang.map(async (lang) => {
-      const categories = await getTaxonomy(
-        lang as keyof ContentEntryMap,
-        "categories"
-      );
+
+      let categories: string[] = [];
+      for (const cate of cates) {
+        const sub_categories = await getTaxonomy(
+          lang as keyof ContentEntryMap,
+          "categories",
+          cate
+        );
+        categories.push(...sub_categories);
+      }
 
       return categories.map((category) => ({
         params: {
@@ -36,10 +44,16 @@ export async function getStaticPaths() {
   );
 
   // Handle default path (no lang)
-  const defaultCategories = await getTaxonomy(
-    default_language as keyof ContentEntryMap,
-    "categories"
-  );
+  let defaultCategories: string[] = [];
+  for (const cate of cates) {
+    const sub_categories = await getTaxonomy(
+      default_language as keyof ContentEntryMap,
+      "categories",
+      cate
+    );
+    defaultCategories.push(...sub_categories);
+  }
+
   const defaultPaths = defaultCategories.map((category) => ({
     params: {
       lang: undefined,
@@ -56,8 +70,13 @@ export async function getStaticPaths() {
 const { category, lang } = Astro.params;
 
 // get posts by category
-const BLOG_FOLDER = "blog";
-const posts = await getSinglePage(BLOG_FOLDER, lang as keyof ContentEntryMap);
+let posts: any[] = [];  
+for (const cate of cates) {
+  const sub_posts = await getSinglePage(cate as keyof ContentEntryMap, lang as keyof ContentEntryMap);
+  posts.push(...sub_posts);
+}
+
+
 const filterByCategories = taxonomyFilter(posts, "categories", category!);
 const sortedPosts = sortByDate(filterByCategories);
 ---
@@ -69,11 +88,17 @@ const sortedPosts = sortByDate(filterByCategories);
       <div class="row">
         {
           sortedPosts.map((post) => (
-            <div class="mb-14 md:col-6 lg:col-4">
-              <BlogCard data={post} />
+            <div class="mb-14 md:col-6 lg:col-6">
+              { post.collection === "blog" && (
+                  <BlogCard data={post} />
+              )}
+              { post.collection === "models" && (
+                  <ModelCard data={post} />
+              )}
             </div>
           ))
         }
+        
       </div>
     </div>
   </div>

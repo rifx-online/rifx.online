@@ -1,3 +1,4 @@
+const config = require("../src/config/config.json");
 const fs = require("fs");
 const path = require("path");
 const matter = require("gray-matter");
@@ -7,7 +8,7 @@ const JSON_FOLDER = "./.json";
 const CONTENT_ROOT = "src/content";
 const CONTENT_DEPTH = 3;
 
-const GROUPS = ["models", "blog"];
+const GROUPS = config.categories;
 
 // get data from markdown
 const getData = (folder, groupDepth, langIndex = 0) => {

@@ -40,7 +40,7 @@ data.slug = modifiedSlug;
 
 export function formatNumber(value: string | number): string {
   const num = typeof value === "string" ? parseInt(value) : value;
-  if (isNaN(num)) return value.toString();
+  if (isNaN(num)) return value as string;
 
   let result: string;
   let unit: string;
@@ -122,7 +122,7 @@ export function formatTokens(value: number): string {
     {plainify(data.body?.slice(0, Number(summary_length)))}...
   </p>
 
-  <div class="text-sm text-gray-400 flex flex-wrap gap-x-6 gap-y-2 mb-4">
+  <div class="text-sm text-gray-400 flex flex-wrap gap-x-6 gap-y-2">
     <span
       ><a href={slugSelector(`/authors/${slugify(author)}`, lang)}>
         <FaRegUserCircle className={"mr-2 -mt-1 inline-block"} />

@@ -10,6 +10,8 @@ export const prerender = true;
 
 const { default_language } = config.settings;
 
+const cates = config.categories;
+
 export function getStaticPaths() {
   const paths = supportedLang.map((lang) => ({
     params: { lang: lang || undefined },
@@ -22,9 +24,21 @@ if (!lang) {
   lang = default_language;
 }
 
+
 const langCollection: keyof ContentEntryMap = lang as keyof ContentEntryMap;
-const categories = await getTaxonomy(langCollection, "categories");
-const allCategories = await getAllTaxonomy(langCollection, "categories");
+
+let categories: string[] = [];
+let allCategories: string[] = [];
+
+for (const cate of cates) {
+  const sub_categories = await getTaxonomy(langCollection, "categories", cate);
+  const sub_allCategories = await getAllTaxonomy(langCollection, "categories", cate);
+
+  categories.push(...sub_categories);
+  allCategories.push(...sub_allCategories);
+}
+
+
 ---
 
 <Base title={"Categories"}>
