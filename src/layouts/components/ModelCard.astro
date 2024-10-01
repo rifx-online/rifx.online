@@ -9,12 +9,26 @@ import {
 import { humanize, plainify, slugify } from "@/lib/utils/textConverter";
 import type { ContentEntryMap } from "astro:content";
 import { FaRegFolder, FaRegUserCircle } from "react-icons/fa";
+import { MdTextFields } from "react-icons/md";
 import ImageMod from "./ImageMod.astro";
 
 const { summary_length }: { summary_length: number; model_folder: string } =
   config.settings;
 const { data } = Astro.props;
-const { title, id, context, input, output, description, image, categories, date, author } = data.data;
+const {
+  title,
+  id,
+  context,
+  input,
+  output,
+  description,
+  image,
+  categories,
+  date,
+  author,
+  img,
+  request,
+} = data.data;
 
 const lang = getLangFromUrl(Astro.url);
 const { read_more } = await getTranslations(lang as keyof ContentEntryMap);
@@ -23,43 +37,121 @@ const slugParts = data.slug.split("/");
 slugParts[0] = "models";
 const modifiedSlug = slugParts.join("/");
 data.slug = modifiedSlug;
+
+export function formatNumber(value: string | number): string {
+  const num = typeof value === "string" ? parseInt(value) : value;
+  if (isNaN(num)) return value.toString();
+
+  let result: string;
+  let unit: string;
+  if (num >= 1024 * 1024) {
+    result = (num / (1024 * 1024)).toFixed(2);
+    unit = "M";
+  } else if (num >= 1024) {
+    result = (num / 1024).toFixed(2);
+    unit = "K";
+  } else {
+    return num.toString();
+  }
+
+  // 去掉尾部的零和不必要的小数点
+  return result.replace(/\.?0+$/, "") + unit;
+}
+
+export function formatTokens(value: number): string {
+  const num = value;
+
+  if (num >= 0.001) {
+    return num.toFixed(3).replace(/\.?0+$/, "") + "M";
+  } else if (num >= 0.00001) {
+    return (num * 1000).toFixed(3).replace(/\.?0+$/, "") + "K";
+  } else {
+    return num.toString();
+  }
+}
 ---
 
 <div class="bg-body dark:bg-darkmode-body p-6 rounded-lg shadow-md">
-  <h3 class="text-2xl font-semibold mb-1">
-    <a href={slugSelector(`/${data.slug}`, lang)}>
-      {title}
-    </a>
-  </h3>
+  <div class="flex justify-between items-center mb-3">
+    <h3 class="text-2xl font-semibold mb-1">
+      <a href={slugSelector(`/${data.slug}`, lang)}>
+        {title}
+      </a>
+    </h3>
+
+    <span class="text-gray-400"
+      ><MdTextFields className={"mr-2 -mt-1 inline-block"} />
+      {
+        categories.map((category: string, index: number) => (
+          <a href={slugSelector(`/categories/${slugify(category)}`, lang)}>
+            {humanize(category)}
+            {index !== categories.length - 1 && ","}
+          </a>
+        ))
+      }</span
+    >
+  </div>
   <div class="flex items-center mb-3">
     <span class="text-gray-400 mr-2">{id}</span>
     <button class="copy-button" data-id={id} title="Copy">
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path class="copy-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
-        <path class="check-icon hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-5 w-5"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          class="copy-icon"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
+        ></path>
+        <path
+          class="check-icon hidden"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M5 13l4 4L19 7"></path>
       </svg>
     </button>
   </div>
-  
-  <p class="text-lg text-gray-600 mb-4">{plainify(data.body?.slice(0, Number(summary_length)))}...</p>
-  
+
+  <p class="text-lg text-gray-600 mb-4">
+    {plainify(data.body?.slice(0, Number(summary_length)))}...
+  </p>
+
   <div class="text-sm text-gray-400 flex flex-wrap gap-x-6 gap-y-2 mb-4">
-    <span><a href={slugSelector(`/authors/${slugify(author)}`, lang)}>
+    <span
+      ><a href={slugSelector(`/authors/${slugify(author)}`, lang)}>
         <FaRegUserCircle className={"mr-2 -mt-1 inline-block"} />
         {humanize(author)}
-      </a></span>
-    <span class="border-l border-gray-200 pl-3">{context} context</span>
-    <span class="border-l border-gray-200 pl-3">{input} input tokens</span>
-    <span class="border-l border-gray-200 pl-3">{output} output tokens</span>
-    <span class="border-l border-gray-200 pl-3"><FaRegFolder className={"mr-2 -mt-1 inline-block"} />
-        {
-          categories.map((category: string, index: number) => (
-            <a href={slugSelector(`/categories/${slugify(category)}`, lang)}>
-              {humanize(category)}
-              {index !== categories.length - 1 && ","}
-            </a>
-          ))
-        }</span>
+      </a></span
+    >
+    <span class="border-l border-gray-200 pl-3"
+      >{formatNumber(context)} context</span
+    >
+    <span class="border-l border-gray-200 pl-3"
+      >${formatTokens(input * 1000000)} input tokens</span
+    >
+    <span class="border-l border-gray-200 pl-3"
+      >${formatTokens(output * 1000000)} output tokens</span
+    >
+    {
+      img > 0 && (
+        <span class="border-l border-gray-200 pl-3">
+          ${formatTokens(img)} image tokens
+        </span>
+      )
+    }
+    {
+      request > 0 && (
+        <span class="border-l border-gray-200 pl-3">
+          ${formatTokens(request)} request tokens
+        </span>
+      )
+    }
   </div>
 
   <!-- {image && (
@@ -72,30 +164,31 @@ data.slug = modifiedSlug;
       format="webp"
     />
   )} -->
-
-
 </div>
 
 <script>
-  document.querySelectorAll('.copy-button').forEach(button => {
-    button.addEventListener('click', () => {
-      const id = button.getAttribute('data-id') ?? '';
-      navigator.clipboard.writeText(id).then(() => {
-        const copyIcon = button.querySelector('.copy-icon');
-        const checkIcon = button.querySelector('.check-icon');
+  document.querySelectorAll(".copy-button").forEach((button) => {
+    button.addEventListener("click", () => {
+      const id = button.getAttribute("data-id") ?? "";
+      navigator.clipboard
+        .writeText(id)
+        .then(() => {
+          const copyIcon = button.querySelector(".copy-icon");
+          const checkIcon = button.querySelector(".check-icon");
 
-        if (!copyIcon || !checkIcon) return;
-        
-        copyIcon.classList.add('hidden');
-        checkIcon.classList.remove('hidden');
-        
-        setTimeout(() => {
-          copyIcon.classList.remove('hidden');
-          checkIcon.classList.add('hidden');
-        }, 2000);
-      }).catch(err => {
-        console.error('复制失败:', err);
-      });
+          if (!copyIcon || !checkIcon) return;
+
+          copyIcon.classList.add("hidden");
+          checkIcon.classList.remove("hidden");
+
+          setTimeout(() => {
+            copyIcon.classList.remove("hidden");
+            checkIcon.classList.add("hidden");
+          }, 2000);
+        })
+        .catch((err) => {
+          console.error("复制失败:", err);
+        });
     });
   });
 </script>
