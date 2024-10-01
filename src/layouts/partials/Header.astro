@@ -10,6 +10,7 @@ import {
 } from "@/lib/utils/languageParser";
 import type { ContentEntryMap } from "astro:content";
 import { IoSearch } from "react-icons/io5";
+import { SignedIn, SignedOut, UserButton, SignInButton } from '@clerk/astro/components';
 
 let lang = getLangFromUrl(Astro.url);
 const menu = await getTranslations(lang as keyof ContentEntryMap);
@@ -107,18 +108,7 @@ if (disabledLanguages.includes(lang)) {
         ))
       }
       {/* Navigation button */}
-      {
-        navigation_button.enable && (
-          <li class="mt-4 inline-block lg:hidden">
-            <a
-              class="btn btn-outline-primary btn-sm"
-              href={navigation_button.link}
-            >
-              {get_started}
-            </a>
-          </li>
-        )
-      }
+      
     </ul>
 
     <div class="order-1 ml-auto flex items-center md:order-2 lg:ml-0">
@@ -142,14 +132,31 @@ if (disabledLanguages.includes(lang)) {
 
       {/* Navigation button */}
       {
-        navigation_button.enable && (
-          <a
-            class="btn btn-outline-primary btn-sm hidden lg:inline-block"
-            href={navigation_button.link}
-          >
-            {get_started}
-          </a>
-        )
+        <nav>
+          <SignedOut>
+            <SignInButton mode='modal'>
+                Sign In
+            </SignInButton>
+          </SignedOut>
+          <SignedIn>
+            <UserButton>
+              <UserButton.MenuItems>
+                <UserButton.Link
+                  label="API Key"
+                  href="/user/keys"
+                />
+                <UserButton.Link
+                  label="Credits"
+                  href="/user/credits"
+                />
+                <UserButton.Link
+                  label="Activity"
+                  href="/user/activity"
+                />
+              </UserButton.MenuItems> 
+            </UserButton>
+          </SignedIn>
+        </nav>
       }
     </div>
   </nav>

@@ -9,6 +9,8 @@ import remarkToc from "remark-toc";
 import config from "./src/config/config.json";
 import languagesJSON from "./src/config/language.json";
 import cloudflare from '@astrojs/cloudflare';
+import clerk from '@clerk/astro'
+import node from '@astrojs/node'
 
 const { default_language } = config.settings;
 
@@ -30,16 +32,18 @@ export default defineConfig({
     defaultLocale: default_language,
   },
   output: 'server',
-  adapter: cloudflare({
-    platformProxy: {
-      enabled: true
-    }
-  }),
+  // adapter: cloudflare({
+  //   platformProxy: {
+  //     enabled: true
+  //   }
+  // }),
+  adapter: node({ mode: 'standalone' }),
   image: {
     service: squooshImageService(),
   },
   integrations: [
     react(),
+    clerk(),
     sitemap(),
     tailwind({
       applyBaseStyles: false,

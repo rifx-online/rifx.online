@@ -1,0 +1,31 @@
+---
+
+import Base from "@/layouts/Base.astro";
+import { supportedLang } from "@/lib/utils/languageParser";
+
+export const prerender = true;
+
+export function getStaticPaths() {
+  const paths = supportedLang.map((lang) => ({
+    params: { lang: lang || undefined },
+  }));
+  return paths;
+}
+
+
+---
+
+<Base>
+  <section class="section-sm">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="text-center md:col-10 lg:col-7">
+          
+          <div class="content">
+            <h1>User</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>
