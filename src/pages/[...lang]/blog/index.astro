@@ -11,6 +11,8 @@ import PageHeader from "@/partials/PageHeader.astro";
 import PostSidebar from "@/partials/PostSidebar.astro";
 import type { ContentEntryMap } from "astro:content";
 
+export const prerender = true;
+
 export function getStaticPaths() {
   const paths = supportedLang.map((lang) => ({
     params: { lang: lang || undefined },

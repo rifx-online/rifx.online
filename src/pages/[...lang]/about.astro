@@ -6,6 +6,8 @@ import { supportedLang } from "@/lib/utils/languageParser";
 import { markdownify } from "@/lib/utils/textConverter";
 import type { ContentEntryMap } from "astro:content";
 
+export const prerender = true;
+
 export function getStaticPaths() {
   const paths = supportedLang.map((lang) => ({
     params: { lang: lang || undefined },

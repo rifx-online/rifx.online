@@ -6,6 +6,8 @@ import { getTranslations, supportedLang } from "@/lib/utils/languageParser";
 import PageHeader from "@/partials/PageHeader.astro";
 import { type ContentEntryMap } from "astro:content";
 
+export const prerender = true;
+
 export function getStaticPaths() {
   const paths = supportedLang.map((lang) => ({
     params: { lang: lang || undefined },
