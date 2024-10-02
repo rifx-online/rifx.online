@@ -1,9 +1,8 @@
 ---
-
 import Base from "@/layouts/Base.astro";
 import { supportedLang } from "@/lib/utils/languageParser";
 
-export const prerender = true;
+export const prerender = false;
 
 export function getStaticPaths() {
   const paths = supportedLang.map((lang) => ({
@@ -13,6 +12,7 @@ export function getStaticPaths() {
 }
 
 
+const { userId, redirectToSignIn } = Astro.locals.auth()
 ---
 
 <Base>
@@ -20,9 +20,8 @@ export function getStaticPaths() {
     <div class="container">
       <div class="row justify-center">
         <div class="text-center md:col-10 lg:col-7">
-          
           <div class="content">
-            <h1>User</h1>
+            <h1>用户: {userId}</h1>
           </div>
         </div>
       </div>

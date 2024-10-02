@@ -5,12 +5,14 @@
     { "name": "Blog", "url": "/blog" },
     { "name": "Tags", "url": "/tags" },
     {
-      "name": "Pages",
+      "name": "Account",
       "url": "",
       "hasChildren": true,
       "children": [
-        { "name": "Authors", "url": "/authors" },
-        { "name": "Categories", "url": "/categories" }
+        { "name": "User", "url": "/user" },
+        { "name": "API Key", "url": "/user/keys" },
+        { "name": "Credits", "url": "/user/credits" },
+        { "name": "Activity", "url": "/user/activity" }
       ]
     }
   ],
@@ -20,6 +22,8 @@
     { "name": "Elements", "url": "/elements" },
     { "name": "Authors", "url": "/authors" },
     { "name": "Categories", "url": "/categories" },
-    { "name": "Privacy Policy", "url": "/privacy-policy" }
+    { "name": "Privacy Policy", "url": "/privacy-policy" },
+    { "name": "Authors", "url": "/authors" },
+    { "name": "Categories", "url": "/categories" }
   ]
 }

@@ -16,9 +16,10 @@ pages_build_output_dir = "./dist"
 # Note: Use secrets to store sensitive data.
 # - https://developers.cloudflare.com/pages/functions/bindings/#secrets
 [vars]
-PUBLIC_CLERK_PUBLISHABLE_KEY = "pk_test_bW9kZWwtZ3JvdXBlci01LmNsZXJrLmFjY291bnRzLmRldiQ"
-CLERK_SECRET_KEY = "sk_test_h5juWmPn2OfJZdyCezsuJ21J3gUod1iN1tWOIr24vf"
-CLERK_WEBHOOK_SECRET = "whsec_qATXcVtsTpnlMOTymUp7Wip/eJousnk9"
+PUBLIC_CLERK_PUBLISHABLE_KEY="pk_test_c3VidGxlLWxvbmdob3JuLTkzLmNsZXJrLmFjY291bnRzLmRldiQ"
+CLERK_SECRET_KEY="sk_test_1hh57SyK6PdzCVhcqbPVT4IOzmqyG1P8AmEwfpupjm"
+
+CLERK_WEBHOOK_SECRET="whsec_qATXcVtsTpnlMOTymUp7Wip/eJousnk9"
 PUBLIC_CLERK_SIGN_UP_FORCE_REDIRECT_URL = "http://localhost:4321/user/signup-success"
 
 # Bind the Workers AI model catalog. Run machine learning models, powered by serverless GPUs, on Cloudflare’s global network
