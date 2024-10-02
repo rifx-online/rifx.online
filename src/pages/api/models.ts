@@ -1,5 +1,5 @@
 import type { APIRoute } from 'astro';
-import { FurzSDK } from 'furz-sdk';
+import { FurzSDK } from '@hypier/furz-sdk';
 
 export const GET: APIRoute = async ({ request, locals }) => {
   const db = locals.runtime.env.DB;
