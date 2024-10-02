@@ -178,7 +178,7 @@ const language = lang || getLangFromUrl(Astro.url);
     <TwSizeIndicator />
     <Header />
     <SearchModal lang={language} client:load />
-    <main id="main-content">
+    <main id="main-content" class="mb-6">
       <slot />
     </main>
     <Footer />
