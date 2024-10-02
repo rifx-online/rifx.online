@@ -20,7 +20,13 @@ PUBLIC_CLERK_PUBLISHABLE_KEY="pk_test_c3VidGxlLWxvbmdob3JuLTkzLmNsZXJrLmFjY291bn
 CLERK_SECRET_KEY="sk_test_1hh57SyK6PdzCVhcqbPVT4IOzmqyG1P8AmEwfpupjm"
 
 CLERK_WEBHOOK_SECRET="whsec_qATXcVtsTpnlMOTymUp7Wip/eJousnk9"
-PUBLIC_CLERK_SIGN_UP_FORCE_REDIRECT_URL = "http://localhost:4321/user/signup-success"
+NEXT_PUBLIC_CLERK_SIGN_UP_FORCE_REDIRECT_URL="http://localhost:4321/user/signup-success"
+
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY="pk_test_51Q1Rx2P2Lw1GYWUfbciZrvnke0iSVk5T8vAGJHvz5NoLX8dJjCGXDFISrPZYpEkNxhCBbfagsE2jeQduAh0UZLVw004CBr8r6P"
+STRIPE_SECRET_KEY="sk_test_51Q1Rx2P2Lw1GYWUf2AlszaGwW18prohCsea2c0DoPKU386bbYwXAhQicYYgzbZbOxvm6gMcNpIMrfVig95jYp40j00bcNNLIXr"
+STRIPE_WEBHOOK_SECRET="whsec_6f19c10313e542b7ef79eb15373eca1c2d34c0651f6528c44985593b5c88f4c8"
+BASE_URL="http://localhost:4321"
+
 
 # Bind the Workers AI model catalog. Run machine learning models, powered by serverless GPUs, on Cloudflare’s global network
 # Docs: https://developers.cloudflare.com/pages/functions/bindings/#workers-ai

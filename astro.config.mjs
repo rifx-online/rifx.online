@@ -31,7 +31,7 @@ export default defineConfig({
     locales: filteredSupportedLang,
     defaultLocale: default_language,
   },
-  output: 'hybrid',
+  output: 'server',
   // experimental: {
   //   viewTransitions: true
   // },
