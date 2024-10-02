@@ -133,12 +133,12 @@ if (disabledLanguages.includes(lang)) {
       {/* Navigation button */}
       {
         <nav>
-          <SignedOut>
+          <SignedOut isStatic={true}>
             <SignInButton mode='modal'>
                 Sign In
             </SignInButton>
           </SignedOut>
-          <SignedIn>
+          <SignedIn isStatic={true}>
             <UserButton>
               <UserButton.MenuItems>
                 <UserButton.Link

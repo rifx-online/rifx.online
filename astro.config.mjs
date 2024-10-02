@@ -32,9 +32,9 @@ export default defineConfig({
     defaultLocale: default_language,
   },
   output: 'hybrid',
-  experimental: {
-    viewTransitions: true
-  },
+  // experimental: {
+  //   viewTransitions: true
+  // },
   adapter: cloudflare({
     platformProxy: {
       enabled: true
