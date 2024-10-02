@@ -31,7 +31,7 @@
     "astro-font": "^0.1.81",
     "date-fns": "^3.6.0",
     "disqus-react": "^1.1.5",
-    "furz-sdk": "github:hypier/furz-sdk#v0.1.49",
+    "furz-sdk": "github:hypier/furz-sdk#v0.1.50",
     "github-slugger": "^2.0.0",
     "gray-matter": "^4.0.3",
     "marked": "^14.1.0",
@@ -48,7 +48,6 @@
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240925.0",
-
     "@tailwindcss/forms": "^0.5.7",
     "@tailwindcss/typography": "^0.5.14",
     "@types/marked": "^5.0.2",
