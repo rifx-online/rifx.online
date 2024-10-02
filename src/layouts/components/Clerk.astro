@@ -1,0 +1,22 @@
+---
+import {
+  SignedIn,
+  SignedOut,
+  UserButton,
+  SignInButton,
+} from "@clerk/astro/components";
+
+const { userId } = Astro.locals.auth();
+
+console.log("userId--------", userId);
+---
+
+<nav id="clerkNavigation">
+  <SignedOut>
+    <SignInButton mode="modal"> 登录 </SignInButton>
+  </SignedOut>
+  <SignedIn>
+    <UserButton />
+  </SignedIn>
+</nav>
+
