@@ -1,11 +1,11 @@
 import type { APIRoute } from 'astro';
-import { FurzSDK } from '@hypier/furz-sdk';
+import { PublicModelService } from '@hypier/furz-sdk/dist/services/PublicModelService';
 
 export const GET: APIRoute = async ({ request, locals }) => {
   const db = locals.runtime.env.DB;
   console.log('DB object:', db); // 添加这行来检查 db 对象
 
-  const furz = new FurzSDK(db);
+  const furz = new PublicModelService(db);
 
   const url = new URL(request.url);
   const query = url.searchParams.get('query') || undefined;
@@ -14,7 +14,7 @@ export const GET: APIRoute = async ({ request, locals }) => {
   const pageSize = 20;
 
   try {
-    const { total, items: models } = await furz.publicModelService.search({
+    const { total, items: models } = await furz.search({
       query,
       sortBy: 'created',
       sortOrder,

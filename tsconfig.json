@@ -20,7 +20,10 @@
     },
     "types": [
       "@cloudflare/workers-types/2023-07-01"
-    ]
+    ],
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "module": "ES2020"
   },
   "include": ["**/*.ts", "**/*.tsx", "**/*.astro"],
   "exclude": ["node_modules"]
