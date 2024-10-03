@@ -37,9 +37,9 @@
   },
 
   "navigation_button": {
-    "enable": false,
-    "label": "Get Started",
-    "link": "https://github.com/zeon-studio/astroplate"
+    "enable": true,
+    "label": "Sign In",
+    "link": "/account"
   },
 
   "disqus": {

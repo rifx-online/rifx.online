@@ -10,7 +10,7 @@ import {
 } from "@/lib/utils/languageParser";
 import type { ContentEntryMap } from "astro:content";
 import { IoSearch } from "react-icons/io5";
-import Clerk from "@clerk/clerk-js/headless";
+import { FaRegUser } from "react-icons/fa";
 
 let lang = getLangFromUrl(Astro.url);
 const menu = await getTranslations(lang as keyof ContentEntryMap);
@@ -126,14 +126,14 @@ if (disabledLanguages.includes(lang)) {
       }
       {/* Theme switcher */}
       <ThemeSwitcher className="mr-5" />
-
+      {/* 用户图标和个人中心链接 */}
+      <a class="btn"
+            href={navigation_button.link} >
+            <FaRegUser className="mr-5 text-xl" />
+          </a>
       {/* Language switcher */}
       <LanguageSwitcher client:load lang={lang} pathname={pathname} />
-
-      {/* Navigation button */}
-      {
-        
-      }
+      
     </div>
   </nav>
 </header>
