@@ -34,11 +34,12 @@ export default defineConfig({
   // experimental: {
   //   viewTransitions: true
   // },
-  adapter: cloudflare({
-    platformProxy: {
-      enabled: true
-    }
-  }),
+  adapter: cloudflare(),
+  // adapter: cloudflare({
+  //   platformProxy: {
+  //     enabled: true
+  //   }
+  // }),
   // adapter: node({ mode: 'standalone' }),
   image: {
     service: squooshImageService(),

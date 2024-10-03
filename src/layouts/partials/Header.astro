@@ -10,6 +10,7 @@ import {
 } from "@/lib/utils/languageParser";
 import type { ContentEntryMap } from "astro:content";
 import { IoSearch } from "react-icons/io5";
+import Clerk from "@clerk/clerk-js/headless";
 
 let lang = getLangFromUrl(Astro.url);
 const menu = await getTranslations(lang as keyof ContentEntryMap);
