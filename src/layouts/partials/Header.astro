@@ -10,7 +10,6 @@ import {
 } from "@/lib/utils/languageParser";
 import type { ContentEntryMap } from "astro:content";
 import { IoSearch } from "react-icons/io5";
-import { SignedIn, SignedOut, UserButton, SignInButton } from '@clerk/astro/components';
 
 let lang = getLangFromUrl(Astro.url);
 const menu = await getTranslations(lang as keyof ContentEntryMap);
@@ -132,31 +131,7 @@ if (disabledLanguages.includes(lang)) {
 
       {/* Navigation button */}
       {
-        <nav>
-          <SignedOut isStatic={true}>
-            <SignInButton mode='modal'>
-                Sign In
-            </SignInButton>
-          </SignedOut>
-          <SignedIn isStatic={true}>
-            <UserButton>
-              <UserButton.MenuItems>
-                <UserButton.Link
-                  label="API Key"
-                  href="/user/keys"
-                />
-                <UserButton.Link
-                  label="Credits"
-                  href="/user/credits"
-                />
-                <UserButton.Link
-                  label="Activity"
-                  href="/user/activity"
-                />
-              </UserButton.MenuItems> 
-            </UserButton>
-          </SignedIn>
-        </nav>
+        
       }
     </div>
   </nav>
