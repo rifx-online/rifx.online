@@ -35,7 +35,9 @@ export default defineConfig({
   // experimental: {
   //   viewTransitions: true
   // },
-  adapter: cloudflare(),
+  adapter: cloudflare({
+    mode: 'advanced'
+  }),
   // adapter: node({ mode: 'standalone' }),
   image: {
     service: squooshImageService(),
