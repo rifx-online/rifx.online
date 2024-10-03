@@ -9,7 +9,7 @@ const { env } = Astro.locals.runtime;
 const furz = FurzSDK.initialize(env.DB);
 
 // 获取当前用户ID (这里假设已经有了用户认证系统)
-const { userId } = Astro.locals.auth();
+const  userId  = "user_2mrLKZA20BgrClWRbtBpdCJQaRN";
 
 // 查询用户的所有API密钥
 const userKeys = await furz.userKeyService.getByUserId(userId as string);
