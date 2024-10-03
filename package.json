@@ -7,7 +7,7 @@
   "packageManager": "yarn@1.22.22",
   "scripts": {
     "dev": "yarn generate-json && astro dev",
-    "build": "astro build && cp -r dist/functions/* functions/",
+    "build": "astro build && mkdir -p functions && cp -r dist/functions/* functions/ || true",
     "preview": "astro build && wrangler pages dev",
     "format": "prettier -w ./src",
     "check": "astro check",
