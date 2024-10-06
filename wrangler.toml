@@ -19,7 +19,7 @@ pages_build_output_dir = "./dist"
 # ACCOUNT_LINK = "http://localhost:3000/dashboard"
 
 [env.preview.vars]
-ACCOUNT_LINK = "https://preview.rifx.online/dashboard"
+ACCOUNT_LINK = "https://dev.rifx-user.pages.dev/dashboard"
 
 [env.production.vars]
 ACCOUNT_LINK = "https://user.rifx.online/dashboard"
