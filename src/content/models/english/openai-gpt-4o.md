@@ -11,9 +11,9 @@ draft: false
 
 id: "openai/gpt-4o"
 context: 128000
-input: 5e-06
-output: 0.000015
-img: 0.007225
+input: 2.5e-06
+output: 0.00001
+img: 0.0036125
 request: 0
 ---
 

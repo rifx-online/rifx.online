@@ -10,7 +10,7 @@ tags: ["Role", "google"]
 draft: false
 
 id: "google/gemini-pro-1.5-exp"
-context: 4000000
+context: 1000000
 input: 0.0
 output: 0
 img: 0

@@ -1,7 +1,7 @@
 ---
-title: "Google: Gemini Flash 1.5 Experimental"
-meta_title: "Google: Gemini Flash 1.5 Experimental"
-description: "Google: Gemini Flash 1.5 Experimental"
+title: "Google: Gemini Flash 8B 1.5 Experimental"
+meta_title: "Google: Gemini Flash 8B 1.5 Experimental"
+description: "Google: Gemini Flash 8B 1.5 Experimental"
 date: 2024-08-28T00:00:00Z
 image: "/images/what-is-openai.png"
 categories: ["text+image->text"]
@@ -9,7 +9,7 @@ author: "google"
 tags: ["Role", "google"]
 draft: false
 
-id: "google/gemini-flash-1.5-exp"
+id: "google/gemini-flash-1.5-8b-exp"
 context: 1000000
 input: 0.0
 output: 0
@@ -17,7 +17,7 @@ img: 0
 request: 0
 ---
 
-Gemini 1.5 Flash Experimental is an experimental version of the [Gemini 1.5 Flash](/models/google/gemini-flash-1.5) model.
+Gemini 1.5 Flash 8B Experimental is an experimental, 8B parameter version of the [Gemini 1.5 Flash](/models/google/gemini-flash-1.5) model.
 
 Usage of Gemini is subject to Google's [Gemini Terms of Use](https://ai.google.dev/terms).
 

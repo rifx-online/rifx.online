@@ -10,9 +10,9 @@ tags: ["Role", "google"]
 draft: false
 
 id: "google/palm-2-chat-bison"
-context: 36864
-input: 2.5e-07
-output: 0.0000005
+context: 9216
+input: 1e-06
+output: 0.000002
 img: 0
 request: 0
 ---

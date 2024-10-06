@@ -10,9 +10,9 @@ tags: ["Role", "google"]
 draft: false
 
 id: "google/gemini-pro"
-context: 131040
-input: 1.25e-07
-output: 0.000000375
+context: 32760
+input: 5e-07
+output: 0.0000015
 img: 0.0025
 request: 0
 ---

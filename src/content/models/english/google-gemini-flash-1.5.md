@@ -10,9 +10,9 @@ tags: ["Role", "google"]
 draft: false
 
 id: "google/gemini-flash-1.5"
-context: 4000000
-input: 3.75e-08
-output: 0.00000015
+context: 1000000
+input: 7.5e-08
+output: 0.0000003
 img: 0.00004
 request: 0
 ---

@@ -10,9 +10,9 @@ tags: ["Role", "google"]
 draft: false
 
 id: "google/palm-2-codechat-bison"
-context: 28672
-input: 2.5e-07
-output: 0.0000005
+context: 7168
+input: 1e-06
+output: 0.000002
 img: 0
 request: 0
 ---
