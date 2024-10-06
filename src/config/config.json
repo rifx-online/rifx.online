@@ -36,12 +36,6 @@
     "copyright": "Designed And Developed by [Zeon Studio](https://zeon.studio)"
   },
 
-  "navigation_button": {
-    "enable": true,
-    "label": "Sign In",
-    "link": "/account"
-  },
-
   "disqus": {
     "enable": true,
     "shortname": "themefisher-template",

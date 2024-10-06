@@ -15,10 +15,13 @@ import { FaRegUser } from "react-icons/fa";
 let lang = getLangFromUrl(Astro.url);
 const menu = await getTranslations(lang as keyof ContentEntryMap);
 
-const { navigation_button, settings } = config;
+const { settings } = config;
 const { default_language } = config.settings;
 const { pathname } = Astro.url;
-const { get_started } = await getTranslations(lang as keyof ContentEntryMap);
+
+const account_link = import.meta.env.ACCOUNT_LINK;
+
+console.log("account_link-----", account_link);
 
 const disabledLanguages = config.settings.disable_languages as string[];
 if (disabledLanguages.includes(lang)) {
@@ -127,10 +130,9 @@ if (disabledLanguages.includes(lang)) {
       {/* Theme switcher */}
       <ThemeSwitcher className="mr-5" />
       {/* 用户图标和个人中心链接 */}
-      <a class="btn"
-            href={navigation_button.link} >
-            <FaRegUser className="mr-5 text-xl" />
-          </a>
+      <a class="btn" href={account_link} >
+        <FaRegUser className="mr-5 text-xl" />
+      </a>
       {/* Language switcher */}
       <LanguageSwitcher client:load lang={lang} pathname={pathname} />
       
