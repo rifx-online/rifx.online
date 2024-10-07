@@ -1,7 +1,7 @@
 {
   "site": {
-    "title": "Astroplate",
-    "base_url": "https://astroplate.netlify.app",
+    "title": "Rifx.Online",
+    "base_url": "https://rifx.online",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
@@ -9,7 +9,7 @@
     "logo_darkmode": "/images/logo-darkmode.png",
     "logo_width": "150",
     "logo_height": "30",
-    "logo_text": "Astroplate"
+    "logo_text": "Rifx.Online"
   },
 
   "settings": {
@@ -22,7 +22,7 @@
     "blog_folder": "blog",
     "model_folder": "models",
     "default_language": "en",
-    "disable_languages": [],
+    "disable_languages": ["fr", "zh"],
     "default_language_in_subdir": false
   },
 
