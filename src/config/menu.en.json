@@ -8,11 +8,16 @@
   "footer": [
     { "name": "About", "url": "/about" },
     { "name": "Contact", "url": "/contact" },
+    { "name": "Privacy Policy", "url": "/privacy-policy" },
+    { "name": "Tags", "url": "/tags" }
+    
+  ],
+  "models": [
+    { "name": "About", "url": "/about" },
+    { "name": "Contact", "url": "/contact" },
     { "name": "Elements", "url": "/elements" },
     { "name": "Authors", "url": "/authors" },
     { "name": "Privacy Policy", "url": "/privacy-policy" },
-    { "name": "Tags", "url": "/tags" },
-    { "name": "Categories", "url": "/categories" }
-    
+    { "name": "Tags", "url": "/tags" }
   ]
 }
