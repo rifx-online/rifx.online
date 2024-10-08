@@ -10,6 +10,8 @@ import type { Feature } from "@/types";
 import type { ContentEntryMap } from "astro:content";
 import { FaCheck } from "react-icons/fa";
 import { Image } from 'astro:assets';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
 import { Copy, Check } from 'lucide-react';
 
 const aiApiLink = "https://api.rifx.online/v1";
@@ -25,7 +27,7 @@ export function getStaticPaths() {
 
 const { lang } = Astro.params;
 const homepage = await getListPage("homepage", lang as keyof ContentEntryMap);
-const { banner, features } = homepage[0].data;
+const { banner, features, topic } = homepage[0].data;
 
 const testimonial = await getSinglePage(
   "sections",
@@ -84,14 +86,56 @@ const call_to_action = await getSinglePage(
   </section>
   <!-- /Banner -->
 
+  <!-- Topic -->
+  <section class="section-sm bg-gradient">
+    <div class="container">
+      <div class="row items-center justify-between">
+        <div
+          class="mb:md-0 mb-6 md:col-5"
+        >
+          <ImageMod
+            src={topic.image}
+            height={480}
+            width={520}
+            alt={topic.title}
+            format="webp"
+          />
+        </div>
+        <div class="md:col-7 lg:col-6">
+          <h2 set:html={markdownify(topic.title)} class="mb-4 text-2xl font-bold tracking-tighter sm:text-4xl md:text-5xl" />
+          <p set:html={markdownify(topic.content)} class="mb-8 text-lg" />
+          <div class="flex space-x-2">
+            <Input
+              value={topic.api_link}
+              readOnly
+              className="flex-grow text-xl font-bold h-12 text-black dark:text-white"
+              placeholder={topic.placeholder}
+            />
+            <Button id="copyButton" className="text-white dark:text-black bg-black dark:bg-white font-bold h-12">
+              <span id="copyIcon" class="inline-block"><Copy className="h-4 w-4" /></span>
+              <span id="copyText" class="ml-2">{topic.button.lable}</span>
+            </Button>
+          </div>
+          <p class="text-sm text-muted-foreground mt-8">
+            {topic.remark}
+          </p>
+        </div>
+         
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- /Topic -->
+
   <!-- Features -->
   {
     features.map((feature: Feature, index: number) => (
-      <section class={`section-sm ${index % 2 === 0 && "bg-gradient"}`}>
+      <section class={`section-sm ${index % 2 !== 0 && "bg-gradient"}`}>
         <div class="container">
           <div class="row items-center justify-between">
             <div
-              class={`mb:md-0 mb-6 md:col-5 ${index % 2 !== 0 && "md:order-2"}`}
+              class={`mb:md-0 mb-6 md:col-5 ${index % 2 === 0 && "md:order-2"}`}
             >
               <ImageMod
                 src={feature.image}
@@ -101,8 +145,8 @@ const call_to_action = await getSinglePage(
                 format="webp"
               />
             </div>
-            <div class={`md:col-7 lg:col-6 ${index % 2 !== 0 && "md:order-1"}`}>
-              <h2 set:html={markdownify(feature.title)} class="mb-4" />
+            <div class={`md:col-7 lg:col-6 ${index % 2 === 0 && "md:order-1"}`}>
+              <h2 set:html={markdownify(feature.title)} class="mb-4 text-2xl font-bold tracking-tighter sm:text-4xl md:text-5xl" />
               <p set:html={markdownify(feature.content)} class="mb-8 text-lg" />
               <ul>
                 {feature.bulletpoints.map((bullet: string) => (
@@ -124,43 +168,7 @@ const call_to_action = await getSinglePage(
     ))
   }
   <!-- /Features -->
-  <div class="container mx-auto px-4 py-16 md:py-24 lg:py-32">
-    <div class="grid gap-8 md:grid-cols-2 md:gap-12 items-center">
-      <div class="order-2 md:order-1">
-        <Image
-          src="/images/service-1.png"
-          alt="AI API Illustration"
-          width={500}
-          height={500}
-          class="rounded-lg shadow-lg"
-        />
-      </div>
-      <div class="order-1 md:order-2 space-y-6">
-        <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-          Empower Your Apps with AI
-        </h2>
-        <p class="text-xl text-muted-foreground">
-          Integrate cutting-edge AI capabilities into your applications with our powerful API. 
-          From natural language processing to computer vision, unlock the potential of AI with just a few lines of code.
-        </p>
-        <div class="flex space-x-2">
-          <input
-            value={aiApiLink}
-            readonly
-            class="flex-grow"
-            placeholder="AI API Endpoint"
-          />
-          <button id="copyButton">
-            <span id="copyIcon" class="inline-block"><Copy /></span>
-            <span id="copyText" class="ml-2">Copy API Link</span>
-          </button>
-        </div>
-        <p class="text-sm text-muted-foreground">
-          Get started quickly by copying the API link above and referring to our comprehensive documentation.
-        </p>
-      </div>
-    </div>
-  </div>
+  
 
   <Testimonial testimonial={testimonial[0]} />
   <CallToAction call_to_action={call_to_action[0]} />
@@ -169,7 +177,7 @@ const call_to_action = await getSinglePage(
   const copyButton = document.getElementById('copyButton');
   const copyIcon = document.getElementById('copyIcon');
   const copyText = document.getElementById('copyText');
-  const aiApiLink = "https://api.example.com/v1/ai-endpoint";
+  const aiApiLink = "https://api.rifx.online/v1";
 
   if (copyButton && copyIcon && copyText) {
     copyButton.addEventListener('click', () => {
