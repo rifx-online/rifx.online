@@ -21,8 +21,6 @@ const { pathname } = Astro.url;
 
 const account_link = import.meta.env.ACCOUNT_LINK;
 
-console.log("account_link-----", account_link);
-
 const disabledLanguages = config.settings.disable_languages as string[];
 if (disabledLanguages.includes(lang)) {
   lang = default_language;

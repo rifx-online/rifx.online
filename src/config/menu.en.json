@@ -3,8 +3,7 @@
     { "name": "Home", "url": "/" },
     { "name": "Models", "url": "/models" },
     { "name": "Blog", "url": "/blog" },
-    { "name": "Tags", "url": "/tags" },
-    { "name": "Categories", "url": "/categories" }
+    { "name": "Docs", "url": "/docs" }
   ],
   "footer": [
     { "name": "About", "url": "/about" },
@@ -12,7 +11,8 @@
     { "name": "Elements", "url": "/elements" },
     { "name": "Authors", "url": "/authors" },
     { "name": "Privacy Policy", "url": "/privacy-policy" },
-    { "name": "Authors", "url": "/authors" }
+    { "name": "Tags", "url": "/tags" },
+    { "name": "Categories", "url": "/categories" }
     
   ]
 }
