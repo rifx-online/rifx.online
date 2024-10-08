@@ -9,12 +9,9 @@ import Testimonial from "@/partials/Testimonial.astro";
 import type { Feature } from "@/types";
 import type { ContentEntryMap } from "astro:content";
 import { FaCheck } from "react-icons/fa";
-import { Image } from 'astro:assets';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Copy, Check } from 'lucide-react';
-
-const aiApiLink = "https://api.rifx.online/v1";
 
 export const prerender = true;
 
@@ -173,11 +170,12 @@ const call_to_action = await getSinglePage(
   <Testimonial testimonial={testimonial[0]} />
   <CallToAction call_to_action={call_to_action[0]} />
 </Base>
+
 <script>
   const copyButton = document.getElementById('copyButton');
   const copyIcon = document.getElementById('copyIcon');
   const copyText = document.getElementById('copyText');
-  const aiApiLink = "https://api.rifx.online/v1";
+  const aiApiLink = "{topic.api_link}";
 
   if (copyButton && copyIcon && copyText) {
     copyButton.addEventListener('click', () => {

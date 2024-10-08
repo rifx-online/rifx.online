@@ -1,8 +1,8 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate AI API Aggregation Platform"
-  content: "a platform that integrates various AI services with a unified API interface. Whether you need natural language processing, image recognition, we make it easy for you to focus on innovation."
+  title: "The Ultimate AI API Platform for Reliable Access to 200+ LLMs."
+  content: "A platform that integrates various AI services with a unified API interface, allowing you to easily access any LLM with a single endpoint while managing fallbacks, load balancing, retries, and caching."
   image: "/images/banner.png"
   button:
     enable: true
@@ -23,43 +23,43 @@ topic:
 
 # Features
 features:
-  - title: "What's Included in Astroplate"
-    image: "/images/service-1.png"
-    content: "Astroplate is a comprehensive starter template that includes everything you need to get started with your Astro project. What's Included in Astroplate"
+  - title: "What’s Included in Rifx.online"
+    image: "/images/service-2.png"
+    content: "Rifx.online is a powerful AI API aggregation platform that provides everything you need to enhance your projects. Here’s what you get:"
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Astro and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
+      - "**Multiple AI Services**: Access a wide range of AI APIs, including NLP, image recognition, and more."
+      - "**Unified API Interface**: Simplify your development process with a single, consistent API access point."
+      - "**Real-time Monitoring**: Track API usage and performance effortlessly."
+      - "**Robust Security**: Advanced authentication and data protection mechanisms."
+      - "**Flexible Integration**: Easily adapt to new APIs as your needs evolve."
+      - "**Comprehensive Documentation**: Detailed guides and resources to help you get started quickly."
     button:
       enable: false
       label: "Get Started Now"
       link: "#"
 
-  - title: "Discover the Key Features Of Astro"
-    image: "/images/service-2.png"
-    content: "Astro is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
-    bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
-    button:
-      enable: true
-      label: "Get Started Now"
-      link: "https://github.com/zeon-studio/astroplate"
+  # - title: "Discover the Key Features Of Astro"
+  #   image: "/images/service-2.png"
+  #   content: "Astro is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+  #   bulletpoints:
+  #     - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
+  #     - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
+  #     - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+  #   button:
+  #     enable: true
+  #     label: "Get Started Now"
+  #     link: "https://github.com/zeon-studio/astroplate"
 
-  - title: "The Top Reasons to Choose Astro for Your Next Project"
-    image: "/images/service-3.png"
-    content: "With Astro, you can build modern and content-focused websites without sacrificing performance or ease of use."
-    bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Astro a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
-    button:
-      enable: false
-      label: ""
-      link: ""
+  # - title: "The Top Reasons to Choose Astro for Your Next Project"
+  #   image: "/images/service-3.png"
+  #   content: "With Astro, you can build modern and content-focused websites without sacrificing performance or ease of use."
+  #   bulletpoints:
+  #     - "Instantly load static sites for better user experience and SEO."
+  #     - "Intuitive syntax and support for popular frameworks make learning and using Astro a breeze."
+  #     - "Use any front-end library or framework, or build custom components, for any project size."
+  #     - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+  #   button:
+  #     enable: false
+  #     label: ""
+  #     link: ""
 ---
