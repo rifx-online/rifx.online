@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Rifx.Online",
+    "title": "Rifx.Online - AI API Aggregation Platform",
     "base_url": "https://rifx.online",
     "base_path": "/",
     "trailing_slash": false,
@@ -43,8 +43,8 @@
   },
 
   "metadata": {
-    "meta_author": "zeon.studio",
+    "meta_author": "rifx.online",
     "meta_image": "/images/og-image.png",
-    "meta_description": "astro and tailwind boilerplate"
+    "meta_description": "Rifx.online is an innovative AI API aggregation platform, providing a unified interface for accessing multiple AI services. Whether it's natural language processing, image recognition, or personalized recommendations, Rifx.online simplifies your development process and provides robust technical support. Register now to experience efficient AI integration solutions."
   }
 }
