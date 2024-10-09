@@ -23,6 +23,8 @@ const disabledLanguages = config.settings.disable_languages as string[];
 if (disabledLanguages.includes(lang)) {
   lang = default_language;
 }
+
+const signInUrl = import.meta.env.ACCOUNT_LINK;
 ---
 
 <header class={`header z-30 ${settings.sticky_header && "sticky top-0"}`}>
@@ -126,7 +128,7 @@ if (disabledLanguages.includes(lang)) {
       {/* Theme switcher */}
       <ThemeSwitcher className="mr-5" />
       {/* 用户图标和个人中心链接 */}
-      <a class="btn" href='/sign-in' >
+      <a class="btn" href={signInUrl} >
         <FaRegUser className="mr-5 text-xl" />
       </a>
       {/* Language switcher */}
