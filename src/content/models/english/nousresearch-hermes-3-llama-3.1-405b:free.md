@@ -25,5 +25,5 @@ The Hermes 3 series builds and expands on the Hermes 2 set of capabilities, incl
 
 Hermes 3 is competitive, if not superior, to Llama-3.1 Instruct models at general capabilities, with varying strengths and weaknesses attributable between the two.
 
-_These are free, rate-limited endpoints for [Hermes 3 405B Instruct](/models/nousresearch/hermes-3-llama-3.1-405b). Outputs may be cached. Read about rate limits [here](/docs/limits)._
+_These are free, rate-limited endpoints for [Hermes 3 405B Instruct](/nousresearch/hermes-3-llama-3.1-405b). Outputs may be cached. Read about rate limits [here](/docs/limits)._
 

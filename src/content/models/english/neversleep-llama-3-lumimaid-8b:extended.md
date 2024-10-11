@@ -23,5 +23,5 @@ To enhance it's overall intelligence and chat capability, roughly 40% of the tra
 
 Usage of this model is subject to [Meta's Acceptable Use Policy](https://llama.meta.com/llama3/use-policy/).
 
-_These are extended-context endpoints for [Llama 3 Lumimaid v0.1 8B](/models/neversleep/llama-3-lumimaid-8b). They may have higher prices._
+_These are extended-context endpoints for [Llama 3 Lumimaid v0.1 8B](/neversleep/llama-3-lumimaid-8b). They may have higher prices._
 

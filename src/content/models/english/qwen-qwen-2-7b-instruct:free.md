@@ -25,5 +25,5 @@ For more details, see this [blog post](https://qwenlm.github.io/blog/qwen2/) and
 
 Usage of this model is subject to [Tongyi Qianwen LICENSE AGREEMENT](https://huggingface.co/Qwen/Qwen1.5-110B-Chat/blob/main/LICENSE).
 
-_These are free, rate-limited endpoints for [Qwen 2 7B Instruct](/models/qwen/qwen-2-7b-instruct). Outputs may be cached. Read about rate limits [here](/docs/limits)._
+_These are free, rate-limited endpoints for [Qwen 2 7B Instruct](/qwen/qwen-2-7b-instruct). Outputs may be cached. Read about rate limits [here](/docs/limits)._
 

@@ -17,7 +17,7 @@ img: 0
 request: 0
 ---
 
-Gemini 1.5 Pro (0827) is an experimental version of the [Gemini 1.5 Pro](/models/google/gemini-pro-1.5) model.
+Gemini 1.5 Pro (0827) is an experimental version of the [Gemini 1.5 Pro](/google/gemini-pro-1.5) model.
 
 Usage of Gemini is subject to Google's [Gemini Terms of Use](https://ai.google.dev/terms).
 

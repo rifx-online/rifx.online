@@ -4,7 +4,7 @@ meta_title: "Qwen2.5 72B Instruct"
 description: "Qwen2.5 72B Instruct"
 date: 2024-09-19T00:00:00Z
 image: "/images/what-is-openai.png"
-categories: ["text+image->text"]
+categories: ["text->text"]
 author: "qwen"
 tags: ["Role", "qwen"]
 draft: false

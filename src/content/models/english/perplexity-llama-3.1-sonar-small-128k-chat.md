@@ -19,5 +19,5 @@ request: 0
 
 Llama 3.1 Sonar is Perplexity's latest model family. It surpasses their earlier Sonar models in cost-efficiency, speed, and performance.
 
-This is a normal offline LLM, but the [online version](/models/perplexity/llama-3.1-sonar-small-128k-online) of this model has Internet access.
+This is a normal offline LLM, but the [online version](/perplexity/llama-3.1-sonar-small-128k-online) of this model has Internet access.
 

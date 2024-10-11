@@ -19,5 +19,5 @@ request: 0
 
 Anthropic's model for low-latency, high throughput text generation. Supports hundreds of pages of text.
 
-_This is a faster endpoint, made available in collaboration with Anthropic, that is self-moderated: response moderation happens on the provider's side instead of OpenRouter's. For requests that pass moderation, it's identical to the [Standard](/models/anthropic/claude-instant-1) variant._
+_This is a faster endpoint, made available in collaboration with Anthropic, that is self-moderated: response moderation happens on the provider's side instead of OpenRouter's. For requests that pass moderation, it's identical to the [Standard](/anthropic/claude-instant-1) variant._
 

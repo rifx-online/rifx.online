@@ -3,7 +3,7 @@ title: "OpenAI: GPT-3.5 Turbo 16k"
 meta_title: "OpenAI: GPT-3.5 Turbo 16k"
 description: "OpenAI: GPT-3.5 Turbo 16k"
 date: 2023-05-28T00:00:00Z
-image: "/images/logo/mistral.png"
+image: "/images/what-is-openai.png"
 categories: ["text->text"]
 author: "openai"
 tags: ["Role", "openai"]

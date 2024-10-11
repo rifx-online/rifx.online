@@ -17,6 +17,6 @@ img: 0
 request: 0
 ---
 
-A continuation of [OpenHermes 2 model](/models/teknium/openhermes-2-mistral-7b), trained on additional code datasets.
+A continuation of [OpenHermes 2 model](/teknium/openhermes-2-mistral-7b), trained on additional code datasets.
 Potentially the most interesting finding from training on a good ratio (est. of around 7-14% of the total dataset) of code instruction was that it has boosted several non-code benchmarks, including TruthfulQA, AGIEval, and GPT4All suite. It did however reduce BigBench benchmark score, but the net gain overall is significant.
 

@@ -17,9 +17,9 @@ img: 0.007225
 request: 0
 ---
 
-GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/models/openai/gpt-4o), supporting both text and image inputs with text outputs.
+GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/openai/gpt-4o), supporting both text and image inputs with text outputs.
 
-As their most advanced small model, it is many multiples more affordable than other recent frontier models, and more than 60% cheaper than [GPT-3.5 Turbo](/models/openai/gpt-3.5-turbo). It maintains SOTA intelligence, while being significantly more cost-effective.
+As their most advanced small model, it is many multiples more affordable than other recent frontier models, and more than 60% cheaper than [GPT-3.5 Turbo](/openai/gpt-3.5-turbo). It maintains SOTA intelligence, while being significantly more cost-effective.
 
 GPT-4o mini achieves an 82% score on MMLU and presently ranks higher than GPT-4 on chat preferences [common leaderboards](https://arena.lmsys.org/).
 

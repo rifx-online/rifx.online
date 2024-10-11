@@ -23,5 +23,5 @@ LFMs are general-purpose AI models that can be used to model any kind of sequent
 
 See the [launch announcement](https://www.liquid.ai/liquid-foundation-models) for benchmarks and more info.
 
-_These are free, rate-limited endpoints for [LFM 40B MoE](/models/liquid/lfm-40b). Outputs may be cached. Read about rate limits [here](/docs/limits)._
+_These are free, rate-limited endpoints for [LFM 40B MoE](/liquid/lfm-40b). Outputs may be cached. Read about rate limits [here](/docs/limits)._
 

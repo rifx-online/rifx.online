@@ -21,5 +21,5 @@ Phi-3 128K Medium is a powerful 14-billion parameter model designed for advanced
 
 At time of release, Phi-3 Medium demonstrated state-of-the-art performance among lightweight models. In the MMLU-Pro eval, the model even comes close to a Llama3 70B level of performance.
 
-For 4k context length, try [Phi-3 Medium 4K](/models/microsoft/phi-3-medium-4k-instruct).
+For 4k context length, try [Phi-3 Medium 4K](/microsoft/phi-3-medium-4k-instruct).
 

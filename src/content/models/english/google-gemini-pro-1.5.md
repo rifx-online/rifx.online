@@ -11,8 +11,8 @@ draft: false
 
 id: "google/gemini-pro-1.5"
 context: 2000000
-input: 3.5e-06
-output: 0.0000105
+input: 1.25e-06
+output: 0.000005
 img: 0.00263
 request: 0
 ---

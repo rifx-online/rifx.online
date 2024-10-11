@@ -21,5 +21,5 @@ A pretrained generative Sparse Mixture of Experts, by Mistral AI, for chat and i
 
 Instruct model fine-tuned by Mistral. #moe
 
-_These are higher-throughput endpoints for [Mixtral 8x7B Instruct](/models/mistralai/mixtral-8x7b-instruct). They may have higher prices._
+_These are higher-throughput endpoints for [Mixtral 8x7B Instruct](/mistralai/mixtral-8x7b-instruct). They may have higher prices._
 

@@ -25,5 +25,5 @@ Click here for the [original model card](https://github.com/meta-llama/llama-mod
 
 Usage of this model is subject to [Meta's Acceptable Use Policy](https://www.llama.com/llama3/use-policy/).
 
-_These are free, rate-limited endpoints for [Llama 3.2 11B Vision Instruct](/models/meta-llama/llama-3.2-11b-vision-instruct). Outputs may be cached. Read about rate limits [here](/docs/limits)._
+_These are free, rate-limited endpoints for [Llama 3.2 11B Vision Instruct](/meta-llama/llama-3.2-11b-vision-instruct). Outputs may be cached. Read about rate limits [here](/docs/limits)._
 

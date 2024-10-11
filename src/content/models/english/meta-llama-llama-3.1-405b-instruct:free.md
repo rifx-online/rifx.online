@@ -25,5 +25,5 @@ It has demonstrated strong performance compared to leading closed-source models 
 
 Usage of this model is subject to [Meta's Acceptable Use Policy](https://www.llama.com/llama3/use-policy/).
 
-_These are free, rate-limited endpoints for [Llama 3.1 405B Instruct](/models/meta-llama/llama-3.1-405b-instruct). Outputs may be cached. Read about rate limits [here](/docs/limits)._
+_These are free, rate-limited endpoints for [Llama 3.1 405B Instruct](/meta-llama/llama-3.1-405b-instruct). Outputs may be cached. Read about rate limits [here](/docs/limits)._
 

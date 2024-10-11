@@ -23,5 +23,5 @@ It has demonstrated strong performance compared to leading closed-source models 
 
 Usage of this model is subject to [Meta's Acceptable Use Policy](https://www.llama.com/llama3/use-policy/).
 
-_These are higher-throughput endpoints for [Llama 3 70B Instruct](/models/meta-llama/llama-3-70b-instruct). They may have higher prices._
+_These are higher-throughput endpoints for [Llama 3 70B Instruct](/meta-llama/llama-3-70b-instruct). They may have higher prices._
 

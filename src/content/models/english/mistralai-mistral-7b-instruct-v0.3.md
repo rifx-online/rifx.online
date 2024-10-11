@@ -19,7 +19,7 @@ request: 0
 
 A high-performing, industry-standard 7.3B parameter model, with optimizations for speed and context length.
 
-An improved version of [Mistral 7B Instruct v0.2](/models/mistralai/mistral-7b-instruct-v0.2), with the following changes:
+An improved version of [Mistral 7B Instruct v0.2](/mistralai/mistral-7b-instruct-v0.2), with the following changes:
 
 - Extended vocabulary to 32768
 - Supports v3 Tokenizer

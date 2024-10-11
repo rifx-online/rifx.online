@@ -17,7 +17,7 @@ img: 0
 request: 0
 ---
 
-Gemini 1.5 Flash 8B Experimental is an experimental, 8B parameter version of the [Gemini 1.5 Flash](/models/google/gemini-flash-1.5) model.
+Gemini 1.5 Flash 8B Experimental is an experimental, 8B parameter version of the [Gemini 1.5 Flash](/google/gemini-flash-1.5) model.
 
 Usage of Gemini is subject to Google's [Gemini Terms of Use](https://ai.google.dev/terms).
 

@@ -20,12 +20,12 @@ request: 0
 A wild 7B parameter model that merges several models using the new task_arithmetic merge method from mergekit.
 List of merged models:
 - NousResearch/Nous-Capybara-7B-V1.9
-- [HuggingFaceH4/zephyr-7b-beta](/models/huggingfaceh4/zephyr-7b-beta)
+- [HuggingFaceH4/zephyr-7b-beta](/huggingfaceh4/zephyr-7b-beta)
 - lemonilia/AshhLimaRP-Mistral-7B
 - Vulkane/120-Days-of-Sodom-LoRA-Mistral-7b
 - Undi95/Mistral-pippa-sharegpt-7b-qlora
 
 #merge #uncensored
 
-_These are higher-throughput endpoints for [Toppy M 7B](/models/undi95/toppy-m-7b). They may have higher prices._
+_These are higher-throughput endpoints for [Toppy M 7B](/undi95/toppy-m-7b). They may have higher prices._
 

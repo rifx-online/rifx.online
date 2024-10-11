@@ -23,5 +23,5 @@ Designed for a wide variety of tasks, it empowers developers and researchers to 
 
 See the [launch announcement](https://blog.google/technology/developers/google-gemma-2/) for more details. Usage of Gemma is subject to Google's [Gemma Terms of Use](https://ai.google.dev/gemma/terms).
 
-_These are free, rate-limited endpoints for [Gemma 2 9B](/models/google/gemma-2-9b-it). Outputs may be cached. Read about rate limits [here](/docs/limits)._
+_These are free, rate-limited endpoints for [Gemma 2 9B](/google/gemma-2-9b-it). Outputs may be cached. Read about rate limits [here](/docs/limits)._
 

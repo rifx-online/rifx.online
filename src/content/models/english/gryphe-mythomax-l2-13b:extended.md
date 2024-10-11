@@ -19,5 +19,5 @@ request: 0
 
 One of the highest performing and most popular fine-tunes of Llama 2 13B, with rich descriptions and roleplay. #merge
 
-_These are extended-context endpoints for [MythoMax 13B](/models/gryphe/mythomax-l2-13b). They may have higher prices._
+_These are extended-context endpoints for [MythoMax 13B](/gryphe/mythomax-l2-13b). They may have higher prices._
 

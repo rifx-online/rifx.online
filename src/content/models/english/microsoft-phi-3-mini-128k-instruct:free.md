@@ -21,5 +21,5 @@ Phi-3 Mini is a powerful 3.8B parameter model designed for advanced language und
 
 At time of release, Phi-3 Medium demonstrated state-of-the-art performance among lightweight models. This model is static, trained on an offline dataset with an October 2023 cutoff date.
 
-_These are free, rate-limited endpoints for [Phi-3 Mini 128K Instruct](/models/microsoft/phi-3-mini-128k-instruct). Outputs may be cached. Read about rate limits [here](/docs/limits)._
+_These are free, rate-limited endpoints for [Phi-3 Mini 128K Instruct](/microsoft/phi-3-mini-128k-instruct). Outputs may be cached. Read about rate limits [here](/docs/limits)._
 

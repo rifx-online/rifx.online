@@ -24,5 +24,5 @@ See the launch announcement and benchmark results [here](https://www.anthropic.c
 
 #multimodal
 
-_This is a faster endpoint, made available in collaboration with Anthropic, that is self-moderated: response moderation happens on the provider's side instead of OpenRouter's. For requests that pass moderation, it's identical to the [Standard](/models/anthropic/claude-3-haiku) variant._
+_This is a faster endpoint, made available in collaboration with Anthropic, that is self-moderated: response moderation happens on the provider's side instead of OpenRouter's. For requests that pass moderation, it's identical to the [Standard](/anthropic/claude-3-haiku) variant._
 

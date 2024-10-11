@@ -21,5 +21,5 @@ A high-performing, industry-standard 7.3B parameter model, with optimizations fo
 
 *Mistral 7B Instruct has multiple version variants, and this is intended to be the latest version.*
 
-_These are free, rate-limited endpoints for [Mistral 7B Instruct](/models/mistralai/mistral-7b-instruct). Outputs may be cached. Read about rate limits [here](/docs/limits)._
+_These are free, rate-limited endpoints for [Mistral 7B Instruct](/mistralai/mistral-7b-instruct). Outputs may be cached. Read about rate limits [here](/docs/limits)._
 

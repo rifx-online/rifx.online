@@ -19,8 +19,8 @@ request: 0
 
 OpenChat 7B is a library of open-source language models, fine-tuned with "C-RLFT (Conditioned Reinforcement Learning Fine-Tuning)" - a strategy inspired by offline reinforcement learning. It has been trained on mixed-quality data without preference labels.
 
-- For OpenChat fine-tuned on Mistral 7B, check out [OpenChat 7B](/models/openchat/openchat-7b).
-- For OpenChat fine-tuned on Llama 8B, check out [OpenChat 8B](/models/openchat/openchat-8b).
+- For OpenChat fine-tuned on Mistral 7B, check out [OpenChat 7B](/openchat/openchat-7b).
+- For OpenChat fine-tuned on Llama 8B, check out [OpenChat 8B](/openchat/openchat-8b).
 
 #open-source
 

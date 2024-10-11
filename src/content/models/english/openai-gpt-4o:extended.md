@@ -19,5 +19,5 @@ request: 0
 
 GPT-4o Extended is an experimental variant of GPT-4o with an extended max output tokens. This model supports only text input to text output.
 
-_These are extended-context endpoints for [GPT-4o](/models/openai/gpt-4o). They may have higher prices._
+_These are extended-context endpoints for [GPT-4o](/openai/gpt-4o). They may have higher prices._
 

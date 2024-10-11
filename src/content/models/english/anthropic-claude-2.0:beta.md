@@ -19,5 +19,5 @@ request: 0
 
 Anthropic's flagship model. Superior performance on tasks that require complex reasoning. Supports hundreds of pages of text.
 
-_This is a faster endpoint, made available in collaboration with Anthropic, that is self-moderated: response moderation happens on the provider's side instead of OpenRouter's. For requests that pass moderation, it's identical to the [Standard](/models/anthropic/claude-2.0) variant._
+_This is a faster endpoint, made available in collaboration with Anthropic, that is self-moderated: response moderation happens on the provider's side instead of OpenRouter's. For requests that pass moderation, it's identical to the [Standard](/anthropic/claude-2.0) variant._
 

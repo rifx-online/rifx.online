@@ -17,7 +17,7 @@ img: 0.01445
 request: 0
 ---
 
-Ability to understand images, in addition to all other [GPT-4 Turbo capabilties](/models/openai/gpt-4-turbo). Training data: up to Apr 2023.
+Ability to understand images, in addition to all other [GPT-4 Turbo capabilties](/openai/gpt-4-turbo). Training data: up to Apr 2023.
 
 **Note:** heavily rate limited by OpenAI while in preview.
 
