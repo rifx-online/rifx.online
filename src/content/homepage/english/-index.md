@@ -4,9 +4,13 @@ banner:
   title: "The Ultimate AI API Platform for Reliable Access to 200+ LLMs."
   content: "A platform that integrates various AI services with a unified API interface, allowing you to easily access any LLM with a single endpoint while managing fallbacks, load balancing, retries, and caching."
   image: "/images/banner.png"
-  button:
+  button_primary:
     enable: true
-    label: "Select Your Model to Begin"
+    label: "Get API Key"
+    link: "{signInUrl}"
+  button_outline:
+    enable: true
+    label: "Select a Model"
     link: "/models"
 
 # Topic

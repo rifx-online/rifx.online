@@ -37,6 +37,8 @@ const call_to_action = await getSinglePage(
   lang as keyof ContentEntryMap,
   "call-to-action"
 );
+
+const signInUrl = import.meta.env.ACCOUNT_LINK;
 ---
 
 <Base>
@@ -51,19 +53,25 @@ const call_to_action = await getSinglePage(
           />
           <p set:html={markdownify(banner.content)} class="mb-8" />
           {
-            banner.button.enable && (
-              <a
-                class="btn btn-primary"
-                href={banner.button.link}
-                target={
-                  banner.button.link.startsWith("http") ? "_blank" : "_self"
-                }
-                rel="noopener"
-              >
-                {banner.button.label}
+            banner.button_primary.enable && (
+              <a href={signInUrl} rel="noopener">
+                <Button 
+                  className="text-white dark:text-black bg-black dark:bg-white h-10 text-base mr-4">
+                  {banner.button_primary.label}
+                </Button>
               </a>
             )
           }
+          {
+            banner.button_outline.enable && (
+              <a href={banner.button_outline.link} rel="noopener">
+                <Button variant="outline" className="text-black dark:text-white h-10 text-base">
+                  {banner.button_outline.label}
+                </Button>
+              </a>
+            )
+          }
+          
         </div>
         {
           banner.image && (
