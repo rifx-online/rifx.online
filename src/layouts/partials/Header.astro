@@ -126,10 +126,10 @@ const signInUrl = import.meta.env.ACCOUNT_LINK;
         )
       }
       {/* Theme switcher */}
-      <ThemeSwitcher className="mr-5" />
+      <ThemeSwitcher className="mr-3" />
       {/* 用户图标和个人中心链接 */}
       <a class="btn" href={signInUrl} >
-        <FaRegUser className="mr-5 text-xl" />
+        Sign In
       </a>
       {/* Language switcher */}
       <LanguageSwitcher client:load lang={lang} pathname={pathname} />
