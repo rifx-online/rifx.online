@@ -1,7 +1,7 @@
 ---
-title: "Qwen2.5 7B Instruct"
-meta_title: "Qwen2.5 7B Instruct"
-description: "Qwen2.5 7B Instruct"
+title: "Qwen2.5 7B"
+meta_title: "Qwen2.5 7B"
+description: "Qwen2.5 7B"
 date: 2024-10-16T00:00:00Z
 image: "https://img.rifx.online/logo/qwen.svg"
 categories: ["text 2 text"]

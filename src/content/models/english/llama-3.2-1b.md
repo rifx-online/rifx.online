@@ -1,7 +1,7 @@
 ---
-title: "Meta: Llama 3.2 1B Instruct"
-meta_title: "Meta: Llama 3.2 1B Instruct"
-description: "Meta: Llama 3.2 1B Instruct"
+title: "Meta: Llama 3.2 1B"
+meta_title: "Meta: Llama 3.2 1B"
+description: "Meta: Llama 3.2 1B"
 date: 2024-09-25T00:00:00Z
 image: "https://img.rifx.online/logo/meta.svg"
 categories: ["text 2 text"]

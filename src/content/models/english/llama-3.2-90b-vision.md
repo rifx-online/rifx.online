@@ -1,7 +1,7 @@
 ---
-title: "Meta: Llama 3.2 90B Vision Instruct"
-meta_title: "Meta: Llama 3.2 90B Vision Instruct"
-description: "Meta: Llama 3.2 90B Vision Instruct"
+title: "Meta: Llama 3.2 90B Vision"
+meta_title: "Meta: Llama 3.2 90B Vision"
+description: "Meta: Llama 3.2 90B Vision"
 date: 2024-09-25T00:00:00Z
 image: "https://img.rifx.online/logo/meta.svg"
 categories: ["text image 2 text"]

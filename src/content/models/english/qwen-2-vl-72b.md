@@ -1,7 +1,7 @@
 ---
-title: "Qwen2-VL 72B Instruct"
-meta_title: "Qwen2-VL 72B Instruct"
-description: "Qwen2-VL 72B Instruct"
+title: "Qwen2-VL 72B"
+meta_title: "Qwen2-VL 72B"
+description: "Qwen2-VL 72B"
 date: 2024-09-18T00:00:00Z
 image: "https://img.rifx.online/logo/qwen.svg"
 categories: ["text image 2 text"]
