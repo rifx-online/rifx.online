@@ -3,7 +3,7 @@ title: "OpenAI: o1-mini"
 meta_title: "OpenAI: o1-mini"
 description: "OpenAI: o1-mini"
 date: 2024-09-12T00:00:00Z
-image: "/images/logo.svg"
+image: "https://img.rifx.online/logo/openai.svg"
 categories: ["text 2 text"]
 author: "openai"
 tags: ["openai"]

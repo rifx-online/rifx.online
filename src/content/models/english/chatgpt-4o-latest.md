@@ -3,7 +3,7 @@ title: "OpenAI: ChatGPT-4o"
 meta_title: "OpenAI: ChatGPT-4o"
 description: "OpenAI: ChatGPT-4o"
 date: 2024-08-14T00:00:00Z
-image: "/images/logo.svg"
+image: "https://img.rifx.online/logo/openai.svg"
 categories: ["text image 2 text"]
 author: "openai"
 tags: ["openai"]

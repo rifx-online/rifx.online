@@ -3,7 +3,7 @@ title: "Google: Gemini Pro 1.5"
 meta_title: "Google: Gemini Pro 1.5"
 description: "Google: Gemini Pro 1.5"
 date: 2024-04-09T00:00:00Z
-image: "/images/logo.svg"
+image: "https://img.rifx.online/logo/google.svg"
 categories: ["text image 2 text"]
 author: "google"
 tags: ["google"]

@@ -3,7 +3,7 @@ title: "OpenAI: GPT-3.5 Turbo "
 meta_title: "OpenAI: GPT-3.5 Turbo "
 description: "OpenAI: GPT-3.5 Turbo "
 date: 2023-09-28T00:00:00Z
-image: "/images/logo.svg"
+image: "https://img.rifx.online/logo/openai.svg"
 categories: ["text 2 text"]
 author: "openai"
 tags: ["openai"]
