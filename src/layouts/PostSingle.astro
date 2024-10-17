@@ -12,6 +12,7 @@ import type { ContentEntryMap } from "astro:content";
 import { FaRegClock, FaRegFolder, FaRegUserCircle } from "react-icons/fa";
 import ImageMod from "./components/ImageMod.astro";
 import { Image } from 'astro:assets';
+import ModelCard from "./components/ModelCard.astro";
 
 const { default_language } = config.settings;
 
@@ -123,7 +124,7 @@ const { title, description, author, categories, image, date, tags } = post.data;
         {
           similarPosts.map((post) => (
             <div class="lg:col-4 md:col-6 mb-14">
-              <BlogCard data={post} />
+              <ModelCard data={post} />
             </div>
           ))
         }
