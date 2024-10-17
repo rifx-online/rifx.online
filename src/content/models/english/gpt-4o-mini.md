@@ -6,7 +6,7 @@ date: 2024-07-18T00:00:00Z
 image: "https://img.rifx.online/logo/openai.svg"
 categories: ["text image 2 text"]
 author: "openai"
-tags: ["", "Programming", "Technology", "Programming/Scripting", "Technology/Web"]
+tags: ["Programming", "Technology", "Programming/Scripting", "Technology/Web"]
 draft: false
 
 id: "gpt-4o-mini"
