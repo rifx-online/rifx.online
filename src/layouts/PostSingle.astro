@@ -11,6 +11,8 @@ import { humanize, markdownify, slugify } from "@/lib/utils/textConverter";
 import type { ContentEntryMap } from "astro:content";
 import { FaRegClock, FaRegFolder, FaRegUserCircle } from "react-icons/fa";
 import ImageMod from "./components/ImageMod.astro";
+import { Image } from 'astro:assets';
+
 const { default_language } = config.settings;
 
 const { post, category = "blog" } = Astro.props;
@@ -34,20 +36,25 @@ const { title, description, author, categories, image, date, tags } = post.data;
   <div class="container">
     <div class="row justify-center">
       <article class="lg:col-10">
-        {
-          image && (
-            <div class="mb-10">
-              <ImageMod
-                src={image}
-                height={500}
-                width={1200}
-                alt={title}
-                class="w-full rounded"
-                format="webp"
+        <div class="mb-10">
+          {image && (
+            image.endsWith('.svg') ? (
+              <img 
+                src={image} 
+                alt={title} 
+                class="w-full h-auto max-w-[600px] max-h-[300px] rounded" 
               />
-            </div>
-          )
-        }
+            ) : (
+              <img 
+                src={image} 
+                alt={title} 
+                width="600" 
+                height="300" 
+                class="w-full rounded object-cover" 
+              />
+            )
+          )}
+        </div>
         <h1 set:html={markdownify(title)} class="h2 mb-4" />
         <ul class="mb-4">
           <li class="mr-4 inline-block">
@@ -105,7 +112,7 @@ const { title, description, author, categories, image, date, tags } = post.data;
             />
           </div>
         </div>
-        <Disqus className="mt-20" client:load />
+        <!-- <Disqus className="mt-20" client:load /> -->
       </article>
     </div>
 
