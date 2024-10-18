@@ -11,6 +11,7 @@ import type { ContentEntryMap } from "astro:content";
 import { FaRegFolder, FaRegUserCircle } from "react-icons/fa";
 import { MdTextFields } from "react-icons/md";
 import ImageMod from "./ImageMod.astro";
+import CopyIconButton from '../helpers/CopyIconButton';
 
 const { summary_length }: { summary_length: number; model_folder: string } =
   config.settings;
@@ -92,30 +93,8 @@ export function formatTokens(value: number): string {
     >
   </div>
   <div class="flex items-center mb-3">
-    <span class="text-gray-400 mr-2">{id}</span>
-    <button class="copy-button" data-id={id} title="Copy">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        class="h-5 w-5"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-      >
-        <path
-          class="copy-icon"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
-        ></path>
-        <path
-          class="check-icon hidden"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="M5 13l4 4L19 7"></path>
-      </svg>
-    </button>
+    <span class="text-gray-400 mr-3">{id}</span>
+    <CopyIconButton client:load textToCopy={id} />
   </div>
 
   <p class="text-lg text-gray-600 mb-4">
@@ -165,30 +144,3 @@ export function formatTokens(value: number): string {
     />
   )} -->
 </div>
-
-<script>
-  document.querySelectorAll(".copy-button").forEach((button) => {
-    button.addEventListener("click", () => {
-      const id = button.getAttribute("data-id") ?? "";
-      navigator.clipboard
-        .writeText(id)
-        .then(() => {
-          const copyIcon = button.querySelector(".copy-icon");
-          const checkIcon = button.querySelector(".check-icon");
-
-          if (!copyIcon || !checkIcon) return;
-
-          copyIcon.classList.add("hidden");
-          checkIcon.classList.remove("hidden");
-
-          setTimeout(() => {
-            copyIcon.classList.remove("hidden");
-            checkIcon.classList.add("hidden");
-          }, 2000);
-        })
-        .catch((err) => {
-          console.error("复制失败:", err);
-        });
-    });
-  });
-</script>
