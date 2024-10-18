@@ -23,6 +23,7 @@ topic:
   placeholder: "AI API Endpoint"
   button:
     lable: "Copy API Link"
+    copy_lable: "Copied!"
   remark: "Get started quickly by copying the API link above and referring to our comprehensive documentation."
 
 # Features

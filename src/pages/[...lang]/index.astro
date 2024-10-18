@@ -12,6 +12,7 @@ import { FaCheck } from "react-icons/fa";
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Copy, Check } from 'lucide-react';
+import CopyButton from "@/layouts/helpers/CopyButton";
 
 export const prerender = true;
 
@@ -113,13 +114,15 @@ const signInUrl = import.meta.env.ACCOUNT_LINK;
             <Input
               value={topic.api_link}
               readOnly
-              className="flex-grow text-xl font-bold h-12 text-black dark:text-white"
+              className="flex-grow text-xl font-bold h-12 text-black dark:text-white mr-4"
               placeholder={topic.placeholder}
             />
-            <Button id="copyButton" className="text-white dark:text-black bg-black dark:bg-white font-bold h-12">
-              <span id="copyIcon" class="inline-block"><Copy className="h-4 w-4" /></span>
-              <span id="copyText" class="ml-2">{topic.button.lable}</span>
-            </Button>
+            <CopyButton
+              textToCopy={topic.api_link}
+              className="text-white dark:text-black bg-black dark:bg-white font-bold h-12"
+              label={topic.button.lable} client:load
+              copy_lable={topic.button.copy_lable}
+            />
           </div>
           <p class="text-sm text-muted-foreground mt-8">
             {topic.remark}
@@ -178,24 +181,3 @@ const signInUrl = import.meta.env.ACCOUNT_LINK;
   <Testimonial testimonial={testimonial[0]} />
   <CallToAction call_to_action={call_to_action[0]} />
 </Base>
-
-<script>
-  const copyButton = document.getElementById('copyButton');
-  const copyIcon = document.getElementById('copyIcon');
-  const copyText = document.getElementById('copyText');
-  const aiApiLink = "{topic.api_link}";
-
-  if (copyButton && copyIcon && copyText) {
-    copyButton.addEventListener('click', () => {
-      navigator.clipboard.writeText(aiApiLink).then(() => {
-        copyIcon.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4"><polyline points="20 6 9 17 4 12"></polyline></svg>';
-        copyText.textContent = 'Copied!';
-
-        setTimeout(() => {
-          copyIcon.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>';
-          copyText.textContent = 'Copy API Link';
-        }, 2000);
-      });
-    });
-  }
-</script>
