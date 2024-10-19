@@ -45,6 +45,7 @@ const getData = (folder, groupDepth, langIndex = 0) => {
                 .slice(CONTENT_DEPTH)
                 .join("/")
                 .replace(/\.[^/.]+$/, "");
+              slug = slug.replace(".", "");
               slug = `${folder}/${slug.split("/").slice(1).join("/")}`;
             }
             data.slug = slug;
