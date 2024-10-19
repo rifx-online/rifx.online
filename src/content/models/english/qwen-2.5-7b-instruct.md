@@ -7,7 +7,7 @@ image: "https://img.rifx.online/logo/qwen.svg"
 categories: ["text 2 text"]
 author: "qwen"
 tags: ["qwen"]
-draft: false
+draft: False
 
 id: "qwen-2.5-7b-instruct"
 context: 131072

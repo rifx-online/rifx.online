@@ -7,7 +7,7 @@ image: "https://img.rifx.online/logo/google.svg"
 categories: ["text image 2 text"]
 author: "google"
 tags: ["google"]
-draft: false
+draft: False
 
 id: "gemini-flash-1.5-8b"
 context: 1000000

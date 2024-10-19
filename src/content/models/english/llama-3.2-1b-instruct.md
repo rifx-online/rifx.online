@@ -7,7 +7,7 @@ image: "https://img.rifx.online/logo/meta.svg"
 categories: ["text 2 text"]
 author: "meta-llama"
 tags: ["meta-llama"]
-draft: false
+draft: False
 
 id: "llama-3.2-1b-instruct"
 context: 131072

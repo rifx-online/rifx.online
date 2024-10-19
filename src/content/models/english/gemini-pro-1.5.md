@@ -7,7 +7,7 @@ image: "https://img.rifx.online/logo/google.svg"
 categories: ["text image 2 text"]
 author: "google"
 tags: ["google"]
-draft: false
+draft: False
 
 id: "gemini-pro-1.5"
 context: 2000000

@@ -7,7 +7,7 @@ image: "https://img.rifx.online/logo/openai.svg"
 categories: ["text 2 text"]
 author: "openai"
 tags: ["openai"]
-draft: false
+draft: False
 
 id: "o1-mini"
 context: 128000

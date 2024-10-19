@@ -7,7 +7,7 @@ image: "https://img.rifx.online/logo/openai.svg"
 categories: ["text image 2 text"]
 author: "openai"
 tags: ["openai"]
-draft: false
+draft: False
 
 id: "chatgpt-4o-latest"
 context: 128000

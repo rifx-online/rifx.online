@@ -7,7 +7,7 @@ image: "https://img.rifx.online/logo/openai.svg"
 categories: ["text image 2 text"]
 author: "openai"
 tags: ["Programming", "Programming/Scripting", "Technology/Web", "Technology"]
-draft: false
+draft: False
 
 id: "gpt-4o"
 context: 128000

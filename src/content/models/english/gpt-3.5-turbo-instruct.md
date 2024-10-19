@@ -7,7 +7,7 @@ image: "https://img.rifx.online/logo/openai.svg"
 categories: ["text 2 text"]
 author: "openai"
 tags: ["openai"]
-draft: false
+draft: False
 
 id: "gpt-3.5-turbo-instruct"
 context: 4095
