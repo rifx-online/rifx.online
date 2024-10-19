@@ -9,7 +9,7 @@ author: "qwen"
 tags: ["qwen"]
 draft: false
 
-id: "qwen-2-7b"
+id: "qwen-2-7b-instruct"
 context: 32768
 input: 5.4e-08
 output: 5.4e-08

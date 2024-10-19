@@ -1,7 +1,7 @@
 ---
-title: "Qwen2-VL 72B"
-meta_title: "Qwen2-VL 72B"
-description: "Qwen2-VL 72B"
+title: "Qwen2-VL 72B Instruct"
+meta_title: "Qwen2-VL 72B Instruct"
+description: "Qwen2-VL 72B Instruct"
 date: 2024-09-18T00:00:00Z
 image: "https://img.rifx.online/logo/qwen.svg"
 categories: ["text image 2 text"]
@@ -9,7 +9,7 @@ author: "qwen"
 tags: ["qwen"]
 draft: false
 
-id: "qwen-2-vl-72b"
+id: "qwen-2-vl-72b-instruct"
 context: 32768
 input: 4e-07
 output: 4e-07

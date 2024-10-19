@@ -1,7 +1,7 @@
 ---
-title: "Meta: Llama 3.2 1B"
-meta_title: "Meta: Llama 3.2 1B"
-description: "Meta: Llama 3.2 1B"
+title: "Meta: Llama 3.2 1B Instruct"
+meta_title: "Meta: Llama 3.2 1B Instruct"
+description: "Meta: Llama 3.2 1B Instruct"
 date: 2024-09-25T00:00:00Z
 image: "https://img.rifx.online/logo/meta.svg"
 categories: ["text 2 text"]
@@ -9,7 +9,7 @@ author: "meta-llama"
 tags: ["meta-llama"]
 draft: false
 
-id: "llama-3.2-1b"
+id: "llama-3.2-1b-instruct"
 context: 131072
 input: 1e-08
 output: 2e-08

@@ -1,23 +1,23 @@
 ---
-title: "Qwen2.5 72B"
-meta_title: "Qwen2.5 72B"
-description: "Qwen2.5 72B"
-date: 2024-09-19T00:00:00Z
+title: "Qwen2.5 7B Instruct"
+meta_title: "Qwen2.5 7B Instruct"
+description: "Qwen2.5 7B Instruct"
+date: 2024-10-16T00:00:00Z
 image: "https://img.rifx.online/logo/qwen.svg"
 categories: ["text 2 text"]
 author: "qwen"
 tags: ["qwen"]
 draft: false
 
-id: "qwen-2.5-72b"
+id: "qwen-2.5-7b-instruct"
 context: 131072
-input: 3.5e-07
-output: 4e-07
+input: 2.7e-07
+output: 2.7e-07
 img: 0
 request: 0
 ---
 
-Qwen2.5 72B is the latest series of Qwen large language models. Qwen2.5 brings the following improvements upon Qwen2:
+Qwen2.5 7B is the latest series of Qwen large language models. Qwen2.5 brings the following improvements upon Qwen2:
 
 - Significantly more knowledge and has greatly improved capabilities in coding and mathematics, thanks to our specialized expert models in these domains.
 
