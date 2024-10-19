@@ -7,6 +7,7 @@ import {
   slugSelector,
 } from "@/lib/utils/languageParser";
 import { humanize, plainify, slugify } from "@/lib/utils/textConverter";
+import { formatNumber, formatTokens } from "@/lib/utils/formatUtils";
 import type { ContentEntryMap } from "astro:content";
 import { FaRegFolder, FaRegUserCircle } from "react-icons/fa";
 import { MdTextFields } from "react-icons/md";
@@ -39,37 +40,6 @@ slugParts[0] = "models";
 const modifiedSlug = slugParts.join("/");
 data.slug = modifiedSlug;
 
-export function formatNumber(value: string | number): string {
-  const num = typeof value === "string" ? parseInt(value) : value;
-  if (isNaN(num)) return value as string;
-
-  let result: string;
-  let unit: string;
-  if (num >= 1024 * 1024) {
-    result = (num / (1024 * 1024)).toFixed(2);
-    unit = "M";
-  } else if (num >= 1024) {
-    result = (num / 1024).toFixed(2);
-    unit = "K";
-  } else {
-    return num.toString();
-  }
-
-  // 去掉尾部的零和不必要的小数点
-  return result.replace(/\.?0+$/, "") + unit;
-}
-
-export function formatTokens(value: number): string {
-  const num = value;
-
-  if (num >= 0.001) {
-    return num.toFixed(3).replace(/\.?0+$/, "") + "M";
-  } else if (num >= 0.00001) {
-    return (num * 1000).toFixed(3).replace(/\.?0+$/, "") + "K";
-  } else {
-    return num.toString();
-  }
-}
 ---
 
 <div class="bg-body dark:bg-darkmode-body p-6 rounded-lg shadow-md">
@@ -93,7 +63,7 @@ export function formatTokens(value: number): string {
     >
   </div>
   <div class="flex items-center mb-3">
-    <span class="text-gray-400 mr-3">{id}</span>
+    <span class="text-gray-400 mr-3">ID: {id}</span>
     <CopyIconButton client:load textToCopy={id} />
   </div>
 

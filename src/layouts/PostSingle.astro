@@ -37,23 +37,9 @@ const { title, description, author, categories, image, date, tags } = post.data;
   <div class="container">
     <div class="row justify-center">
       <article class="lg:col-10">
-        <div class="mb-10">
+        <div class="mb-10 flex justify-center">
           {image && (
-            image.endsWith('.svg') ? (
-              <img 
-                src={image} 
-                alt={title} 
-                class="w-full h-auto max-w-[600px] max-h-[300px] rounded" 
-              />
-            ) : (
-              <img 
-                src={image} 
-                alt={title} 
-                width="600" 
-                height="300" 
-                class="w-full rounded object-cover" 
-              />
-            )
+            <ImageMod src={image} alt={title} width={500} height={300} class="mx-auto" />
           )}
         </div>
         <h1 set:html={markdownify(title)} class="h2 mb-4" />

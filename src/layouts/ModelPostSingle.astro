@@ -1,22 +1,22 @@
 ---
-import BlogCard from "@/components/BlogCard.astro";
 import Share from "@/components/Share.astro";
 import config from "@/config/config.json";
-import Disqus from "@/helpers/Disqus";
 import { getSinglePage } from "@/lib/contentParser.astro";
 import dateFormat from "@/lib/utils/dateFormat";
 import { slugSelector } from "@/lib/utils/languageParser";
 import similarItems from "@/lib/utils/similarItems";
 import { humanize, markdownify, slugify } from "@/lib/utils/textConverter";
 import type { ContentEntryMap } from "astro:content";
-import { FaRegClock, FaRegFolder, FaRegUserCircle } from "react-icons/fa";
+import { FaRegClock, FaRegFileAlt, FaRegFolder, FaRegUserCircle } from "react-icons/fa";
+import { LuFolderInput, LuFolderOutput, LuImage } from "react-icons/lu";
 import ImageMod from "./components/ImageMod.astro";
-import { Image } from 'astro:assets';
 import ModelCard from "./components/ModelCard.astro";
+import CopyIconButton from "./helpers/CopyIconButton";
+import { formatNumber, formatTokens } from "@/lib/utils/formatUtils";
 
 const { default_language } = config.settings;
 
-const { post, category = "blog" } = Astro.props;
+const { post, category = "models" } = Astro.props;
 const COLLECTION_FOLDER = category;
 let { lang } = Astro.params;
 
@@ -30,34 +30,53 @@ const posts = await getSinglePage(
 );
 const similarPosts = similarItems(post, posts);
 const { Content } = await post.render();
-const { title, description, author, categories, image, date, tags } = post.data;
+const { title, description, author, categories, image, date, tags, id, context, input, output, img, request } = post.data;
+
+console.log(post.data);
+
 ---
 
 <section class="section pt-7">
   <div class="container">
     <div class="row justify-center">
       <article class="lg:col-10">
-        <div class="mb-10">
+        <div class="mb-10 flex justify-center">
           {image && (
-            image.endsWith('.svg') ? (
-              <img 
-                src={image} 
-                alt={title} 
-                class="w-full h-auto max-w-[600px] max-h-[300px] rounded" 
-              />
-            ) : (
-              <img 
-                src={image} 
-                alt={title} 
-                width="600" 
-                height="300" 
-                class="w-full rounded object-cover" 
-              />
-            )
+            <ImageMod src={image} alt={title} width={500} height={300} class="mx-auto" />
           )}
         </div>
         <h1 set:html={markdownify(title)} class="h2 mb-4" />
-        <ul class="mb-4">
+        <div class="mb-4 flex items-center">
+          <span class="mr-2">ID: {id}</span>
+          <CopyIconButton client:load textToCopy={id} />
+        </div>
+        <ul class="mb-2 text-sm text-gray-400">
+          <li class="mr-4 inline-block">
+            <FaRegFileAlt className={"mr-2 -mt-1 inline-block"} />
+            {formatNumber(context)} Context
+          </li>
+          <li class="mr-4 inline-block">
+            <LuFolderInput className={"mr-2 -mt-1 inline-block"} />
+            {formatTokens(input * 1000000)} Input Tokens
+          </li>
+          <li class="mr-4 inline-block">
+            <LuFolderOutput className={"mr-2 -mt-1 inline-block"} />
+            {formatTokens(output * 1000000)} Output Tokens
+          </li>
+          {img > 0 && (
+            <li class="mr-4 inline-block">
+              <LuImage className={"mr-2 -mt-1 inline-block"} />
+              {formatTokens(img)} Image Tokens
+            </li>
+          )}
+          {request > 0 && (
+            <li class="mr-4 inline-block">
+              <FaRegFileAlt className={"mr-2 -mt-1 inline-block"} />
+              {formatTokens(request)} Request Tokens
+            </li>
+          )}
+        </ul>
+        <ul class="mb-8 text-sm text-gray-400">
           <li class="mr-4 inline-block">
             <a href={slugSelector(`/authors/${slugify(author)}`, lang)}>
               <FaRegUserCircle className={"mr-2 -mt-1 inline-block"} />
