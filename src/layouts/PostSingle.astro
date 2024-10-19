@@ -2,7 +2,6 @@
 import BlogCard from "@/components/BlogCard.astro";
 import Share from "@/components/Share.astro";
 import config from "@/config/config.json";
-import Disqus from "@/helpers/Disqus";
 import { getSinglePage } from "@/lib/contentParser.astro";
 import dateFormat from "@/lib/utils/dateFormat";
 import { slugSelector } from "@/lib/utils/languageParser";
@@ -11,8 +10,6 @@ import { humanize, markdownify, slugify } from "@/lib/utils/textConverter";
 import type { ContentEntryMap } from "astro:content";
 import { FaRegClock, FaRegFolder, FaRegUserCircle } from "react-icons/fa";
 import ImageMod from "./components/ImageMod.astro";
-import { Image } from 'astro:assets';
-import ModelCard from "./components/ModelCard.astro";
 
 const { default_language } = config.settings;
 
@@ -39,7 +36,7 @@ const { title, description, author, categories, image, date, tags } = post.data;
       <article class="lg:col-10">
         <div class="mb-10 flex justify-center">
           {image && (
-            <ImageMod src={image} alt={title} width={500} height={300} class="mx-auto" />
+            <ImageMod src={image} alt={title} width={800} height={400} class="mx-auto" />
           )}
         </div>
         <h1 set:html={markdownify(title)} class="h2 mb-4" />
@@ -110,7 +107,7 @@ const { title, description, author, categories, image, date, tags } = post.data;
         {
           similarPosts.map((post) => (
             <div class="lg:col-4 md:col-6 mb-14">
-              <ModelCard data={post} />
+              <BlogCard data={post} />
             </div>
           ))
         }
