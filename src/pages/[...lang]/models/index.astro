@@ -22,13 +22,6 @@ export function getStaticPaths() {
 // 确保只在实际的索引页面上运行这段代码
 const { lang } = Astro.params;
 
-// 添加对中文的检查
-if (lang === 'zh') {
-  // 处理中文的逻辑，例如重定向或其他操作
-  // 这里可以添加您需要的逻辑
-  console.log('zh-------');
-}
-
 if (Astro.url.pathname.split('/').length > 3) {
   return Astro.redirect('/404');
 }
