@@ -32,11 +32,11 @@ export default defineConfig({
     fallback: {
       zh: "en",
     },
-    routing: {
-      fallbackType: "rewrite",
-    }
+    // routing: {
+    //   fallbackType: "rewrite",
+    // }
   },
-  output: 'hybrid',
+  output: 'server',
   // experimental: {
   //   viewTransitions: true
   // },
