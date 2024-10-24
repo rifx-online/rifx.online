@@ -1,5 +1,5 @@
 ---
-title: "欢迎来到我们的AI API聚合平台!"
+title: "Rifx.Online"
 email: hi@rifx.online
 description: "了解我们通过全面的API聚合平台简化AI集成的使命"
 image: "/images/logo.svg"

@@ -1,5 +1,5 @@
 ---
-title: 谷歌
+title: Google
 email: press@google.com
 image: "https://img.rifx.online/logo/google.svg"
 description: 谷歌 - 人工智能和大型语言模型领域的领导者

@@ -1,5 +1,5 @@
 ---
-title: 通义千问
+title: Qwen
 email: qwen@alibaba.com
 image: "https://img.rifx.online/logo/qwen.svg"
 description: 通义千问是由阿里云开发的大型语言模型

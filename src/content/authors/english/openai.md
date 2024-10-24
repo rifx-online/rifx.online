@@ -1,7 +1,7 @@
 ---
 title: OpenAI
 email: info@openai.com
-image: "/images/what-is-openai.png"
+image: "https://img.rifx.online/logo/openai.svg"
 description: OpenAI is a leading company in artificial intelligence research and deployment
 social:
   - name: github

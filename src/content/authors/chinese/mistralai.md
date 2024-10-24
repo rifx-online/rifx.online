@@ -1,5 +1,5 @@
 ---
-title: Mistral AI
+title: MistralAI
 email: contact@mistral.ai
 image: "https://img.rifx.online/logo/mistral.png"
 description: 开源AI模型和技术的先驱
