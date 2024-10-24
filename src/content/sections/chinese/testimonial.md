@@ -20,7 +20,7 @@ testimonials:
     avatar: "/images/avatar-sm.png"
     content: "对于像我们这样的创业公司来说,AI API聚合平台是一个游戏规则改变者。它使我们能够以极低的成本访问广泛的高质量AI服务,帮助我们快速迭代和改进产品。"
 
-  - name: "陈��米"
+  - name: "陈米"
     designation: "数据科学家"
     avatar: "/images/avatar-sm.png"
     content: "AI API聚合平台提供的服务质量令人印象深刻。它不仅集成了多个顶级AI服务提供商的API,还提供了全面的文档和出色的客户支持。"

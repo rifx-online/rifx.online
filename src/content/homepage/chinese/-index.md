@@ -4,9 +4,13 @@ banner:
   title: "终极AI API平台,可靠访问200多个大语言模型"
   content: "一个集成各种AI服务的统一API接口平台,让您可以通过单一端点轻松访问任何大语言模型,同时管理故障转移、负载均衡、重试和缓存。"
   image: "/images/banner.png"
-  button:
+  button_primary:
     enable: true
-    label: "选择您的模型开始使用"
+    label: "获取API密钥"
+    link: "{signInUrl}"
+  button_outline:
+    enable: true
+    label: "选择模型"
     link: "/models"
 
 # 主题
@@ -19,6 +23,7 @@ topic:
   placeholder: "AI API 端点"
   button:
     lable: "复制API链接"
+    copy_lable: "已复制!"
   remark: "复制上面的API链接并参考我们全面的文档,快速开始使用。"
 
 # 特性

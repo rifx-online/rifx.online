@@ -2,8 +2,8 @@
 title: "如何在本地运行 Nvidia 的 llama-3.1-nemotron-70b-instruct"
 meta_title: "如何在本地运行 Nvidia 的 llama-3.1-nemotron-70b-instruct"
 description: "在本地运行大型语言模型 (LLM) 在开发人员、研究人员和 AI 爱好者中越来越受欢迎。其中之一就是……"
-date: 2024-10-23T11:49:51Z
-image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*swPjVuudAhsoRiiw3Ee32w.png"
+date: 2024-10-23T11:56:14Z
+image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*fqVKJkw5sQvLtIsyCcengQ.png"
 categories: ["large-language-models"]
 author: "Rifx.Online"
 tags: ["large-language-models"]
@@ -13,155 +13,143 @@ draft: False
 
 
 
+在开发者、研究人员和 AI 爱好者中，本地运行大型语言模型（LLMs）变得越来越受欢迎。其中一个引起广泛关注的模型是 llama-3.1-nemotron-70b-instruct，这是 NVIDIA 定制的强大 LLM，旨在增强生成响应的有用性。在本综合指南中，我们将探讨多种方法，以便在您的本地机器上运行此模型，首先介绍用户友好的 Ollama 平台。
+
+> 在开始之前，如果您正在寻找一个一体化的 AI 平台，以便在一个地方管理所有 AI 订阅，包括所有 LLM（如 GPT-o1、Llama 3.1、Claude 3.5 Sonnet、Google Gemini、未审查的 LLM）和图像生成模型（FLUX、Stable Diffusion 等），请使用 Anakin AI 来管理它们！
 
 
-### Data feeding in markdown text format increases generated text quality
 
+## 方法 1：使用 Ollama 本地运行 llama-3.1-nemotron-70b-instruct
 
+Ollama 是一个出色的工具，用于本地运行 LLM，提供简单的设置过程并支持多种模型，包括 llama-3.1-nemotron-70b-instruct。
 
+### 安装
 
-## Introduction
-
-In the context of **Large Language Models (LLMs)** and **Retrieval-Augmented Generation (RAG)** environments, data feeding in **markdown text format** holds **significant importance**. Here are some detailed considerations.
-
-**LLMs** are powerful language models that can generate coherent and contextually relevant text. However, they may sometimes produce responses that lack factual accuracy or context. By incorporating retrieval-based methods (like RAG), we can enhance the quality of generated text.
-
-**RAG** enables the integration of **external data** — previously absent in the LLM’s training data — into the text generation process. This inclusion mitigates “hallucination issues’’ and enhances the relevance of text responses.
-
-
-## Why Markdown for LLM?
-
-**Markdown** is a lightweight markup language that allows users to format plain text using simple syntax. It is widely used for creating structured documents, especially on platforms like GitHub, Jupyter notebooks, and various content management systems. When feeding data into an LLM or RAG system, using markdown format provides several benefits:
-
-1. **Structured Content**: Markdown allows you to organize information into headings, lists, tables, and other structured elements. This structure aids in better understanding and context preservation.
-2. **Rich Text**: Markdown supports basic formatting such as bold, italics, links, and code blocks. Including rich text in the input data enhances the context for the language model.
-3. **Embedding Links and References**: Markdown lets you embed hyperlinks, footnotes, and references. In RAG scenarios, this can be crucial for referring to external sources or providing additional context.
-4. **Ease of Authoring**: Markdown is human-readable and easy to write. Authors can create content efficiently without complex formatting tools.
-5. **Chunking**: Essential for RAG systems, chunking (otherwise known as “splitting”) breaks down extensive documents for easier processing. With PyMuPDF data extraction available in MD format we support chunking to keep text with common context together. **Importantly, PyMuPDF extraction in MD format allows for [Level 3 chunking](https://readmedium.com/five-levels-of-chunking-strategies-in-rag-notes-from-gregs-video-7b735895694d#b123)**.
-
-In summary, using markdown text format in LLM and RAG environments ensures more accurate and relevant results because it supplies richer data structures and more relevant data chunk loads to your LLM.
-
-
-## PyMuPDF Support for Markdown Conversion of a PDF
-
-Since its inception, PyMuPDF has been able to extract text, images, vector graphics and, since August 2023, tables from PDF pages. Each of these object types has its own extraction method: there is one for text, and yet others for tables, images and vector graphics. To meet the requirements of RAG, we merged these disparate extractions to produce one common, unified **Markdown** string which consistently represents the page’s content as a whole.
-
-All this is implemented as [one Python script](https://github.com/pymupdf/RAG/blob/main/helpers/pymupdf_rag.py). It can be imported as a module by some other script, or be invoked as a line command in a terminal window like this:
-
-`$ python pymupdf_rag.py input.pdf [-pages PAGES]`
-
-It will produce a text file (called `input.md`) in **Markdown** format. The optional parameter `PAGES` allows restricting the conversion to a subset of the PDF’s total pages. If omitted, the full PDF is processed.
-
-
-## Markdown Creation Details
-
-
-### Selecting Pages to Consider
-
-The “`-pages`” parameter is a string consisting of desired page numbers (1-based) to consider for markdown conversion. Multiple page number specifications can be given, separated by commas. Each specification either is one integer or two integers separated by a “`-`” hyphen, specifying a range of pages. Here is an example:
-
-“`-pages 1–10,15,20-N`”
-
-This would include pages 1 through 10, 15 and pages 20 through the end of the file (capital “N” is treated as the number of the last page).
-
-
-### Identifying Headers
-
-Upon invocation, the program examines all text on the given pages and finds the most frequently used font size. This value (and all smaller font sizes) is assumed to represent **body text**. Larger font sizes are assumed to represent **header text**.
-
-Depending on their relative position in the font size hierarchy, header text will be prefixed with one or more markdown header `#`-tag characters.
-
-
-### Identifying the Processing Mode per Page Area
-
-All text on each page will first be classified as being either **standard** text or **table** text. Then the page content will be extracted from top to bottom converting everything to markdown format.
-
-This is best explained by an example:
-
-![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*u5fv2aAIvDaaAd6H.png)
-
-This page shows content, that represents typical situations:
-
-* Two tables, having partly overlapping vertical positions. One table has no headers, the other one has **external** column headers.
-* There is a **title** line and **headers** at multiple levels.
-* The **body text** contains a variety of styling details like **bold**, *italic* and `inline code`.
-* Ordered and unordered lists.
-* Code snippet.
-
-Layout analysis will determine three areas and select the appropriate processing modes: **(1)** text, **(2)** table, **(3)** text.
-
-The generated Markdown text reflects the above faithfully — as much as at all possible in this format.
-
-For an example, let us look at the output for the table with external headers:
+1. 访问官方 Ollama 网站 ([https://ollama.ai](https://ollama.ai/))，下载适合您操作系统的版本。
+2. 通过在终端中运行以下命令来安装 Ollama：
 
 
 ```python
-|Column1|Column2|
-
-|---|---|
-
-|Cell (0, 0)|Cell (0, 1)|
-
-|Cell (1, 0)|Cell (1, 1)|
-
-|Cell (2, 0)|Cell (2, 1)|
+curl https://ollama.ai/install.sh | sh
 ```
-This is GitHub-compatible format with the minimum possible token size — an important aspect for keeping feeds into RAG systems small.
 
-**Column borders** are indicated by the “`|`” character. A text line is assumed to be a **table header** if it is followed by a line of the form “`|---|---| …`”. The full **table definition** must be preceded and followed by at least one empty line.
+### 运行 llama-3.1-nemotron
 
-Please note that for technical reasons markdown tables must have a header and thus will choose the first table row if no external header is available.
+安装 Ollama 后，您可以通过一个简单的命令轻松运行 llama-3.1-nemotron-70b-instruct 模型：
 
-To confirm overall fidelity, here is how a Markdown parser processes the full page:
+```python
+ollama run nemotron:70b-instruct-q5_K_M
+```
+该命令将在您的系统上下载模型（如果尚未存在），并启动一个交互式会话。
 
-![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*Ge83uj7FiM4T6XFn)
+### 使用模型
 
+在模型加载后，您可以通过输入提示开始与其互动。例如：
 
-## Invoking the Markdown Converter Programmatically
+```python
+>>> What are the key features of llama-3.1-nemotron-70b-instruct?
 
-Instead of executing a program in the command line, Markdown conversion can also be requested by a program:
+Llama-3.1-Nemotron-70B-Instruct is a large language model with several key features:
+1. Customized by NVIDIA: The model has been fine-tuned by NVIDIA to improve the helpfulness and quality of its responses.
+2. Based on Llama 3.1: It builds upon the Llama 3.1 architecture, which is known for its strong performance across various tasks.
+3. 70 billion parameters: This large parameter count allows for complex reasoning and a wide range of capabilities.
+4. Instruct-tuned: The model is specifically designed to follow instructions and generate helpful responses to user queries.
+5. RLHF training: It has been trained using Reinforcement Learning from Human Feedback, specifically the REINFORCE algorithm.
+6. Specialized reward model: The training process utilized Llama-3.1-Nemotron-70B-Reward for optimization.
+7. HelpSteer2-Preference prompts: These were used during the training process to further improve the model's helpfulness.
+8. Extended context length: Like other Llama 3.1 models, it likely supports a longer context window of 128K tokens.
+9. Multilingual capabilities: It can understand and generate text in multiple languages.
+10. Strong reasoning abilities: The model excels in tasks requiring complex reasoning and problem-solving.
+These features make llama-3.1-nemotron-70b-instruct a powerful and versatile language model suitable for a wide range of applications, from general conversation to specialized tasks in various domains.
+```
+对于更高级的用例，您可以使用像 Langchain 这样的库将 Ollama 与 Python 集成。以下是一个简单的示例：
+
+```python
+python
+
+from langchain.llms import Ollama
+
+ollama = Ollama(base_url="http://localhost:11434", model="nemotron:70b-instruct-q5_K_M")
+response = ollama.generate("Explain the concept of quantum entanglement.")
+print(response)
+```
+这使您能够无缝地将模型集成到您的 Python 项目和应用程序中。
+
+## 方法 2：使用 llama.cpp
+
+llama.cpp 是一个流行的 C++ 实现的 Llama 模型推理，针对 CPU 使用进行了优化。虽然它可能需要比 Ollama 更多的设置，但它提供了更大的灵活性和对模型参数的控制。
+
+### 安装
+
+1. 克隆 llama.cpp 仓库：
+
+```python
+git clone https://github.com/ggerganov/llama.cpp.git
+cd llama.cpp
+```
+1. 构建项目：
+
+```python
+make
+```
+
+### 下载模型
+
+要运行 llama-3.1-nemotron-70b-instruct，您需要下载模型权重。这些通常以 GGML 或 GGUF 格式提供。您可以在 Hugging Face 等平台上找到预先转换的模型。
+
+```python
+mkdir models
+cd models
+wget https://huggingface.co/TheBloke/Llama-3.1-Nemotron-70B-Instruct-GGUF/resolve/main/llama-3.1-nemotron-70b-instruct.Q4_K_M.gguf
+```
+
+### 运行模型
+
+一旦你拥有模型文件，就可以使用以下命令运行它：
+
+```python
+./main -m models/llama-3.1-nemotron-70b-instruct.Q4_K_M.gguf -n 1024 -p "Hello, how are you today?"
+```
+该命令加载模型并生成对给定提示的响应。你可以调整各种参数，比如生成的令牌数量 (-n) 或温度以控制随机性。
+
+## 方法 3：使用 Hugging Face Transformers
+
+Hugging Face 的 Transformers 库提供了一个高层次的 API，用于处理各种语言模型，包括 llama-3.1-nemotron-70b-instruct。
+
+**安装**
+
+首先，安装必要的库：
 
 
 ```python
-import fitz
-from pymupdf_rag import to_markdown  # import Markdown converter
-
-doc = fitz.open(“input.pdf”)  # open input PDF
-
-## define desired pages: this corresponds “-pages 1-10,15,20-N”
-page_list = list(range(9)) + [14] + list(range(19, len(doc) – 1))
-
-## get markdown string for all pages
-md_text = to_markdown(doc, pages=page_list)
-
-## write markdown string to some file
-output = open(“out-markdown.md”, “w”)
-output.write(md_text)
-output.close()
+pip install transformers torch accelerate
 ```
+**运行模型**
 
-## Conclusion
-
-By integrating PyMuPDF’s extraction methods, the content of PDF pages will be faithfully converted to markdown text that can be used as input for RAG chatbots.
-
-Remember, the key to a successful RAG chatbot lies in the quality and completeness of information it can access.
-
-PyMuPDF-enabled markdown extraction ensures that this information from PDFs is not only possible but straightforward, showcasing the library’s strength and developer-friendliness. Happy coding!
+以下是一个加载和使用模型的 Python 脚本：
 
 
-### Source Code
+```python
+from transformers import AutoTokenizer, AutoModelForCausalLM
+import torch
 
-* [RAG/helpers/pymupdf\_rag.py (github.com)](https://github.com/pymupdf/RAG/blob/main/helpers/pymupdf_rag.py)
+model_name = "meta-llama/Llama-3.1-Nemotron-70b-instruct"
+## Load the tokenizer and model
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.float16, device_map="auto")
+## Prepare the input
+prompt = "Explain the concept of quantum computing in simple terms."
+inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
+## Generate the response
+with torch.no_grad():
+    outputs = model.generate(**inputs, max_new_tokens=100)
+## Decode and print the response
+response = tokenizer.decode(outputs[0], skip_special_tokens=True)
+print(response)
+```
+这种方法允许对模型的行为进行更细粒度的控制，并与其他 Hugging Face 工具和管道集成。
 
+## 结论
 
-### References
-
-* [5 Levels of Text Splitting](https://github.com/FullStackRetrieval-com/RetrievalTutorials/blob/main/tutorials/LevelsOfTextSplitting/5_Levels_Of_Text_Splitting.ipynb)
-
-
-### Related Blogs
-
-* [Building a RAG Chatbot GUI with the ChatGPT API and PyMuPDF](https://readmedium.com/building-a-rag-chatbot-gui-with-the-chatgpt-api-and-pymupdf-9ea8c7fc4ab5)
-* [Creating a RAG Chatbot with ChatGPT and PyMUPDF](https://readmedium.com/creating-a-rag-chatbot-with-chatgpt-and-pymupdf-f6c30907ae27)
-* [RAG/LLM and PDF: Enhanced Text Extraction](https://readmedium.com/rag-llm-and-pdf-enhanced-text-extraction-5c5194c3885c)
+在本地运行 llama-3.1-nemotron-70b-instruct 为开发者和研究人员打开了无限可能。无论您选择 Ollama 的简单性、llama.cpp 的灵活性，还是 Hugging Face Transformers 的集成功能，您现在都有工具可以在自己的硬件上利用这一先进语言模型的强大能力。在探索 llama-3.1-nemotron-70b-instruct 的能力时，请记住在性能与资源限制之间取得平衡，并始终考虑您应用的伦理影响。负责任的使用，这个模型可以成为推动自然语言处理和 AI 驱动应用可能性的宝贵资产。
 

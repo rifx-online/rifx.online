@@ -2,8 +2,8 @@
 title: "LangGraph、LangChain、LangFlow、LangSmith：使用哪一个以及为什么？"
 meta_title: "LangGraph、LangChain、LangFlow、LangSmith：使用哪一个以及为什么？"
 description: "了解 LangGraph、LangChain、LangFlow 和 LangSmith 之间的主要区别，并了解哪种框架最适合您的……"
-date: 2024-10-23T11:47:55Z
-image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*swPjVuudAhsoRiiw3Ee32w.png"
+date: 2024-10-23T11:56:14Z
+image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*xrWv1QVt4zE5cxjA8VA3ag.png"
 categories: ["agents"]
 author: "Rifx.Online"
 tags: ["agents"]
@@ -13,155 +13,142 @@ draft: False
 
 
 
+### 探索 LangGraph、LangChain、LangFlow 和 LangSmith 之间的关键区别，了解哪种框架最适合您的语言模型应用——从工作流构建到性能监控。
 
+👨🏾‍💻 [GitHub](https://github.com/mdmonsurali) ⭐️ | 👔[LinkedIn](https://www.linkedin.com/in/mdmonsurali/) |📝 [Medium](https://medium.com/@monsuralirana)
 
-### Data feeding in markdown text format increases generated text quality
 
 
+近年来，自然语言处理（NLP）领域见证了可用于构建基于语言模型的应用程序的框架、库和工具数量的激增。在这些工具中，**LangGraph**、**LangChain**、**LangFlow** 和 **LangSmith** 已成为领先的选择，各自满足不同的用例和用户需求。如果您希望构建、监控或扩展语言模型工作流，了解这些工具的优势和目的至关重要。
 
+在本博客中，我们将探讨每个框架，分析它们的优势，并提供何时使用它们的见解。无论您是经验丰富的开发者还是该领域的新手，理解这些工具的细微差别将帮助您为您的项目选择合适的工具。
 
-## Introduction
+## 语言模型框架简介
 
-In the context of **Large Language Models (LLMs)** and **Retrieval-Augmented Generation (RAG)** environments, data feeding in **markdown text format** holds **significant importance**. Here are some detailed considerations.
+随着强大的语言模型如 GPT-3、GPT-4 以及其他基于变换器的模型的崛起，越来越需要能够简化语言应用程序创建和管理的框架。这些框架简化了复杂的任务，如 **链接多个提示**、**检索相关文档**，甚至 **监控模型性能**。
 
-**LLMs** are powerful language models that can generate coherent and contextually relevant text. However, they may sometimes produce responses that lack factual accuracy or context. By incorporating retrieval-based methods (like RAG), we can enhance the quality of generated text.
+然而，并非所有框架都是相同的。有些框架提供 **可视化界面** 来管理工作流程，而其他框架则提供高级的 **调试和可观察性** 功能。让我们深入了解这些工具，以理解它们独特的功能。
 
-**RAG** enables the integration of **external data** — previously absent in the LLM’s training data — into the text generation process. This inclusion mitigates “hallucination issues’’ and enhances the relevance of text responses.
+## 1. LangGraph：可视化复杂工作流
 
+**LangGraph** 是一个为开发者设计的新框架，适合那些偏好 **可视化方法** 来构建语言模型管道的用户。它允许您通过 **基于图的可视化** 来构建复杂的工作流，从而更容易理解不同任务和组件之间的依赖关系。这对于多个步骤（如文本生成、文档检索和分类）串联在一起的大型应用尤其有用。
 
-## Why Markdown for LLM?
+### 优势：
 
-**Markdown** is a lightweight markup language that allows users to format plain text using simple syntax. It is widely used for creating structured documents, especially on platforms like GitHub, Jupyter notebooks, and various content management systems. When feeding data into an LLM or RAG system, using markdown format provides several benefits:
+* **可视化工作流表示**：LangGraph 允许您可视化不同组件之间的数据和操作流。这种图形化的方法直观且有助于设计更复杂的管道。
+* **调试简单**：LangGraph 的可视化特性使得识别工作流中的瓶颈或问题节点变得更加容易。
 
-1. **Structured Content**: Markdown allows you to organize information into headings, lists, tables, and other structured elements. This structure aids in better understanding and context preservation.
-2. **Rich Text**: Markdown supports basic formatting such as bold, italics, links, and code blocks. Including rich text in the input data enhances the context for the language model.
-3. **Embedding Links and References**: Markdown lets you embed hyperlinks, footnotes, and references. In RAG scenarios, this can be crucial for referring to external sources or providing additional context.
-4. **Ease of Authoring**: Markdown is human-readable and easy to write. Authors can create content efficiently without complex formatting tools.
-5. **Chunking**: Essential for RAG systems, chunking (otherwise known as “splitting”) breaks down extensive documents for easier processing. With PyMuPDF data extraction available in MD format we support chunking to keep text with common context together. **Importantly, PyMuPDF extraction in MD format allows for [Level 3 chunking](https://readmedium.com/five-levels-of-chunking-strategies-in-rag-notes-from-gregs-video-7b735895694d#b123)**.
+### 示例用例：
 
-In summary, using markdown text format in LLM and RAG environments ensures more accurate and relevant results because it supplies richer data structures and more relevant data chunk loads to your LLM.
+假设您正在构建一个自动化系统，该系统首先使用语言模型检索相关文档，然后将其传递给摘要生成器。在 LangGraph 中，您可以直观地绘制出此工作流程，展示每个步骤之间的关系。如果链中的任何一点出现问题，视觉工具使您能够轻松定位问题所在。
 
+### 何时使用 LangGraph：
 
-## PyMuPDF Support for Markdown Conversion of a PDF
+如果您正在管理 **复杂的工作流程**，并且重视 **图形界面** 来理解您的管道，LangGraph 是一个绝佳的选择。它特别适合那些更喜欢直观的拖放式工作流程设计的开发人员或数据科学家。
 
-Since its inception, PyMuPDF has been able to extract text, images, vector graphics and, since August 2023, tables from PDF pages. Each of these object types has its own extraction method: there is one for text, and yet others for tables, images and vector graphics. To meet the requirements of RAG, we merged these disparate extractions to produce one common, unified **Markdown** string which consistently represents the page’s content as a whole.
+**关键点**：
 
-All this is implemented as [one Python script](https://github.com/pymupdf/RAG/blob/main/helpers/pymupdf_rag.py). It can be imported as a module by some other script, or be invoked as a line command in a terminal window like this:
+* 如果您需要清晰的语言处理工作流程的可视化表示。
+* 在创建需要分支或多路径依赖的更复杂的管道时。
 
-`$ python pymupdf_rag.py input.pdf [-pages PAGES]`
+## 2. LangChain：LLM 应用的工作马
 
-It will produce a text file (called `input.md`) in **Markdown** format. The optional parameter `PAGES` allows restricting the conversion to a subset of the PDF’s total pages. If omitted, the full PDF is processed.
+**LangChain** 是构建由 **大型语言模型 (LLMs)** 驱动的应用程序最受欢迎的框架之一。它提供了一种灵活的 **代码优先方法**，允许开发者将文档检索、摘要和问答等任务串联成统一的工作流程。
 
+### 优势：
 
-## Markdown Creation Details
+* **广泛支持LLMs**：LangChain兼容多种语言模型，使得集成OpenAI的GPT或本地托管模型变得简单。
+* **链式能力**：LangChain擅长于**多个操作的链式处理**——因此得名——使开发者能够创建复杂的NLP应用。
+* **广泛采用**：作为最受欢迎的框架之一，LangChain拥有一个**蓬勃发展的社区**和出色的支持，提供丰富的文档和教程。
 
+### 示例用例：
 
-### Selecting Pages to Consider
+想象一下，您正在构建一个 **聊天机器人**，它首先理解用户的问题，从数据库中检索相关信息，然后生成响应。使用 LangChain，您可以轻松地以编程方式创建这个多步骤的过程，确保链中的每一步协调工作。
 
-The “`-pages`” parameter is a string consisting of desired page numbers (1-based) to consider for markdown conversion. Multiple page number specifications can be given, separated by commas. Each specification either is one integer or two integers separated by a “`-`” hyphen, specifying a range of pages. Here is an example:
+### 何时使用 LangChain：
 
-“`-pages 1–10,15,20-N`”
+如果您是一个 **构建生产级应用的开发者**，并且需要一个 **灵活、以代码为中心的解决方案**，LangChain 是您的最佳选择。它非常适合那些希望控制应用架构并且能舒适地编写代码来定义工作流程的开发者。
 
-This would include pages 1 through 10, 15 and pages 20 through the end of the file (capital “N” is treated as the number of the last page).
+**关键点**：
 
+* 如果您正在构建需要跨多个语言模型链式任务的生产级应用。
+* 如果您需要一个拥有广泛社区支持和多种集成的库。
+* 当您对编程解决方案更为熟悉，而非可视化工具。
 
-### Identifying Headers
+## 3. LangFlow: 无需编码/低代码的 LangChain 扩展
 
-Upon invocation, the program examines all text on the given pages and finds the most frequently used font size. This value (and all smaller font sizes) is assumed to represent **body text**. Larger font sizes are assumed to represent **header text**.
+**LangFlow** 本质上是 **LangChain 的可视化扩展**。它将 LangChain 强大的后端与 **直观的拖放界面** 结合在一起。LangFlow 使那些可能不太擅长编写代码的用户仍然能够在他们的应用程序中利用语言模型的强大功能。
 
-Depending on their relative position in the font size hierarchy, header text will be prefixed with one or more markdown header `#`-tag characters.
+### 优势：
 
+* **可视化工作流创建**：与 LangGraph 类似，LangFlow 提供了一个可视化界面用于构建工作流。然而，它是基于 LangChain 构建的，这意味着用户可以利用 LangChain 的强大功能，而无需编写大量代码。
+* **快速原型制作的理想选择**：LangFlow 非常适合快速 **原型化想法** 或构建概念验证应用程序。
+* **适合初学者**：它是一个很好的入门点，适合那些对编码不太熟悉但想要创建语言模型工作流的用户。
 
-### Identifying the Processing Mode per Page Area
+### 示例用例：
 
-All text on each page will first be classified as being either **standard** text or **table** text. Then the page content will be extracted from top to bottom converting everything to markdown format.
+如果您想快速构建一个**摘要工具**来检索文档，您可以在LangFlow的界面中拖放组件，以创建一个完全功能的应用程序。这可以在几乎不编写代码的情况下完成。
 
-This is best explained by an example:
+### 何时使用 LangFlow：
 
-![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*u5fv2aAIvDaaAd6H.png)
+LangFlow 非常适合 **非开发人员** 或 **快速原型设计**。如果您想快速实验 **LLM 工作流** 而不深入代码，这个工具可以让您轻松入门。
 
-This page shows content, that represents typical situations:
+**关键点**：
 
-* Two tables, having partly overlapping vertical positions. One table has no headers, the other one has **external** column headers.
-* There is a **title** line and **headers** at multiple levels.
-* The **body text** contains a variety of styling details like **bold**, *italic* and `inline code`.
-* Ordered and unordered lists.
-* Code snippet.
+* 如果您想快速原型设计 LLM 工作流而不编写代码。
+* 如果您对视觉编程感到舒适，但需要 LangChain 的灵活性。
+* 用于教育目的，帮助用户了解如何构建工作流。
 
-Layout analysis will determine three areas and select the appropriate processing modes: **(1)** text, **(2)** table, **(3)** text.
+## 4. LangSmith: 监控与可观察性
 
-The generated Markdown text reflects the above faithfully — as much as at all possible in this format.
+虽然其他工具专注于 **构建工作流程**，**LangSmith** 的设计目标是 **监控** 和 **调试** 语言模型应用。它提供了先进的可观察性功能，以跟踪您的工作流程和模型的性能，使其在生产环境中不可或缺。
 
-For an example, let us look at the output for the table with external headers:
+### 优势：
 
+* **深度可观察性**：LangSmith 允许开发者监控语言模型的性能，确保工作流程按预期运行。
+* **错误跟踪**：它在帮助开发者定位问题方面表现出色，使调试变得更加容易。
+* **性能洞察**：LangSmith 提供有关 **工作流程性能** 的洞察，帮助开发者优化他们的应用程序。
 
-```python
-|Column1|Column2|
+### 示例用例：
 
-|---|---|
+假设您已经部署了一个**客户服务聊天机器人**，该聊天机器人使用语言模型来回答问题。随着时间的推移，您会发现某些回答的准确性低于预期。LangSmith 可以帮助您追踪问题，通过提供对工作流程中每个决策点的可见性。
 
-|Cell (0, 0)|Cell (0, 1)|
+### 何时使用 LangSmith：
 
-|Cell (1, 0)|Cell (1, 1)|
+如果您在 **生产环境** 中部署应用程序，并且需要确保 **健壮性、可靠性和性能**，LangSmith 是一个不可或缺的工具。它在管理 **需要随着时间调试和优化的复杂系统** 时特别有用。
 
-|Cell (2, 0)|Cell (2, 1)|
-```
-This is GitHub-compatible format with the minimum possible token size — an important aspect for keeping feeds into RAG systems small.
+**关键点**：
 
-**Column borders** are indicated by the “`|`” character. A text line is assumed to be a **table header** if it is followed by a line of the form “`|---|---| …`”. The full **table definition** must be preceded and followed by at least one empty line.
+* 如果您需要 LLM 工作流中的高级监控或调试能力。
+* 对于观察性对确保最佳模型性能至关重要的开发环境。
+* 如果您的重点是基于实时洞察改进和迭代 LLM 驱动的应用程序。
 
-Please note that for technical reasons markdown tables must have a header and thus will choose the first table row if no external header is available.
+## 哪个更适合你？
 
-To confirm overall fidelity, here is how a Markdown parser processes the full page:
+* **使用 LangGraph** 如果你更喜欢基于图形的可视化工作流程来构建复杂的 LLM 任务。非常适合需要清晰和结构的用户。
+* **使用 LangChain** 如果你需要一个强大、灵活的解决方案来以编程方式创建语言模型应用。它多功能且非常适合构建生产级应用的开发者。
+* **使用 LangFlow** 如果你想要 LangChain 的强大功能，同时又希望拥有一个可视化的无代码/低代码界面。最适合快速原型开发和更喜欢可视化工具而非编码的用户。
+* **使用 LangSmith** 如果你的重点是 LLM 应用的可观察性和调试。非常适合在开发或生产环境中监控和优化工作流程。
 
-![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*Ge83uj7FiM4T6XFn)
+最终，你的选择取决于你对代码的舒适度、工作流程的复杂性，以及你是否优先考虑易用性、灵活性或可观察性。
 
+## 结论
 
-## Invoking the Markdown Converter Programmatically
+这些工具 — **LangGraph**、**LangChain**、**LangFlow** 和 **LangSmith** — 针对开发和管理语言模型应用的不同阶段。**LangGraph** 提供了一种可视化、直观的方式来构建复杂的工作流程，而 **LangChain** 则为希望创建可扩展应用的开发者提供了一种强大的代码优先解决方案。对于那些更喜欢 **低代码**、拖放方式的用户，**LangFlow** 在不牺牲功能的情况下简化了流程。最后，**LangSmith** 专注于可观察性和调试，确保您的工作流程是优化和可靠的。选择合适的工具取决于您的项目需求，无论是快速原型设计、生产级扩展，还是监控和性能跟踪。
 
-Instead of executing a program in the command line, Markdown conversion can also be requested by a program:
+快乐编码！ 🎉
 
+👨🏾‍💻 [GitHub](https://github.com/mdmonsurali) ⭐️ | 👔[LinkedIn](https://www.linkedin.com/in/mdmonsurali/) |📝 [Medium](https://medium.com/@monsuralirana)
 
-```python
-import fitz
-from pymupdf_rag import to_markdown  # import Markdown converter
+感谢您花时间阅读这篇文章！
 
-doc = fitz.open(“input.pdf”)  # open input PDF
+请务必留下您的反馈和评论。下次博客见，敬请关注 📢
 
-## define desired pages: this corresponds “-pages 1-10,15,20-N”
-page_list = list(range(9)) + [14] + list(range(19, len(doc) – 1))
+## 参考文献：
 
-## get markdown string for all pages
-md_text = to_markdown(doc, pages=page_list)
-
-## write markdown string to some file
-output = open(“out-markdown.md”, “w”)
-output.write(md_text)
-output.close()
-```
-
-## Conclusion
-
-By integrating PyMuPDF’s extraction methods, the content of PDF pages will be faithfully converted to markdown text that can be used as input for RAG chatbots.
-
-Remember, the key to a successful RAG chatbot lies in the quality and completeness of information it can access.
-
-PyMuPDF-enabled markdown extraction ensures that this information from PDFs is not only possible but straightforward, showcasing the library’s strength and developer-friendliness. Happy coding!
-
-
-### Source Code
-
-* [RAG/helpers/pymupdf\_rag.py (github.com)](https://github.com/pymupdf/RAG/blob/main/helpers/pymupdf_rag.py)
-
-
-### References
-
-* [5 Levels of Text Splitting](https://github.com/FullStackRetrieval-com/RetrievalTutorials/blob/main/tutorials/LevelsOfTextSplitting/5_Levels_Of_Text_Splitting.ipynb)
-
-
-### Related Blogs
-
-* [Building a RAG Chatbot GUI with the ChatGPT API and PyMuPDF](https://readmedium.com/building-a-rag-chatbot-gui-with-the-chatgpt-api-and-pymupdf-9ea8c7fc4ab5)
-* [Creating a RAG Chatbot with ChatGPT and PyMUPDF](https://readmedium.com/creating-a-rag-chatbot-with-chatgpt-and-pymupdf-f6c30907ae27)
-* [RAG/LLM and PDF: Enhanced Text Extraction](https://readmedium.com/rag-llm-and-pdf-enhanced-text-extraction-5c5194c3885c)
+1. “LangChain 文档” — <https://python.langchain.com/docs/introduction/>
+2. “LangGraph 概述” — <https://langchain-ai.github.io/langgraph/>
+3. “LangFlow GitHub 仓库” — [https://github.com/LangFlow/LangFlow](https://docs.langflow.org/)
+4. “LangSmith 介绍” — <https://www.langchain.com/langsmith>
+5. “如何使用 LangChain 构建聊天机器人” by JetBrains 博客 — <https://blog.jetbrains.com/pycharm/2024/08/how-to-build-chatbots-with-langchain/>
 

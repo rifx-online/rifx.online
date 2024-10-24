@@ -2,8 +2,8 @@
 title: "使用 GPT Vision 和 Langchain 从图像生成结构化数据"
 meta_title: "使用 GPT Vision 和 Langchain 从图像生成结构化数据"
 description: "在当今世界，视觉数据非常丰富，从图像中提取有意义信息的能力变得越来越重要……"
-date: 2024-10-23T11:52:52Z
-image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*swPjVuudAhsoRiiw3Ee32w.png"
+date: 2024-10-23T11:56:14Z
+image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*FPRRg85jYb7MrzXEpNWbmw.jpeg"
 categories: ["llm"]
 author: "Rifx.Online"
 tags: ["llm"]
@@ -15,153 +15,163 @@ draft: False
 
 
 
-### Data feeding in markdown text format increases generated text quality
+在当今这个视觉数据丰富的世界中，从图像中提取有意义信息的能力变得越来越重要。Langchain是一个强大的框架，用于构建大型语言模型（LLMs）应用程序，提供了一套多功能的工具来应对这一挑战。在本文中，我们将探讨如何使用Langchain从图像中提取结构化信息，例如计算人数和列出主要物体。
 
+在深入代码之前，让我们先了解一下任务的背景。想象一下你有一张场景的图像，比如城市街道。你的目标是从这张图像中提取有价值的信息，包括在场的人数和场景中的主要物体列表。
 
+## 关于 Langchain
 
+Langchain 是一个综合框架，允许开发者利用大型语言模型（LLMs）的强大功能构建复杂的应用程序。它提供了模块化和可扩展的架构，使开发者能够创建针对特定需求的自定义管道、代理和工作流。
 
-## Introduction
+Langchain 简化了 LLM 的集成，提供了处理各种数据源（包括文本、图像和结构化数据）的抽象和工具。它支持来自不同提供商的广泛 LLM，例如 OpenAI 和 Anthropic，使得在单个应用程序中轻松切换模型或组合多个模型变得简单。
 
-In the context of **Large Language Models (LLMs)** and **Retrieval-Augmented Generation (RAG)** environments, data feeding in **markdown text format** holds **significant importance**. Here are some detailed considerations.
+## 准备环境并设置 OpenAI API 密钥
 
-**LLMs** are powerful language models that can generate coherent and contextually relevant text. However, they may sometimes produce responses that lack factual accuracy or context. By incorporating retrieval-based methods (like RAG), we can enhance the quality of generated text.
+要跟随本教程，您需要安装 Langchain。您可以使用 pip 安装它：
 
-**RAG** enables the integration of **external data** — previously absent in the LLM’s training data — into the text generation process. This inclusion mitigates “hallucination issues’’ and enhances the relevance of text responses.
+```python
+pip install langchain langchain_openai
+```
+要在 Langchain 中使用 OpenAI 语言模型，您需要从 OpenAI 获取一个 API 密钥。如果您还没有 API 密钥，可以在 OpenAI 网站上注册一个 (<https://openai.com/api/>)。
 
+一旦您拥有了 API 密钥，可以将其设置为系统中的环境变量，或者直接在代码中提供。以下是如何将 API 密钥设置为环境变量的示例：
 
-## Why Markdown for LLM?
+```python
+export OPENAI_API_KEY="your_openai_api_key_here"
+```
+或者，您可以直接在 Python 代码中提供 API 密钥：
 
-**Markdown** is a lightweight markup language that allows users to format plain text using simple syntax. It is widely used for creating structured documents, especially on platforms like GitHub, Jupyter notebooks, and various content management systems. When feeding data into an LLM or RAG system, using markdown format provides several benefits:
+```python
+import os
+import langchain
+os.environ["OPENAI_API_KEY"] = "your_openai_api_key_here"
+```
+在设置好 API 密钥后，Langchain 将能够与 OpenAI API 进行身份验证并使用他们的语言模型。
 
-1. **Structured Content**: Markdown allows you to organize information into headings, lists, tables, and other structured elements. This structure aids in better understanding and context preservation.
-2. **Rich Text**: Markdown supports basic formatting such as bold, italics, links, and code blocks. Including rich text in the input data enhances the context for the language model.
-3. **Embedding Links and References**: Markdown lets you embed hyperlinks, footnotes, and references. In RAG scenarios, this can be crucial for referring to external sources or providing additional context.
-4. **Ease of Authoring**: Markdown is human-readable and easy to write. Authors can create content efficiently without complex formatting tools.
-5. **Chunking**: Essential for RAG systems, chunking (otherwise known as “splitting”) breaks down extensive documents for easier processing. With PyMuPDF data extraction available in MD format we support chunking to keep text with common context together. **Importantly, PyMuPDF extraction in MD format allows for [Level 3 chunking](https://readmedium.com/five-levels-of-chunking-strategies-in-rag-notes-from-gregs-video-7b735895694d#b123)**.
+## 加载和编码图像
 
-In summary, using markdown text format in LLM and RAG environments ensures more accurate and relevant results because it supplies richer data structures and more relevant data chunk loads to your LLM.
+在我们使用 Langchain 处理图像之前，我们需要从文件中加载图像数据，并将其编码为可以传递给语言模型的格式。下面的代码定义了一个函数 `load_image`，该函数接受一个包含 `image_path` 键的字典，并返回一个新的字典，其中 `image` 键包含编码为 base64 字符串的图像数据。
 
+```python
+def load_image(inputs: dict) -> dict:
+    """Load image from file and encode it as base64."""
+    image_path = inputs["image_path"]
+  
+    def encode_image(image_path):
+        with open(image_path, "rb") as image_file:
+            return base64.b64encode(image_file.read()).decode('utf-8')
+    image_base64 = encode_image(image_path)
+    return {"image": image_base64}
+```
+`load_image` 函数首先从输入字典中提取 `image_path`。然后，它定义了一个嵌套函数 `encode_image`，该函数以二进制模式打开图像文件，读取其内容，并使用 Python 标准库中的 `base64.b64encode` 函数将其编码为 base64 字符串。
 
-## PyMuPDF Support for Markdown Conversion of a PDF
+`load_image` 函数使用提供的 `image_path` 调用 `encode_image`，并将结果 base64 编码字符串存储在 `image_base64` 变量中。最后，它返回一个新的字典，其中 `image` 键设置为 `image_base64`。
 
-Since its inception, PyMuPDF has been able to extract text, images, vector graphics and, since August 2023, tables from PDF pages. Each of these object types has its own extraction method: there is one for text, and yet others for tables, images and vector graphics. To meet the requirements of RAG, we merged these disparate extractions to produce one common, unified **Markdown** string which consistently represents the page’s content as a whole.
+为了将此函数集成到 Langchain 流水线中，我们可以创建一个 `TransformChain`，该链接受 `image_path` 作为输入，并生成 `image`（base64 编码字符串）作为输出。
 
-All this is implemented as [one Python script](https://github.com/pymupdf/RAG/blob/main/helpers/pymupdf_rag.py). It can be imported as a module by some other script, or be invoked as a line command in a terminal window like this:
+```python
+load_image_chain = TransformChain(
+    input_variables=["image_path"],
+    output_variables=["image"],
+    transform=load_image
+)
+```
+通过这种设置，我们可以轻松地将图像加载和编码作为更大 Langchain 工作流的一部分，从而使我们能够使用大型语言模型处理视觉数据和文本。
 
-`$ python pymupdf_rag.py input.pdf [-pages PAGES]`
+## 定义输出结构
 
-It will produce a text file (called `input.md`) in **Markdown** format. The optional parameter `PAGES` allows restricting the conversion to a subset of the PDF’s total pages. If omitted, the full PDF is processed.
+在我们提取图像信息之前，需要定义我们希望接收的输出结构。在这种情况下，我们将创建一个名为 `ImageInformation` 的 Pydantic 模型，其中包括图像描述和我们可能想要提取的任何其他信息的字段。
 
+```python
+from langchain_core.pydantic_v1 import BaseModel, Field
 
-## Markdown Creation Details
+class ImageInformation(BaseModel):
+ """Information about an image."""
+ image_description: str = Field(description="a short description of the image")
+ people_count: int = Field(description="number of humans on the picture")
+ main_objects: list[str] = Field(description="list of the main objects on the picture")
+```
 
+## 设置图像模型
 
-### Selecting Pages to Consider
+接下来，我们将创建一个链，将图像加载和编码步骤与 LLM 调用步骤结合起来。由于 `ChatOpenAI` 模型在我的理解中并不具备同时处理文本和图像输入的能力，我们将创建一个包装链来实现这一功能。
 
-The “`-pages`” parameter is a string consisting of desired page numbers (1-based) to consider for markdown conversion. Multiple page number specifications can be given, separated by commas. Each specification either is one integer or two integers separated by a “`-`” hyphen, specifying a range of pages. Here is an example:
+```python
+from langchain.chains import TransformChain
+from langchain_core.messages import HumanMessage
+from langchain_openai import ChatOpenAI
+from langchain import globals
+from langchain_core.runnables import chain
 
-“`-pages 1–10,15,20-N`”
+## Set verbose
+globals.set_debug(True)
 
-This would include pages 1 through 10, 15 and pages 20 through the end of the file (capital “N” is treated as the number of the last page).
+@chain
+def image_model(inputs: dict) -> str | list[str] | dict:
+ """Invoke model with image and prompt."""
+ model = ChatOpenAI(temperature=0.5, model="gpt-4-vision-preview", max_tokens=1024)
+ msg = model.invoke(
+             [HumanMessage(
+             content=[
+             {"type": "text", "text": inputs["prompt"]},
+             {"type": "text", "text": parser.get_format_instructions()},
+             {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{inputs['image']}"}},
+             ])]
+             )
+ return msg.content
+```
+在这个代码片段中，我们定义了一个名为 `image_model` 的链，使用提供的提示、格式说明和图像调用 `ChatOpenAI` 模型。`image_model` 链接受一个包含提示和 base64 编码图像字符串的字典 `inputs`。
 
+在链内部，我们创建了一个 `HumanMessage` 对象，该对象结合了提示文本、格式说明和图像 URL，以数据 URI 格式化，包含 base64 编码的图像数据。然后，我们使用这个 `HumanMessage` 对象调用 `ChatOpenAI` 模型，使用专门为涉及文本和图像的多模态任务设计的 `gpt-4-vision-preview` 模型。
 
-### Identifying Headers
+该模型处理文本提示和图像，并返回输出。
 
-Upon invocation, the program examines all text on the given pages and finds the most frequently used font size. This value (and all smaller font sizes) is assumed to represent **body text**. Larger font sizes are assumed to represent **header text**.
+## 整合所有内容
 
-Depending on their relative position in the font size hierarchy, header text will be prefixed with one or more markdown header `#`-tag characters.
+现在我们已经拥有了所有必要的组件，我们可以定义一个函数来协调整个过程：
 
+```python
+from langchain_core.output_parsers import JsonOutputParser
 
-### Identifying the Processing Mode per Page Area
+parser = JsonOutputParser(pydantic_object=ImageInformation)
+def get_image_informations(image_path: str) -> dict:
+   vision_prompt = """
+   Given the image, provide the following information:
+   - A count of how many people are in the image
+   - A list of the main objects present in the image
+   - A description of the image
+   """
+   vision_chain = load_image_chain | image_model | parser
+   return vision_chain.invoke({'image_path': f'{image_path}', 
+                               'prompt': vision_prompt})
+```
+在这个函数中，我们定义了一个提示，要求LLM提供图像中人物的数量和主要物体的列表。然后，我们创建一个链，将图像加载步骤（`load\_image\_chain`）、LLM调用步骤（`image\_model`）和JSON输出解析器（`parser`）结合在一起。最后，我们用图像路径和提示调用这个链，函数返回一个包含提取信息的字典。
 
-All text on each page will first be classified as being either **standard** text or **table** text. Then the page content will be extracted from top to bottom converting everything to markdown format.
+## 示例用法
 
-This is best explained by an example:
-
-![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*u5fv2aAIvDaaAd6H.png)
-
-This page shows content, that represents typical situations:
-
-* Two tables, having partly overlapping vertical positions. One table has no headers, the other one has **external** column headers.
-* There is a **title** line and **headers** at multiple levels.
-* The **body text** contains a variety of styling details like **bold**, *italic* and `inline code`.
-* Ordered and unordered lists.
-* Code snippet.
-
-Layout analysis will determine three areas and select the appropriate processing modes: **(1)** text, **(2)** table, **(3)** text.
-
-The generated Markdown text reflects the above faithfully — as much as at all possible in this format.
-
-For an example, let us look at the output for the table with external headers:
+要使用此功能，只需提供图像文件的路径：
 
 
 ```python
-|Column1|Column2|
-
-|---|---|
-
-|Cell (0, 0)|Cell (0, 1)|
-
-|Cell (1, 0)|Cell (1, 1)|
-
-|Cell (2, 0)|Cell (2, 1)|
+result = get_image_informations("path/to/your/image.jpg")
+print(result)
 ```
-This is GitHub-compatible format with the minimum possible token size — an important aspect for keeping feeds into RAG systems small.
-
-**Column borders** are indicated by the “`|`” character. A text line is assumed to be a **table header** if it is followed by a line of the form “`|---|---| …`”. The full **table definition** must be preceded and followed by at least one empty line.
-
-Please note that for technical reasons markdown tables must have a header and thus will choose the first table row if no external header is available.
-
-To confirm overall fidelity, here is how a Markdown parser processes the full page:
-
-![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*Ge83uj7FiM4T6XFn)
-
-
-## Invoking the Markdown Converter Programmatically
-
-Instead of executing a program in the command line, Markdown conversion can also be requested by a program:
+这将输出一个包含请求信息的字典，例如：
 
 
 ```python
-import fitz
-from pymupdf_rag import to_markdown  # import Markdown converter
-
-doc = fitz.open(“input.pdf”)  # open input PDF
-
-## define desired pages: this corresponds “-pages 1-10,15,20-N”
-page_list = list(range(9)) + [14] + list(range(19, len(doc) – 1))
-
-## get markdown string for all pages
-md_text = to_markdown(doc, pages=page_list)
-
-## write markdown string to some file
-output = open(“out-markdown.md”, “w”)
-output.write(md_text)
-output.close()
+{
+ 'description': 'a view of a city showing cars waiting at a traffic light',
+ 'people_count': 5,
+ 'main_objects': ['car', 'building', 'traffic light', 'tree']
+}
 ```
 
-## Conclusion
+## 结论
 
-By integrating PyMuPDF’s extraction methods, the content of PDF pages will be faithfully converted to markdown text that can be used as input for RAG chatbots.
+Langchain 提供了强大的工具集，用于处理大型语言模型并从各种数据源（包括图像）中提取有价值的信息。通过将 Langchain 的功能与自定义提示和输出解析相结合，您可以创建强大的应用程序，从视觉数据中提取结构化信息。
 
-Remember, the key to a successful RAG chatbot lies in the quality and completeness of information it can access.
+请记住，输出的质量将取决于您使用的 LLM 的能力以及您提示的具体性。尝试不同的模型和提示，以找到最适合您用例的解决方案。
 
-PyMuPDF-enabled markdown extraction ensures that this information from PDFs is not only possible but straightforward, showcasing the library’s strength and developer-friendliness. Happy coding!
-
-
-### Source Code
-
-* [RAG/helpers/pymupdf\_rag.py (github.com)](https://github.com/pymupdf/RAG/blob/main/helpers/pymupdf_rag.py)
-
-
-### References
-
-* [5 Levels of Text Splitting](https://github.com/FullStackRetrieval-com/RetrievalTutorials/blob/main/tutorials/LevelsOfTextSplitting/5_Levels_Of_Text_Splitting.ipynb)
-
-
-### Related Blogs
-
-* [Building a RAG Chatbot GUI with the ChatGPT API and PyMuPDF](https://readmedium.com/building-a-rag-chatbot-gui-with-the-chatgpt-api-and-pymupdf-9ea8c7fc4ab5)
-* [Creating a RAG Chatbot with ChatGPT and PyMUPDF](https://readmedium.com/creating-a-rag-chatbot-with-chatgpt-and-pymupdf-f6c30907ae27)
-* [RAG/LLM and PDF: Enhanced Text Extraction](https://readmedium.com/rag-llm-and-pdf-enhanced-text-extraction-5c5194c3885c)
+如果您找到更好的方法来实现相同的结果或有改进建议，请随时在评论中分享。本文提供的代码示例旨在作为起点，可能还有其他方法或优化。
 

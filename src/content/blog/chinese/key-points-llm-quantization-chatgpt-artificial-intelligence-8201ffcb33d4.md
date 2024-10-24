@@ -2,8 +2,8 @@
 title: "解锁 LLM 量化的 5 个关键点"
 meta_title: "解锁 LLM 量化的 5 个关键点"
 description: "量化大型语言模型"
-date: 2024-10-23T11:48:53Z
-image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*swPjVuudAhsoRiiw3Ee32w.png"
+date: 2024-10-23T11:56:14Z
+image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*RUqPEr2NTYXlI1omqF22Qg.png"
 categories: ["large-language-models"]
 author: "Rifx.Online"
 tags: ["large-language-models"]
@@ -13,155 +13,108 @@ draft: False
 
 
 
+### 大型语言模型的量化
 
 
-### Data feeding in markdown text format increases generated text quality
 
+LLM量化目前是一个热门话题，因为它在提高大型语言模型（LLMs）的效率和在各种硬件平台（包括消费级设备）上部署方面发挥着至关重要的作用。
 
+通过调整模型中某些组件的精度，**量化显著减少了模型的内存占用**，同时保持相似的性能水平。
 
+在本指南中，我们将探讨LLM量化的五个关键方面，包括将此技术应用于我们模型的一些实用步骤。
 
-## Introduction
+## #1. 理解量化
 
-In the context of **Large Language Models (LLMs)** and **Retrieval-Augmented Generation (RAG)** environments, data feeding in **markdown text format** holds **significant importance**. Here are some detailed considerations.
+量化是一种模型压缩技术，通过降低 LLM 中权重和激活的精度来实现。这涉及将高精度值转换为低精度值，实际上是**将存储更多信息的数据类型更改为存储更少信息的数据类型**。
 
-**LLMs** are powerful language models that can generate coherent and contextually relevant text. However, they may sometimes produce responses that lack factual accuracy or context. By incorporating retrieval-based methods (like RAG), we can enhance the quality of generated text.
+减少每个权重或激活所需的位数显著降低了整体模型大小。因此，**量化创建了使用更少内存和需要更少存储空间的 LLM。**
 
-**RAG** enables the integration of **external data** — previously absent in the LLM’s training data — into the text generation process. This inclusion mitigates “hallucination issues’’ and enhances the relevance of text responses.
+这一技术在应对 LLM 连续迭代中参数数量的指数增长时变得至关重要。例如，在 OpenAI 的 GPT 系列中，我们可以在以下图表中观察到这一增长趋势：
 
+![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*QlAhma3Wu1F6w2WvkE8jDA.png)
 
-## Why Markdown for LLM?
+这一显著增加带来了挑战：随着模型的增长，它们的内存需求往往超过先进硬件加速器（如 GPU）的容量。**这需要分布式训练和推理来管理这些模型，从而限制了它们的可部署性。**
 
-**Markdown** is a lightweight markup language that allows users to format plain text using simple syntax. It is widely used for creating structured documents, especially on platforms like GitHub, Jupyter notebooks, and various content management systems. When feeding data into an LLM or RAG system, using markdown format provides several benefits:
+## #2. 量化背后的直觉
 
-1. **Structured Content**: Markdown allows you to organize information into headings, lists, tables, and other structured elements. This structure aids in better understanding and context preservation.
-2. **Rich Text**: Markdown supports basic formatting such as bold, italics, links, and code blocks. Including rich text in the input data enhances the context for the language model.
-3. **Embedding Links and References**: Markdown lets you embed hyperlinks, footnotes, and references. In RAG scenarios, this can be crucial for referring to external sources or providing additional context.
-4. **Ease of Authoring**: Markdown is human-readable and easy to write. Authors can create content efficiently without complex formatting tools.
-5. **Chunking**: Essential for RAG systems, chunking (otherwise known as “splitting”) breaks down extensive documents for easier processing. With PyMuPDF data extraction available in MD format we support chunking to keep text with common context together. **Importantly, PyMuPDF extraction in MD format allows for [Level 3 chunking](https://readmedium.com/five-levels-of-chunking-strategies-in-rag-notes-from-gregs-video-7b735895694d#b123)**.
+尽管量化的定义看起来相当复杂，但这个概念可以通过矩阵直观地解释。
 
-In summary, using markdown text format in LLM and RAG environments ensures more accurate and relevant results because it supplies richer data structures and more relevant data chunk loads to your LLM.
+让我们考虑以下一个 3x3 矩阵，表示神经网络的权重。左侧的矩阵显示了原始权重，而右侧的矩阵显示了这些权重的量化版本：
 
+![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*LPzWe9oxjlDYdSp7dVvRUg.png)
 
-## PyMuPDF Support for Markdown Conversion of a PDF
+在这个简单的例子中，我们将原始矩阵的元素从四位小数四舍五入到一位小数。尽管矩阵看起来相似，**但四位小数版本所需的存储空间显著更高**。
 
-Since its inception, PyMuPDF has been able to extract text, images, vector graphics and, since August 2023, tables from PDF pages. Each of these object types has its own extraction method: there is one for text, and yet others for tables, images and vector graphics. To meet the requirements of RAG, we merged these disparate extractions to produce one common, unified **Markdown** string which consistently represents the page’s content as a whole.
+在实践中，量化不仅仅是一个四舍五入操作。相反，它涉及将数值转换为不同的数据类型，通常是从更高精度转换为更低精度。
 
-All this is implemented as [one Python script](https://github.com/pymupdf/RAG/blob/main/helpers/pymupdf_rag.py). It can be imported as a module by some other script, or be invoked as a line command in a terminal window like this:
+例如，大多数模型的默认数据类型是 `float32`，每个参数需要 4 字节（32 位）。因此，对于一个 3x3 矩阵，总内存占用为 36 字节。将数据类型更改为 `int8`，每个参数只需要 1 字节，从而将矩阵的总内存占用减少到仅 9 字节。
 
-`$ python pymupdf_rag.py input.pdf [-pages PAGES]`
+## #3. 量化误差
 
-It will produce a text file (called `input.md`) in **Markdown** format. The optional parameter `PAGES` allows restricting the conversion to a subset of the PDF’s total pages. If omitted, the full PDF is processed.
+正如我们所看到的，原始矩阵及其量化形式并不完全相等，但非常相似。逐值之间的差异被称为“量化误差”，我们也可以用矩阵形式表示：
 
+![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*VtGDjVbr7daagLXB57i7Mg.png)
 
-## Markdown Creation Details
+**这种量化误差可以在网络中的每个权重矩阵中累积，从而影响模型的性能。**
 
+当前的量化研究旨在最小化精度差异，同时减少训练或推理模型所需的计算资源，同时保持可接受的性能水平。
 
-### Selecting Pages to Consider
+## #4. 线性量化
 
-The “`-pages`” parameter is a string consisting of desired page numbers (1-based) to consider for markdown conversion. Multiple page number specifications can be given, separated by commas. Each specification either is one integer or two integers separated by a “`-`” hyphen, specifying a range of pages. Here is an example:
+线性量化是 LLMs 中最流行的量化方案之一。简单来说，它涉及将原始权重的浮点值范围映射到固定点值范围。
 
-“`-pages 1–10,15,20-N`”
+让我们回顾一下将线性量化应用于我们的模型所需的步骤：
 
-This would include pages 1 through 10, 15 and pages 20 through the end of the file (capital “N” is treated as the number of the last page).
+* **获取最小和最大范围：** 我们需要获取待量化的浮点权重的最小值和最大值（`x_min` 和 `x_max`）。我们还需要定义量化范围（`q_min` 和 `q_max`），该范围已经由我们想要转换的数据类型设置。
+* **计算缩放因子（`s`）和零点（`z`）值：** 首先，缩放因子（`s`）将浮点值的范围调整到适合整数范围，保持数据分布和范围。其次，零点（`z`）确保浮点范围内的零被准确地表示为整数，从而保持数值的准确性和稳定性，特别是对于接近零的值。
 
+![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*BepC6-izw0yE19ejsS705Q.png)
 
-### Identifying Headers
+* **量化值（`q`）：** 我们需要使用在前一步计算的缩放因子（`s`）和零点（`z`）将原始浮点值映射到整数范围。
 
-Upon invocation, the program examines all text on the given pages and finds the most frequently used font size. This value (and all smaller font sizes) is assumed to represent **body text**. Larger font sizes are assumed to represent **header text**.
+![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*BBOQ0VbSGbwf7CN8c4PWKQ.png)
 
-Depending on their relative position in the font size hierarchy, header text will be prefixed with one or more markdown header `#`-tag characters.
+应用这些公式相当简单。如果我们将它们应用于下图左侧的 3x3 权重张量，我们将得到右侧所示的量化矩阵：
 
+![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*KzBvg84mfI2gAhTIyVibwQ.png)
 
-### Identifying the Processing Mode per Page Area
+我们可以看到，`int8` 值的下限对应于原始张量的下限，而上限对应于原始张量的上限，*即，映射为 `0.50 → 255` 和 `-0.40 → 0`。*
 
-All text on each page will first be classified as being either **standard** text or **table** text. Then the page content will be extracted from top to bottom converting everything to markdown format.
+我们现在可以使用下面的公式对值进行反量化。
 
-This is best explained by an example:
+![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*E5nnqYzncYCRuM5prssuOw.png)
 
-![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*u5fv2aAIvDaaAd6H.png)
+如果我们将反量化后的值再次放入矩阵形式（左侧矩阵），我们可以通过计算原始矩阵与其反量化版本之间逐点差异来计算量化误差（右侧矩阵）：
 
-This page shows content, that represents typical situations:
+![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*56NALu9PAN95QG2hn8HXoQ.png)
 
-* Two tables, having partly overlapping vertical positions. One table has no headers, the other one has **external** column headers.
-* There is a **title** line and **headers** at multiple levels.
-* The **body text** contains a variety of styling details like **bold**, *italic* and `inline code`.
-* Ordered and unordered lists.
-* Code snippet.
+正如我们所观察到的，量化误差开始在某些矩阵值中显现。
 
-Layout analysis will determine three areas and select the appropriate processing modes: **(1)** text, **(2)** table, **(3)** text.
+## #5. 权重量化与激活量化
 
-The generated Markdown text reflects the above faithfully — as much as at all possible in this format.
+在上面的例子中，我们主要关注于量化模型的权重。虽然权重量化对于模型优化至关重要，但考虑到激活也可以进行量化同样重要。
 
-For an example, let us look at the output for the table with external headers:
+**激活量化涉及减少网络中每层的中间输出的精度**。与权重在模型训练后保持不变不同，激活是动态的，并且随着每个输入而变化，使其范围更难预测。
 
+一般而言，激活量化比权重量化更具挑战性，因为它需要仔细校准以确保准确捕捉激活的动态范围。
 
-```python
-|Column1|Column2|
+权重量化和激活量化是互补的技术。两者结合使用可以显著减少模型大小，而不会大幅影响性能。
 
-|---|---|
+## 最后的思考
 
-|Cell (0, 0)|Cell (0, 1)|
+在本文中，我们回顾了关于量化的5个关键点，以更好地理解如何减小这些不断增长的模型的大小。
 
-|Cell (1, 0)|Cell (1, 1)|
+至于这些技术的实现，Python中有几个支持量化的工具和库，例如`pytorch`和`tensorflow`。然而，在现有模型中无缝集成量化需要对库和模型内部结构有深入的理解。
 
-|Cell (2, 0)|Cell (2, 1)|
-```
-This is GitHub-compatible format with the minimum possible token size — an important aspect for keeping feeds into RAG systems small.
+这就是为什么到目前为止，我最喜欢的简单步骤实现量化的选项是Hugging Face的[Quanto](https://huggingface.co/blog/quanto-introduction)库，旨在简化PyTorch模型的量化过程。
 
-**Column borders** are indicated by the “`|`” character. A text line is assumed to be a **table header** if it is followed by a line of the form “`|---|---| …`”. The full **table definition** must be preceded and followed by at least one empty line.
+如果你对LLM量化的深入内容以及如何使用上述库感兴趣，你可能还会对文章[“大型语言模型（LLMs）的量化：有效减少AI模型大小”](https://www.datacamp.com/tutorial/quantization-for-large-language-models)感兴趣。
 
-Please note that for technical reasons markdown tables must have a header and thus will choose the first table row if no external header is available.
+就这些！非常感谢你的阅读！
 
-To confirm overall fidelity, here is how a Markdown parser processes the full page:
+我希望这篇文章能在**使用LLMs进行编码时**对你有所帮助！
 
-![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*Ge83uj7FiM4T6XFn)
+你也可以订阅我的[**时事通讯**](https://readmedium.com/@andvalenzuela/subscribe)，以便及时获取新内容。
 
-
-## Invoking the Markdown Converter Programmatically
-
-Instead of executing a program in the command line, Markdown conversion can also be requested by a program:
-
-
-```python
-import fitz
-from pymupdf_rag import to_markdown  # import Markdown converter
-
-doc = fitz.open(“input.pdf”)  # open input PDF
-
-## define desired pages: this corresponds “-pages 1-10,15,20-N”
-page_list = list(range(9)) + [14] + list(range(19, len(doc) – 1))
-
-## get markdown string for all pages
-md_text = to_markdown(doc, pages=page_list)
-
-## write markdown string to some file
-output = open(“out-markdown.md”, “w”)
-output.write(md_text)
-output.close()
-```
-
-## Conclusion
-
-By integrating PyMuPDF’s extraction methods, the content of PDF pages will be faithfully converted to markdown text that can be used as input for RAG chatbots.
-
-Remember, the key to a successful RAG chatbot lies in the quality and completeness of information it can access.
-
-PyMuPDF-enabled markdown extraction ensures that this information from PDFs is not only possible but straightforward, showcasing the library’s strength and developer-friendliness. Happy coding!
-
-
-### Source Code
-
-* [RAG/helpers/pymupdf\_rag.py (github.com)](https://github.com/pymupdf/RAG/blob/main/helpers/pymupdf_rag.py)
-
-
-### References
-
-* [5 Levels of Text Splitting](https://github.com/FullStackRetrieval-com/RetrievalTutorials/blob/main/tutorials/LevelsOfTextSplitting/5_Levels_Of_Text_Splitting.ipynb)
-
-
-### Related Blogs
-
-* [Building a RAG Chatbot GUI with the ChatGPT API and PyMuPDF](https://readmedium.com/building-a-rag-chatbot-gui-with-the-chatgpt-api-and-pymupdf-9ea8c7fc4ab5)
-* [Creating a RAG Chatbot with ChatGPT and PyMUPDF](https://readmedium.com/creating-a-rag-chatbot-with-chatgpt-and-pymupdf-f6c30907ae27)
-* [RAG/LLM and PDF: Enhanced Text Extraction](https://readmedium.com/rag-llm-and-pdf-enhanced-text-extraction-5c5194c3885c)
+**特别是**，**如果你对有关大型语言模型和ChatGPT的文章感兴趣**：
 
