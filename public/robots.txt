@@ -2,3 +2,6 @@ User-agent: *
 Allow: /
 
 Disallow: /api/*
+
+
+Sitemap: https://rifx.online/sitemap-index.xml
