@@ -14,18 +14,12 @@ import ModelCard from "@/components/ModelCard.astro";
 export const prerender = true;
 
 export function getStaticPaths() {
-  return supportedLang.map((lang) => ({
+  const paths = supportedLang.map((lang) => ({
     params: { lang: lang || undefined },
   }));
+  return paths;
 }
-
-// 确保只在实际的索引页面上运行这段代码
 const { lang } = Astro.params;
-
-if (Astro.url.pathname.split('/').length > 3) {
-  return Astro.redirect('/404');
-}
-
 const MODELS_FOLDER = "models";
 const postIndex = await getListPage(
   MODELS_FOLDER,
@@ -34,15 +28,12 @@ const postIndex = await getListPage(
 const langCollection: keyof ContentEntryMap = lang as keyof ContentEntryMap;
 const posts = await getSinglePage(MODELS_FOLDER, lang as keyof ContentEntryMap);
 
-
-
 const allCategories = await getAllTaxonomy(langCollection, "categories", "models");
 const categories = await getTaxonomy(langCollection, "categories", "models");
 const tags = await getTaxonomy(langCollection, "tags", "models");
 const sortedPosts = sortByDate(posts);
 const totalPages: number = Math.ceil(posts.length / config.settings.pagination);
 const currentPosts = sortedPosts.slice(0, config.settings.pagination);
-
 ---
 
 <Base
