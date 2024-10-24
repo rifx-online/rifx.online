@@ -29,6 +29,12 @@ export default defineConfig({
   i18n: {
     locales: filteredSupportedLang,
     defaultLocale: default_language,
+    fallback: {
+      zh: "en",
+    },
+    routing: {
+      fallbackType: "rewrite",
+    }
   },
   output: 'hybrid',
   // experimental: {
