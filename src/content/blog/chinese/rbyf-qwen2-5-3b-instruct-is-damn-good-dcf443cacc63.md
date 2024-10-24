@@ -2,11 +2,11 @@
 title: "RBYF：Qwen2.5–3B-instruct 非常棒。"
 meta_title: "RBYF：Qwen2.5–3B-instruct 非常棒。"
 description: "修改后的基准测试并附上您的反馈：阿里巴巴Qwen的全新3B模型是一个了不起的模型，我可以证明这一点！"
-date: 2024-10-24T04:23:55Z
+date: 2024-10-24T17:47:43Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*NWaBtJ64TLUoUHv4F1qJpg.png"
-categories: ["query"]
+categories: ["Programming", "Technology", "Science"]
 author: "Rifx.Online"
-tags: ["query"]
+tags: ["Qwen", "NLP", "multimodal", "RBYF", "evaluation"]
 draft: False
 
 ---

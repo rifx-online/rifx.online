@@ -2,11 +2,11 @@
 title: "在软件应用程序中使用 AutoGen 的实用指南"
 meta_title: "在软件应用程序中使用 AutoGen 的实用指南"
 description: "更新：虽然这篇文章是 4 个月前写的，但 AutoGen 已经发生了很大变化。对于可能存在的一些问题，我深表歉意……"
-date: 2024-10-23T11:56:14Z
+date: 2024-10-24T17:47:43Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*yrraWH6aGNnbx8p-wfQ1OQ.jpeg"
-categories: ["llm"]
+categories: ["Programming", "Chatbots", "Autonomous Systems"]
 author: "Rifx.Online"
-tags: ["llm"]
+tags: ["AutoGen", "multi-agent", "LLMs", "customization", "collaboration"]
 draft: False
 
 ---

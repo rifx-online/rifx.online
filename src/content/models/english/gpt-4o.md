@@ -6,7 +6,7 @@ date: 2024-05-13T00:00:00Z
 image: "https://img.rifx.online/logo/openai.svg"
 categories: ["text image 2 text"]
 author: "openai"
-tags: ["Programming", "Programming/Scripting", "Technology/Web", "Technology"]
+tags: ["Programming", "Natural Language Processing", "Machine Learning", "Generative AI", "Computer Vision"]
 draft: False
 
 id: "gpt-4o"

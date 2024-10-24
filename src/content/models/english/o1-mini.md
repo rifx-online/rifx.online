@@ -6,7 +6,7 @@ date: 2024-09-12T00:00:00Z
 image: "https://img.rifx.online/logo/openai.svg"
 categories: ["text 2 text"]
 author: "openai"
-tags: ["openai"]
+tags: ["Programming", "Science", "Natural Language Processing", "Machine Learning", "Data Science"]
 draft: False
 
 id: "o1-mini"

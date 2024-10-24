@@ -2,11 +2,11 @@
 title: "使用 GPT Vision 和 Langchain 从图像生成结构化数据"
 meta_title: "使用 GPT Vision 和 Langchain 从图像生成结构化数据"
 description: "在当今世界，视觉数据非常丰富，从图像中提取有意义信息的能力变得越来越重要……"
-date: 2024-10-23T11:56:14Z
+date: 2024-10-24T17:47:43Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*FPRRg85jYb7MrzXEpNWbmw.jpeg"
-categories: ["llm"]
+categories: ["Programming", "Computer Vision", "Natural Language Processing"]
 author: "Rifx.Online"
-tags: ["llm"]
+tags: ["Langchain", "GPT", "vision", "LLMs", "structured"]
 draft: False
 
 ---

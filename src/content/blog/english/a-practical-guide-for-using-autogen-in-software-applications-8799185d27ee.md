@@ -2,11 +2,11 @@
 title: "A practical guide for using AutoGen in software applications"
 meta_title: "A practical guide for using AutoGen in software applications"
 description: "Update: While this article was written only 4 months ago, AutoGen has since changed quite a bit. I apologize for some things that may be…"
-date: 2024-10-23T11:51:51Z
+date: 2024-10-24T17:47:43Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*yrraWH6aGNnbx8p-wfQ1OQ.jpeg"
-categories: ["llm"]
+categories: ["Programming", "Chatbots", "Autonomous Systems"]
 author: "Rifx.Online"
-tags: ["llm"]
+tags: ["AutoGen", "multi-agent", "LLMs", "customization", "collaboration"]
 draft: False
 
 ---

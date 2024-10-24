@@ -6,7 +6,7 @@ date: 2024-07-16T00:00:00Z
 image: "https://img.rifx.online/logo/qwen.svg"
 categories: ["text 2 text"]
 author: "qwen"
-tags: ["qwen"]
+tags: ["Natural Language Processing", "Programming", "Machine Learning", "Data Science", "Ethics"]
 draft: False
 
 id: "qwen-2-7b-instruct"

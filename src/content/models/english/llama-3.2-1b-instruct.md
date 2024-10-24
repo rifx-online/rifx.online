@@ -6,7 +6,7 @@ date: 2024-09-25T00:00:00Z
 image: "https://img.rifx.online/logo/meta.svg"
 categories: ["text 2 text"]
 author: "meta-llama"
-tags: ["meta-llama"]
+tags: ["Natural Language Processing", "Programming", "Technology", "Machine Learning", "Generative AI"]
 draft: False
 
 id: "llama-3.2-1b-instruct"

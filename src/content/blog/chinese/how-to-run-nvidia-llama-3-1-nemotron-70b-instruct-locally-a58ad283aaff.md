@@ -2,11 +2,11 @@
 title: "如何在本地运行 Nvidia 的 llama-3.1-nemotron-70b-instruct"
 meta_title: "如何在本地运行 Nvidia 的 llama-3.1-nemotron-70b-instruct"
 description: "在本地运行大型语言模型 (LLM) 在开发人员、研究人员和 AI 爱好者中越来越受欢迎。其中之一就是……"
-date: 2024-10-23T11:56:14Z
+date: 2024-10-24T17:47:43Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*fqVKJkw5sQvLtIsyCcengQ.png"
-categories: ["large-language-models"]
+categories: ["Programming", "Technology", "Science"]
 author: "Rifx.Online"
-tags: ["large-language-models"]
+tags: ["Nvidia", "llama", "Ollama", "llama.cpp", "Transformers"]
 draft: False
 
 ---

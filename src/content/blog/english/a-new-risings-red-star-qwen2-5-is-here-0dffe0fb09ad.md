@@ -2,11 +2,11 @@
 title: "A new risings Red star: Qwen2.5 is here"
 meta_title: "A new risings Red star: Qwen2.5 is here"
 description: "Let’s test together the new born Alibaba Cloud’s generative AI Qwen2.5 with python and llama-cpp"
-date: 2024-10-24T04:26:45Z
+date: 2024-10-24T17:47:43Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*zU-XtqK2oMLkvscgxavjdw.png"
-categories: ["query"]
+categories: ["Programming", "Technology", "Education"]
 author: "Rifx.Online"
-tags: ["query"]
+tags: ["Qwen2.5", "multimodal", "instruction-following", "text-generation", "multilingual"]
 draft: False
 
 ---

@@ -2,11 +2,11 @@
 title: "新崛起红星：Qwen2.5来了"
 meta_title: "新崛起红星：Qwen2.5来了"
 description: "一起用python和llama-cpp测试一下阿里云新生的生成式AI Qwen2.5"
-date: 2024-10-24T04:26:45Z
+date: 2024-10-24T17:47:43Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*zU-XtqK2oMLkvscgxavjdw.png"
-categories: ["query"]
+categories: ["Programming", "Technology", "Education"]
 author: "Rifx.Online"
-tags: ["query"]
+tags: ["Qwen2.5", "multimodal", "instruction-following", "text-generation", "multilingual"]
 draft: False
 
 ---

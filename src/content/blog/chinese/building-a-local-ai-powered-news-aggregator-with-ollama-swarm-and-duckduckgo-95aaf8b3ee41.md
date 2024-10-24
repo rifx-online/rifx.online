@@ -2,11 +2,11 @@
 title: "使用 Ollama、Swarm 和 DuckDuckGo 构建本地 AI 新闻聚合器"
 meta_title: "使用 Ollama、Swarm 和 DuckDuckGo 构建本地 AI 新闻聚合器"
 description: "没有提供字幕"
-date: 2024-10-23T10:49:58Z
+date: 2024-10-24T17:47:43Z
 image: "https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*OHMOTk_WYGOxWHBsKqdpNQ.jpeg"
-categories: ["agents"]
+categories: ["Programming", "Generative AI", "Technology/Web"]
 author: "Rifx.Online"
-tags: ["agents"]
+tags: ["Llama", "Swarm", "DuckDuckGo", "News", "Aggregator"]
 draft: False
 
 ---

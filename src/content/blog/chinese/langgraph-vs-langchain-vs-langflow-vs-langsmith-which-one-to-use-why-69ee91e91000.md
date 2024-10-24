@@ -2,11 +2,11 @@
 title: "LangGraph、LangChain、LangFlow、LangSmith：使用哪一个以及为什么？"
 meta_title: "LangGraph、LangChain、LangFlow、LangSmith：使用哪一个以及为什么？"
 description: "了解 LangGraph、LangChain、LangFlow 和 LangSmith 之间的主要区别，并了解哪种框架最适合您的……"
-date: 2024-10-23T11:56:14Z
+date: 2024-10-24T17:47:43Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*xrWv1QVt4zE5cxjA8VA3ag.png"
-categories: ["agents"]
+categories: ["Programming", "Technology", "Technology/Web"]
 author: "Rifx.Online"
-tags: ["agents"]
+tags: ["LangGraph", "LangChain", "LangFlow", "LangSmith", "frameworks"]
 draft: False
 
 ---

@@ -2,11 +2,11 @@
 title: "Generating structured data from an image with GPT vision and Langchain"
 meta_title: "Generating structured data from an image with GPT vision and Langchain"
 description: "In today’s world, where visual data is abundant, the ability to extract meaningful information from images is becoming increasingly…"
-date: 2024-10-23T11:52:52Z
+date: 2024-10-24T17:47:43Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*FPRRg85jYb7MrzXEpNWbmw.jpeg"
-categories: ["llm"]
+categories: ["Programming", "Computer Vision", "Natural Language Processing"]
 author: "Rifx.Online"
-tags: ["llm"]
+tags: ["Langchain", "GPT", "vision", "LLMs", "structured"]
 draft: False
 
 ---

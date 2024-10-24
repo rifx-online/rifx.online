@@ -2,11 +2,11 @@
 title: "RAG/LLM and PDF: Conversion to Markdown Text with PyMuPDF"
 meta_title: "RAG/LLM and PDF: Conversion to Markdown Text with PyMuPDF"
 description: "Data feeding in markdown text format increases generated text quality"
-date: 2024-10-23T11:53:52Z
+date: 2024-10-24T17:47:43Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*swPjVuudAhsoRiiw3Ee32w.png"
-categories: ["llm"]
+categories: ["Programming", "Technology", "Technology/Web"]
 author: "Rifx.Online"
-tags: ["llm"]
+tags: ["markdown", "PyMuPDF", "LLM", "RAG", "PDF"]
 draft: False
 
 ---

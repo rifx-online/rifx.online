@@ -6,7 +6,7 @@ date: 2024-04-09T00:00:00Z
 image: "https://img.rifx.online/logo/google.svg"
 categories: ["text image 2 text"]
 author: "google"
-tags: ["google"]
+tags: ["Programming", "Natural Language Processing", "Machine Learning", "Generative AI", "Chatbots"]
 draft: False
 
 id: "gemini-pro-1.5"

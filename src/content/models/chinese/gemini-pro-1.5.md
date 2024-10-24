@@ -6,7 +6,7 @@ date: 2024-04-09T00:00:00Z
 image: "https://img.rifx.online/logo/google.svg"
 categories: ["text image 2 text"]
 author: "google"
-tags: ["google"]
+tags: ["Programming", "Natural Language Processing", "Machine Learning", "Generative AI", "Chatbots"]
 draft: False
 
 id: "gemini-pro-1.5"
@@ -19,7 +19,7 @@ request: 0
 
 谷歌最新的多模态模型，支持在文本或聊天提示中使用图像和视频。
 
-针对语言任务进行了优化，包括：
+针对以下语言任务进行了优化：
 
 - 代码生成
 - 文本生成
@@ -30,7 +30,7 @@ request: 0
 - 数据提取或生成
 - AI代理
 
-Gemini的使用受限于谷歌的[Gemini使用条款](https://ai.google.dev/terms)。
+使用Gemini需遵循谷歌的[Gemini使用条款](https://ai.google.dev/terms)。
 
 #multimodal
 

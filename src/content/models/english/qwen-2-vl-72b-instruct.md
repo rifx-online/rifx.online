@@ -6,7 +6,7 @@ date: 2024-09-18T00:00:00Z
 image: "https://img.rifx.online/logo/qwen.svg"
 categories: ["text image 2 text"]
 author: "qwen"
-tags: ["qwen"]
+tags: ["Natural Language Processing", "Computer Vision", "Robotics", "Machine Learning"]
 draft: False
 
 id: "qwen-2-vl-72b-instruct"

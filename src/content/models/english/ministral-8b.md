@@ -6,7 +6,7 @@ date: 2024-10-17T00:00:00Z
 image: "https://img.rifx.online/logo/mistral.png"
 categories: ["text 2 text"]
 author: "mistralai"
-tags: ["mistralai"]
+tags: ["Technology", "Machine Learning", "Data Science", "Generative AI", "Ethics"]
 draft: False
 
 id: "ministral-8b"

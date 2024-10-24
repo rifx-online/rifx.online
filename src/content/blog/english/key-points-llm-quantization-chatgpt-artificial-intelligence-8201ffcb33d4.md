@@ -2,11 +2,11 @@
 title: "5 Key Points to Unlock LLM Quantization"
 meta_title: "5 Key Points to Unlock LLM Quantization"
 description: "Quantizing Large Language Models"
-date: 2024-10-23T11:48:53Z
+date: 2024-10-24T17:47:43Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*RUqPEr2NTYXlI1omqF22Qg.png"
-categories: ["large-language-models"]
+categories: ["Machine Learning", "Data Science", "Technology/Web"]
 author: "Rifx.Online"
-tags: ["large-language-models"]
+tags: ["quantization", "weights", "activations", "calibration", "Quanto"]
 draft: False
 
 ---

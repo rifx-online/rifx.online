@@ -2,11 +2,11 @@
 title: "Explore Swarm Multi-Agent Framework Locally"
 meta_title: "Explore Swarm Multi-Agent Framework Locally"
 description: "Swarm is an experimental sample framework to simulate lightweight multi-agent framework for educational purpose. Usually it works with Open…"
-date: 2024-10-23T11:46:57Z
+date: 2024-10-24T17:47:43Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*0ZVceq32bvkytC7HSIgmwA.png"
-categories: ["agents"]
+categories: ["Programming", "Technology", "Education"]
 author: "Rifx.Online"
-tags: ["agents"]
+tags: ["Swarm", "Multi-Agent", "Framework", "OpenAI", "Ollama"]
 draft: False
 
 ---

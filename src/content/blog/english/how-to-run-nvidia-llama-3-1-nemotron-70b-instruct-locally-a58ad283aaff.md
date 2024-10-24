@@ -2,11 +2,11 @@
 title: "How to Run Nvidia’ llama-3.1-nemotron-70b-instruct Locally"
 meta_title: "How to Run Nvidia’ llama-3.1-nemotron-70b-instruct Locally"
 description: "Running large language models (LLMs) locally has become increasingly popular among developers, researchers, and AI enthusiasts. One such…"
-date: 2024-10-23T11:49:51Z
+date: 2024-10-24T17:47:43Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*fqVKJkw5sQvLtIsyCcengQ.png"
-categories: ["large-language-models"]
+categories: ["Programming", "Technology", "Science"]
 author: "Rifx.Online"
-tags: ["large-language-models"]
+tags: ["Nvidia", "llama", "Ollama", "llama.cpp", "Transformers"]
 draft: False
 
 ---

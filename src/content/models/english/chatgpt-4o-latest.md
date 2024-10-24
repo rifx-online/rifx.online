@@ -6,7 +6,7 @@ date: 2024-08-14T00:00:00Z
 image: "https://img.rifx.online/logo/openai.svg"
 categories: ["text image 2 text"]
 author: "openai"
-tags: ["openai"]
+tags: ["Chatbots", "Generative AI", "Machine Learning", "Natural Language Processing"]
 draft: False
 
 id: "chatgpt-4o-latest"

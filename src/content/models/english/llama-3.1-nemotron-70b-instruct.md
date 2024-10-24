@@ -6,7 +6,7 @@ date: 2024-10-15T00:00:00Z
 image: "https://img.rifx.online/logo/nvidia.svg"
 categories: ["text 2 text"]
 author: "nvidia"
-tags: ["nvidia"]
+tags: ["Programming", "Natural Language Processing", "Machine Learning", "Generative AI", "Ethics"]
 draft: False
 
 id: "llama-3.1-nemotron-70b-instruct"

@@ -2,11 +2,11 @@
 title: "6 种最佳本地运行模型的 LLM 工具"
 meta_title: "6 种最佳本地运行模型的 LLM 工具"
 description: "运行大型语言模型 (LLM)（例如 ChatGPT 和 Claude）通常涉及将数据发送到由 OpenAI 和其他 AI 模型管理的服务器……"
-date: 2024-10-23T11:56:14Z
+date: 2024-10-24T17:47:43Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*2MB6-INUUGLR0NR_iOACIg.jpeg"
-categories: ["ai"]
+categories: ["Technology", "Programming", "Health"]
 author: "Rifx.Online"
-tags: ["ai"]
+tags: ["LLM", "local", "deployment", "customization", "telehealth"]
 draft: False
 
 ---

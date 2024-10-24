@@ -2,11 +2,11 @@
 title: "Qwen2.5 1.5b: the future of Mobile AI?"
 meta_title: "Qwen2.5 1.5b: the future of Mobile AI?"
 description: "Local Testing and Evaluation of Alibaba Cloud’s Latest LLM. With llama-cpp-python and a DIY prompt catalog."
-date: 2024-10-24T04:25:22Z
+date: 2024-10-24T17:47:43Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*awb56jkdXobA-Ip6d-QHRA.png"
-categories: ["query"]
+categories: ["Programming", "Technology", "Science"]
 author: "Rifx.Online"
-tags: ["query"]
+tags: ["Qwen2.5", "summarization", "retrieval", "mobile", "improvements"]
 draft: False
 
 ---

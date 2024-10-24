@@ -2,11 +2,11 @@
 title: "本地探索 Swarm 多智能体框架"
 meta_title: "本地探索 Swarm 多智能体框架"
 description: "Swarm 是一个实验性示例框架，用于模拟轻量级多代理框架，用于教育目的。通常它与 Open… 配合使用"
-date: 2024-10-23T11:56:14Z
+date: 2024-10-24T17:47:43Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*0ZVceq32bvkytC7HSIgmwA.png"
-categories: ["agents"]
+categories: ["Programming", "Technology", "Education"]
 author: "Rifx.Online"
-tags: ["agents"]
+tags: ["Swarm", "Multi-Agent", "Framework", "OpenAI", "Ollama"]
 draft: False
 
 ---

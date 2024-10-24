@@ -6,7 +6,7 @@ date: 2024-10-03T00:00:00Z
 image: "https://img.rifx.online/logo/google.svg"
 categories: ["text image 2 text"]
 author: "google"
-tags: ["google"]
+tags: ["Programming", "Natural Language Processing", "Chatbots", "Translation", "Technology/Web"]
 draft: False
 
 id: "gemini-flash-1.5-8b"

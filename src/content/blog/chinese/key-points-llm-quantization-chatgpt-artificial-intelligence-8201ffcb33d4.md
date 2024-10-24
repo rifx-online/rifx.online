@@ -2,11 +2,11 @@
 title: "解锁 LLM 量化的 5 个关键点"
 meta_title: "解锁 LLM 量化的 5 个关键点"
 description: "量化大型语言模型"
-date: 2024-10-23T11:56:14Z
+date: 2024-10-24T17:47:43Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*RUqPEr2NTYXlI1omqF22Qg.png"
-categories: ["large-language-models"]
+categories: ["Machine Learning", "Data Science", "Technology/Web"]
 author: "Rifx.Online"
-tags: ["large-language-models"]
+tags: ["quantization", "weights", "activations", "calibration", "Quanto"]
 draft: False
 
 ---

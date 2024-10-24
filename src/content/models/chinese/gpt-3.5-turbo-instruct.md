@@ -6,7 +6,7 @@ date: 2023-09-28T00:00:00Z
 image: "https://img.rifx.online/logo/openai.svg"
 categories: ["text 2 text"]
 author: "openai"
-tags: ["openai"]
+tags: ["Programming", "Natural Language Processing", "Generative AI", "Chatbots", "Technology/Web"]
 draft: False
 
 id: "gpt-3.5-turbo-instruct"
@@ -17,5 +17,5 @@ img: 0
 request: 0
 ---
 
-该模型是GPT-3.5 Turbo的一个变体，针对教学提示进行了调整，并省略了与聊天相关的优化。训练数据：截至2021年9月。
+该模型是GPT-3.5 Turbo的一个变体，针对教学提示进行了调优，并省略了与聊天相关的优化。训练数据：截至2021年9月。
 

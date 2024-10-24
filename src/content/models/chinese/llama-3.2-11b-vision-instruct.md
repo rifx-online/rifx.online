@@ -6,7 +6,7 @@ date: 2024-09-25T00:00:00Z
 image: "https://img.rifx.online/logo/meta.svg"
 categories: ["text image 2 text"]
 author: "meta-llama"
-tags: ["meta-llama"]
+tags: ["Natural Language Processing", "Computer Vision", "Machine Learning", "Generative AI", "Data Science"]
 draft: False
 
 id: "llama-3.2-11b-vision-instruct"
@@ -17,11 +17,11 @@ img: 7.9475e-05
 request: 0
 ---
 
-Llama 3.2 11B Vision 是一个具有 110 亿参数的多模态模型，旨在处理结合视觉和文本数据的任务。它在图像描述和视觉问答等任务中表现出色，弥合了语言生成与视觉推理之间的差距。该模型在一个庞大的图像-文本对数据集上进行预训练，在复杂的高精度图像分析中表现良好。
+Llama 3.2 11B Vision 是一个具有 110 亿参数的多模态模型，旨在处理结合视觉和文本数据的任务。它在图像描述和视觉问答等任务中表现出色，弥合了语言生成与视觉推理之间的差距。该模型在大量图像-文本对的数据集上进行预训练，在复杂的高精度图像分析中表现良好。
 
 它将视觉理解与语言处理相结合的能力，使其成为需要全面视觉语言 AI 应用的行业的理想解决方案，例如内容创作、人工智能驱动的客户服务和研究。
 
-点击这里查看 [原始模型卡](https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD_VISION.md)。
+点击此处查看 [原始模型卡](https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD_VISION.md)。
 
-使用此模型受 [Meta 的可接受使用政策](https://www.llama.com/llama3/use-policy/) 的约束。
+使用此模型受 [Meta 可接受使用政策](https://www.llama.com/llama3/use-policy/) 的约束。
 

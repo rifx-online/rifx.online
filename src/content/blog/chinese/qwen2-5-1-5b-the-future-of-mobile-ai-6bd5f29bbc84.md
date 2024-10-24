@@ -2,11 +2,11 @@
 title: "Qwen2.5 1.5b：移动AI的未来？"
 meta_title: "Qwen2.5 1.5b：移动AI的未来？"
 description: "阿里云最新 LLM 的本地测试和评估。使用 llama-cpp-python 和 DIY 提示目录。"
-date: 2024-10-24T04:25:22Z
+date: 2024-10-24T17:47:43Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*awb56jkdXobA-Ip6d-QHRA.png"
-categories: ["query"]
+categories: ["Programming", "Technology", "Science"]
 author: "Rifx.Online"
-tags: ["query"]
+tags: ["Qwen2.5", "summarization", "retrieval", "mobile", "improvements"]
 draft: False
 
 ---

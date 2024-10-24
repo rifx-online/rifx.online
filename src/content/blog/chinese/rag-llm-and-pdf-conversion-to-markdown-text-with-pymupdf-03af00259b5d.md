@@ -2,11 +2,11 @@
 title: "RAG/LLM 和 PDF：使用 PyMuPDF 转换为 Markdown 文本"
 meta_title: "RAG/LLM 和 PDF：使用 PyMuPDF 转换为 Markdown 文本"
 description: "采用 markdown 文本格式输入数据可提高生成的文本质量"
-date: 2024-10-23T11:56:14Z
+date: 2024-10-24T17:47:43Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*swPjVuudAhsoRiiw3Ee32w.png"
-categories: ["llm"]
+categories: ["Programming", "Technology", "Technology/Web"]
 author: "Rifx.Online"
-tags: ["llm"]
+tags: ["markdown", "PyMuPDF", "LLM", "RAG", "PDF"]
 draft: False
 
 ---
