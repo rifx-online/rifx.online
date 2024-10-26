@@ -2,7 +2,7 @@
 title: "阿里巴巴开源 Qwen：它如何彻底改变人工智能以及如何使用它"
 meta_title: "阿里巴巴开源 Qwen：它如何彻底改变人工智能以及如何使用它"
 description: "阿里巴巴最近在 2024 年云栖大会期间开源了 Qwen 2.5 模型，在 AI 领域掀起了波澜。超过 100 个…"
-date: 2024-10-25T01:45:35Z
+date: 2024-10-26T00:26:25Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*I7QDwbLMzoJ_ORq5.jpg"
 categories: ["Programming", "Machine Learning", "Natural Language Processing"]
 author: "Rifx.Online"
@@ -10,8 +10,6 @@ tags: ["Qwen", "multimodal", "open-source", "fine-tune", "text-to-video"]
 draft: False
 
 ---
-
-
 
 阿里巴巴最近在人工智能领域引起了轰动，在2024年 Apsara 大会上开源了其 **Qwen 2.5** 模型。Qwen 拥有超过 100 个模型，涵盖语言、视觉、音频和代码等多种模态，使其成为最全面的开源人工智能解决方案之一。此次发布通过提供多样化应用的工具，赋能开发者，从文本到视频生成到实时问答。
 
@@ -43,6 +41,7 @@ input_text = "What is the future of AI in healthcare?"
 input_ids = tokenizer.encode(input_text, return_tensors="pt")
 outputs = model(input_ids)
 ```
+
 这使用户能够访问 Qwen 模型，运行推理，并根据特定需求进行定制。
 
 ## Qwen在各行业的影响
@@ -55,11 +54,4 @@ outputs = model(input_ids)
 
 通过开源其Qwen 2.5模型，阿里巴巴正在使先进的AI技术变得更加普及。开发者、初创企业和大型企业都可以利用Qwen的多模态和实时能力，在从媒体到自动驾驶汽车等行业推动创新。无论您是希望为特定应用微调模型的开发者，还是将AI集成到基础设施中的企业，Qwen都提供强大的工具来加速进步。
 
-## Cubed
-
-*感谢您成为社区的一部分！在您离开之前：*
-
-* 一定要**点赞**并**关注**作者️👏**️️**
-* 关注我们： [**X**](https://twitter.com/inPlainEngHQ) | [**LinkedIn**](https://www.linkedin.com/company/inplainenglish/) | [**YouTube**](https://www.youtube.com/channel/UCtipWUghju290NWcn8jhyAw) | [**Discord**](https://discord.gg/in-plain-english-709094664682340443) | [**Newsletter**](https://newsletter.plainenglish.io/)
-* 访问我们的平台： [**CoFeed**](https://cofeed.app/) | [**Differ**](https://differ.blog/) | [**In Plain English**](https://plainenglish.io/) | [**Venture**](https://venturemagazine.net/) | [**Cubed**](https://cubed.run/)
 
