@@ -15,6 +15,7 @@ input: 2.7e-07
 output: 2.7e-07
 img: 0
 request: 0
+last_updated: 2024-10-16T00:00:00Z
 ---
 
 Qwen2.5 7B is the latest series of Qwen large language models. Qwen2.5 brings the following improvements upon Qwen2:

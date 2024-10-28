@@ -15,6 +15,7 @@ input: 3.5e-07
 output: 4e-07
 img: 0
 request: 0
+last_updated: 2024-10-15T00:00:00Z
 ---
 
 NVIDIA's Llama 3.1 Nemotron 70B is a language model designed for generating precise and useful responses. Leveraging [Llama 3.1 70B](/models/meta-llama/llama-3.1-70b-instruct) architecture and Reinforcement Learning from Human Feedback (RLHF), it excels in automatic alignment benchmarks. This model is tailored for applications requiring high accuracy in helpfulness and response generation, suitable for diverse user queries across multiple domains.

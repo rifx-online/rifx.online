@@ -15,6 +15,7 @@ input: 3.5e-07
 output: 4e-07
 img: 0
 request: 0
+last_updated: 2024-09-19T00:00:00Z
 ---
 
 Qwen2.5 72B is the latest series of Qwen large language models. Qwen2.5 brings the following improvements upon Qwen2:

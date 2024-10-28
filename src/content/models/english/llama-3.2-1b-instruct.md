@@ -15,6 +15,7 @@ input: 1e-08
 output: 2e-08
 img: 0
 request: 0
+last_updated: 2024-09-25T00:00:00Z
 ---
 
 Llama 3.2 1B is a 1-billion-parameter language model focused on efficiently performing natural language tasks, such as summarization, dialogue, and multilingual text analysis. Its smaller size allows it to operate efficiently in low-resource environments while maintaining strong task performance.

@@ -15,6 +15,7 @@ input: 3e-06
 output: 1.5e-05
 img: 0.0048
 request: 0
+last_updated: 2024-10-24T11:45:46Z
 ---
 
 Claude 3.5 Sonnet delivers better-than-Opus capabilities, faster-than-Sonnet speeds, at the same Sonnet prices. Sonnet is particularly good at:

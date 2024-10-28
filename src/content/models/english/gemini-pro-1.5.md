@@ -15,6 +15,7 @@ input: 1.25e-06
 output: 5e-06
 img: 0.00263
 request: 0
+last_updated: 2024-04-09T00:00:00Z
 ---
 
 Google's latest multimodal model, supporting image and video in text or chat prompts.

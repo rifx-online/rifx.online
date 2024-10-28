@@ -15,6 +15,7 @@ input: 3.5e-07
 output: 4e-07
 img: 0.00050575
 request: 0
+last_updated: 2024-09-25T00:00:00Z
 ---
 
 The Llama 90B Vision model is a top-tier, 90-billion-parameter multimodal model designed for the most challenging visual reasoning and language tasks. It offers unparalleled accuracy in image captioning, visual question answering, and advanced image-text comprehension. Pre-trained on vast multimodal datasets and fine-tuned with human feedback, the Llama 90B Vision is engineered to handle the most demanding image-based AI tasks.

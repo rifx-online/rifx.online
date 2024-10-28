@@ -15,6 +15,7 @@ input: 4e-07
 output: 4e-07
 img: 0.000578
 request: 0
+last_updated: 2024-09-18T00:00:00Z
 ---
 
 Qwen2 VL 72B is a multimodal LLM from the Qwen Team with the following key enhancements:

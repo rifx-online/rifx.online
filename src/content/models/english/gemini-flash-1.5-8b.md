@@ -15,6 +15,7 @@ input: 3.75e-08
 output: 1.5e-07
 img: 0
 request: 0
+last_updated: 2024-10-03T00:00:00Z
 ---
 
 Gemini 1.5 Flash-8B is optimized for speed and efficiency, offering enhanced performance in small prompt tasks like chat, transcription, and translation. With reduced latency, it is highly effective for real-time and large-scale operations. This model focuses on cost-effective solutions while maintaining high-quality results.

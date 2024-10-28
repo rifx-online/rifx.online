@@ -15,6 +15,7 @@ input: 5.4e-08
 output: 5.4e-08
 img: 0
 request: 0
+last_updated: 2024-07-16T00:00:00Z
 ---
 
 Qwen2 7B is a transformer-based model that excels in language understanding, multilingual capabilities, coding, mathematics, and reasoning.

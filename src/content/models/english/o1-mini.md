@@ -15,6 +15,7 @@ input: 3e-06
 output: 1.2e-05
 img: 0
 request: 0
+last_updated: 2024-09-12T00:00:00Z
 ---
 
 The latest and strongest model family from OpenAI, o1 is designed to spend more time thinking before responding.

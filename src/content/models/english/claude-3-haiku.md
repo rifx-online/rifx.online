@@ -15,6 +15,7 @@ input: 2.5e-07
 output: 1.25e-06
 img: 0.0004
 request: 0
+last_updated: 2024-10-24T11:54:59Z
 ---
 
 Claude 3 Haiku is Anthropic's fastest and most compact model for

@@ -15,6 +15,7 @@ input: 1.5e-06
 output: 2e-06
 img: 0
 request: 0
+last_updated: 2023-09-28T00:00:00Z
 ---
 
 This model is a variant of GPT-3.5 Turbo tuned for instructional prompts and omitting chat-related optimizations. Training data: up to Sep 2021.

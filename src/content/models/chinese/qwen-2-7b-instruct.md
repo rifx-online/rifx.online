@@ -15,6 +15,7 @@ input: 5.4e-08
 output: 5.4e-08
 img: 0
 request: 0
+last_updated: 2024-07-16T00:00:00Z
 ---
 
 Qwen2 7B 是一个基于变换器的模型，擅长语言理解、多语言能力、编码、数学和推理。

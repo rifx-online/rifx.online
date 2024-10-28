@@ -15,9 +15,10 @@ input: 2.5e-07
 output: 1.25e-06
 img: 0.0004
 request: 0
+last_updated: 2024-10-24T11:54:59Z
 ---
 
-Claude 3 Haiku 是Anthropic最快且最紧凑的模型，能够实现近乎即时的响应。快速而准确的针对性性能。
+Claude 3 Haiku 是 Anthropic 反应速度最快、体积最小的模型，能够实现近乎即时的响应。快速且准确的定向性能。
 
 查看发布公告和基准测试结果 [这里](https://www.anthropic.com/news/claude-3-haiku)
 

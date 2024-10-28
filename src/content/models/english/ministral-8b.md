@@ -15,6 +15,7 @@ input: 1e-07
 output: 1e-07
 img: 0
 request: 0
+last_updated: 2024-10-19T04:54:11Z
 ---
 
 Ministral 8B is an 8B parameter model featuring a unique interleaved sliding-window attention pattern for faster, memory-efficient inference. Designed for edge use cases, it supports up to 128k context length and excels in knowledge and reasoning tasks. It outperforms peers in the sub-10B category, making it perfect for low-latency, privacy-first applications.

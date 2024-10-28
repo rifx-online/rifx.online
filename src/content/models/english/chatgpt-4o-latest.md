@@ -15,6 +15,7 @@ input: 5e-06
 output: 1.5e-05
 img: 0.007225
 request: 0
+last_updated: 2024-08-14T00:00:00Z
 ---
 
 Dynamic model continuously updated to the current version of [GPT-4o](/openai/gpt-4o) in ChatGPT. Intended for research and evaluation.

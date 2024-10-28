@@ -15,6 +15,7 @@ input: 1.5e-07
 output: 6e-07
 img: 0.007225
 request: 0
+last_updated: 2024-07-18T00:00:00Z
 ---
 
 GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/openai/gpt-4o), supporting both text and image inputs with text outputs.

@@ -15,6 +15,7 @@ input: 1.25e-06
 output: 5e-06
 img: 0.00263
 request: 0
+last_updated: 2024-04-09T00:00:00Z
 ---
 
 谷歌最新的多模态模型，支持在文本或聊天提示中使用图像和视频。
@@ -30,7 +31,7 @@ request: 0
 - 数据提取或生成
 - AI代理
 
-使用Gemini需遵循谷歌的[Gemini使用条款](https://ai.google.dev/terms)。
+Gemini的使用受限于谷歌的[Gemini使用条款](https://ai.google.dev/terms)。
 
 #multimodal
 
