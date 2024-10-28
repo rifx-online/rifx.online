@@ -96,10 +96,11 @@ const signInUrl = import.meta.env.ACCOUNT_LINK;
             ) : (
               <li class="nav-item">
                 <a
-                  href={slugSelector(menu.url, lang)}
+                  href={menu.url.includes("http") ? menu.url : slugSelector(menu.url, lang)}
                   class={`nav-link block ${
                     pathname === slugSelector(menu.url, lang) && "active"
                   }`}
+                  target={menu.url.includes("http") ? "_blank" : "_self"}
                 >
                   {menu.name}
                 </a>

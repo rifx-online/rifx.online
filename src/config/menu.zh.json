@@ -3,7 +3,7 @@
     { "name": "首页", "url": "/" },
     { "name": "模型", "url": "/models" },
     { "name": "博客", "url": "/blog" },
-    { "name": "文档", "url": "/docs" }
+    { "name": "文档", "url": "https://docs.rifx.online" }
   ],
   "footer": [
     { "name": "关于", "url": "/about" },
