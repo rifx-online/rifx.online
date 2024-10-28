@@ -3,7 +3,7 @@
     { "name": "Home", "url": "/" },
     { "name": "Models", "url": "/models" },
     { "name": "Blog", "url": "/blog" },
-    { "name": "Docs", "url": "/docs" }
+    { "name": "Docs", "url": "https://docs.rifx.online" }
   ],
   "footer": [
     { "name": "About", "url": "/about" },

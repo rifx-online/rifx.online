@@ -82,6 +82,7 @@ const signInUrl = import.meta.env.ACCOUNT_LINK;
                     <li class="nav-dropdown-item">
                       <a
                         href={slugSelector(child.url, lang)}
+                        target={child.url.includes("http") ? "_blank" : "_self"}
                         aria-label={child.name}
                         class={`nav-dropdown-link block ${
                           pathname === slugSelector(child.url, lang) && "active"
