@@ -5,6 +5,11 @@
     { "name": "Blog", "url": "/blog" },
     { "name": "Docs", "url": "https://docs.rifx.online" }
   ],
+  "header": {
+    "menuOpen": "Menu Open",
+    "menuClose": "Menu Close",
+    "signIn": "Sign In"
+  },
   "footer": [
     { "name": "About", "url": "/about" },
     { "name": "Contact", "url": "/contact" },

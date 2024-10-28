@@ -10,7 +10,6 @@ import {
 } from "@/lib/utils/languageParser";
 import type { ContentEntryMap } from "astro:content";
 import { IoSearch } from "react-icons/io5";
-import { FaRegUser } from "react-icons/fa";
 
 let lang = getLangFromUrl(Astro.url);
 const menu = await getTranslations(lang as keyof ContentEntryMap);
@@ -40,11 +39,11 @@ const signInUrl = import.meta.env.ACCOUNT_LINK;
       class="order-3 cursor-pointer flex items-center lg:hidden text-dark dark:text-white lg:order-1"
     >
       <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20">
-        <title>Menu Open</title>
+        <title>{menu.header.menuOpen}</title>
         <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
       </svg>
       <svg id="hide-button" class="h-6 fill-current hidden" viewBox="0 0 20 20">
-        <title>Menu Close</title>
+        <title>{menu.header.menuClose}</title>
         <polygon
           points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
           transform="rotate(45 10 10)"></polygon>
@@ -126,14 +125,15 @@ const signInUrl = import.meta.env.ACCOUNT_LINK;
           </button>
         )
       }
-      {/* Theme switcher */}
-      <ThemeSwitcher className="mr-3" />
-      {/* 用户图标和个人中心链接 */}
-      <a class="btn" href={signInUrl} >
-        Sign In
-      </a>
       {/* Language switcher */}
       <LanguageSwitcher client:load lang={lang} pathname={pathname} />
+      {/* Theme switcher */}
+      <ThemeSwitcher className="border-border text-dark hover:text-primary dark:border-darkmode-border inline-block border-r pr-5 dark:text-white dark:hover:text-darkmode-primary" />
+      {/* 用户图标和个人中心链接 */}
+      <a class="btn" href={signInUrl}>
+        {menu.header.signIn}
+      </a>
+      
       
     </div>
   </nav>

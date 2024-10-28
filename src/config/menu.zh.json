@@ -5,6 +5,11 @@
     { "name": "博客", "url": "/blog" },
     { "name": "文档", "url": "https://docs.rifx.online" }
   ],
+  "header": {
+    "menuOpen": "打开菜单",
+    "menuClose": "关闭菜单",
+    "signIn": "登录"
+  },
   "footer": [
     { "name": "关于", "url": "/about" },
     { "name": "联系我们", "url": "/contact" },
