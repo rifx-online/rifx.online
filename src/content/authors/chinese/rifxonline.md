@@ -6,11 +6,11 @@ image: "/images/logo.svg"
 social:
   - name: github
     icon: FaGithub
-    link: https://github.com/
+    link: https://github.com/rifx-online
 
-  - name: twitter
-    icon: FaTwitter
-    link: https://twitter.com/
+  - name: email
+    icon: FaEnvelope
+    link: mailto:support@rifx.online
 
 ---
 

@@ -12,10 +12,10 @@
   },
   "footer": [
     { "name": "About", "url": "/about" },
-    { "name": "Contact", "url": "/contact" },
     { "name": "Privacy Policy", "url": "/privacy-policy" },
-    { "name": "Tags", "url": "/tags" }
-    
+    { "name": "Tags", "url": "/tags" },
+    { "name": "Categories", "url": "/categories" },
+    { "name": "Authors", "url": "/authors" }
   ],
   "models": [
     { "name": "About", "url": "/about" },
