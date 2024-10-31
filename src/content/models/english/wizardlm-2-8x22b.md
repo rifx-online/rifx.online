@@ -3,7 +3,7 @@ title: "WizardLM-2 8x22B"
 meta_title: "WizardLM-2 8x22B"
 description: "WizardLM-2 8x22B"
 date: 2024-04-16T00:00:00Z
-image: "/images/logo.svg"
+image: "https://img.rifx.online/logo/microsoft.svg"
 categories: ["text 2 text"]
 author: "microsoft"
 tags: ["Programming", "Machine Learning", "Natural Language Processing", "Generative AI", "Chatbots"]
@@ -15,7 +15,7 @@ input: 5e-07
 output: 5e-07
 img: 0
 request: 0
-last_updated: 2024-10-28T13:13:00Z
+last_updated: 2024-10-31T23:24:21Z
 ---
 
 WizardLM-2 8x22B is Microsoft AI's most advanced Wizard model. It demonstrates highly competitive performance compared to leading proprietary models, and it consistently outperforms all existing state-of-the-art opensource models.
