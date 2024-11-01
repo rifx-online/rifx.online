@@ -2,20 +2,20 @@
 title: "Qwen2.5 1.5b: the future of Mobile AI?"
 meta_title: "Qwen2.5 1.5b: the future of Mobile AI?"
 description: "Local Testing and Evaluation of Alibaba Cloud’s Latest LLM. With llama-cpp-python and a DIY prompt catalog."
-date: 2024-10-24T17:47:43Z
+date: 2024-10-30T12:57:39Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*awb56jkdXobA-Ip6d-QHRA.png"
-categories: ["Programming", "Technology", "Science"]
+categories: ["Natural Language Processing", "Programming", "Technology/Web"]
 author: "Rifx.Online"
-tags: ["Qwen2.5", "summarization", "retrieval", "mobile", "improvements"]
+tags: ["Qwen2.5", "NLP", "summarization", "retrieval", "prompts"]
 draft: False
 
 ---
 
-### Local Testing and Evaluation of Alibaba Cloud’s Latest LLM. With llama-cpp-python and a DIY prompt catalog.
+### Local Testing and Evaluation of Alibaba Cloud’s Latest LLM. With llama\-cpp\-python and a DIY prompt catalog.
 
 
 
-In part one we explored together the innovations from Alibaba Cloud’s team with the release of the Qwen2.5 models family.
+In part one we explored together the innovations from Alibaba Cloud’s team with the release of the Qwen2\.5 models family.
 
 In Generative AI benchmarks are now the main *oracle*: the validity of a new LLM needs to pass several verdicts. The more benchmark records you break, the better you are.
 
@@ -25,7 +25,7 @@ Well, I disagree. Even though for the AI advancement we need milestones and bett
 
 I believe that exploring some frequently used NLP tasks, and putting aside the chat experience, we must focus on the quality of the replies. And we are the only benchmark required. Our user experience is the best indicator to understand if a model is good or not. The model must be reliable enough to be used in an automated workflow.
 
-By the way, I already run what I decided to call [RBYF — Revised Benchmarks with You as a Feedback](https://open.substack.com/pub/thepoorgpuguy/p/rbyf-is-here-revised-benchmarks-with?r=i78xo&utm_campaign=post&utm_medium=web) on the claimed amazing Llama3.2–1B-instruct… and Qwen2.5–1.5b is so much better!
+By the way, I already run what I decided to call [RBYF — Revised Benchmarks with You as a Feedback](https://open.substack.com/pub/thepoorgpuguy/p/rbyf-is-here-revised-benchmarks-with?r=i78xo&utm_campaign=post&utm_medium=web) on the claimed amazing Llama3\.2–1B\-instruct… and Qwen2\.5–1\.5b is so much better!
 
 So in this article, as promised, we will verify with our own eyes how good is this model for every day use.
 
@@ -37,7 +37,7 @@ Here we are going to build a minimal text interface to be able to run the model,
 
 The requirements are minimal, but I suggest you to create a new project directory and a virtual environment.
 
-Create a `venv` (python 3.11+ is required): I tested it on my Mini-PC running Windows 11.
+Create a `venv` (python 3\.11\+ is required): I tested it on my Mini\-PC running Windows 11\.
 
 ```python
 ## create the virtual environment
@@ -48,7 +48,7 @@ venv\Scripts\activate
 pip install llama-cpp-python==0.3.0 tiktoken
 ```
 
-We need to download the GGUF file from the official qwen repository on Hugging Face [https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF): I used the `qwen2.5-1.5b-instruct-q5_k_m.gguf` version.
+We need to download the GGUF file from the official qwen repository on Hugging Face [https://huggingface.co/Qwen/Qwen2\.5\-1\.5B\-Instruct\-GGUF](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF): I used the `qwen2.5-1.5b-instruct-q5_k_m.gguf` version.
 
 ![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*YtQJb_xyq_xcF40yRWPcZA.png)
 
@@ -99,7 +99,7 @@ else:
     ngpu_layers = args.gpu
 print(f'Selected GPU: offloading {ngpu_layers} layers...')   
 ####################INITIALIZE THE MODEL###################################
-stops = ['<|im_end|>']
+stops = ['<!im_end|>']
 tasks = createCatalog()
 modelname = 'qwen2.5-1.5b-instruct-q5_k_m.gguf'
 ## create THE LOG FILE 
@@ -130,7 +130,7 @@ pd_vote = []
 pd_remarks = []
 ```
 
-We then load the model into RAM (no GPU) or the VRAM (with GPU) using Llama-CPP-python.
+We then load the model into RAM (no GPU) or the VRAM (with GPU) using Llama\-CPP\-python.
 
 ```python
 ## LOAD THE MODEL
@@ -156,7 +156,7 @@ print(f'📝Logfile: {logfilename}')
 
 By the way, you can find all the code in my GitHub Repository:
 
-The next one is a one-shot warm up inference: the model neural network is going to be activated for the first time, so think about it like a warm-up lap.
+The next one is a one\-shot warm up inference: the model neural network is going to be activated for the first time, so think about it like a warm\-up lap.
 
 Don’t be scared, I will explain the code
 
@@ -218,13 +218,13 @@ We use our internal library called `createStats()` to print all the statistics o
 
 ## Prompt catalog — what we want to test
 
-I wrote here about my habit. I have a catalog of prompts that covers many of the main language tasks used in chat-bots, like summarization, short summarization, casual chat, RAG, truthful RAG and so on.
+I wrote here about my habit. I have a catalog of prompts that covers many of the main language tasks used in chat\-bots, like summarization, short summarization, casual chat, RAG, truthful RAG and so on.
 
-The idea is to be able to load the model in 5 minutes, and start evaluating each task. At the end of every generation the user is prompted to give a mark (a score from 0 to 5) and leave any comments if required.
+The idea is to be able to load the model in 5 minutes, and start evaluating each task. At the end of every generation the user is prompted to give a mark (a score from 0 to 5\) and leave any comments if required.
 
 This is crucial: not all the models are alike, and small/big adjustments to the wording in the prompts are always required.
 
-So back to the code… Because the previous one was only a warm-up, now it will start the real while loop, iterating over the entire prompt catalog. See the workflow here below…
+So back to the code… Because the previous one was only a warm\-up, now it will start the real while loop, iterating over the entire prompt catalog. See the workflow here below…
 
 ![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*EL0Q97Du6HwtcYQZ.png)
 
@@ -328,11 +328,11 @@ Note that at the end of the entire Prompt Catalog a *csv* file is created with t
 
 ## Test Overview
 
-I run them with several Small Language Models, from [Qwen2–1.5B-instruct](https://huggingface.co/Qwen/Qwen2-1.5B-Instruct-GGUF), to [Gemma2–2B-instruct](https://huggingface.co/bartowski/gemma-2-2b-it-GGUF), with [Llama3.2–1B-instruct](https://huggingface.co/bartowski/Llama-3.2-1B-Instruct-GGUF) and finally the new [Qwen2.5–1.5B-instruct](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF).
+I run them with several Small Language Models, from [Qwen2–1\.5B\-instruct](https://huggingface.co/Qwen/Qwen2-1.5B-Instruct-GGUF), to [Gemma2–2B\-instruct](https://huggingface.co/bartowski/gemma-2-2b-it-GGUF), with [Llama3\.2–1B\-instruct](https://huggingface.co/bartowski/Llama-3.2-1B-Instruct-GGUF) and finally the new [Qwen2\.5–1\.5B\-instruct](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF).
 
-While I was [quite disappointed by Llama3.2–1B-instruct](https://generativeai.pub/llama3-2-1b-instruct-is-ok-but-not-good-enough-28f88046b63e), I have been amazed by the good job done by the new [Qwen2.5–1.5B-instruct](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF).
+While I was [quite disappointed by Llama3\.2–1B\-instruct](https://generativeai.pub/llama3-2-1b-instruct-is-ok-but-not-good-enough-28f88046b63e), I have been amazed by the good job done by the new [Qwen2\.5–1\.5B\-instruct](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF).
 
-At the end of every generation the user is asked to evaluate the results with a mark from 0 to 5. **In this case the user is me…**
+At the end of every generation the user is asked to evaluate the results with a mark from 0 to 5\. **In this case the user is me…**
 
 This kind of qualitative analysis is indeed poor, so every mark does have a description, and the user can add comments (“some wrong information”, “maybe better change the wording in the prompt” )
 
@@ -344,7 +344,7 @@ Here the qualitative matrix with a description
 
 Summarization was amazing. Listing the main topics over a log text was also very good.
 
-The RAG tasks were quite fast (even on my mini-PC) and truthful RAG (ask questions out of the context) was on spot.
+The RAG tasks were quite fast (even on my mini\-PC) and truthful RAG (ask questions out of the context) was on spot.
 
 So really good.
 
@@ -361,7 +361,7 @@ Another fact is that the creative writing was quite bad: for the test I used som
         repeat_penalty= 1.31,
 ```
 
-Probably for creative writing, with Qwen2.5–1.5B-instruct, we should use an higher `repeat_penalty` and also a higher `temperature`.
+Probably for creative writing, with Qwen2\.5–1\.5B\-instruct, we should use an higher `repeat_penalty` and also a higher `temperature`.
 
 As a side note I have to say that also the reflection prompt was not that bad at all! The opening/closure of the tags was not maintained (so not easy to put this into a pipeline or workflow) but the overall flow of the generation and the “Chain of Thought” reasoning process was fairly good.
 
@@ -425,7 +425,7 @@ of education by incorporating generative technology effectively.
 
 I think that for the size of this Small Language Model, the result is not bad at all!
 
-## Comparing Qwen2.5 with Llama3.2
+## Comparing Qwen2\.5 with Llama3\.2
 
 Even though this is only coming from my personal evaluation, I want to share it with you.
 
@@ -435,24 +435,24 @@ Both models are designed to be used on mobile devices, but the performance is qu
 
 ![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*DuV3LJep_PuDqiCcAMb6Cg.png)
 
-First of all, the overall score difference is huge (41 for Llama3.2, 57 for Qwen2.5).
+First of all, the overall score difference is huge (41 for Llama3\.2, 57 for Qwen2\.5\).
 
-Secondly if you think about what you may ask on a mobile device, in terms of language tasks, is to have a smooth chatting experience (task 4), good summarization (tasks five to 7) and some creative writing (task 11 and 13).
+Secondly if you think about what you may ask on a mobile device, in terms of language tasks, is to have a smooth chatting experience (task 4\), good summarization (tasks five to 7\) and some creative writing (task 11 and 13\).
 
-In terms of speed, running the model only on CPU, with a very limited mini-PC, **I got an average inference speed of 14 t/s.**
+In terms of speed, running the model only on CPU, with a very limited mini\-PC, **I got an average inference speed of 14 t/s.**
 
 ## Conclusions
 
 In the past three months since Qwen2’s release, numerous developers have built new models on the Qwen2 language models, providing valuable feedback to the entire community, but also to Alibaba Cloud.
 
-> During this period, we have focused on creating smarter and more knowledgeable language models. Today, we are excited to introduce the latest addition to the Qwen family: Qwen2.5
+> During this period, we have focused on creating smarter and more knowledgeable language models. Today, we are excited to introduce the latest addition to the Qwen family: Qwen2\.5
 
 Their claims come with facts about the new family of models:
 
-* Dense, **easy-to-use**, decoder-only language models, available in 0.5B, 1.5B, 3B, 7B, 14B, 32B, and 72B sizes, and base and instruct variants.
-* Pretrained on our latest large-scale dataset, encompassing up to 18T tokens.
+* Dense, **easy\-to\-use**, decoder\-only language models, available in 0\.5B, 1\.5B, 3B, 7B, 14B, 32B, and 72B sizes, and base and instruct variants.
+* Pretrained on our latest large\-scale dataset, encompassing up to 18T tokens.
 * Significant improvements in **instruction following**
-* More **resilient to the diversity of system prompts**, enhancing role-play implementation and condition-setting for chatbots.
+* More **resilient to the diversity of system prompts**, enhancing role\-play implementation and condition\-setting for chatbots.
 * **Context length support up to 128K** tokens and can generate up to 8K tokens.
 * Multilingual support for over 29 languages
 

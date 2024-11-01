@@ -2,7 +2,7 @@
 title: "认识 Ministral 3B 和 8B：边缘 AI 游戏规则改变者"
 meta_title: "认识 Ministral 3B 和 8B：边缘 AI 游戏规则改变者"
 description: "Mistral AI 在边缘 AI 和设备计算领域的新前沿"
-date: 2024-10-31T08:38:17Z
+date: 2024-11-01T03:55:06Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*3CmWlEiW7ea8gtqxpI83_w.png"
 categories: ["Technology", "Autonomous Systems", "Data Science"]
 author: "Rifx.Online"
