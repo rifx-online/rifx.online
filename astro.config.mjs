@@ -52,7 +52,11 @@ export default defineConfig({
   },
   integrations: [
     react(),
-    sitemap(),
+    sitemap({
+      priority: 0.7,
+      changefreq: 'weekly',
+      lastmod: new Date().toISOString(),
+    }),
     tailwind({
       applyBaseStyles: false,
     }),
