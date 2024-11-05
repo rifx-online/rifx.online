@@ -22,9 +22,9 @@ topic:
   api_link: "https://api.rifx.online/v1"
   placeholder: "AI API 端点"
   button:
-    lable: "复制API链接"
+    lable: "复制API地址"
     copy_lable: "已复制!"
-  remark: "复制上面的API链接并参考我们全面的文档,快速开始使用。"
+  remark: "复制上面的API地址并参考我们全面的文档,快速开始使用。"
 
 # 特性
 features:

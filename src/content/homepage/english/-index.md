@@ -22,9 +22,9 @@ topic:
   api_link: "https://api.rifx.online/v1"
   placeholder: "AI API Endpoint"
   button:
-    lable: "Copy API Link"
+    lable: "Copy API URL"
     copy_lable: "Copied!"
-  remark: "Get started quickly by copying the API link above and referring to our comprehensive documentation."
+  remark: "Get started quickly by copying the API URL above and referring to our comprehensive documentation."
 
 # Features
 features:
