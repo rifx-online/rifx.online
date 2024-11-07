@@ -1,5 +1,5 @@
 ---
-title: XAI
+title: X-AI
 email: contact@x.ai
 image: "https://img.rifx.online/logo/xai.svg"
 description: XAI - AI research company founded by Elon Musk
