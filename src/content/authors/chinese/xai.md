@@ -1,0 +1,47 @@
+---
+title: XAI
+email: contact@x.ai
+image: "https://img.rifx.online/logo/xai.svg"
+description: XAI - 由Elon Musk创立的AI研究公司
+analysis_url: https://artificialanalysis.ai/providers/xai
+social:
+  - name: twitter
+    icon: FaTwitter
+    link: https://twitter.com/xai
+
+  - name: linkedin
+    icon: FaLinkedin
+    link: https://www.linkedin.com/company/x-ai
+---
+
+XAI是由Elon Musk创立的人工智能研究公司，专注于开发安全、透明的AI系统。公司目前提供其首个大型语言模型Grok Beta。
+
+主要模型：
+
+Grok Beta：
+- 质量评分达到70.4的高性能模型
+- 支持8k tokens的上下文窗口
+- 输出速度达到58 tokens/秒
+- 首个token响应时间仅需0.45秒
+- 混合定价：$7.50/百万tokens
+
+技术特点：
+- 采用创新的训练方法
+- 强调模型的透明度和可解释性
+- 注重实时性能和响应速度
+- 专注于提供准确、可靠的结果
+
+性能评估：
+- 在多个基准测试中表现优异
+- 在实时响应速度方面表现突出
+- 在复杂任务处理上展现出色能力
+- 具备强大的上下文理解能力
+
+当前限制：
+- 暂不支持函数调用功能
+- 不支持JSON模式输出
+- 上下文窗口相对较小
+- 仍处于Beta测试阶段
+
+发展愿景：
+XAI致力于开发下一代人工智能技术，强调安全性、透明度和实用性。通过持续创新和改进，公司正在努力推动AI技术向着更开放、更可靠的方向发展。Grok Beta的发布标志着公司在实现这一愿景方面迈出了重要的第一步。 

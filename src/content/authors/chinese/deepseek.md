@@ -1,0 +1,73 @@
+---
+title: DeepSeek
+email: contact@deepseek.com
+image: "https://img.rifx.online/logo/deepseek.svg"
+description: DeepSeek - 专注于开发高性能大型语言模型的AI公司
+analysis_url: https://artificialanalysis.ai/providers/deepseek
+social:
+  - name: twitter
+    icon: FaTwitter
+    link: https://twitter.com/deepseek_ai
+
+  - name: linkedin
+    icon: FaLinkedin 
+    link: https://www.linkedin.com/company/deepseek
+---
+
+DeepSeek是一家成立于2021年的人工智能公司，由来自谷歌、微软和OpenAI等顶级科技公司的AI专家创立。公司致力于开发安全、高效且具有成本效益的大型语言模型，目标是让AI技术更易获取、更实用。
+
+公司发展：
+- 2021年：公司成立，开始研发大型语言模型
+- 2023年：发布首个商用API服务和DeepSeek-V1模型
+- 2024年：推出DeepSeek-V2和Coder-V2系列，并获得广泛认可
+- 目前：持续优化模型性能，扩大应用场景
+
+公司提供三个主要的模型系列：
+
+DeepSeek-Coder-V2：
+- 专门针对代码开发优化的高性能模型
+- 在代码生成和理解方面表现优异
+- 支持多种编程语言和框架
+- 质量评分在所有DeepSeek模型中最高
+
+DeepSeek-V2：
+- 通用型大语言模型
+- 在推理、知识和通用任务上表现出色
+- 与DeepSeek-Coder-V2并列最高质量模型
+- 在科学推理和定量分析方面表现突出
+
+DeepSeek-V2.5：
+- 最新一代通用语言模型
+- 在输出速度方面略有提升（17 tokens/秒）
+- 保持了与前代相似的性能水平
+- 针对实际应用场景进行了优化
+
+所有模型共同特点：
+- 支持128k的大规模上下文窗口
+- 完整支持函数调用(Function Calling)功能
+- 支持JSON模式输出
+- 首个token响应时间在1.12-1.15秒之间
+- 统一定价：每百万tokens 0.17美元（混合价格）
+
+创新功能：
+- 上下文缓存技术(Context Caching on Disk)
+- 缓存命中可节省高达90%的API成本
+- 提示词缓存价格：$0.014/百万tokens
+
+性能评估：
+- 在MMLU（推理与知识）测试中表现优异
+- 在GPQA（科学推理与知识）评估中得分较高
+- 在数学推理(MATH)测试中展现出色能力
+- 在代码评估(HumanEval)中取得优秀成绩
+- 在LMSys Chatbot Arena的ELO评分中表现突出
+
+技术创新与研究：
+- 拥有多项核心技术专利
+- 与多所顶尖高校建立研究合作
+- 定期发布技术研究论文
+- 积极参与开源社区建设
+
+企业愿景：
+DeepSeek致力于通过持续的技术创新和模型优化，为全球开发者和企业提供更优质、更经济的AI解决方案。公司特别注重模型的实用性、可靠性和成本效益，努力降低AI应用的门槛。
+
+通过在模型质量、性能和价格之间取得平衡，DeepSeek正在AI领域建立起独特的竞争优势，并持续推动AI技术的民主化进程。
