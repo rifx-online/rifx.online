@@ -18,7 +18,7 @@ request: 0
 last_updated: 2024-11-04T12:39:55Z
 ---
 
-这是一个系列模型，旨在复制Claude 3模型的散文质量，特别是Sonnet(https://openrouter.ai/anthropic/claude-3.5-sonnet)和Opus(https://openrouter.ai/anthropic/claude-3-opus)。
+这是一个系列模型，旨在复制Claude 3模型的散文质量，特别是Sonnet和Opus。
 
-该模型是在[Qwen2.5 72B](https://openrouter.ai/qwen/qwen-2.5-72b-instruct)的基础上进行微调的。
+该模型是在[Qwen2.5 72B]s的基础上进行微调的。
 

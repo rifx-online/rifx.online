@@ -18,7 +18,7 @@ request: 0
 last_updated: 2024-11-04T12:39:55Z
 ---
 
-This is a series of models designed to replicate the prose quality of the Claude 3 models, specifically Sonnet(https://openrouter.ai/anthropic/claude-3.5-sonnet) and Opus(https://openrouter.ai/anthropic/claude-3-opus).
+This is a series of models designed to replicate the prose quality of the Claude 3 models, specifically Sonnet and Opus.
 
-The model is fine-tuned on top of [Qwen2.5 72B](https://openrouter.ai/qwen/qwen-2.5-72b-instruct).
+The model is fine-tuned on top of [Qwen2.5 72B].
 
