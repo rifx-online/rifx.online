@@ -1,6 +1,6 @@
 ---
-title: "Welcome to Our AI API Aggregation Platform!"
-email: hi@rifx.online
+title: Rifx.Online
+email: support@rifx.online
 description: "Learn about our mission to simplify AI integration through our comprehensive API aggregation platform"
 image: "/images/logo.svg"
 social:

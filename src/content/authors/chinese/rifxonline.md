@@ -1,6 +1,6 @@
 ---
 title: "Rifx.Online"
-email: hi@rifx.online
+email: support@rifx.online
 description: "了解我们通过全面的API聚合平台简化AI集成的使命"
 image: "/images/logo.svg"
 social:
