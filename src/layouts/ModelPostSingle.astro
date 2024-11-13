@@ -115,11 +115,11 @@ const { title, description, author, categories, image, date, tags, id, context, 
         <div class="flex items-center justify-between mb-8">
           <a 
             href={`https://chat.rifx.online/?model-id=${id}`}
-            class="inline-flex items-center whitespace-nowrap px-6 py-3 bg-primary text-white dark:bg-darkmode-primary dark:text-black rounded-lg hover:bg-primary-dark transition-colors text-base font-medium self-start mt-1 gap-2"
+            class="inline-flex items-center whitespace-nowrap px-6 py-3 bg-primary text-white dark:bg-darkmode-primary dark:text-black rounded-lg hover:bg-primary-dark transition-all duration-300 text-base font-medium self-start mt-1 gap-2 group"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <IoChatbubbleEllipsesOutline className="text-xl" />
+            <IoChatbubbleEllipsesOutline className="text-xl transition-all duration-300 group-hover:animate-wiggle" />
             Chat with Model
           </a>
         </div>
