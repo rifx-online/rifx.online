@@ -4,9 +4,10 @@ import { Copy, Check } from 'lucide-react';
 interface CopyIconButtonProps {
   textToCopy: string;
   className?: string;
+  children?: React.ReactNode;
 }
 
-const CopyIconButton: React.FC<CopyIconButtonProps> = ({ textToCopy, className }) => {
+const CopyIconButton: React.FC<CopyIconButtonProps> = ({ textToCopy, className, children }) => {
   const [isCopied, setIsCopied] = useState(false);
 
   const handleCopy = async () => {
@@ -20,16 +21,20 @@ const CopyIconButton: React.FC<CopyIconButtonProps> = ({ textToCopy, className }
   };
 
   return (
-    <span 
-      onClick={handleCopy} 
-      className={`cursor-pointer ${className}`} 
+    <button
+      onClick={handleCopy}
+      className="inline-flex items-center gap-2 px-3 py-0.5 text-sm hover:bg-gray-100 dark:hover:bg-gray-800"
+      aria-label="Copy" 
       title="Copy"
     >
-      {isCopied ? 
-        <Check className="h-4 w-4" /> : 
-        <Copy className="h-4 w-4" />
-      }
-    </span>
+      <span className="flex items-center gap-2">
+        {children ? children : ''} 
+        {isCopied ? 
+          <Check className="h-4 w-4" /> : 
+          <Copy className="h-4 w-4" />
+        }
+      </span>
+    </button>
   );
 };
 
