@@ -1,8 +1,8 @@
 ---
 title: "GLM-4-Voice 9B——实时多语言语音对话 AI——几分钟内即可在本地安装"
 meta_title: "GLM-4-Voice 9B——实时多语言语音对话 AI——几分钟内即可在本地安装"
-description: "如何设置GLM-4-Voice 9B以实现中英文无缝实时语音交互，并探索其独特的架构……"
-date: 2024-11-04T12:29:59Z
+description: "GLM-4-Voice 9B 是一款实时多语言语音对话AI，支持英语和中文，具备情感语调和语速的可定制性。该模型通过端到端架构实现低延迟响应，提供更自然的互动体验。其主要组件包括标记化器、核心语言模型和解码器，能够直接处理语音输入和生成音频输出。用户可通过简单的本地设置步骤快速部署该模型，适合客户服务和教育等多种应用场景。"
+date: 2024-11-13T01:32:04Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*LATTpEc2AHvqgVyPKSzW7A.jpeg"
 categories: ["Voice Assistants", "Natural Language Processing", "Chatbots"]
 author: "Rifx.Online"
@@ -13,7 +13,6 @@ draft: False
 
 ### 如何设置 GLM\-4\-Voice 9B 以实现无缝的实时语音交互，支持英语和中文，并探索其独特的架构、低延迟响应和可定制的声音属性。
 
-👨🏾‍💻 [GitHub](https://github.com/mdmonsurali) ⭐️ \| 👔[LinkedIn](https://www.linkedin.com/in/mdmonsurali/) \|📝 [Medium](https://medium.com/@monsuralirana)
 
 
 
@@ -64,6 +63,10 @@ GLM\-4\-Voice 的架构由三个主要组件组成，每个组件在实现端到
 ```python
 !git clone --recurse-submodules https://github.com/THUDM/GLM-4-Voice
 cd GLM-4-Voice
+```python
+!git clone --recurse-submodules https://github.com/THUDM/GLM-4-Voice
+cd GLM-4-Voice
+
 ```
 
 ### 步骤 2：安装依赖
@@ -72,6 +75,9 @@ cd GLM-4-Voice
 
 ```python
 !pip install -r requirements.txt
+```python
+!pip install -r requirements.txt
+
 ```
 
 ### 第3步：下载模型检查点
@@ -80,6 +86,9 @@ GLM\-4\-Voice的解码器模型托管在Hugging Face上，需要`git-lfs`进行�
 
 ```python
 !git clone https://huggingface.co/THUDM/glm-4-voice
+```python
+!git clone https://huggingface.co/THUDM/glm-4-voice
+
 ```
 
 ### 步骤 4：启动模型服务
@@ -88,6 +97,9 @@ GLM\-4\-Voice的解码器模型托管在Hugging Face上，需要`git-lfs`进行�
 
 ```python
 python model_server.py --model-path glm-4-voice-9b
+```python
+python model_server.py --model-path glm-4-voice-9b
+
 ```
 
 ### 第5步：启动Web服务
@@ -96,6 +108,9 @@ python model_server.py --model-path glm-4-voice-9b
 
 ```python
 python web_demo.py
+```python
+python web_demo.py
+
 ```
 
 您现在可以访问Web演示 [http://127\.0\.0\.1:8888](http://127.0.0.1:8888) 与GLM\-4\-Voice进行交互。
