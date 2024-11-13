@@ -11,7 +11,7 @@ import type { ContentEntryMap } from "astro:content";
 import { FaCheck } from "react-icons/fa";
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-import { Copy, Check } from 'lucide-react';
+import { Copy, Check, MessageSquare, Library } from 'lucide-react';
 import CopyButton from "@/layouts/helpers/CopyButton";
 
 export const prerender = true;
@@ -55,10 +55,11 @@ const signInUrl = import.meta.env.ACCOUNT_LINK;
           <p set:html={markdownify(banner.content)} class="mb-8" />
           {
             banner.button_primary.enable && (
-              <a href={signInUrl} rel="noopener">
+              <a href={banner.button_primary.link} rel="noopener">
+              
                 <Button 
                   className="text-white dark:text-black bg-black dark:bg-white h-10 text-base mr-4">
-                  {banner.button_primary.label}
+                  <MessageSquare className="w-4 h-4 my-auto mr-2" />{banner.button_primary.label}
                 </Button>
               </a>
             )
@@ -67,6 +68,7 @@ const signInUrl = import.meta.env.ACCOUNT_LINK;
             banner.button_outline.enable && (
               <a href={banner.button_outline.link} rel="noopener">
                 <Button variant="outline" className="h-10 text-base">
+                  <Library className="w-4 h-4 my-auto mr-2" />
                   {banner.button_outline.label}
                 </Button>
               </a>

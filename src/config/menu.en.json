@@ -2,6 +2,7 @@
   "main": [
     { "name": "Home", "url": "/" },
     { "name": "Models", "url": "/models" },
+    { "name": "Chat", "url": "https://chat.rifx.online" },
     { "name": "Blog", "url": "/blog" },
     { "name": "Docs", "url": "https://docs.rifx.online" }
   ],

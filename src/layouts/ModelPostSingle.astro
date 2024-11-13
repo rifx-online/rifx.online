@@ -8,6 +8,7 @@ import similarItems from "@/lib/utils/similarItems";
 import { humanize, markdownify, slugify } from "@/lib/utils/textConverter";
 import type { ContentEntryMap } from "astro:content";
 import { FaRegClock, FaRegFileAlt, FaRegFolder, FaRegUserCircle } from "react-icons/fa";
+import { IoChatbubbleEllipsesOutline } from "react-icons/io5";
 import { LuFolderInput, LuFolderOutput, LuImage } from "react-icons/lu";
 import ImageMod from "./components/ImageMod.astro";
 import ModelCard from "./components/ModelCard.astro";
@@ -32,7 +33,7 @@ const similarPosts = similarItems(post, posts);
 const { Content } = await post.render();
 const { title, description, author, categories, image, date, tags, id, context, input, output, img, request } = post.data;
 
-console.log(post.data);
+// console.log(post.data);
 
 ---
 
@@ -45,38 +46,48 @@ console.log(post.data);
             <ImageMod src={image} alt={title} width={500} height={300} class="mx-auto" />
           )}
         </div>
-        <h1 set:html={markdownify(title)} class="h2 mb-4" />
-        <div class="mb-4 flex items-center">
-          <span class="mr-2">ID: {id}</span>
-          <CopyIconButton client:load textToCopy={id} />
+        
+        <div class="mb-6">
+          <div class="flex items-center gap-2 mb-4">
+            <div class="flex-1">
+              <h1 set:html={markdownify(title)} class="h2 mb-0" />
+              <div class="flex items-center text-lg text-gray-700 dark:text-gray-400 mt-2">
+                <span class="mr-2 underline">ID: {id}</span>
+                <CopyIconButton client:load textToCopy={id} />
+              </div>
+            </div>
+            
+          </div>
         </div>
-        <ul class="mb-2 text-sm text-gray-400">
-          <li class="mr-4 inline-block">
-            <FaRegFileAlt className={"mr-2 -mt-1 inline-block"} />
+
+        <ul class="mb-4 flex flex-wrap gap-x-6 gap-y-2 text-sm text-gray-500 dark:text-gray-400">
+          <li class="inline-flex items-center">
+            <FaRegFileAlt className={"mr-2"} />
             {formatNumber(context)} Context
           </li>
-          <li class="mr-4 inline-block">
-            <LuFolderInput className={"mr-2 -mt-1 inline-block"} />
+          <li class="inline-flex items-center">
+            <LuFolderInput className={"mr-2"} />
             {formatTokens(input * 1000000)} Input Tokens
           </li>
-          <li class="mr-4 inline-block">
-            <LuFolderOutput className={"mr-2 -mt-1 inline-block"} />
+          <li class="inline-flex items-center">
+            <LuFolderOutput className={"mr-2"} />
             {formatTokens(output * 1000000)} Output Tokens
           </li>
           {img > 0 && (
-            <li class="mr-4 inline-block">
-              <LuImage className={"mr-2 -mt-1 inline-block"} />
+            <li class="inline-flex items-center">
+              <LuImage className={"mr-2"} />
               {formatTokens(img)} Image Tokens
             </li>
           )}
           {request > 0 && (
-            <li class="mr-4 inline-block">
-              <FaRegFileAlt className={"mr-2 -mt-1 inline-block"} />
+            <li class="inline-flex items-center">
+              <FaRegFileAlt className={"mr-2"} />
               {formatTokens(request)} Request Tokens
             </li>
           )}
         </ul>
-        <ul class="mb-8 text-sm text-gray-400">
+
+        <ul class="mb-4 text-sm text-gray-400">
           <li class="mr-4 inline-block">
             <a href={slugSelector(`/authors/${slugify(author)}`, lang)}>
               <FaRegUserCircle className={"mr-2 -mt-1 inline-block"} />
@@ -101,13 +112,24 @@ console.log(post.data);
             {dateFormat(date)}
           </li>
         </ul>
+        <div class="flex items-center justify-between mb-8">
+          <a 
+            href={`https://chat.rifx.online/?model-id=${id}`}
+            class="inline-flex items-center whitespace-nowrap px-6 py-3 bg-primary text-white dark:bg-darkmode-primary dark:text-black rounded-lg hover:bg-primary-dark transition-colors text-base font-medium self-start mt-1 gap-2"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <IoChatbubbleEllipsesOutline className="text-xl" />
+            Chat with Model
+          </a>
+        </div>
         <div class="content mb-10">
           <Content />
         </div>
         <div class="row items-start justify-between">
           <div class="mb-10 flex items-center lg:col-5 lg:mb-0">
-            <h5 class="mr-3">Tags :</h5>
-            <ul>
+            <h5 class="mr-3 whitespace-nowrap">Tags :</h5>
+            <ul class="flex flex-wrap">
               {
                 tags.map((tag: string) => (
                   <li class="inline-block">

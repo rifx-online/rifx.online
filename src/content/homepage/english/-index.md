@@ -6,11 +6,11 @@ banner:
   image: "/images/banner.png"
   button_primary:
     enable: true
-    label: "Get API Key"
-    link: "{signInUrl}"
+    label: "Let's Chat with AI"
+    link: "https://chat.rifx.online"
   button_outline:
     enable: true
-    label: "Select a Model"
+    label: "Browse Models"
     link: "/models"
 
 # Topic
