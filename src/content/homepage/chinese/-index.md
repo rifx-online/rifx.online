@@ -1,7 +1,7 @@
 ---
 # 横幅
 banner:
-  title: "统一访问200+大语言模型的AI API平台"
+  title: "访问200+大语言模型的AI API平台"
   content: "一站式AI服务集成平台，提供统一的API接口，让您轻松访问任何大语言模型。内置故障转移、负载均衡、自动重试和智能缓存等企业级特性。"
   image: "/images/banner.png"
   button_primary:

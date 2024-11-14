@@ -8,6 +8,7 @@ categories: ["text image 2 text"]
 author: "anthropic"
 tags: ["Programming", "Technology", "Machine Learning", "Data Science", "Chatbots"]
 draft: False
+is_recommended: True
 
 id: "claude-3-sonnet"
 context: 200000
@@ -15,7 +16,7 @@ input: 3e-06
 output: 1.5e-05
 img: 0.0048
 request: 0
-last_updated: 2024-11-07T09:45:13Z
+last_updated: 2024-11-14T04:05:16Z
 ---
 
 Claude 3 Sonnet is an ideal balance of intelligence and speed for enterprise workloads. Maximum utility at a lower price, dependable, balanced for scaled deployments.

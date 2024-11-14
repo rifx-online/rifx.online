@@ -11,8 +11,10 @@ import type { ContentEntryMap } from "astro:content";
 import { FaCheck } from "react-icons/fa";
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-import { Copy, Check, MessageSquare, Library } from 'lucide-react';
+import { MessageSquare, Library } from 'lucide-react';
 import CopyButton from "@/layouts/helpers/CopyButton";
+import recommendedItems from "@/lib/utils/recommendedItems";
+import RecommendedModels from "@/layouts/components/RecommendedModels.astro";
 
 export const prerender = true;
 
@@ -39,7 +41,12 @@ const call_to_action = await getSinglePage(
   "call-to-action"
 );
 
-const signInUrl = import.meta.env.ACCOUNT_LINK;
+const posts = await getSinglePage(
+  "models",
+  lang as keyof ContentEntryMap
+);
+const recommendedModels = recommendedItems(posts);
+// const signInUrl = import.meta.env.ACCOUNT_LINK;
 ---
 
 <Base>
@@ -76,19 +83,8 @@ const signInUrl = import.meta.env.ACCOUNT_LINK;
           }
           
         </div>
-        {
-          banner.image && (
-            <div class="col-12">
-              <ImageMod
-                src={banner.image}
-                height={380}
-                width={1200}
-                alt="banner"
-                format="webp"
-              />
-            </div>
-          )
-        }
+        <RecommendedModels models={recommendedModels} />
+        
       </div>
     </div>
   </section>

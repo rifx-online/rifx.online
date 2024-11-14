@@ -1,22 +1,22 @@
 ---
-title: "OpenAI: GPT-4o-mini"
-meta_title: "OpenAI: GPT-4o-mini"
-description: "OpenAI: GPT-4o-mini"
-date: 2024-07-18T00:00:00Z
+title: "OpenAI: GPT-4o-Mini Official"
+meta_title: "OpenAI: GPT-4o-Mini Official"
+description: "OpenAI: GPT-4o-Mini Official"
+date: 2024-10-26T09:00:07Z
 image: "https://img.rifx.online/logo/openai.svg"
-categories: ["text image 2 text"]
-author: "openai"
-tags: ["Programming", "Technology", "Programming/Scripting", "Technology/Web"]
+categories: ["text 2 text"]
+author: "gpt-4o-mini"
+tags: ["Generative AI", "Natural Language Processing", "Machine Learning", "Technology", "Chatbots"]
 draft: False
-is_recommended: True
+is_recommended: False
 
-id: "gpt-4o-mini"
-context: 128000
+id: "openai/gpt-4o-mini"
+context: None
 input: 1.5e-07
 output: 6e-07
-img: 0.007225
+img: 0
 request: 0
-last_updated: 2024-11-14T05:09:26Z
+last_updated: 2024-11-14T05:09:13Z
 ---
 
 GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/openai/gpt-4o), supporting both text and image inputs with text outputs.

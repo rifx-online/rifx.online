@@ -8,6 +8,7 @@ categories: ["text 2 text"]
 author: "undi95"
 tags: ["Programming", "Machine Learning", "Natural Language Processing", "Generative AI", "Chatbots"]
 draft: False
+is_recommended: True
 
 id: "remm-slerp-l2-13b"
 context: 4096
@@ -15,7 +16,7 @@ input: 1.125e-06
 output: 1.125e-06
 img: 0
 request: 0
-last_updated: 2024-11-04T12:46:13Z
+last_updated: 2024-11-14T04:06:00Z
 ---
 
 A recreation trial of the original MythoMax-L2-B13 but with updated models. #merge

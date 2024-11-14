@@ -1,0 +1,85 @@
+---
+import config from "@/config/config.json";
+import {
+  getLangFromUrl,
+  slugSelector,
+} from "@/lib/utils/languageParser";
+import { humanize, plainify, slugify } from "@/lib/utils/textConverter";
+import { formatNumber, formatTokens } from "@/lib/utils/formatUtils";
+import { FaRegUserCircle } from "react-icons/fa";
+import CopyIconButton from '../helpers/CopyIconButton';
+
+const { summary_length }: { summary_length: number; model_folder: string } =
+  config.settings;
+const { data } = Astro.props;
+const {
+  title,
+  id,
+  context,
+  input,
+  output,
+  description,
+  image,
+  categories,
+  date,
+  author,
+  img,
+  request,
+} = data.data;
+
+const lang = getLangFromUrl(Astro.url);
+
+const slugParts = data.slug.split("/");
+slugParts[0] = "models";
+const modifiedSlug = slugParts.join("/");
+data.slug = modifiedSlug;
+
+---
+
+<div class="h-full bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700 hover:shadow-md transition-shadow duration-200">
+  <div class="p-4">
+    <div class="mb-2">
+      <h3 class="text-lg font-semibold line-clamp-1">
+        <a href={slugSelector(`/${data.slug}`, lang)} class="hover:text-primary">
+          {title}
+        </a>
+      </h3>
+    </div>
+
+    <p class="text-sm text-gray-600 dark:text-gray-400 mb-3 line-clamp-2">
+      {plainify(data.body?.slice(0, Number(summary_length)))}...
+    </p>
+
+    <div class="text-xs text-gray-500 dark:text-gray-400 flex flex-wrap gap-2">
+      <span class="flex items-center">
+        <FaRegUserCircle className="mr-1" />
+        {humanize(author)}
+      </span>
+      <span class="flex items-center">
+        {formatNumber(context)} context
+      </span>
+      <span class="flex items-center">
+        ${formatTokens(input * 1000000)}
+      </span>
+      <span class="flex items-center">
+        ${formatTokens(output * 1000000)}
+      </span>
+    </div>
+  </div>
+</div>
+
+<style>
+  .line-clamp-1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+</style>

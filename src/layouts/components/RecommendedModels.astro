@@ -1,0 +1,71 @@
+---
+import RecommendedModelCard from "./RecommendedModelCard.astro";
+
+
+
+const { models } = Astro.props;
+---
+
+<section class="py-8">
+  <div class="container mx-auto px-4">
+    <h2 class="text-2xl font-bold text-center mb-8">推荐模型</h2>
+    <div class="swiper recommended-models-slider">
+      <div class="swiper-wrapper">
+        {models.map((model: any) => (
+          <div class="swiper-slide px-2">
+            <RecommendedModelCard data={model} />
+          </div>
+        ))}
+      </div>
+      <div class="recommended-models-slider-pagination mt-6 flex items-center justify-center" />
+    </div>
+  </div>
+</section>
+
+<script>
+  import { Swiper } from "swiper";
+  import "swiper/css";
+  import "swiper/css/pagination";
+  import { Autoplay, Pagination } from "swiper/modules";
+
+  document.addEventListener("astro:page-load", () => {
+    new Swiper(".recommended-models-slider", {
+      modules: [Pagination, Autoplay],
+      spaceBetween: 16,
+      loop: true,
+      slidesPerView: 1,
+      centeredSlides: false,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".recommended-models-slider-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 24,
+        },
+      },
+    });
+  });
+</script>
+
+<style>
+  :global(.swiper-pagination-bullet) {
+    width: 8px;
+    height: 8px;
+    background: #ccc;
+    opacity: 0.5;
+  }
+  :global(.swiper-pagination-bullet-active) {
+    opacity: 1;
+    background: #666;
+  }
+</style> 
