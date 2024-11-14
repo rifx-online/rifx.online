@@ -8,6 +8,7 @@ categories: ["text image 2 text"]
 author: "google"
 tags: ["Programming", "Machine Learning", "Natural Language Processing", "Computer Vision", "Chatbots"]
 draft: False
+is_recommended: True
 
 id: "gemini-flash-1.5"
 context: 1000000
@@ -15,7 +16,7 @@ input: 7.5e-08
 output: 3e-07
 img: 4e-05
 request: 0
-last_updated: 2024-10-31T23:10:34Z
+last_updated: 2024-11-14T08:23:12Z
 ---
 
 Gemini 1.5 Flash is a foundation model that performs well at a variety of multimodal tasks such as visual understanding, classification, summarization, and creating content from image, audio and video. It's adept at processing visual and text inputs such as photographs, documents, infographics, and screenshots.
