@@ -1,6 +1,10 @@
 ---
 import RecommendedModelCard from "./RecommendedModelCard.astro";
-
+import { getListPage } from "@/lib/contentParser.astro";
+import type { ContentEntryMap } from "astro:content";
+const { lang } = Astro.params;
+const homepage = await getListPage("homepage", lang as keyof ContentEntryMap);
+const { banner } = homepage[0].data;
 
 
 const { models } = Astro.props;
@@ -8,7 +12,7 @@ const { models } = Astro.props;
 
 <section class="py-8">
   <div class="container mx-auto px-4">
-    <h2 class="text-2xl font-bold text-center mb-8">Recommended Models</h2>
+    <h2 class="text-2xl text-center mb-8 mt-4">{banner.recommended_models.title}</h2>
     <div class="swiper recommended-models-slider">
       <div class="swiper-wrapper">
         {models.map((model: any) => (
@@ -36,7 +40,7 @@ const { models } = Astro.props;
       slidesPerView: 1,
       centeredSlides: false,
       autoplay: {
-        delay: 3000,
+        delay: 8000,
         disableOnInteraction: false,
       },
       pagination: {

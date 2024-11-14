@@ -12,6 +12,9 @@ banner:
     enable: true
     label: "浏览模型"
     link: "/zh/models"
+  recommended_models:
+    enable: true
+    title: "推荐模型"
 
 # 主题
 topic:

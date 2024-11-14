@@ -12,6 +12,9 @@ banner:
     enable: true
     label: "Browse Models"
     link: "/models"
+  recommended_models:
+    enable: true
+    title: "Recommended Models"
 
 # Topic
 topic:

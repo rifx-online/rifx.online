@@ -83,7 +83,11 @@ const recommendedModels = recommendedItems(posts);
           }
           
         </div>
-        <RecommendedModels models={recommendedModels} />
+        {
+          banner.recommended_models.enable && (
+            <RecommendedModels models={recommendedModels} />
+          )
+        }
         
       </div>
     </div>
