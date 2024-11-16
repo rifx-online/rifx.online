@@ -2,7 +2,7 @@
 title: "The Focus Is Shifting From AI Agents To AI Agent Tool Use"
 meta_title: "The Focus Is Shifting From AI Agents To AI Agent Tool Use"
 description: "The article discusses the evolving focus in AI development from creating autonomous AI agents to enhancing the tools they utilize. Key advancements include AI agents like OpenAIs upcoming Operator, which will perform tasks on users computers through GUI navigation. Anthropic has also released a reference implementation for AI agents that interact with virtual environments, showcasing tools for GUI interactions, command-line operations, and file manipulation. These developments emphasize the importance of tool access in augmenting the capabilities of AI agents."
-date: 2024-11-16T01:36:50Z
+date: 2024-11-16T11:03:12Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*7IELtMakzcc68bdb4usXBQ.png"
 categories: ["Programming", "Technology", "Autonomous Systems"]
 author: "Rifx.Online"
@@ -13,19 +13,13 @@ draft: False
 
 
 
-
-
-
-
 ### The focus regarding AI Agents is shifting from simply developing autonomous AI Agents to enhancing the tools available to them, which directly affects their power and flexibility.
 
 The functionality and reach of AI Agents depend heavily on tool access, with tools described in natural language and activated through the agent’s internal reasoning.
 
 Desktops and other user\-specific environments offer the rich context that agents need to perform tasks effectively, making them ideal operational spaces.
 
-
 ## ✨✨ Follow me on LinkedIn ✨✨
-
 
 ## Introduction
 
@@ -39,7 +33,6 @@ Other major players are also launching agent tools capable of real\-time compute
 
 ![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*q7YvQLqfVdhV3bZM2oflDQ.png)
 
-
 ## Anthropic Computer Use
 
 Anthropic has made available a [reference implementation](https://github.com/anthropics/anthropic-quickstarts/tree/main/computer-use-demo) that includes everything you will need to get started quickly with computer use.
@@ -49,7 +42,6 @@ Anthropic has made available a [reference implementation](https://github.com/ant
 The image above shows the AI Agent running on my desktop, I had to install Docker in my MacBook and deploy the docker image onto my machine.
 
 The script shown below is all you need to deploy the instance and have it up and running.
-
 
 ```python
 export ANTHROPIC_API_KEY=%your_api_key%
@@ -62,6 +54,7 @@ docker run \
     -p 8080:8080 \
     -it ghcr.io/anthropics/anthropic-quickstarts:computer-use-demo-latest
 ```
+
 Below is a screenshot of the terminal window from where I run the file…
 
 ![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*mTu4gGEwnFbQYqJ-YGYqIA.png)
@@ -73,13 +66,11 @@ The implementation consists of:
 * An [agent loop](https://github.com/anthropics/anthropic-quickstarts/blob/main/computer-use-demo/computer_use_demo/loop.py) that interacts with the Anthropic API and executes the computer use tools
 * A web interface to interact with the container, agent loop, and tools.
 
-
 ## Anthropic AI Agent Detail
 
 ![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*euT2ZTmjVV5cTK-j8i4fgg.png)
 
 The Anthropic **AI Agent** has access to three main **tools/functions** that allow me to interact with the Ubuntu virtual machine environment:
-
 
 ### computer function:
 
@@ -94,7 +85,6 @@ The Anthropic **AI Agent** has access to three main **tools/functions** that all
 * Display number is :1
 * The AI Agent needs to check coordinates via screenshots before clicking elements
 
-
 ### bash function:
 
 * Gives AI Agent access to a bash shell to run commands
@@ -102,7 +92,6 @@ The Anthropic **AI Agent** has access to three main **tools/functions** that all
 * Can install packages via apt and pip
 * Can run background processes
 * For GUI applications, needs DISPLAY\=:1 environment variable set
-
 
 ### str\_replace\_editor function:
 
@@ -113,7 +102,6 @@ The Anthropic **AI Agent** has access to three main **tools/functions** that all
 * Inserting text at specific lines (`insert`)
 * Undoing edits (`undo_edit`)
 * Maintains state across operations
-
 
 ## Important Constraints
 
@@ -130,13 +118,5 @@ The tools provide the AI Agent with a controlled but flexible way to interact wi
 My environment is freshly initialised for each session, but maintains state within a session across tool invocations.
 
 The AI Agent can use the internet through Firefox and install additional software as needed through the package management system.
-
-![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*4env1UkoKOZ-3zmF.png)
-
-[***Chief Evangelist***](https://www.linkedin.com/in/cobusgreyling/) ***@*** *[Kore.ai](https://blog.kore.ai/cobus-greyling) \| I’m passionate about exploring the intersection of AI and language. From Language Models, AI Agents to Agentic Applications, Development Frameworks \& Data\-Centric Productivity Tools, I share insights and ideas on how these technologies are shaping the future.*
-
-![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*4env1UkoKOZ-3zmF.png)
-
-![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*4env1UkoKOZ-3zmF.png)
 
 

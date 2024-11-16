@@ -2,7 +2,7 @@
 title: "Goover — A New Search Engine Challenging Perplexity AI"
 meta_title: "Goover — A New Search Engine Challenging Perplexity AI"
 description: "In 2024, the search engine landscape is evolving with the introduction of Goover, a new AI-powered platform aiming to compete with established players like Google and Perplexity AI. Goover emphasizes accuracy and user-friendliness, offering features such as fact-checked insights, personalized briefings, and a focus on reducing misinformation. While it shows promise with its deep answer capabilities and reference tracking, it still has room for improvement in speed and user experience. Overall, Goover presents an attractive alternative in the growing market of AI-driven search engines."
-date: 2024-11-16T01:36:50Z
+date: 2024-11-16T11:03:12Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*YQH6-bv6bjVn199pk1uC-Q.jpeg"
 categories: ["Technology/Web", "AI", "Search Engines"]
 author: "Rifx.Online"
@@ -10,9 +10,6 @@ tags: ["Goover", "accuracy", "user-friendliness", "fact-checked", "misinformatio
 draft: False
 
 ---
-
-
-
 
 
 
@@ -24,7 +21,6 @@ With more AI\-powered search engines emerging, it’s becoming tricky to figure 
 
 And now, there’s a new player entering the AI\-powered search engine game with a promise of delivering more accurate results—it’s called [**Goover**](https://intro.goover.ai/).
 
-
 ## What is Goover?
 
 Goover is a new AI search platform that offers fact\-checked, reference\-supported insights similar to Perplexity AI. It provides a reliable, interactive AI experience focused on accuracy and user friendliness.
@@ -32,7 +28,6 @@ Goover is a new AI search platform that offers fact\-checked, reference\-support
 ![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*-k5wsFFeO-wxsgQmC4R6sA.png)
 
 Goover is still new, and the company still has a lot of more cool features to roll out in the future. You can check more details of it [here](https://intro.goover.ai/).
-
 
 ## Key Features of Goover
 
@@ -43,7 +38,6 @@ Goover comes equipped with a variety of interesting features:
 * **Deep Answers:** When you need an in\-depth answer, Goover can provide it. These responses take a little longer to generate but offer more detailed, thoughtful insights.
 * **Quick Answers**: Perfect for when you need straightforward information fast. Goover provides concise answers without sacrificing relevance.
 
-
 ## What Sets Goover Apart?
 
 Here’s a set of features that distinguish it from other AI search engines.
@@ -53,7 +47,6 @@ Here’s a set of features that distinguish it from other AI search engines.
 * **Anti\-Hallucination**: Responses are grounded in verified data, enhancing trustworthiness.
 
 Now, let’s see how it stacks up against Perplexity AI in a head\-to\-head comparison.
-
 
 ## How Does It Compare to Perplexity AI?
 
@@ -88,11 +81,9 @@ Now, let’s see how Goover and Perplexity perform in terms of the following cap
 3. **Web searching capabilities**
 4. **Logic questions**
 
-
 ## Research Capabilities
 
 In this test, I wanted to see if both tools could accurately provide the release dates and versions of popular AI image models.
-
 
 > **Prompt:** Give me a timeline for the best and most popular AI image generators models (Stable diffusion, Dall\-E, Imagen, Midjourney, Flux)
 
@@ -113,7 +104,6 @@ Looking closely at the results, I noticed that Goover was able to pull in inform
 This level of detail gives Goover an edge, especially for users wanting comprehensive information on the first try.
 
 Let’s do another one.
-
 
 > **Prompt:** What impact does illegal software usage have?
 
@@ -141,18 +131,15 @@ Additionally, in Goover’s references section, I can click on the “Go over”
 
 Pretty cool, right?
 
-
 ## Web Explore Capabilities
 
 Next, I wanted to see how well each platform explores and analyzes new websites.
 
 In the prompt below, I asked it about a new [website](https://www.zeniteq.com/) I launched a couple of months ago:
 
-
 > Prompt: What is Zeniteq? I am talking about the zeniteq.com website
 
 ![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*8QQ_JuIeE2mh8zQV4Ns8wQ.png)
-
 
 > Zeniteq, as indicated on its website [zeniteq.com](http://zeniteq.com/), appears to be a company that might focus on advanced technology solutions, potentially in fields like artificial intelligence, data analysis, or analytical technologies, similar to other companies in this domain like QinetiQ.
 
@@ -161,7 +148,6 @@ Goover is somehow right that the website is about technology, but the uncertaint
 In contrast, Perplexity accurately identified Zeniteq as an online platform specializing in generative AI, noting its launch date and main content focus.
 
 ![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*N2u1R09WX4tP8XTx050cUQ.png)
-
 
 > Zeniteq is an online platform primarily focused on the rapidly evolving field of generative AI. Launched in early 2024, the website serves as a news magazine dedicated to providing coverage on the latest developments, trends, and updates in various aspects of artificial intelligence
 
@@ -173,9 +159,7 @@ While Perplexity was able to give me the correct answer.
 
 ![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*FEu0dCbyw3LO5q8cOufP6g.png)
 
-
 > Zeniteq was created by Jim Clyde Monge, who launched the website in early 2024\. Monge aimed to establish Zeniteq as a news magazine focused on the generative AI sector, providing insights and updates on various AI technologies, including conversational AI and image generation
-
 
 ## Math problems
 
@@ -183,10 +167,10 @@ I also wanted to see how well Goover and Perplexity handle basic math questions.
 
 Let’s try it with this equation:
 
-
 ```python
 50^0.75
 ```
+
 According to Goover, the equation above would result in approximately 17\.78—which is wrong.
 
 ![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*tyaevDrmb2k76uaw-In01w.png)
@@ -197,11 +181,9 @@ Perplexity’s answer, on the other hand, was short, but it was correct.
 
 But just to remind you that language models aren’t optimized for math problems, so any LLMs out there, even the most powerful, are still prone to calculation errors.
 
-
 ## Logic questions
 
 I then tested both platforms with basic logic questions to see how they handled them.
-
 
 > Prompt: How many ‘r’ letter are in the word strawberry?
 
@@ -217,7 +199,6 @@ Both Goover and Perplexity correctly identified the answer. However, Goover took
 
 Let’s do another one:
 
-
 > **Prompt:** Give me 5 countries with letter A in the third position in the name
 
 Here’s the result from Goover:
@@ -229,7 +210,6 @@ Here’s the result from Perplexity:
 ![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*9_vCrD8Y2mDzsFj0HWjOFw.png)
 
 Surprisingly, both Goover and Perplexity failed to provide the correct answers. It’s a tricky prompt, and for some reason, even the most powerful AI models like GPT\-4o and Google Gemini 1\.5 Pro struggle with it.
-
 
 ## Improvement Suggestions
 
@@ -261,7 +241,6 @@ Additionally, a small tweak like having the Goover icon redirect users to the ho
 
 ![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*KDZzr3B3KrbVIzJSa0kGmQ.png)
 
-
 ## Final Thoughts
 
 In the past decade, Google has been the only name most people associate with search engines, whether on their phone or desktop. It completely dominated the market, and no competitor seemed capable of challenging it—until this year.
@@ -273,15 +252,5 @@ Goover is trying to blend the best of both worlds—generative AI and personaliz
 Goover’s “deep answers” feature is impressive. It really dives into researching to produce well\-thought\-out results and insights. Honestly, I find these results more accurate compared to other tools like Perplexity or Gemini. It’s basically their take on Perplexity AI’s Pro search, but without the limitation of just 3 searches a day.
 
 The reports and briefings are also new features that I find pretty interesting. And the fact that it’s free makes it an attractive alternative to paid tools like Perplexity. I’m really curious about what features and upgrades are in store for Goover and how it plans to compete directly with Google and Perplexity.
-
-I encourage you to give it a try and let me know what you think about it in the comments!
-
-![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*CnheXRg05Jsb9HMk.png)
-
-This story is published on [Generative AI](https://generativeai.pub/). Connect with us on [LinkedIn](https://www.linkedin.com/company/generative-ai-publication) and follow [Zeniteq](https://www.zeniteq.com/) to stay in the loop with the latest AI stories.
-
-Subscribe to our [newsletter](https://www.generativeaipub.com/) and [YouTube](https://www.youtube.com/@generativeaipub) channel to stay updated with the latest news and updates on generative AI. Let’s shape the future of AI together!
-
-![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*FcOotuyHJC8q1ioX.png)
 
 

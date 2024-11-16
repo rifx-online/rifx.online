@@ -2,7 +2,7 @@
 title: "我训练人工智能成为我聪明的同性恋闺蜜 💅"
 meta_title: "我训练人工智能成为我聪明的同性恋闺蜜 💅"
 description: "文章探讨了作者如何利用ChatGPT作为个人反思和自我发展的工具。作者强调，尽管不使用AI进行写作，但在寻找食谱、管理预算和简历优化等方面受益匪浅。最重要的是，ChatGPT作为一个“盲点教练”，帮助作者分析生活中的挑战，并提供实用建议。作者分享了与ChatGPT的互动经验，包括讨论个人哲学和疗法，最终得出改善界限的结论。文章还列出了一些有效的自我发展提示，以便更好地利用AI进行个人成长。"
-date: 2024-11-16T01:36:50Z
+date: 2024-11-16T11:03:12Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*tTbyDZK3QIA2FkOINBTgww.jpeg"
 categories: ["Chatbots", "Generative AI", "Personal Development"]
 author: "Rifx.Online"

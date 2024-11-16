@@ -2,7 +2,7 @@
 title: "人工智能研究代理：2025 年将改变知识研究（外加三大免费工具）"
 meta_title: "人工智能研究代理：2025 年将改变知识研究（外加三大免费工具）"
 description: "预计到2025年，AI研究代理将彻底改变知识研究的方式。与传统AI工具不同，这些代理能够自主适应并处理大量信息，识别模式并生成洞察。文章介绍了三种免费工具：斯坦福的STORM、CustomGPT.ai研究员和GPT Researcher，它们在自动化研究、生成结构化内容和确保信息准确性方面具有显著优势。AI研究代理将提升研究效率，帮助研究者专注于创造性思维，同时推动研究的民主化，促进跨学科创新和多样化视角的出现。"
-date: 2024-11-16T01:36:50Z
+date: 2024-11-16T11:03:12Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*8hV5Jo0eUwY01CWV"
 categories: ["Research", "Data Science", "Generative AI"]
 author: "Rifx.Online"

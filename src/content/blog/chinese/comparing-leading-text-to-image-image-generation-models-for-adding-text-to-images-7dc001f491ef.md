@@ -2,7 +2,7 @@
 title: "比较为图像添加文本的主要文本到图像生成模型"
 meta_title: "比较为图像添加文本的主要文本到图像生成模型"
 description: "本文评估了九种领先的文本到图像生成模型在图像中准确渲染文本的能力。测试结果显示，Black Forest Labs的FLUX1.1 [pro]和Stability AI的Stable Image Ultra在再现提示中请求的文本方面表现最佳。文章还探讨了三种替代技术，以提高生成图像中文本的准确性，包括在图像中替换生成的文本、从空白画布开始生成图像以及分别生成图像和文本。"
-date: 2024-11-16T01:36:50Z
+date: 2024-11-16T11:03:12Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*Gvj5CUGClWka1KUsDy5GQw.png"
 categories: ["Generative AI", "Natural Language Processing", "Technology/Web"]
 author: "Rifx.Online"
@@ -10,8 +10,6 @@ tags: ["text", "generation", "models", "accuracy", "techniques"]
 draft: False
 
 ---
-
-
 
 ### 九个领先图像生成模型在图像中渲染准确文本（单词和短语）的能力比较
 
@@ -38,7 +36,7 @@ draft: False
 3. *一幅幽默插图，描绘了一只友好的南瓜，背景为白色，配有秋季主题的各种南瓜和秋叶。“万圣节快乐”的字样以大深棕色字母居中在南瓜上方。*
 4. *一块时尚的广告牌高耸在繁忙的高速公路上，车流在高峰时段快速掠过。在一个动态的抽象背景下，大而粗体的文字“生成性 AI：转变数字广告”，为路过的司机提供了即时的可读性。*
 
-尽管模型之间的整体图像质量和明显偏见程度差异显著，但仅评估了文本生成能力。能够至少 50% 准确再现提示中请求文本的模型获得了及格分数。以下是一些选定测试的结果，展示了模型的能力。结果按字母顺序呈现，而不是按质量排名。每个测试中包含了四张代表性的平均质量图像。 
+尽管模型之间的整体图像质量和明显偏见程度差异显著，但仅评估了文本生成能力。能够至少 50% 准确再现提示中请求文本的模型获得了及格分数。以下是一些选定测试的结果，展示了模型的能力。结果按字母顺序呈现，而不是按质量排名。每个测试中包含了四张代表性的平均质量图像。
 
 
 
@@ -204,7 +202,4 @@ Black Forest Labs的FLUX1.1 \[pro]和Stability AI的Stable Image Ultra模型比�
 
 在这篇文章中，我们探讨了来自不同提供商的九种最先进的文本到图像生成模型的能力，以根据提示生成图像中的准确文本。我们发现，Black Forest Labs 的 FLUX1.1 [pro] 和 Stability AI 的 Stable Image Ultra 在准确再现图像中请求的文本方面，比其他模型更成功。最后，我们检查了三种替代的、更可靠的技术，以确保生成图像中文本的准确性。
 
-*如果您还不是 Medium 会员并希望支持像我这样的作者，请在此注册：<https://garystafford.medium.com/membership>。*
-
-*本博客代表我的观点，而不是我的雇主亚马逊网络服务（AWS）的观点。所有产品名称、图像、徽标和品牌均为其各自所有者的财产。*
 

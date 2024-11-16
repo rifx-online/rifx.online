@@ -2,7 +2,7 @@
 title: "本周末您可以构建的 5 个人工智能项目（使用 Node.js）"
 meta_title: "本周末您可以构建的 5 个人工智能项目（使用 Node.js）"
 description: "本文介绍了五个适合初学者在周末使用 Node.js 构建的 AI 项目，包括客户支持聊天机器人、图像识别应用、社交媒体情感分析工具、语音命令应用程序和个性化电影推荐系统。这些项目旨在提升编码技能并了解人工智能的实际应用，适合希望亲自探索 AI 的开发者。每个项目都提供了所需的技术栈和工具，鼓励开发者根据个人创意进行调整。"
-date: 2024-11-16T01:36:50Z
+date: 2024-11-16T11:03:34Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*x9ezYQZawlG0DRV6"
 categories: ["Programming/Scripting", "Natural Language Processing", "Computer Vision"]
 author: "Rifx.Online"
@@ -35,7 +35,7 @@ draft: False
 * **Dialogflow**（由 Google 提供）或 [**ChatGPT API**](https://platform.openai.com/docs/api-reference/introduction) 用于自然语言处理
 * **Socket.io** 用于实时聊天功能
 
-## 2. 使用 Node.js 构建 AI 驱动的图像识别应用 
+## 2. 使用 Node.js 构建 AI 驱动的图像识别应用
 
 该项目涉及创建一个图像识别应用，能够识别照片中的物体、动物或文本。
 
@@ -113,23 +113,4 @@ app.listen(3000, () => {
 
 每个项目都高度可定制，因此在您进展的过程中，欢迎根据您的独特想法进行调整。
 
-有关更多教程和资源，请 [订阅我们的频道](https://www.youtube.com/@codemarketi)，并及时了解最新的 AI 和 Node.js 项目创意。
-
-祝您编码愉快！ 🚀
-
-## 相关博客文章推荐
-
-* [https://readmedium.com/how\-ai\-tools\-like\-claude\-vercel\-and\-more\-are\-transforming\-software\-development\-b8d79b0de943](https://readmedium.com/how-ai-tools-like-claude-vercel-and-more-are-transforming-software-development-b8d79b0de943)
-* [https://readmedium.com/six\-ai\-powered\-passive\-income\-ways\-to\-make\-350\-per\-day\-990d1e334d16](https://readmedium.com/six-ai-powered-passive-income-ways-to-make-350-per-day-990d1e334d16)
-* [https://readmedium.com/as\-a\-developer\-here\-are\-5\-websites\-youll\-love\-e7518b24c85d](https://readmedium.com/as-a-developer-here-are-5-websites-youll-love-e7518b24c85d)
-* [https://readmedium.com/5\-useful\-chatgpt\-tricks\-thatll\-blow\-your\-mind\-in\-2025\-12e10a81f4d5](https://readmedium.com/5-useful-chatgpt-tricks-thatll-blow-your-mind-in-2025-12e10a81f4d5)
-
-## 用简单英语表达 🚀
-
-*感谢您成为 [**In Plain English**](https://plainenglish.io/) 社区的一部分！在您离开之前：*
-
-* 请务必 **点赞** 和 **关注** 作者 ️👏**️️**
-* 关注我们： [**X**](https://x.com/inPlainEngHQ) \| [**LinkedIn**](https://www.linkedin.com/company/inplainenglish/) \| [**YouTube**](https://www.youtube.com/channel/UCtipWUghju290NWcn8jhyAw) \| [**Discord**](https://discord.gg/in-plain-english-709094664682340443) \| [**Newsletter**](https://newsletter.plainenglish.io/) \| [**Podcast**](https://open.spotify.com/show/7qxylRWKhvZwMz2WuEoua0)
-* [**在 Differ 创建一个免费的 AI 驱动博客。**](https://differ.blog/)
-* 更多内容请访问 [**PlainEnglish.io**](https://plainenglish.io/)
 

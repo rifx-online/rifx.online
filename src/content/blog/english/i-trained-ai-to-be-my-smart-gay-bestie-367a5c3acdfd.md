@@ -2,7 +2,7 @@
 title: "I trained AI to be my smart gay bestie 💅"
 meta_title: "I trained AI to be my smart gay bestie 💅"
 description: "The article discusses the authors innovative use of ChatGPT as a personal development tool, rather than for writing. The author employs the AI for meal planning, resume refinement, and financial management, but finds its greatest value in serving as a blind-spot coach. By engaging in dialogues about personal challenges and philosophies, the author receives insightful analyses and practical advice from ChatGPT. The piece outlines the setup process, including customizing the AIs voice and training it on personal beliefs, and shares effective prompts for deeper self-reflection and growth."
-date: 2024-11-16T01:36:50Z
+date: 2024-11-16T11:03:12Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*tTbyDZK3QIA2FkOINBTgww.jpeg"
 categories: ["Chatbots", "Generative AI", "Personal Development"]
 author: "Rifx.Online"

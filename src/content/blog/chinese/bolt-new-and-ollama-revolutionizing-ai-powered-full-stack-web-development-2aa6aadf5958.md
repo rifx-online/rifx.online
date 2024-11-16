@@ -2,7 +2,7 @@
 title: "Bolt.new 和 Ollama：革新人工智能驱动的全栈式 Web 开发"
 meta_title: "Bolt.new 和 Ollama：革新人工智能驱动的全栈式 Web 开发"
 description: "Bolt.new是一款创新的AI驱动全栈Web开发工具，能在浏览器中简化应用程序的构建与部署。结合Ollama，用户可以在本地运行开源AI模型，降低成本并提升灵活性。Bolt.new通过全面控制开发环境，支持从简单网页到复杂金融服务应用的开发，极大地提高了开发效率和便捷性。"
-date: 2024-11-16T01:36:50Z
+date: 2024-11-16T11:03:12Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*vbo04xVLorq_rvpeEDCaAg.jpeg"
 categories: ["Programming", "Technology/Web", "Data Science"]
 author: "Rifx.Online"

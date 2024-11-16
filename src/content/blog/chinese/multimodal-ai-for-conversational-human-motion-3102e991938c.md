@@ -2,7 +2,7 @@
 title: "用于人类运动对话的多模态人工智能"
 meta_title: "用于人类运动对话的多模态人工智能"
 description: "本文探讨了多模态人工智能在对话中的应用，强调通过感知、运动规划和虚拟形象渲染实现更自然的交互。多模态模型能够减少信息损失，整合视觉、听觉和文本输入，从而提升虚拟形象的响应能力。文章还分析了当前的应用案例，如医疗、客户支持和教育，指出在实时响应、个性化和记忆管理等方面的挑战。随着技术的发展，未来的应用将有助于实现更复杂的人机交互。"
-date: 2024-11-16T01:36:50Z
+date: 2024-11-16T11:03:12Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*zANW8t-IxPlkyxX-5_9Ayw.png"
 categories: ["Chatbots", "Autonomous Systems", "Natural Language Processing"]
 author: "Rifx.Online"
@@ -10,8 +10,6 @@ tags: ["multimodal", "perception", "avatar", "latency", "empathy"]
 draft: False
 
 ---
-
-
 
 撰写者：[Christian Safka](https://www.linkedin.com/in/christiansafka/) 和 [Keyu Chen](https://www.linkedin.com/in/keyu-chen-3a3026143/?locale=en_US)
 
@@ -103,7 +101,7 @@ draft: False
 
 随着研究的进展，这些应用将不断扩展，使数字人类能够在越来越复杂、高风险的环境中部署。人类级别的对话化身还将解锁同情性应用案例以及高信息流的人机交互界面。
 
-如果解决如模态对齐、延迟和上下文一致性等挑战让你感兴趣——我们正在招聘！请查看我们的网站 <https://tavus.io>
+如果解决如模态对齐、延迟和上下文一致性等挑战让你感兴趣——我们正在招聘！请查看我们的网站 [https://tavus.io](https://tavus.io)
 
 **参考文献**
 
@@ -111,7 +109,4 @@ draft: False
 
 \[1] Pereira, Patrícia, Helena Moniz, and Joao Paulo Carvalho. “Deep emotion recognition in textual conversations: A survey.” *Artificial Intelligence Review* 58, no. 1 (2025\): 1–37\.
 
-## 别忘了给我们你的 👏 !
-
-![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*2lvCls4yjxVMfZSR)
 

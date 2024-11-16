@@ -2,7 +2,7 @@
 title: "焦点正从人工智能代理转向人工智能代理工具的使用"
 meta_title: "焦点正从人工智能代理转向人工智能代理工具的使用"
 description: "文章探讨了AI代理的关注点转向增强其使用工具的能力，这些工具通过自然语言描述并激活代理的推理能力。OpenAI和Anthropic等公司正在开发能够在计算机上自主执行任务的AI代理，旨在提高多步骤工作流程的管理能力。Anthropic提供了一个参考实现，展示了AI代理如何与计算机环境交互，包括GUI操作和命令行功能，强调了在受控环境中灵活运用工具的策略。"
-date: 2024-11-16T01:36:50Z
+date: 2024-11-16T11:03:12Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*7IELtMakzcc68bdb4usXBQ.png"
 categories: ["Programming", "Technology", "Autonomous Systems"]
 author: "Rifx.Online"
@@ -10,8 +10,6 @@ tags: ["Operator", "GUI", "Navigation", "Command", "File"]
 draft: False
 
 ---
-
-
 
 
 
@@ -56,6 +54,7 @@ docker run \
     -p 8080:8080 \
     -it ghcr.io/anthropics/anthropic-quickstarts:computer-use-demo-latest
 ```
+
 下面是我运行文件的终端窗口的截图…
 
 ![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*mTu4gGEwnFbQYqJ-YGYqIA.png)
@@ -120,11 +119,4 @@ Anthropic **AI Agent** 可以访问三个主要的 **工具/功能**，使我能
 
 AI Agent 可以通过 Firefox 使用互联网，并根据需要通过软件包管理系统安装额外的软件。
 
-![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*4env1UkoKOZ-3zmF.png)
-
-[***首席布道者***](https://www.linkedin.com/in/cobusgreyling/) ***@*** *[Kore.ai](https://blog.kore.ai/cobus-greyling) \| 我热衷于探索人工智能与语言的交集。从语言模型、AI Agent 到代理应用、开发框架和数据驱动的生产力工具，我分享这些技术如何塑造未来的见解和想法。*
-
-![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*4env1UkoKOZ-3zmF.png)
-
-![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*4env1UkoKOZ-3zmF.png)
 

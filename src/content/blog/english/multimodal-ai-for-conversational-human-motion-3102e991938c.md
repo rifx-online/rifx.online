@@ -2,7 +2,7 @@
 title: "Multimodal AI for Conversational Human Motion"
 meta_title: "Multimodal AI for Conversational Human Motion"
 description: "Multimodal AI is revolutionizing conversational agents by integrating input perception, motion planning, and avatar rendering to enhance human-like interactions. This approach reduces information loss between these layers, enabling avatars to process multimodal cues from visual, auditory, and text sources for fluid conversations. Key challenges include aligning modalities, managing latency, and maintaining personality consistency. Current applications span healthcare, customer support, and education, with potential for further development in complex environments, enhancing empathetic communication and information flow."
-date: 2024-11-16T01:36:50Z
+date: 2024-11-16T11:03:12Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*zANW8t-IxPlkyxX-5_9Ayw.png"
 categories: ["Chatbots", "Autonomous Systems", "Natural Language Processing"]
 author: "Rifx.Online"
@@ -10,9 +10,6 @@ tags: ["multimodal", "perception", "avatar", "latency", "empathy"]
 draft: False
 
 ---
-
-
-
 
 Written by [Christian Safka](https://www.linkedin.com/in/christiansafka/) and [Keyu Chen](https://www.linkedin.com/in/keyu-chen-3a3026143/?locale=en_US)
 
@@ -27,7 +24,6 @@ The outline of this one\-pager:
 * Challenges in training
 * Current use cases and the future
 
-
 ## Why multimodal?
 
 From a high level, the three “layers” we need to achieve life\-like human conversation are input perception, motion planning, and avatar rendering. Most of the pipelines in academia as of writing this have separated these layers with text as an intermediate:
@@ -37,7 +33,6 @@ From a high level, the three “layers” we need to achieve life\-like human co
 What multimodal models unlock is a decrease in information loss between these layers:
 
 ![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*VUFhrwLA7sUFmHwidb7DWg.png)
-
 
 ## Deep dive into the human motion pipeline
 
@@ -86,14 +81,7 @@ In this context, the **avatar layer** acts as the output rendering mechanism. It
 
 The primary objective can be described as **Synchronized Speech and Motion —** the avatar must coordinate facial expressions, body language, and lip movements using the auditory output and behavioral signals, ensuring that all elements stay in sync.
 
-
-
-
-
-
-
 Maintaining temporal consistency and synchronization is vital, as any delays or mismatches in behavior can quickly break immersion.
-
 
 ## Challenges in training
 
@@ -102,7 +90,6 @@ Some of the active R\&D areas in industry and academia are:
 * **Token Alignment Across Modalities**: Aligning modalities like visual cues and audio intonations without losing contextual or semantic meaning is complex, and the model must learn how to represent them in a unified way for consistent responses
 * **Latency Management**: Real\-time responsiveness requires the entire multimodal pipeline to operate with low latency, which becomes challenging as complexity increases
 * **Personality and Memory**: For avatars, consistent personality traits are essential, especially in prolonged interactions. Proper handling of memory and personality can be essential for maintaining coherent responses in some use\-cases
-
 
 ## Current use\-cases and the future
 
@@ -114,17 +101,12 @@ First, a few examples of current use cases we’re seeing:
 
 As research advances, these applications will expand, allowing digital humans to be deployed in increasingly nuanced, high\-stakes environments. Human\-level conversational avatars will additionally unlock both empathic use\-cases as well as a high information flow HCI interface.
 
-If tackling challenges like modality alignment, latency, and contextual coherence sound interesting to you — we’re hiring! Check us out at <https://tavus.io>
+If tackling challenges like modality alignment, latency, and contextual coherence sound interesting to you — we’re hiring! Check us out at [https://tavus.io](https://tavus.io)
 
 **References**
 
 \[0] Zhou, Hao, Minlie Huang, Tianyang Zhang, Xiaoyan Zhu, and Bing Liu. “Emotional chatting machine: Emotional conversation generation with internal and external memory.” In *Proceedings of the AAAI conference on artificial intelligence*, vol. 32, no. 1\. 2018\.
 
 \[1] Pereira, Patrícia, Helena Moniz, and Joao Paulo Carvalho. “Deep emotion recognition in textual conversations: A survey.” *Artificial Intelligence Review* 58, no. 1 (2025\): 1–37\.
-
-
-## Don’t forget to give us your 👏 !
-
-![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*2lvCls4yjxVMfZSR)
 
 

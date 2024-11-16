@@ -2,7 +2,7 @@
 title: "使用 LLMs 构建可靠的文本分类管道：分步指南"
 meta_title: "使用 LLMs 构建可靠的文本分类管道：分步指南"
 description: "本文介绍了如何使用大型语言模型（LLMs）构建可靠的文本分类管道，重点探讨了三种关键技术：受限生成、少量示例提示和动态示例选择。受限生成通过限制模型输出在预定义类别内，减少了后处理需求；少量示例提示利用模型的上下文学习能力以提高分类准确性；动态示例选择则通过检索与输入文本相似的示例，显著提升分类准确率至88.6%。这些方法展示了LLMs在文本分类中的有效性和灵活性，为构建高性能分类系统提供了可行的解决方案。"
-date: 2024-11-16T01:36:50Z
+date: 2024-11-16T11:03:12Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*Cmk7IkUnY-SIxhVF"
 categories: ["Natural Language Processing", "Machine Learning", "Generative AI"]
 author: "Rifx.Online"

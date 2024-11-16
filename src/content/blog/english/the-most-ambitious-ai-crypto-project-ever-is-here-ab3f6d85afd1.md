@@ -2,7 +2,7 @@
 title: "The Most Ambitious AI Crypto Project Ever is Here"
 meta_title: "The Most Ambitious AI Crypto Project Ever is Here"
 description: "The article discusses an ambitious project by Near to train a decentralized open-source large language model (LLM) with 1.4 trillion parameters, significantly larger than existing models. This initiative aims to combine AI and blockchain technologies, allowing individuals to own and benefit from the AI model they help train. The project seeks to raise $160 million through crowdfunding and utilizes innovative distributed training methods to overcome challenges of synchronization and communication in a decentralized environment. The integration of blockchain is crucial for ensuring transparency and trust in the ownership and rewards associated with the models usage. However, concerns about the feasibility of such a large-scale model and the efficiency of blockchain technology remain."
-date: 2024-11-16T01:36:50Z
+date: 2024-11-16T11:03:12Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*uiBwsWl8grXKJCJaGtH7kw.png"
 categories: ["Technology", "Machine Learning", "Blockchain"]
 author: "Rifx.Online"
@@ -10,10 +10,6 @@ tags: ["blockchain", "parameters", "crowdfunding", "synchronization", "transpare
 draft: False
 
 ---
-
-
-
-
 
 ### AI \& Blockchains: A Match Made in Heaven, or a Scam?
 
@@ -27,20 +23,15 @@ So, *what is exactly what they want to do? And what’s the role of the blockcha
 
 Read on to learn how the worlds of AI and Crypto will irremediably merge and about the project that could finally make an AI model that is owned by the people.
 
-
 > You are probably sick of AI newsletters that simply explain what happened. That’ easy and anyone can do it, which is why there are so many.
-
 
 > But explaining why it matters is another story. That requires knowledge, investigation, and deep thought… all attributes of the people who engage weekly with **TheTechOasis**, the newsletter that aims to answer the most pressing questions in AI.
 
-
 > 🏝️🏝️ Subscribe today below:
-
 
 ## Owning AI
 
 With Trump’s win, Crypto has entered an improvised bull cycle, [taking Bitcoin eerily close to the $100k per coin mark](https://coinmarketcap.com/currencies/bitcoin/) and reaching new all\-time highs.
-
 
 ### The Near Project
 
@@ -59,7 +50,6 @@ However, the real issue isn’t size, but the fact they want to train this model
 For someone familiar with how these models are trained, this is as ambitious as one can be in AI today.
 
 *But why?*
-
 
 ### The Importance of Time
 
@@ -86,7 +76,6 @@ This is why models like [Llama 3\.1 405B were trained on a 24,000 GPU cluster](h
 
 Ok, I get these models need a lot of GPUs working simultaneously to get trained. *But how do they do it?*
 
-
 ### The essence of distributed training
 
 In distributed training, instead of training one single model and updating it by sending all the data to that instance, we build replicas, identical versions of the model, each assigned to a given GPU pod (a pod is a group of tightly connected and collocated GPUs).
@@ -101,18 +90,15 @@ And to make matters worse, Near wants to do this in low\-bandwidth form, meaning
 
 Thus, *how can they do this, and what role will the blockchain play?* Luckily, we kind of know the answer to both in much more detail than what you would expect.
 
-
 ## Toward Decentralized AI
 
 Luckily for Near, they aren’t the only ones thinking about decentralized AI (although Near adds the blockchain; we see how they’ll do it later), as at the time of writing, **the world’s largest decentralized training run is taking place as you read this piece**.
-
 
 ### The Prime Framework
 
 Prime Intellect is a company working toward the vision of training massive LLMs in a decentralized manner, aiming to train ***Intellect\-1***, a 10\-billion parameter model, in a fully decentralized way.
 
 In other words, the training run is distributed across several GPUs, **which are owned by independent parties**, potentially separated across continents, and connected through low\-bandwidth networks.
-
 
 > You can watch the progress and the different parties involved [through this app](https://app.primeintellect.ai/intelligence?utm_source=thetechoasis.beehiiv.com&utm_medium=newsletter&utm_campaign=should-ai-s-kill-openai-s-swarm-the-future-of-ai-training&_bhlid=8eadb6cf7d24b545a761f9ac3f7126a45ac2b579).
 
@@ -121,7 +107,6 @@ This gives us great insight into how Near will achieve its mission of training t
 As you may have guessed from the previous section, the main bottleneck in AI training is the synchronous update. According to Amdahl’s Law, **parallelization can be an exercise of diminishing returns if a certain point in the training can’t be parallelized**.
 
 Therefore, as you increase parallelization, the time\-saving improvements become incremental, as we can’t reduce the synchronization time.
-
 
 > In case you’re wondering, synchronization can’t be performed asynchronously (each pod updating its parameter values independently) as model convergence becomes impossible (at least for our current knowledge).
 
@@ -139,12 +124,9 @@ The number of times you communicate across pods isn’t the only thing that affe
 
 This reduces communication requirements by 400x. In standard form, synchronization takes up to 40 minutes. With this quantization, it takes less than a minute.
 
-
 > **What is quantization?** In a nutshell, we take the information we want to store (or share, as in this case) and reduce the per\-parameter precision (instead of ‘1\.023293,’ that number travels as a ‘1’) of the optimizer states (the states that carry what each model replica is learning).
 
-
 > **Think of this is as compressing the data into a zip file before sending it so the size of the sent packet is smaller and, thus, faster to send.**
-
 
 > However, while the original numbers can be recovered (dequantization), it incurs some precision loss, which can affect performance. However, [Prime Intellect claims they did not appreciate any performance loss](https://www.primeintellect.ai/blog/intellect-1) despite the massive time savings.
 
@@ -158,7 +140,6 @@ Furthermore, the framework includes other techniques like asynchronous checkpoin
 
 But we still haven’t answered the key question: *Where does the blockchain fit in all this?*
 
-
 ## An Exciting Future Ahead
 
 Over the next four years, you will see blockchains in everything.
@@ -166,7 +147,6 @@ Over the next four years, you will see blockchains in everything.
 Yes, the *‘{Insert something that works just fine} but now it’s decentralized’* type of slogans are coming back into our lives.
 
 While many of these new use cases will be pointless, blockchains do have a clear raison d’être that makes them very valuable when used when necessary, not for the sake of saying you’re using a blockchain.
-
 
 ### It’s… a ledger
 
@@ -176,9 +156,7 @@ Blockchains are decentralized ledgers. They store transaction information betwee
 
 Importantly, they are ‘trustless,’ meaning that cryptography, not centralized entities like banks, guarantees the untampered nature of the ledger.
 
-
 > The reason why they are so hard to tamper with is, you guessed it, their decentralized nature. The global network of nodes that secure the blockchain all have an exact copy of the network, updated every time a new block is added.
-
 
 > Therefore, to introduce tampered transactions, you would need to own a majority amount of these nodes, be that through investing huge amounts of compute in proof\-of\-work blockchains like Bitcoin (extremely costly), hacking a majority of the nodes (again, extremely costly) or by owning majority stakes in the blockchain’s cryptocurrency in proof\-of\-stake blockchains like Ethereum (again, extremely costly).
 
@@ -187,7 +165,6 @@ Long story short, the value of blockchains is to make the act of tampering them 
 Hence, their value is the idea that not only they are great sources of truth, providing trust to transaction making, but they are also exempt of centralized powers that may be incentivized to tamper them.
 
 *And how does that fit into AI?* Here’s where all comes full circle.
-
 
 ### Owned AI Needs the Blockchain
 
@@ -202,7 +179,6 @@ Now, you may ask: Could a centralized entity manage this?
 For sure, but the whole point of blockchains is to prevent the need for that central entity to exist in the first place and ensure that no one fully controls who owns what or how much you get paid.
 
 Now, all things considered, *is this vision actually possible today?*
-
 
 ### Does Feasibility Meet Vision?
 
@@ -231,11 +207,5 @@ However, one point still stands: If you truly believe AI can be decentralized, y
 *Or do you still think of a ‘scam’ whenever you see a blockchain mentioned?* If that’s the case, I don’t blame you, but if you manage to abstract yourself from Crypto’s countless scams, you’ll realize this technology will play a vital role in AI.
 
 And if Near is right, that will be sooner than expected.
-
-
-> **For business inquiries on AI strategy or analysis, reach out at nacho@thewhitebox.ai**
-
-
-> If you have enjoyed this article, I share similar thoughts in a more comprehensive and simplified manner for free on my [LinkedIn](https://www.linkedin.com/in/ignacio-de-gregorio-noblejas/).
 
 

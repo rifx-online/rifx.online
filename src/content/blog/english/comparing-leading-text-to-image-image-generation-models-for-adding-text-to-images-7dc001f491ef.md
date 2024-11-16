@@ -2,7 +2,7 @@
 title: "Comparing Leading Text-to-Image Generation Models for Adding Text to Images"
 meta_title: "Comparing Leading Text-to-Image Generation Models for Adding Text to Images"
 description: "This article evaluates the text generation capabilities of nine leading text-to-image models, focusing on their ability to accurately render text within images based on specific prompts. The models tested include Adobe Firefly, Amazon Titan, Black Forest Labs FLUX1.1, Google Imagen, KLING AI, Midjourney, OpenAI DALL·E, and Stability AIs models. Results show that Black Forest Labs FLUX1.1 and Stability AIs Stable Image Ultra performed best, accurately reproducing text over 50% of the time. The article also discusses three alternative techniques for ensuring text accuracy in generated images."
-date: 2024-11-16T01:36:50Z
+date: 2024-11-16T11:03:12Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*Gvj5CUGClWka1KUsDy5GQw.png"
 categories: ["Generative AI", "Natural Language Processing", "Technology/Web"]
 author: "Rifx.Online"
@@ -10,10 +10,6 @@ tags: ["text", "generation", "models", "accuracy", "techniques"]
 draft: False
 
 ---
-
-
-
-
 
 ### A comparison of nine leading image generation models’ ability to render accurate text (words and phrases) within an image.
 
@@ -31,7 +27,6 @@ In this post, we will assess the capabilities of nine state\-of\-the\-art text\-
 
 Additionally, we will examine three alternative and more reliable techniques for ensuring the accuracy of text in generated images.
 
-
 ## Testing the Models
 
 Several tests, using different prompts and varying levels of detail, were run across all models. Examples of prompts included:
@@ -45,9 +40,7 @@ Although the overall image quality and degree of apparent bias varied significan
 
 
 
-
 ## Models
-
 
 ### Adobe Firefly Image 3
 
@@ -63,7 +56,6 @@ Adobe announced its Firefly Image 3 Foundation Model in April 2024\. According t
 
 ![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*0iskBrEjrtFk-mXNrBvkag.jpeg)
 
-
 ### Amazon Titan Image Generator G1 v2
 
 The Amazon Titan Image Generator G1 v2 model was [released](https://aws.amazon.com/blogs/aws/amazon-titan-image-generator-v2-is-now-available-in-amazon-bedrock/) in August 2024\. It was an upgrade to the previous generation, the Amazon Titan Image Generator G1 v1 model, [released](https://aws.amazon.com/blogs/aws/amazon-titan-image-generator-multimodal-embeddings-and-text-models-are-now-available-in-amazon-bedrock/) in November 2023\. The Amazon Titan Image Generator G1 v2 model added features, including image conditioning, image guidance with a color palette, background removal, and subject consistency.
@@ -75,7 +67,6 @@ The Amazon Titan Image Generator G1 v2 model was tested on Amazon Bedrock, which
 🚫 In my tests, Amazon Titan Image Generator G1 v2 could not accurately reproduce the text requested in the prompt.
 
 ![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*QLvxsEveORObkPOOB3u1Mg.png)
-
 
 ### Black Forest Labs FLUX1\.1 \[pro] and Ultra Mode
 
@@ -95,7 +86,6 @@ Tests of Black Forest Labs FLUX1\.1 \[pro] and Ultra were run on [Replicate](htt
 
 ![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*XliNJWJr2TZ5MGwi7RAa-g.png)
 
-
 ### Google Imagen 3
 
 Google Imagen 3 was [released](https://deepmind.google/technologies/imagen-3/) to all US users in August 2024\. According to Google, “*Imagen 3 is our highest\-quality text\-to\-image model, capable of generating images with even better detail, richer lighting, and fewer distracting artifacts than our previous models.*” Tests of Google Imagen 3 were run on [ImageFX](https://aitestkitchen.withgoogle.com/tools/image-fx), part of Google’s AI Test Kitchen, “*a place where people can experience and give feedback on some of Google’s latest AI technologies.*”
@@ -106,7 +96,6 @@ Google Imagen 3 was [released](https://deepmind.google/technologies/imagen-3/) t
 
 ![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*9aqKPuZlpGF_lE3pA0ZNtw.png)
 
-
 ### KLING AI powered by Kolors
 
 Kolors powers Kling AI’s image generation capabilities. According to [Hugging Face](https://huggingface.co/Kwai-Kolors/Kolors), “*Kolors is a large\-scale text\-to\-image generation model based on latent diffusion, developed by the Kuaishou Kolors team. Trained on billions of text\-image pairs, Kolors exhibits significant advantages over both open\-source and proprietary models in visual quality, complex semantic accuracy, and text rendering for both Chinese and English characters.*” According to [Kuaishou](https://ir.kuaishou.com/news-releases/news-release-details/kuaishou-launches-full-beta-testing-kling-ai-global-users-0), Kling AI was released in July 2024\.
@@ -116,7 +105,6 @@ Kolors powers Kling AI’s image generation capabilities. According to [Hugging 
 🚫 In my tests, KLING AI powered by Kolors could not accurately reproduce the text requested in the prompt. The results were the worst of the models tested. Many responses were in Chinese, even when explicitly asked to be displayed in English.
 
 ![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*xgq4C0m8s3Wfp4p9Va7fSQ.png)
-
 
 ### Midjourney v6\.1
 
@@ -132,7 +120,6 @@ Midjourney v6\.1 was released in July 2024\. According to [Midjourney](https://u
 
 ![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*dqGYigq9T-PMx3GKfqSf2Q.png)
 
-
 ### OpenAI DALL·E 3
 
 OpenAI DALL·E 3 was [released](https://deepmind.google/technologies/imagen-3/) over one year ago, in October 2023\. According to [OpenAI](https://openai.com/index/dall-e-3/), “*DALL·E 3 represents a leap forward in our ability to generate images that exactly adhere to the text you provide. DALL·E 3 understands significantly more nuance and detail than our previous systems \[DALL·E 2], allowing you to easily translate your ideas into exceptionally accurate images.*”
@@ -144,7 +131,6 @@ Tests of OpenAI Imagen 3 were run on [ChatGPT](https://openai.com/index/chatgpt/
 🚫 In my tests, OpenAI DALL·E 3 could not accurately reproduce the text requested in the prompt.
 
 ![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*NirwqSB-k8dzfGRNAw-pQw.png)
-
 
 ### Stability AI Stable Diffusion 3\.5 Large
 
@@ -158,7 +144,6 @@ According to Stability AI, the [Stable Diffusion 3\.5 Large](https://stability.a
 
 ![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*G2D-L2fEtjKVTTyph3Burg.jpeg)
 
-
 ### Stability AI Stable Image Ultra
 
 According to Stability AI, the 16 *billion\-parameter [Stable Image Ultra](https://stability.ai/stable-image) model, released in October 2024, “is our flagship model, blending the power of the SD3 Large with advanced workflows to deliver the highest\-quality photorealistic images. This premium model is designed for industries that require unparalleled visual fidelity, such as marketing, advertising, and architecture.*” Like Amazon Titan Image Generator, the Stability AI Stable Image Ultra model was also tested using [Amazon Bedrock](https://aws.amazon.com/blogs/aws/stability-ais-best-image-generating-models-now-in-amazon-bedrock/) using the Image Playground UI.
@@ -171,11 +156,9 @@ According to Stability AI, the 16 *billion\-parameter [Stable Image Ultra](https
 
 ![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*jDHNLjOKHuEBQlFvTb7nYQ.png)
 
-
 ## AI Alternatives to Generating Text
 
 The Black Forest Labs FLUX1\.1 \[pro] and Stability AI Stable Image Ultra models accurately reproduce requested phrases in prompts more frequently than other models. However, users still lack control over many aspects of the images, including the exact position, size, kerning, color, and font style of the text. Several alternative and more reliable techniques exist to guarantee the accuracy of text in generated images.
-
 
 ### Replace Generated Text
 
@@ -186,7 +169,6 @@ Below are two examples of images generated with Black Forest Labs FLUX1\.1 \[pro
 ![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*B0_3d8oImDlrRb6mjpekrw.png)
 
 ![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*fmrW46OsZe6Zsc0eshPyYw.png)
-
 
 ### Start with a Blank Canvas
 
@@ -206,7 +188,6 @@ One last example using the prompt, “*A sleek billboard towers above a bustling
 
 ![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*KyGveUehRxuFTK-DmWnCaw.jpeg)
 
-
 ## Generate Image and Text Separately
 
 A third and final technique is to generate the image and text separately using your model of choice, then combine the two elements in post\-production using Adobe Photoshop. Below is the original image from Midjourney on the left without text, generated using the prompt: “*Vegetable stand with various vegetables, including tomatoes. A empty, blank blackboard\-like sign. — ar 1:1*”
@@ -217,13 +198,8 @@ The text\-only image is then easily overlaid on top of the first image using the
 
 ![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*ZP-pqTQVN8Xy_Vhjm8D0gg.png)
 
-
 ## Conclusion
 
 In this post, we explored the capabilities of nine different state\-of\-the\-art text\-to\-image generation models from various providers to generate accurate text within images from prompts. We discovered that Black Forest Labs FLUX1\.1 \[pro] and Stability AI’s Stable Image Ultra were more successful at accurately reproducing requested text in images compared to other models. Finally, we examined three alternative and more reliable techniques for ensuring the accuracy of text in generated images.
-
-*If you are not yet a Medium member and want to support authors like me, please sign up here: <https://garystafford.medium.com/membership>.*
-
-*This blog represents my viewpoints and not those of my employer, Amazon Web Services (AWS). All product names, images, logos, and brands are the property of their respective owners.*
 
 

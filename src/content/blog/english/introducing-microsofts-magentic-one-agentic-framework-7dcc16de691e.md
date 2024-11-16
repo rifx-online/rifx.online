@@ -2,7 +2,7 @@
 title: "Introducing Microsoft’s Magentic-One Agentic Framework"
 meta_title: "Introducing Microsoft’s Magentic-One Agentic Framework"
 description: "Microsoft has introduced the Magentic-One agentic framework, a multi-agent system designed to tackle complex tasks. It features an orchestrator agent that coordinates specialized agents for web browsing, file management, coding, and terminal operations. Built on the Autogen framework, it allows for various applications, including executing Python code, conducting web searches, and interacting with local files. However, the framework also poses risks, such as unintended actions and potential irreversible consequences, highlighting the need for careful deployment and oversight."
-date: 2024-11-16T01:36:50Z
+date: 2024-11-16T11:03:12Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*dJj20_4jYYp32Crl"
 categories: ["Programming", "Autonomous Systems", "Technology/Web"]
 author: "Rifx.Online"
