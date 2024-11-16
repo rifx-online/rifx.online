@@ -1,8 +1,8 @@
 ---
 title: "AI is Helping Me Manage My Pre-Diabetes"
 meta_title: "AI is Helping Me Manage My Pre-Diabetes"
-description: "The article discusses the author's personal experience managing pre-diabetes and weight loss using artificial intelligence (AI) tools. The author attributes their condition to genetic predisposition and outlines a strategy of dietary restriction and exercise to mimic famine conditions. By tracking blood sugar and carbohydrate intake using ChatGPT, the author observes improvements in blood sugar levels and weight loss, demonstrating the potential of AI in personal health management. The author emphasizes the importance of consulting healthcare professionals while highlighting the efficiency and insights gained from using AI for dietary management."
-date: 2024-11-16T01:24:58Z
+description: "The article discusses the authors personal experience managing pre-diabetes and weight loss using artificial intelligence (AI) tools. The author attributes their condition to genetic predisposition and outlines a strategy of dietary restriction and exercise to mimic famine conditions. By tracking blood sugar and carbohydrate intake using ChatGPT, the author observes improvements in blood sugar levels and weight loss, demonstrating the potential of AI in personal health management. The author emphasizes the importance of consulting healthcare professionals while highlighting the efficiency and insights gained from using AI for dietary management."
+date: 2024-11-16T01:36:50Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*oTD6Y3PWBiteGxzYcDhP-w.jpeg"
 categories: ["Health", "Chatbots", "Data Science"]
 author: "Rifx.Online"

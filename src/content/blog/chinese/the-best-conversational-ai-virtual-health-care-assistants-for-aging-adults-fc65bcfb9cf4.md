@@ -2,7 +2,7 @@
 title: "最适合老年人的对话式人工智能虚拟医疗助理"
 meta_title: "最适合老年人的对话式人工智能虚拟医疗助理"
 description: "虚拟健康护理助手，如MiiHealth.ai，正在为独居老年人提供革命性的医疗支持。这些对话式助手通过药物管理、24/7可用性、紧急健康监测、个性化健康建议和情感支持，帮助老年人应对健康挑战和孤独感。它们的易用性和个性化服务使其成为老年人健康护理的重要工具，确保他们保持独立、连接和健康。"
-date: 2024-11-16T01:24:58Z
+date: 2024-11-16T01:36:50Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*PBuPT38hZv61TFXQzJZ_3w.jpeg"
 categories: ["Health", "Chatbots", "Autonomous Systems"]
 author: "Rifx.Online"

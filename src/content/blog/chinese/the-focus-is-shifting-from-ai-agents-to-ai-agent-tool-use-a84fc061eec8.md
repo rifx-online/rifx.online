@@ -2,7 +2,7 @@
 title: "焦点正从人工智能代理转向人工智能代理工具的使用"
 meta_title: "焦点正从人工智能代理转向人工智能代理工具的使用"
 description: "文章探讨了AI代理的关注点转向增强其使用工具的能力，这些工具通过自然语言描述并激活代理的推理能力。OpenAI和Anthropic等公司正在开发能够在计算机上自主执行任务的AI代理，旨在提高多步骤工作流程的管理能力。Anthropic提供了一个参考实现，展示了AI代理如何与计算机环境交互，包括GUI操作和命令行功能，强调了在受控环境中灵活运用工具的策略。"
-date: 2024-11-16T01:24:58Z
+date: 2024-11-16T01:36:50Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*7IELtMakzcc68bdb4usXBQ.png"
 categories: ["Programming", "Technology", "Autonomous Systems"]
 author: "Rifx.Online"

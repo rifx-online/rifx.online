@@ -2,7 +2,7 @@
 title: "微软 Magentic-One 代理框架介绍"
 meta_title: "微软 Magentic-One 代理框架介绍"
 description: "微软最近推出了Magentic-One，一个高性能的多智能体系统，旨在执行复杂任务。该系统由一个编排者智能体和四个专门智能体组成，能够进行网页浏览、文件操作、编码和终端指令。Magentic-One基于微软的Autogen框架，具有强大的任务规划和执行能力，但也面临潜在风险，如错误配置可能导致不当行为。用户可以通过GitHub和OpenAI等平台安装和配置该系统，进行多种应用示例，包括编写Python代码和网络搜索。"
-date: 2024-11-16T01:24:58Z
+date: 2024-11-16T01:36:50Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*dJj20_4jYYp32Crl"
 categories: ["Programming", "Autonomous Systems", "Technology/Web"]
 author: "Rifx.Online"

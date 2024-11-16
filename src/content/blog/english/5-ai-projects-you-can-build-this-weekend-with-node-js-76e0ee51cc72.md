@@ -2,7 +2,7 @@
 title: "5 AI Projects You Can Build This Weekend (with Node.js)"
 meta_title: "5 AI Projects You Can Build This Weekend (with Node.js)"
 description: "This article presents five beginner-friendly AI projects that can be completed over a weekend using Node.js. The projects include creating a customer support chatbot, an AI-powered image recognition app, a sentiment analysis tool for social media, a voice command application, and a personalized movie recommender. Each project highlights essential skills in natural language processing, computer vision, sentiment analysis, and recommendation algorithms, providing hands-on experience in artificial intelligence development."
-date: 2024-11-16T01:24:58Z
+date: 2024-11-16T01:36:50Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*x9ezYQZawlG0DRV6"
 categories: ["Programming/Scripting", "Natural Language Processing", "Computer Vision"]
 author: "Rifx.Online"

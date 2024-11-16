@@ -1,8 +1,8 @@
 ---
 title: "Build Your Talking Voice AI Assistant Locally: Memory-Retaining Chatbot with Streamlit UI…"
 meta_title: "Build Your Talking Voice AI Assistant Locally: Memory-Retaining Chatbot with Streamlit UI…"
-description: "This article provides a comprehensive tutorial for creating a local voice AI assistant named *Porter*, utilizing Ollama's Llama models, Streamlit for the user interface, and OpenAI's Whisper for transcription. *Porter* features memory retention for conversations, allowing it to recall past interactions and provide contextual responses. The guide includes installation instructions, code snippets, and an overview of key functionalities, emphasizing the benefits of privacy and responsiveness by operating offline. The project showcases advancements in natural language processing and the potential for further enhancements in AI capabilities."
-date: 2024-11-16T01:24:58Z
+description: "This article provides a comprehensive tutorial for creating a local voice AI assistant named *Porter*, utilizing Ollamas Llama models, Streamlit for the user interface, and OpenAIs Whisper for transcription. *Porter* features memory retention for conversations, allowing it to recall past interactions and provide contextual responses. The guide includes installation instructions, code snippets, and an overview of key functionalities, emphasizing the benefits of privacy and responsiveness by operating offline. The project showcases advancements in natural language processing and the potential for further enhancements in AI capabilities."
+date: 2024-11-16T01:36:50Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*5WJoI0IAKwMpEaCdSY63_A.png"
 categories: ["Voice Assistants", "Natural Language Processing", "Programming/Scripting"]
 author: "Rifx.Online"

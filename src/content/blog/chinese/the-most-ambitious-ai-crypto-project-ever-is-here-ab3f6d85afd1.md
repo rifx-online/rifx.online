@@ -2,7 +2,7 @@
 title: "史上最雄心勃勃的人工智能加密项目来了"
 meta_title: "史上最雄心勃勃的人工智能加密项目来了"
 description: "现代人工智能的奠基人之一Illia Polosukhin提出了一个雄心勃勃的项目，旨在利用区块链训练全球最大的开源大型语言模型，目标为1.4万亿参数。该项目希望通过众筹方式筹集1.6亿美元，并以去中心化方式进行训练，以实现全球范围内的计算资源整合。文章探讨了区块链在确保训练过程透明和不可篡改方面的重要性，以及如何通过零知识证明等技术解决当前的可行性问题。"
-date: 2024-11-16T01:24:58Z
+date: 2024-11-16T01:36:50Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*uiBwsWl8grXKJCJaGtH7kw.png"
 categories: ["Technology", "Machine Learning", "Blockchain"]
 author: "Rifx.Online"

@@ -2,7 +2,7 @@
 title: "比较为图像添加文本的主要文本到图像生成模型"
 meta_title: "比较为图像添加文本的主要文本到图像生成模型"
 description: "本文评估了九种领先的文本到图像生成模型在图像中准确渲染文本的能力。测试结果显示，Black Forest Labs的FLUX1.1 [pro]和Stability AI的Stable Image Ultra在再现提示中请求的文本方面表现最佳。文章还探讨了三种替代技术，以提高生成图像中文本的准确性，包括在图像中替换生成的文本、从空白画布开始生成图像以及分别生成图像和文本。"
-date: 2024-11-16T01:24:58Z
+date: 2024-11-16T01:36:50Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*Gvj5CUGClWka1KUsDy5GQw.png"
 categories: ["Generative AI", "Natural Language Processing", "Technology/Web"]
 author: "Rifx.Online"

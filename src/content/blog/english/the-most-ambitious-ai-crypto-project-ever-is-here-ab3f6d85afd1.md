@@ -1,8 +1,8 @@
 ---
 title: "The Most Ambitious AI Crypto Project Ever is Here"
 meta_title: "The Most Ambitious AI Crypto Project Ever is Here"
-description: "The article discusses an ambitious project by Near to train a decentralized open-source large language model (LLM) with 1.4 trillion parameters, significantly larger than existing models. This initiative aims to combine AI and blockchain technologies, allowing individuals to own and benefit from the AI model they help train. The project seeks to raise $160 million through crowdfunding and utilizes innovative distributed training methods to overcome challenges of synchronization and communication in a decentralized environment. The integration of blockchain is crucial for ensuring transparency and trust in the ownership and rewards associated with the model's usage. However, concerns about the feasibility of such a large-scale model and the efficiency of blockchain technology remain."
-date: 2024-11-16T01:24:58Z
+description: "The article discusses an ambitious project by Near to train a decentralized open-source large language model (LLM) with 1.4 trillion parameters, significantly larger than existing models. This initiative aims to combine AI and blockchain technologies, allowing individuals to own and benefit from the AI model they help train. The project seeks to raise $160 million through crowdfunding and utilizes innovative distributed training methods to overcome challenges of synchronization and communication in a decentralized environment. The integration of blockchain is crucial for ensuring transparency and trust in the ownership and rewards associated with the models usage. However, concerns about the feasibility of such a large-scale model and the efficiency of blockchain technology remain."
+date: 2024-11-16T01:36:50Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*uiBwsWl8grXKJCJaGtH7kw.png"
 categories: ["Technology", "Machine Learning", "Blockchain"]
 author: "Rifx.Online"

@@ -2,7 +2,7 @@
 title: "2025 年成为人工智能工程师的路线图"
 meta_title: "2025 年成为人工智能工程师的路线图"
 description: "本文提供了一条结构化的路线图，指导如何在2025年成为AI工程师。首先，理解AI工程的基本概念和职责，然后掌握数学、编程（特别是Python）和数据科学的基础知识。接着，深入学习机器学习和深度学习，参与实际项目以巩固所学知识，并掌握模型部署技能。最后，建立作品集和人脉网络，提升职业发展机会。文章强调了持续学习和实践的重要性，以适应快速发展的AI领域。"
-date: 2024-11-16T01:24:58Z
+date: 2024-11-16T01:36:50Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*emg2RJ9qx4OgysH2r22nuQ.png"
 categories: ["Programming", "Machine Learning", "Data Science"]
 author: "Rifx.Online"

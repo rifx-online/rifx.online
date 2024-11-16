@@ -2,7 +2,7 @@
 title: "让 ChatGPT 听起来更有人情味：创建自然、引人入胜的人工智能对话的基本技巧"
 meta_title: "让 ChatGPT 听起来更有人情味：创建自然、引人入胜的人工智能对话的基本技巧"
 description: "为了让 ChatGPT 的对话更自然且引人入胜，可以采取以下策略：限制过度使用的词汇和短语，保持语言简单明了，调整语气以匹配上下文，增强互动性与亲和力，并使用现实世界的例子和直接陈述。这些方法可以有效减少机械感，使 AI 的回应更具人性化和实用性。"
-date: 2024-11-16T01:24:58Z
+date: 2024-11-16T01:36:50Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*wdWBBG4fJhHVwdoDelYkkQ.png"
 categories: ["Chatbots", "Natural Language Processing", "Programming/Scripting"]
 author: "Rifx.Online"

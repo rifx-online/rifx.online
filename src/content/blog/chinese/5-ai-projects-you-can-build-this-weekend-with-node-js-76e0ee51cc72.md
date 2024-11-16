@@ -2,7 +2,7 @@
 title: "本周末您可以构建的 5 个人工智能项目（使用 Node.js）"
 meta_title: "本周末您可以构建的 5 个人工智能项目（使用 Node.js）"
 description: "本文介绍了五个适合初学者在周末使用 Node.js 构建的 AI 项目，包括客户支持聊天机器人、图像识别应用、社交媒体情感分析工具、语音命令应用程序和个性化电影推荐系统。这些项目旨在提升编码技能并了解人工智能的实际应用，适合希望亲自探索 AI 的开发者。每个项目都提供了所需的技术栈和工具，鼓励开发者根据个人创意进行调整。"
-date: 2024-11-16T01:24:58Z
+date: 2024-11-16T01:36:50Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*x9ezYQZawlG0DRV6"
 categories: ["Programming/Scripting", "Natural Language Processing", "Computer Vision"]
 author: "Rifx.Online"

@@ -2,7 +2,7 @@
 title: "Multimodal AI for Conversational Human Motion"
 meta_title: "Multimodal AI for Conversational Human Motion"
 description: "Multimodal AI is revolutionizing conversational agents by integrating input perception, motion planning, and avatar rendering to enhance human-like interactions. This approach reduces information loss between these layers, enabling avatars to process multimodal cues from visual, auditory, and text sources for fluid conversations. Key challenges include aligning modalities, managing latency, and maintaining personality consistency. Current applications span healthcare, customer support, and education, with potential for further development in complex environments, enhancing empathetic communication and information flow."
-date: 2024-11-16T01:24:58Z
+date: 2024-11-16T01:36:50Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*zANW8t-IxPlkyxX-5_9Ayw.png"
 categories: ["Chatbots", "Autonomous Systems", "Natural Language Processing"]
 author: "Rifx.Online"

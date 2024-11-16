@@ -2,7 +2,7 @@
 title: "在 B2C 行业中利用大型语言模型 (LLM)：在 B2C 行业中利用大型语言模型 (LLM)：..."
 meta_title: "在 B2C 行业中利用大型语言模型 (LLM)：在 B2C 行业中利用大型语言模型 (LLM)：..."
 description: "在B2C行业中，企业利用大型语言模型（LLMs）和自主代理显著提升客户体验，尤其在金融服务、零售和电子商务领域。通过基于检索增强生成（RAG）的方法，这些代理能够提供实时、智能的响应，增强客户满意度并降低对人工支持的依赖。文章详细介绍了如何创建一个处理信用卡查询的自主代理，包括数据源的使用、嵌入与向量数据库的创建、提示工程的应用，以及如何通过Flask或Streamlit进行部署，展现了LLMs在提供个性化客户服务方面的潜力。"
-date: 2024-11-16T01:24:58Z
+date: 2024-11-16T01:36:50Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*Zf15fyqPpBcoEHf6G5rgbw.jpeg"
 categories: ["Programming", "Machine Learning", "Chatbots"]
 author: "Rifx.Online"

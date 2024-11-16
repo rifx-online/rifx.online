@@ -2,7 +2,7 @@
 title: "在本地构建会说话的语音人工智能助理：具有流光溢彩用户界面的记忆保持聊天机器人..."
 meta_title: "在本地构建会说话的语音人工智能助理：具有流光溢彩用户界面的记忆保持聊天机器人..."
 description: "本文提供了一个详细的指南，介绍如何使用Streamlit、LangChain和Ollama Llama模型构建一个具有记忆保留功能的个人语音AI助手Porter。Porter能够在本地运行，确保用户数据安全并提供快速响应。其主要功能包括语音输入输出、会话记忆、聊天记录和可定制的模型参数设置。通过整合先进的自然语言处理技术，Porter旨在为用户提供个性化的助手体验，适用于各种应用场景。该项目强调了隐私保护和高效交互的重要性，展示了现代AI助手的潜力。"
-date: 2024-11-16T01:24:58Z
+date: 2024-11-16T01:36:50Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*5WJoI0IAKwMpEaCdSY63_A.png"
 categories: ["Voice Assistants", "Natural Language Processing", "Programming/Scripting"]
 author: "Rifx.Online"

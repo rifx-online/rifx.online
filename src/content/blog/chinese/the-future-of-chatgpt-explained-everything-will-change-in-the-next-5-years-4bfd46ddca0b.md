@@ -2,7 +2,7 @@
 title: "ChatGPT 的未来解析：未来 5 年一切都将改变"
 meta_title: "ChatGPT 的未来解析：未来 5 年一切都将改变"
 description: "OpenAI制定了一个五步路线图，以实现人工通用智能（AGI）。该路线图包括五个阶段：第一级为对话机器人，第二级为推理者，能够解决复杂问题；第三级为自主决策的代理；第四级为创新者，推动创新；第五级为组织，能像团队一样运作。目前，OpenAI处于第一级和第二级之间，预计在五年内实现AGI，下一步可能是2025年推出的GPT-5。"
-date: 2024-11-16T01:24:58Z
+date: 2024-11-16T01:36:50Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*nCVwPhWiFZ_0lglxT4pDAw.jpeg"
 categories: ["Chatbots", "Artificial General Intelligence", "Reasoners"]
 author: "Rifx.Online"

@@ -2,7 +2,7 @@
 title: "在人工智能和技术领域保持领先地位的 10 项必学技能 📚"
 meta_title: "在人工智能和技术领域保持领先地位的 10 项必学技能 📚"
 description: "在人工智能和科技领域，持续提升技能至关重要。本文列出了10个关键课程，包括生成性人工智能、调试技术、AI产品趋势、法律领域的提示工程等，旨在帮助专业人士掌握新技术，保持竞争力。这些课程涵盖从基础到专业的多种知识，适合不同背景的学习者，推动职业发展和创新。"
-date: 2024-11-16T01:24:58Z
+date: 2024-11-16T01:36:50Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*uKN-KrOhsDhRrAjL"
 categories: ["Technology", "Generative AI", "Data Science"]
 author: "Rifx.Online"

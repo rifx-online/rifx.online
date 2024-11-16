@@ -2,7 +2,7 @@
 title: "人工智能帮助我控制糖尿病前期病情"
 meta_title: "人工智能帮助我控制糖尿病前期病情"
 description: "文章探讨了作者如何利用人工智能（AI）来管理前期糖尿病和控制血糖。作者通过监测饮食和血糖水平，利用ChatGPT生成数据分析和饮食建议，从而实现减肥和提高胰岛素敏感性。作者强调了技术在个人健康管理中的潜力，并分享了自己在使用AI过程中取得的积极成果，包括体重减轻和血糖控制的改善，同时提醒读者应与健康专业人士讨论相关问题。"
-date: 2024-11-16T01:24:58Z
+date: 2024-11-16T01:36:50Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*oTD6Y3PWBiteGxzYcDhP-w.jpeg"
 categories: ["Health", "Chatbots", "Data Science"]
 author: "Rifx.Online"

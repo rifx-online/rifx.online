@@ -2,7 +2,7 @@
 title: "用于人类运动对话的多模态人工智能"
 meta_title: "用于人类运动对话的多模态人工智能"
 description: "本文探讨了多模态人工智能在对话中的应用，强调通过感知、运动规划和虚拟形象渲染实现更自然的交互。多模态模型能够减少信息损失，整合视觉、听觉和文本输入，从而提升虚拟形象的响应能力。文章还分析了当前的应用案例，如医疗、客户支持和教育，指出在实时响应、个性化和记忆管理等方面的挑战。随着技术的发展，未来的应用将有助于实现更复杂的人机交互。"
-date: 2024-11-16T01:24:58Z
+date: 2024-11-16T01:36:50Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*zANW8t-IxPlkyxX-5_9Ayw.png"
 categories: ["Chatbots", "Autonomous Systems", "Natural Language Processing"]
 author: "Rifx.Online"
