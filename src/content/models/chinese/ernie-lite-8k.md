@@ -1,22 +1,22 @@
 ---
-title: "ERNIE-Lite-8K"
-meta_title: "ERNIE-Lite-8K"
-description: "ERNIE-Lite-8K"
+title: "ERNIE-Lite-8K:free"
+meta_title: "ERNIE-Lite-8K:free"
+description: "ERNIE-Lite-8K:free"
 date: 2024-11-17T06:28:29Z
 image: "/images/logo.svg"
 categories: ["text 2 text"]
 author: "ernie"
-tags: ["Programming/Scripting", "Natural Language Processing", "Machine Learning", "Voice Assistants", "Chatbots"]
+tags: ["Programming/Scripting", "Natural Language Processing", "Machine Learning", "Voice Assistants", "Chatbots", "Free"]
 draft: False
 is_recommended: False
 
 id: "ernie-lite-8k"
 context: 8192
 input: 0.0
-output: 0
+output: 0.0
 img: 0
 request: 0
-last_updated: 2024-11-17T09:24:13Z
+last_updated: 2024-11-18T11:44:44Z
 ---
 
 **关键能力和使用案例：**

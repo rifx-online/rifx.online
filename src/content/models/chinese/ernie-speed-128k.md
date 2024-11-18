@@ -6,17 +6,17 @@ date: 2024-11-17T06:28:55Z
 image: "/images/logo.svg"
 categories: ["text 2 text"]
 author: "ernie"
-tags: ["Programming", "Natural Language Processing", "Machine Learning", "Technology", "Translation"]
+tags: ["Programming", "Natural Language Processing", "Machine Learning", "Technology", "Translation", "Free"]
 draft: False
 is_recommended: False
 
 id: "ernie-speed-128k"
 context: 131072
 input: 0.0
-output: 0
+output: 0.0
 img: 0
 request: 0
-last_updated: 2024-11-17T09:23:36Z
+last_updated: 2024-11-18T11:44:52Z
 ---
 
 **开发者/公司:** 百度研究

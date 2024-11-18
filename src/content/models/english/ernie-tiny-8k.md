@@ -6,17 +6,17 @@ date: 2024-11-17T06:27:45Z
 image: "/images/logo.svg"
 categories: ["text 2 text"]
 author: "ernie"
-tags: ["Natural Language Processing", "Machine Learning", "Data Science", "Chatbots", "Voice Assistants"]
+tags: ["Natural Language Processing", "Machine Learning", "Data Science", "Chatbots", "Voice Assistants", "Free"]
 draft: False
 is_recommended: False
 
 id: "ernie-tiny-8k"
 context: 8192
 input: 0.0
-output: 0
+output: 0.0
 img: 0
 request: 0
-last_updated: 2024-11-17T09:23:52Z
+last_updated: 2024-11-18T11:44:48Z
 ---
 
 Lightweight Chinese Pre-trained Language Model
