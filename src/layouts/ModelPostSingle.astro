@@ -25,13 +25,21 @@ if (!lang) {
   lang = default_language;
 }
 
+const models = await getSinglePage(
+  "sections",
+  lang as keyof ContentEntryMap,
+  "models"
+);
+
+const lang_models = models[0].data;
+
 const posts = await getSinglePage(
   COLLECTION_FOLDER,
   lang as keyof ContentEntryMap
 );
 const similarPosts = similarItems(post, posts);
 const { Content } = await post.render();
-const { title, description, author, categories, image, date, tags, id, context, input, output, img, request } = post.data;
+const { title, description, author, categories, image, date, tags, id, context, input, output, img, request, is_active } = post.data;
 
 // console.log(post.data);
 
@@ -52,9 +60,11 @@ const { title, description, author, categories, image, date, tags, id, context, 
             <div class="flex-1">
               <h1 set:html={markdownify(title)} class="h2 mb-0" />
               <div class="mt-2">
-                <CopyIconButton client:load textToCopy={id}>
-                  <span class="mr-2 underline font-medium text-lg">ID: {id}</span>
-                </CopyIconButton>
+                {is_active && (
+                  <CopyIconButton client:load textToCopy={id}>
+                    <span class="mr-2 underline font-medium text-lg">ID: {id}</span>
+                  </CopyIconButton>
+                )}
               </div>
             </div>
             
@@ -114,15 +124,21 @@ const { title, description, author, categories, image, date, tags, id, context, 
           </li>
         </ul>
         <div class="flex items-center justify-between mb-8">
-          <a 
-            href={`https://chat.rifx.online/chat#${id}`}
-            class="inline-flex items-center whitespace-nowrap px-6 py-3 bg-primary text-white dark:bg-darkmode-primary dark:text-black rounded-lg hover:bg-primary-dark transition-all duration-300 text-base font-medium self-start mt-1 gap-2 group"
-            target="_blank"
-            rel="noopener noreferrer"
+          {is_active || is_active === undefined ? (
+            <a 
+              href={`https://chat.rifx.online/chat#${id}`}
+              class="inline-flex items-center whitespace-nowrap px-6 py-3 bg-primary text-white dark:bg-darkmode-primary dark:text-black rounded-lg hover:bg-primary-dark transition-all duration-300 text-base font-medium self-start mt-1 gap-2 group"
+              target="_blank"
+              rel="noopener noreferrer"
           >
             <IoChatbubbleEllipsesOutline className="text-xl transition-all duration-300 group-hover:animate-wiggle" />
-            Chat with Model
-          </a>
+              {lang_models.chat}
+            </a>
+          ) : (
+            <span class="inline-flex items-center whitespace-nowrap px-6 py-3 bg-gray-500 text-white dark:bg-darkmode-primary dark:text-black rounded-lg self-start mt-1 gap-2 group">
+              {lang_models.unavailable}
+            </span>
+          )}
         </div>
         <div class="content mb-10">
           <Content />

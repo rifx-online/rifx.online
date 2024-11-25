@@ -42,76 +42,74 @@ data.slug = modifiedSlug;
 
 ---
 
-<div class="bg-body dark:bg-darkmode-body p-6 rounded-lg shadow-md">
-  <div class="flex justify-between items-center mb-1">
-    <h3 class="text-2xl font-semibold mb-1">
-      <a href={slugSelector(`/${data.slug}`, lang)}>
+<div class="bg-body dark:bg-darkmode-body p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200">
+  <div class="flex justify-between items-center mb-3">
+    <h3 class="text-2xl font-semibold">
+      <a href={slugSelector(`/${data.slug}`, lang)} class="text-primary dark:text-darkmode-primary hover:text-primary/70 transition-colors duration-200">
         {title}
       </a>
     </h3>
 
-    <span class="text-gray-400"
-      ><MdTextFields className={"mr-2 -mt-1 inline-block"} />
+    <span class="text-gray-500 dark:text-gray-400 flex items-center">
+      <MdTextFields className={"mr-2"} />
       {
         categories.map((category: string, index: number) => (
-          <a href={slugSelector(`/categories/${slugify(category)}`, lang)}>
+          <a href={slugSelector(`/categories/${slugify(category)}`, lang)} 
+             class="hover:text-primary dark:hover:text-darkmode-primary transition-colors duration-200">
             {humanize(category)}
-            {index !== categories.length - 1 && ","}
+            {index !== categories.length - 1 && ", "}
           </a>
         ))
-      }</span
-    >
+      }
+    </span>
   </div>
-  <div class="flex items-center mb-3">
+
+  <div class="flex items-center mb-4">
     <CopyIconButton client:load textToCopy={id}>
-      <span class="mr-2 underline font-medium text-base">ID: {id}</span>
+      <span class="mr-2 font-medium text-base text-primary dark:text-darkmode-primary border-b border-dashed border-primary/30 hover:border-primary/60 transition-colors duration-200">
+        ID: {id}
+      </span>
     </CopyIconButton>
   </div>
 
-  <p class="text-base text-gray-600 mb-4">
+  <p class="text-base text-gray-600 dark:text-gray-400 mb-6 leading-relaxed">
     {plainify(data.body?.slice(0, Number(summary_length)))}...
   </p>
 
-  <div class="text-sm text-gray-400 flex flex-wrap gap-x-6 gap-y-2">
-    <span
-      ><a href={slugSelector(`/authors/${slugify(author)}`, lang)}>
-        <FaRegUserCircle className={"mr-2 -mt-1 inline-block"} />
+  <div class="text-sm text-gray-500 dark:text-gray-400 flex flex-wrap gap-x-6 gap-y-3">
+    <span class="flex items-center">
+      <a href={slugSelector(`/authors/${slugify(author)}`, lang)} 
+         class="flex items-center hover:text-primary dark:hover:text-darkmode-primary transition-colors duration-200">
+        <FaRegUserCircle className={"mr-2"} />
         {humanize(author)}
-      </a></span
-    >
-    <span class="border-l border-gray-200 pl-3"
-      >{formatNumber(context)} context</span
-    >
-    <span class="border-l border-gray-200 pl-3"
-      >${formatTokens(input * 1000000)} input tokens</span
-    >
-    <span class="border-l border-gray-200 pl-3"
-      >${formatTokens(output * 1000000)} output tokens</span
-    >
+      </a>
+    </span>
+    
+    <span class="flex items-center border-l border-gray-200 dark:border-gray-700 pl-3">
+      {formatNumber(context)} context
+    </span>
+    
+    <span class="flex items-center border-l border-gray-200 dark:border-gray-700 pl-3">
+      ${formatTokens(input * 1000000)} input tokens
+    </span>
+    
+    <span class="flex items-center border-l border-gray-200 dark:border-gray-700 pl-3">
+      ${formatTokens(output * 1000000)} output tokens
+    </span>
+    
     {
       img > 0 && (
-        <span class="border-l border-gray-200 pl-3">
+        <span class="flex items-center border-l border-gray-200 dark:border-gray-700 pl-3">
           ${formatTokens(img)} image tokens
         </span>
       )
     }
     {
       request > 0 && (
-        <span class="border-l border-gray-200 pl-3">
+        <span class="flex items-center border-l border-gray-200 dark:border-gray-700 pl-3">
           ${formatTokens(request)} request tokens
         </span>
       )
     }
   </div>
-
-  <!-- {image && (
-    <ImageMod
-      class="mb-6 w-full rounded"
-      src={image}
-      alt={title}
-      width={445}
-      height={230}
-      format="webp"
-    />
-  )} -->
 </div>

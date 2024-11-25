@@ -2,6 +2,7 @@ import searchData from ".json/search.json";
 import React, { useEffect, useState } from "react";
 import SearchResult, { type ISearchItem } from "./SearchResult";
 import config from "@/config/config.json";
+import "../../styles/search.css";
 const { default_language } = config.settings;
 
 const SearchModal = ({ lang }: { lang: string | undefined }) => {

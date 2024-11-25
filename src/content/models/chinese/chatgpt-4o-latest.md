@@ -1,22 +1,28 @@
 ---
-title: "OpenAI: ChatGPT-4o"
-meta_title: "OpenAI: ChatGPT-4o"
-description: "OpenAI: ChatGPT-4o"
-date: 2024-08-14T00:00:00Z
-image: "https://img.rifx.online/logo/openai.svg"
-categories: ["text image 2 text"]
-author: "openai"
-tags: ["Chatbots", "Generative AI", "Machine Learning", "Natural Language Processing"]
-draft: False
-
-id: "chatgpt-4o-latest"
+author: openai
+categories:
+- text image 2 text
 context: 128000
-input: 5e-06
-output: 1.5e-05
+date: 2024-08-14 00:00:00+00:00
+description: 'OpenAI: ChatGPT-4o'
+draft: false
+id: chatgpt-4o-latest
+image: https://img.rifx.online/logo/openai.svg
 img: 0.007225
+input: 5e-06
+is_active: false
+last_updated: 2024-08-14 00:00:00+00:00
+meta_title: 'OpenAI: ChatGPT-4o'
+output: 1.5e-05
 request: 0
-last_updated: 2024-08-14T00:00:00Z
+tags:
+- Chatbots
+- Generative AI
+- Machine Learning
+- Natural Language Processing
+title: 'OpenAI: ChatGPT-4o'
 ---
+
 
 动态模型持续更新到 ChatGPT 中的当前版本 [GPT-4o](/openai/gpt-4o)。旨在用于研究和评估。
 
