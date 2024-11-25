@@ -12,6 +12,7 @@ export interface ISearchItem {
     description?: string;
     categories?: string[];
     tags?: string[];
+    is_active?: boolean;
   };
   content: string;
 }
@@ -45,7 +46,11 @@ const SearchResult = ({
 
   // generate search result group
   const generateSearchGroup = (searchResult: ISearchItem[]) => {
-    const joinDataByGroup: ISearchGroup[] = searchResult.reduce(
+    const filteredResult = searchResult.filter(
+      (item) => item.frontmatter.is_active !== false
+    );
+    
+    const joinDataByGroup: ISearchGroup[] = filteredResult.reduce(
       (groupItems: ISearchGroup[], item: ISearchItem) => {
         const groupIndex = groupItems.findIndex(
           (group) => group.group === item.group,

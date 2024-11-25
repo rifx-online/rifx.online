@@ -64,7 +64,7 @@ const getData = (folder, groupDepth, langIndex = 0) => {
     .flat();
 
   const publishedPages = getPaths.filter(
-    (page) => !page.frontmatter?.draft && page.is_active !== false
+    (page) => !page.frontmatter?.draft && page.frontmatter?.is_active !== false
   );
   return publishedPages;
 };
