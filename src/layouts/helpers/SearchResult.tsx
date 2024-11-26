@@ -98,10 +98,19 @@ const SearchResult = ({
     return indexA - indexB;
   });
 
-  // 初始化第一个选项卡为活动状态
+  // 初始化第一个选项卡为活动状态，或切换到唯一有结果的选项卡
   React.useEffect(() => {
-    if (finalResult.length > 0 && !activeTab) {
-      setActiveTab(finalResult[0].group);
+    if (finalResult.length > 0) {
+      // 找出有结果的选项卡
+      const tabsWithResults = finalResult.filter(result => result.groupItems.length > 0);
+      
+      if (tabsWithResults.length === 1) {
+        // 如果只有一个选项卡有结果，自动切换到该选项卡
+        setActiveTab(tabsWithResults[0].group);
+      } else if (!activeTab) {
+        // 如果是初始状态（没有激活的选项卡），选择第一个选项卡
+        setActiveTab(finalResult[0].group);
+      }
     }
   }, [finalResult, activeTab]);
 
