@@ -1,12 +1,12 @@
 ---
 title: "Introducing Microsoft’s Magentic-One Agentic Framework"
 meta_title: "Introducing Microsoft’s Magentic-One Agentic Framework"
-description: "Microsoft has introduced the Magentic-One agentic framework, a multi-agent system designed to tackle complex tasks. It features an orchestrator agent that coordinates specialized agents for web browsing, file management, coding, and terminal operations. Built on the Autogen framework, it allows for various applications, including executing Python code, conducting web searches, and interacting with local files. However, the framework also poses risks, such as unintended actions and potential irreversible consequences, highlighting the need for careful deployment and oversight."
-date: 2024-11-16T11:03:12Z
-image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*dJj20_4jYYp32Crl"
+description: "Microsoft has introduced the Magentic-One agentic framework, a multi-agent system designed to tackle complex tasks. It features a lead agent called the Orchestrator, which manages four specialized agents: Web Surfer for web browsing, File Surfer for local file navigation, Coder for programming tasks, and Terminal for executing code. The system operates on Microsofts Autogen framework and poses inherent risks, such as potential misconfigurations leading to unintended actions. Magentic-One can perform tasks like writing Python code, retrieving local file data, and conducting web searches, showcasing its versatility and capability in automating complex processes."
+date: 2024-11-26T00:31:56Z
+image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*dJj20_4jYYp32Crl"
 categories: ["Programming", "Autonomous Systems", "Technology/Web"]
 author: "Rifx.Online"
-tags: ["Magnetic-One", "orchestrator", "agents", "Autogen", "Python"]
+tags: ["Magnetic-One", "Orchestrator", "Web-Surfer", "Coder", "Terminal"]
 draft: False
 
 ---
@@ -387,13 +387,13 @@ website, is Wales 7–0 Fiji with a try from Murray.
 ```
 Here is a screenshot I took shortly after the model answered (Fiji must have scored very quickly after Wales’ initial score)
 
-![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*xN8qBJLdHqx0lrh_4Y4DCQ.png)
+![](https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*xN8qBJLdHqx0lrh_4Y4DCQ.png)
 
 **Example 4 — reading a local XL file.**
 
 I have an XL file on my local system. Let’s see if Magentic\-One can find it, open it, and answer a question about it.
 
-![](https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*UIuLEkEr-w6ZckRjiUuqjw.png)
+![](https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*UIuLEkEr-w6ZckRjiUuqjw.png)
 
 
 ```python
