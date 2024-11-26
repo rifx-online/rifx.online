@@ -13,6 +13,7 @@ export interface ISearchItem {
     categories?: string[];
     tags?: string[];
     is_active?: boolean;
+    date?: string;
   };
   content: string;
 }
@@ -27,6 +28,7 @@ export interface ISearchGroup {
       description?: string;
       categories?: string[];
       tags?: string[];
+      date?: string;
     };
     content: string;
   }[];
@@ -71,6 +73,14 @@ const SearchResult = ({
             frontmatter: { ...item.frontmatter },
             slug: item.slug,
             content: item.content,
+          });
+        }
+
+        if (groupIndex !== -1) {
+          groupItems[groupIndex].groupItems.sort((a, b) => {
+            const dateA = a.frontmatter.date ? new Date(a.frontmatter.date).getTime() : 0;
+            const dateB = b.frontmatter.date ? new Date(b.frontmatter.date).getTime() : 0;
+            return dateB - dateA;
           });
         }
 
