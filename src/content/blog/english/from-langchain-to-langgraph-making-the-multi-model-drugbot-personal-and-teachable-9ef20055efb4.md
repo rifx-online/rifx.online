@@ -1,12 +1,12 @@
 ---
 title: "From LangChain to LangGraph: Making the Multi-Model DrugBot Personal and Teachable"
 meta_title: "From LangChain to LangGraph: Making the Multi-Model DrugBot Personal and Teachable"
-description: "The article discusses the evolution of the DrugBot chatbot, transitioning from LangChain to LangGraph to enhance its capabilities. The new DrugBot integrates memory and learning features, allowing it to understand user-defined terms, maintain context, and generate complex queries effectively. It utilizes a multi-model database, DrugDB, to provide accurate drug trial information. Key improvements include the ability to recall past interactions, ask for clarifications, and streamline query generation through a mimicking tool. These advancements aim to create a more user-friendly experience for patients seeking information about clinical trials and drug efficacy."
-date: 2024-11-25T15:00:22Z
+description: "The article discusses the evolution of the DrugBot chatbot, transitioning from LangChain to LangGraph, enhancing its ability to assist users in navigating drug trial information. The new DrugBot incorporates memory and learning capabilities, allowing it to understand user-defined terms and maintain context across interactions. It leverages a multi-model database, DrugDB, to generate complex queries efficiently and improve user experience. The updates also enable the chatbot to proactively seek clarification and manage hybrid queries, addressing previous limitations. Overall, the integration of LangGraph fosters a more responsive and context-aware chatbot, enhancing access to critical medical information."
+date: 2024-11-30T13:42:29Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*WOaHORZdumJ-Po5RniDhvg.jpeg"
-categories: ["Chatbots", "Machine Learning", "Data Science"]
+categories: ["Chatbots", "Health", "Machine Learning"]
 author: "Rifx.Online"
-tags: ["DrugBot", "LangGraph", "DrugDB", "memory", "learning"]
+tags: ["DrugBot", "LangGraph", "DrugDB", "chatbot", "queries"]
 draft: False
 
 ---
