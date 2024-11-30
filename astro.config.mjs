@@ -55,7 +55,7 @@ export default defineConfig({
     sitemap({
       priority: 0.7,
       changefreq: 'weekly',
-      lastmod: new Date('2024-11-25'),
+      lastmod: new Date('2024-11-30'),
     }),
     tailwind({
       applyBaseStyles: false,
