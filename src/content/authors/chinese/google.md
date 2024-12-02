@@ -1,20 +1,9 @@
 ---
 title: Google
-email: press@google.com
-image: "https://img.rifx.online/logo/google.svg"
-description: 谷歌 - 人工智能和大型语言模型领域的领导者
-social:
-  - name: github
-    icon: FaGithub
-    link: https://github.com/google
-
-  - name: twitter
-    icon: FaTwitter
-    link: https://twitter.com/Google
-
-  - name: linkedin
-    icon: FaLinkedin
-    link: https://www.linkedin.com/company/google
+image: "https://img.rifx.online/icons/google-color.svg"
+description: no content
+date: 2024-11-18T03:28:40Z
+last_updated: 2024-11-26T00:44:20Z
 ---
 
 谷歌作为Alphabet Inc.的子公司,在人工智能(AI)和大型语言模型(LLM)开发领域处于领先地位。除了其知名的搜索引擎和互联网服务外，谷歌在AI领域取得了突破性进展。
@@ -41,3 +30,5 @@ social:
 ## 未来展望
 
 随着AI技术的快速发展，谷歌通过不断优化模型性能、扩大应用范围，致力于为用户提供更智能、更高效的AI解决方案。公司特别注重在保持高性能的同时，确保模型的道德性和实用性。
+
+

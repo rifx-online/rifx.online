@@ -1,17 +1,9 @@
 ---
 title: DeepSeek
-email: contact@deepseek.com
-image: "https://img.rifx.online/logo/deepseek.svg"
-description: DeepSeek - 专注于开发高性能大型语言模型的AI公司
-analysis_url: https://artificialanalysis.ai/providers/deepseek
-social:
-  - name: twitter
-    icon: FaTwitter
-    link: https://twitter.com/deepseek_ai
-
-  - name: linkedin
-    icon: FaLinkedin 
-    link: https://www.linkedin.com/company/deepseek
+image: "https://img.rifx.online/icons/deepseek-color.svg"
+description: no content
+date: 2024-11-18T03:28:13Z
+last_updated: 2024-11-25T12:49:17Z
 ---
 
 DeepSeek是一家成立于2021年的人工智能公司，由来自谷歌、微软和OpenAI等顶级科技公司的AI专家创立。公司致力于开发安全、高效且具有成本效益的大型语言模型，目标是让AI技术更易获取、更实用。
@@ -71,3 +63,5 @@ DeepSeek-V2.5：
 DeepSeek致力于通过持续的技术创新和模型优化，为全球开发者和企业提供更优质、更经济的AI解决方案。公司特别注重模型的实用性、可靠性和成本效益，努力降低AI应用的门槛。
 
 通过在模型质量、性能和价格之间取得平衡，DeepSeek正在AI领域建立起独特的竞争优势，并持续推动AI技术的民主化进程。
+
+

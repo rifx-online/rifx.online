@@ -29,6 +29,15 @@ title: Dolphin 2.9.2 Mixtral 8x22B 🐬
 
 
 
+
+
+
+
+
+
+
+
+
 Dolphin 2.9 旨在进行指令跟随、对话和编码。该模型是 [Mixtral 8x22B Instruct](/mistralai/mixtral-8x22b-instruct) 的微调版本。它具有 64k 的上下文长度，并使用 ChatML 模板进行了 16k 序列长度的微调。
 
 该模型是 [Dolphin Mixtral 8x7B](/cognitivecomputations/dolphin-mixtral-8x7b) 的继任者。

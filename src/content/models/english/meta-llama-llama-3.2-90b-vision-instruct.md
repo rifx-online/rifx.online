@@ -4,7 +4,7 @@ meta_title: "Meta: Llama 3.2 90B Vision Instruct"
 description: "Meta: Llama 3.2 90B Vision Instruct"
 date: 2024-12-02T02:30:10Z
 image: "https://img.rifx.online/icons/meta-color.svg"
-categories: ["text imaget 2 text"]
+categories: ["text image 2 text"]
 author: "Meta Llama"
 tags: ["Natural Language Processing", "Computer Vision", "Machine Learning", "Data Science", "Generative AI"]
 draft: False

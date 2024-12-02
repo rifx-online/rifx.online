@@ -1,17 +1,9 @@
 ---
 title: DeepSeek
-email: contact@deepseek.com
-image: "https://img.rifx.online/logo/deepseek.svg"
-description: DeepSeek - A company focused on developing high-performance large language models
-analysis_url: https://artificialanalysis.ai/providers/deepseek
-social:
-  - name: twitter
-    icon: FaTwitter
-    link: https://twitter.com/deepseek_ai
-
-  - name: linkedin
-    icon: FaLinkedin 
-    link: https://www.linkedin.com/company/deepseek
+image: "https://img.rifx.online/icons/deepseek-color.svg"
+description: no content
+date: 2024-11-18T03:28:13Z
+last_updated: 2024-11-25T12:49:17Z
 ---
 
 DeepSeek is an artificial intelligence company founded in 2021 by AI experts from leading tech companies including Google, Microsoft, and OpenAI. The company is dedicated to developing safe, efficient, and cost-effective large language models with the goal of making AI technology more accessible and practical.
@@ -71,3 +63,4 @@ Corporate Vision:
 DeepSeek is committed to providing superior and economical AI solutions to global developers and enterprises through continuous technological innovation and model optimization. The company particularly emphasizes model practicality, reliability, and cost-effectiveness, striving to lower the barriers to AI application.
 
 By striking a balance between model quality, performance, and pricing, DeepSeek is establishing a unique competitive advantage in the AI field while continuously promoting the democratization of AI technology. 
+

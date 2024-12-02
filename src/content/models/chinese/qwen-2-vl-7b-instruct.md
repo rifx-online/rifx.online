@@ -29,6 +29,15 @@ title: Qwen2-VL 7B Instruct
 
 
 
+
+
+
+
+
+
+
+
+
 Qwen2 VL 7B 是来自 Qwen 团队的多模态 LLM，具有以下关键增强功能：
 
 - 对各种分辨率和比例的图像的最先进理解：Qwen2-VL 在视觉理解基准测试中实现了最先进的性能，包括 MathVista、DocVQA、RealWorldQA、MTVQA 等。

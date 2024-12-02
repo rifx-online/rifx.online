@@ -1,17 +1,9 @@
 ---
 title: X-AI
-email: contact@x.ai
 image: "https://img.rifx.online/logo/xai.svg"
-description: XAI - 由Elon Musk创立的AI研究公司
-analysis_url: https://artificialanalysis.ai/providers/xai
-social:
-  - name: twitter
-    icon: FaTwitter
-    link: https://twitter.com/xai
-
-  - name: linkedin
-    icon: FaLinkedin
-    link: https://www.linkedin.com/company/x-ai
+description: no content
+date: 2024-11-18T03:30:24Z
+last_updated: 2024-11-18T04:06:42Z
 ---
 
 XAI是由Elon Musk创立的人工智能研究公司，专注于开发安全、透明的AI系统。公司目前提供其首个大型语言模型Grok Beta。
@@ -45,3 +37,4 @@ Grok Beta：
 
 发展愿景：
 XAI致力于开发下一代人工智能技术，强调安全性、透明度和实用性。通过持续创新和改进，公司正在努力推动AI技术向着更开放、更可靠的方向发展。Grok Beta的发布标志着公司在实现这一愿景方面迈出了重要的第一步。 
+

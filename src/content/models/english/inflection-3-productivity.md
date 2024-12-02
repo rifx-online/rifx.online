@@ -29,6 +29,15 @@ title: 'Inflection: Inflection 3 Productivity'
 
 
 
+
+
+
+
+
+
+
+
+
 Inflection 3 Productivity is optimized for following instructions. It is better for tasks requiring JSON output or precise adherence to provided guidelines
 
 For emotional intelligence similar to Pi, see [Inflect 3 Pi](/inflection/inflection-3-pi)

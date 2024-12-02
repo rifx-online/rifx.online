@@ -29,6 +29,15 @@ title: 'Mistral: Mistral Nemo'
 
 
 
+
+
+
+
+
+
+
+
+
 A 12B parameter model with a 128k token context length built by Mistral in collaboration with NVIDIA.
 
 The model is multilingual, supporting English, French, German, Spanish, Italian, Portuguese, Chinese, Japanese, Korean, Arabic, and Hindi.

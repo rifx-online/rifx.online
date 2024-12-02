@@ -30,6 +30,15 @@ title: 'Mistral: Mixtral 8x22B Instruct'
 
 
 
+
+
+
+
+
+
+
+
+
 Mistral's official instruct fine-tuned version of [Mixtral 8x22B](/mistralai/mixtral-8x22b). It uses 39B active parameters out of 141B, offering unparalleled cost efficiency for its size. Its strengths include:
 - strong math, coding, and reasoning
 - large context length (64k)

@@ -29,6 +29,15 @@ title: WizardLM-2 7B
 
 
 
+
+
+
+
+
+
+
+
+
 WizardLM-2 7B 是微软 AI 最新 Wizard 模型的较小版本。它是最快的，并且在性能上与现有的 10 倍更大的开源领先模型相当。
 
 它是对 [Mistral 7B Instruct](/mistralai/mistral-7b-instruct) 的微调，使用与 [WizardLM-2 8x22B](/microsoft/wizardlm-2-8x22b) 相同的技术。

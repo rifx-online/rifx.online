@@ -1,17 +1,9 @@
 ---
 title: Rifx.Online
-email: support@rifx.online
-description: "Learn about our mission to simplify AI integration through our comprehensive API aggregation platform"
-image: "/images/logo.svg"
-social:
-  - name: github
-    icon: FaGithub
-    link: https://github.com/rifx-online
-
-  - name: email
-    icon: FaEnvelope
-    link: mailto:support@rifx.online
-
+image: "https://img.rifx.online/logo/rifx.svg"
+description: no content
+date: 2024-11-18T03:30:00Z
+last_updated: 2024-11-26T00:50:52Z
 ---
 
 At our core, we are passionate innovators dedicated to bridging the gap between cutting-edge AI technologies and developers worldwide. Our AI API aggregation platform serves as a central hub, connecting you to a vast array of powerful AI models and services with unprecedented ease and efficiency.
@@ -34,3 +26,5 @@ We are committed to maintaining the highest standards of security and privacy. Y
 Join us on this exciting journey as we shape the future of AI integration. Whether you're a solo developer, a growing startup, or an established enterprise, our platform is designed to meet your needs and fuel your innovation.
 
 Let's build a smarter future together!
+
+

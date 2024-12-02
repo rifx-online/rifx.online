@@ -29,6 +29,15 @@ title: Llama 3 8B Lunaris
 
 
 
+
+
+
+
+
+
+
+
+
 Lunaris 8B 是一个多功能的通用和角色扮演模型，基于 Llama 3。它是多个模型的战略合并，旨在平衡创造力与改进的逻辑和一般知识。
 
 由 [Sao10k](https://huggingface.co/Sao10k) 创建，该模型旨在提供比 Stheno v3.2 更好的体验，具有增强的创造力和逻辑推理能力。

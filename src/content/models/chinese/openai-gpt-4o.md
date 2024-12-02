@@ -4,7 +4,7 @@ meta_title: "OpenAI: GPT-4o"
 description: "OpenAI: GPT-4o"
 date: 2024-12-02T03:18:13Z
 image: "https://img.rifx.online/icons/openai.svg"
-categories: ["text imaget 2 text"]
+categories: ["text image 2 text"]
 author: "OpenAI"
 tags: ["Programming", "Technology", "Machine Learning", "Natural Language Processing", "Computer Vision"]
 draft: False

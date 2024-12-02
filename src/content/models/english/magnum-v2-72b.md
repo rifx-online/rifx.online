@@ -29,6 +29,15 @@ title: Magnum v2 72B
 
 
 
+
+
+
+
+
+
+
+
+
 From the maker of [Goliath](https://openrouter.ai/alpindale/goliath-120b), Magnum 72B is the seventh in a family of models designed to achieve the prose quality of the Claude 3 models, notably Opus & Sonnet.
 
 The model is based on [Qwen2 72B](https://openrouter.ai/qwen/qwen-2-72b-instruct) and trained with 55 million tokens of highly curated roleplay (RP) data.

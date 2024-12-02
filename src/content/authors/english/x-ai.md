@@ -1,17 +1,9 @@
 ---
 title: X-AI
-email: contact@x.ai
 image: "https://img.rifx.online/logo/xai.svg"
-description: XAI - AI research company founded by Elon Musk
-analysis_url: https://artificialanalysis.ai/providers/xai
-social:
-  - name: twitter
-    icon: FaTwitter
-    link: https://twitter.com/xai
-
-  - name: linkedin
-    icon: FaLinkedin
-    link: https://www.linkedin.com/company/x-ai
+description: no content
+date: 2024-11-18T03:30:24Z
+last_updated: 2024-11-18T04:06:42Z
 ---
 
 XAI is an artificial intelligence research company founded by Elon Musk, focused on developing safe and transparent AI systems. The company currently offers its first large language model, Grok Beta.
@@ -45,3 +37,4 @@ Current Limitations:
 
 Development Vision:
 XAI is committed to developing next-generation artificial intelligence technology, emphasizing safety, transparency, and practicality. Through continuous innovation and improvement, the company is working to advance AI technology toward a more open and reliable future. The release of Grok Beta marks an important first step in realizing this vision. 
+

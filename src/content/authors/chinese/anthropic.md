@@ -1,17 +1,9 @@
 ---
 title: Anthropic
-email: info@anthropic.com
-image: "https://img.rifx.online/logo/anthropic.svg"
-description: Anthropic - 致力于开发安全可靠的AI系统的研究公司
-analysis_url: https://artificialanalysis.ai/providers/anthropic
-social:
-  - name: twitter
-    icon: FaTwitter
-    link: https://twitter.com/anthropic
-
-  - name: linkedin
-    icon: FaLinkedin
-    link: https://www.linkedin.com/company/anthropic
+image: "https://img.rifx.online/icons/anthropic.svg"
+description: no content
+date: 2024-11-18T03:20:35Z
+last_updated: 2024-11-25T12:49:54Z
 ---
 
 Anthropic是一家成立于2021年的人工智能研究公司，由前OpenAI研究员Dario Amodei和Paul Christiano等人创立。公司专注于开发安全可靠的AI系统，以"宪法AI"理念为指导，致力于确保AI技术的安全性和道德性。
@@ -70,3 +62,5 @@ Claude 3.5/3 Haiku：
 
 企业愿景：
 Anthropic致力于开发安全、可靠且具有道德意识的AI系统。通过持续创新和严格的安全标准，公司正在推动AI技术向着更负责任的方向发展。其Claude系列模型在保持高性能的同时，特别注重安全性和道德性，为用户提供值得信赖的AI解决方案。
+
+

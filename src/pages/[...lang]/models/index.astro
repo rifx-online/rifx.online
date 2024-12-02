@@ -26,7 +26,10 @@ const postIndex = await getListPage(
   lang as keyof ContentEntryMap
 );
 const langCollection: keyof ContentEntryMap = lang as keyof ContentEntryMap;
-const posts = await getSinglePage(MODELS_FOLDER, lang as keyof ContentEntryMap);
+const posts = (await getSinglePage(MODELS_FOLDER, lang as keyof ContentEntryMap))
+  .filter(post => post.data.is_active !== false);
+
+// console.log(posts);
 
 const allCategories = await getAllTaxonomy(langCollection, "categories", "models");
 const categories = await getTaxonomy(langCollection, "categories", "models");

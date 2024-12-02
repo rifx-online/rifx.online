@@ -30,6 +30,15 @@ title: Mistral Large 2411
 
 
 
+
+
+
+
+
+
+
+
+
 Mistral Large 2 2411 is an update of [Mistral Large 2](/mistralai/mistral-large) released together with [Pixtral Large 2411](mistralai/pixtral-large-2411)
 
 It is fluent in English, French, Spanish, German, and Italian, with high grammatical accuracy, and its long context window allows precise information recall from large documents.

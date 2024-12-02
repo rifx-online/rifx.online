@@ -1,20 +1,9 @@
 ---
 title: Meta Llama
-email: press@meta.com
-image: "https://img.rifx.online/logo/meta.svg"
-description: Meta Llama - Open-source large language models from Meta AI
-social:
-  - name: github
-    icon: FaGithub
-    link: https://github.com/facebookresearch/llama
-
-  - name: twitter
-    icon: FaTwitter
-    link: https://twitter.com/MetaAI
-
-  - name: linkedin
-    icon: FaLinkedin
-    link: https://www.linkedin.com/company/meta-ai
+image: "https://img.rifx.online/icons/meta-color.svg"
+description: no content
+date: 2024-11-18T03:28:53Z
+last_updated: 2024-11-25T12:48:58Z
 ---
 
 Meta Llama, developed by Meta AI (formerly Facebook AI Research), represents a significant advancement in open-source large language models (LLMs). Launched by Meta Platforms, Inc., Llama has quickly become a prominent player in the AI landscape, offering powerful language models that are accessible to researchers and developers worldwide.
@@ -28,3 +17,5 @@ Llama 2, released in 2023, marked a significant upgrade from its predecessor. It
 Meta's commitment to responsible AI development is evident in their approach to Llama. The models are designed with safety considerations in mind, and Meta provides guidelines for their ethical use. This focus on responsible AI aligns with the growing emphasis on developing AI systems that are not only powerful but also trustworthy and beneficial to society.
 
 As Meta continues to develop and refine the Llama models, they are playing a crucial role in democratizing access to advanced AI technologies. By providing powerful, open-source language models, Meta Llama is enabling researchers, developers, and organizations of all sizes to explore and leverage the capabilities of large language models in their work and applications.
+
+

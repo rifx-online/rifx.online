@@ -30,6 +30,15 @@ title: glm-4v
 
 
 
+
+
+
+
+
+
+
+
+
 ## GLM-4V Model Introduction
 
 ### Key Capabilities and Primary Use Cases

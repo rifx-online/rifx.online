@@ -31,6 +31,15 @@ title: 'Google: Gemma 2 9B (free)'
 
 
 
+
+
+
+
+
+
+
+
+
 Gemma 2 9B by Google is an advanced, open-source language model that sets a new standard for efficiency and performance in its size class.
 
 Designed for a wide variety of tasks, it empowers developers and researchers to build innovative applications, while maintaining accessibility, safety, and cost-effectiveness.

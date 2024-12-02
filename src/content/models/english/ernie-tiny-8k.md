@@ -31,6 +31,15 @@ title: ERNIE-Tiny-8K
 
 
 
+
+
+
+
+
+
+
+
+
 Lightweight Chinese Pre-trained Language Model
 
 **Developer/Company:** Baidu Team

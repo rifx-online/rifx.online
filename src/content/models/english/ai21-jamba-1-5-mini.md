@@ -3,7 +3,7 @@ title: "AI21: Jamba 1.5 Mini"
 meta_title: "AI21: Jamba 1.5 Mini"
 description: "AI21: Jamba 1.5 Mini"
 date: 2024-12-02T04:07:57Z
-image: "https://img.rifx.online/icons/ai21-brand-color.svg"
+image: "https://img.rifx.online/icons/ai21.svg"
 categories: ["text 2 text"]
 author: "Ai21"
 tags: ["Programming", "Technology", "Machine Learning", "Natural Language Processing", "Generative AI"]

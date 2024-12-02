@@ -29,6 +29,15 @@ title: 'Anthropic: Claude 3 Haiku'
 
 
 
+
+
+
+
+
+
+
+
+
 Claude 3 Haiku 是 Anthropic 反应速度最快、体积最小的模型，能够实现近乎即时的响应。快速且准确的定向性能。
 
 查看发布公告和基准测试结果 [这里](https://www.anthropic.com/news/claude-3-haiku)

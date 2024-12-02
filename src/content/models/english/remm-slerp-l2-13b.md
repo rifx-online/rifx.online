@@ -30,5 +30,14 @@ title: ReMM SLERP 13B
 
 
 
+
+
+
+
+
+
+
+
+
 A recreation trial of the original MythoMax-L2-B13 but with updated models. #merge
 

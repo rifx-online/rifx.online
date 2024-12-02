@@ -1,20 +1,9 @@
 ---
 title: MistralAI
-email: contact@mistral.ai
-image: "https://img.rifx.online/logo/mistral.png"
-description: 开源AI模型和技术的先驱
-social:
-  - name: github
-    icon: FaGithub
-    link: https://github.com/mistralai
-
-  - name: twitter
-    icon: FaTwitter
-    link: https://twitter.com/MistralAI
-
-  - name: linkedin
-    icon: FaLinkedin
-    link: https://www.linkedin.com/company/mistralai/
+image: "https://img.rifx.online/icons/mistral-color.svg"
+description: no content
+date: 2024-11-18T03:59:55Z
+last_updated: 2024-11-26T00:44:39Z
 ---
 
 Mistral AI是一家尖端人工智能公司,由前DeepMind和Meta AI研究人员于2023年创立。Mistral AI专注于大型语言模型和生成式AI,致力于开发强大、高效和开源的AI技术。
@@ -44,3 +33,5 @@ Mistral AI的模型在多个方面展现出独特优势：
 ## 未来展望
 
 Mistral AI通过持续创新和开源开发，正在重塑AI行业格局。他们致力于提供更强大、更高效的AI解决方案，同时保持对负责任AI实践的承诺。
+
+

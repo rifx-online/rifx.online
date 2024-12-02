@@ -29,6 +29,15 @@ title: ReMM SLERP 13B (extended)
 
 
 
+
+
+
+
+
+
+
+
+
 A recreation trial of the original MythoMax-L2-B13 but with updated models. #merge
 
 _These are extended-context endpoints for [ReMM SLERP 13B](/undi95/remm-slerp-l2-13b). They may have higher prices._

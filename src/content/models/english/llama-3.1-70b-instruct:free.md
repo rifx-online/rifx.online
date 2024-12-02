@@ -31,6 +31,15 @@ title: 'Meta: Llama 3.1 70B Instruct (free)'
 
 
 
+
+
+
+
+
+
+
+
+
 Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 70B instruct-tuned version is optimized for high quality dialogue usecases.
 
 It has demonstrated strong performance compared to leading closed-source models in human evaluations.

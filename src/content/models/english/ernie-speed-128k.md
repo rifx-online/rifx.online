@@ -31,6 +31,15 @@ title: ERNIE-Speed-128K
 
 
 
+
+
+
+
+
+
+
+
+
 **Developer/Company:** Baidu Research
 
 **Key Capabilities & Use Cases:** ERNIE-Speed-128K excels in rapid inference for real-time applications, leveraging enhanced semantic understanding through knowledge integration. It's suitable for machine translation, text summarization, sentiment analysis, and intelligent Q&A systems.

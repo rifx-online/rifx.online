@@ -30,6 +30,15 @@ title: ERNIE-Bot-turbo
 
 
 
+
+
+
+
+
+
+
+
+
 **Developer/Company:** Baidu
 
 **Overview:** ERNIE Bot Turbo is an enhanced version of ERNIE Bot, offering expanded capabilities with support for 7K input + 1K output. It includes system settings and new inference parameters.

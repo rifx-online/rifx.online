@@ -1,20 +1,9 @@
 ---
 title: MistralAI
-email: contact@mistral.ai
-image: "https://img.rifx.online/logo/mistral.png"
-description: Pioneer in Open Source AI Models and Technology
-social:
-  - name: github
-    icon: FaGithub
-    link: https://github.com/mistralai
-
-  - name: twitter
-    icon: FaTwitter
-    link: https://twitter.com/MistralAI
-
-  - name: linkedin
-    icon: FaLinkedin
-    link: https://www.linkedin.com/company/mistralai/
+image: "https://img.rifx.online/icons/mistral-color.svg"
+description: no content
+date: 2024-11-18T03:59:55Z
+last_updated: 2024-11-26T00:44:39Z
 ---
 
 Mistral AI is a cutting-edge artificial intelligence company founded in 2023 by former researchers from DeepMind and Meta AI. The company focuses on large language models and generative AI, committed to developing powerful, efficient, and open-source AI technologies.
@@ -44,3 +33,5 @@ Mistral AI's models showcase unique advantages:
 ## Future Outlook
 
 Mistral AI is reshaping the AI landscape through continuous innovation and open-source development. They remain committed to delivering more powerful and efficient AI solutions while maintaining responsible AI practices.
+
+

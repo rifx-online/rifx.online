@@ -29,6 +29,15 @@ title: 'Google: Gemini Flash 8B 1.5 Experimental'
 
 
 
+
+
+
+
+
+
+
+
+
 Gemini 1.5 Flash 8B Experimental 是 [Gemini 1.5 Flash](/google/gemini-flash-1.5) 模型的实验性 8B 参数版本。
 
 使用 Gemini 需遵循 Google 的 [Gemini 使用条款](https://ai.google.dev/terms)。

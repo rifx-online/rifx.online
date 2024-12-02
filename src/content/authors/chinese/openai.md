@@ -1,20 +1,9 @@
 ---
 title: OpenAI
-email: info@openai.com
-image: "https://img.rifx.online/logo/openai.svg"
-description: OpenAI是人工智能研究和部署领域的领先公司
-social:
-  - name: github
-    icon: FaGithub
-    link: https://github.com/openai
-
-  - name: twitter
-    icon: FaTwitter
-    link: https://twitter.com/openai
-
-  - name: linkedin
-    icon: FaLinkedin
-    link: https://linkedin.com/company/openai
+image: "https://img.rifx.online/icons/openai.svg"
+description: no content
+date: 2024-11-18T03:29:40Z
+last_updated: 2024-11-26T00:44:59Z
 ---
 
 OpenAI是一家位于旧金山的人工智能研究实验室，成立于2015年。作为AI领域的先驱，OpenAI致力于确保人工通用智能(AGI)能够造福全人类。
@@ -46,3 +35,5 @@ OpenAI的模型在多个方面展现出独特优势：
 ## 未来展望
 
 OpenAI通过持续创新和技术突破，引领着AI行业的发展方向。他们致力于开发更安全、更强大的AI系统，同时确保技术发展符合人类利益。
+
+

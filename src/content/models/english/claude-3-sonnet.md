@@ -30,6 +30,15 @@ title: 'Anthropic: Claude 3 Sonnet'
 
 
 
+
+
+
+
+
+
+
+
+
 Claude 3 Sonnet is an ideal balance of intelligence and speed for enterprise workloads. Maximum utility at a lower price, dependable, balanced for scaled deployments.
 
 See the launch announcement and benchmark results [here](https://www.anthropic.com/news/claude-3-family)

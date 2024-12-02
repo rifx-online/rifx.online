@@ -1,17 +1,9 @@
 ---
 title: Perplexity
-email: contact@perplexity.ai
-image: "https://img.rifx.online/logo/perplexity.svg"
-description: Perplexity - Provider of high-performance language model services
-analysis_url: https://artificialanalysis.ai/providers/perplexity
-social:
-  - name: twitter
-    icon: FaTwitter
-    link: https://twitter.com/perplexity_ai
-
-  - name: linkedin
-    icon: FaLinkedin
-    link: https://www.linkedin.com/company/perplexity-ai
+image: "https://img.rifx.online/icons/perplexity-color.svg"
+description: no content
+date: 2024-11-18T03:29:51Z
+last_updated: 2024-11-25T12:50:16Z
 ---
 
 Perplexity is an AI company focused on providing high-performance language model services. The company offers several advanced models with Function Calling support, primarily including:
@@ -44,3 +36,4 @@ Pricing Strategy (per million tokens):
 - Sonar 3.1 Large: $0.80
 
 All these models support JSON mode output, making them particularly suitable for applications requiring structured data processing. By offering this diverse range of models with Function Calling support, Perplexity provides developers with flexible and powerful AI development tools. 
+

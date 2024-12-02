@@ -4,7 +4,7 @@ meta_title: "Mistral: Pixtral 12B"
 description: "Mistral: Pixtral 12B"
 date: 2024-12-02T03:42:10Z
 image: "https://img.rifx.online/icons/mistral-color.svg"
-categories: ["text imaget 2 text"]
+categories: ["text image 2 text"]
 author: "MistralAI"
 tags: ["Natural Language Processing", "Machine Learning", "Technology", "Generative AI", "Data Science"]
 draft: False

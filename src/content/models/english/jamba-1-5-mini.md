@@ -29,6 +29,15 @@ title: 'AI21: Jamba 1.5 Mini'
 
 
 
+
+
+
+
+
+
+
+
+
 Jamba 1.5 Mini is the world's first production-grade Mamba-based model, combining SSM and Transformer architectures for a 256K context window and high efficiency.
 
 It works with 9 languages and can handle various writing and analysis tasks as well as or better than similar small models.

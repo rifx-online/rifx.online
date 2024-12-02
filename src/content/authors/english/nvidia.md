@@ -1,20 +1,9 @@
 ---
 title: NVIDIA
-email: info@nvidia.com
-image: "https://img.rifx.online/logo/nvidia.svg"
-description: NVIDIA - Inventor of the GPU, pioneer of accelerated computing, and leader in AI technologies
-social:
-  - name: github
-    icon: FaGithub
-    link: https://github.com/NVIDIA
-
-  - name: twitter
-    icon: FaTwitter
-    link: https://twitter.com/nvidia
-
-  - name: linkedin
-    icon: FaLinkedin
-    link: https://www.linkedin.com/company/nvidia
+image: "https://img.rifx.online/icons/nvidia-color.svg"
+description: no content
+date: 2024-11-18T03:30:09Z
+last_updated: 2024-11-26T00:45:26Z
 ---
 
 NVIDIA is a global technology leader and pioneer in accelerated computing. Founded in 1993, NVIDIA has evolved from a graphics chip manufacturer to become the world leader in AI computing infrastructure and software.
@@ -55,3 +44,5 @@ NVIDIA continues to drive advances in AI and deep learning, with recent technolo
 - NeMo large language model framework
 
 Today, NVIDIA's innovations play a crucial role in advancing AI, robotics, autonomous vehicles, the metaverse, and high-performance computing. Through continuous investment in R&D and technological innovation, NVIDIA continues to push the boundaries of computing technology, dedicated to transforming the world through accelerated computing.
+
+

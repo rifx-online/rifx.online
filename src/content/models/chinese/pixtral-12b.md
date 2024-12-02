@@ -29,5 +29,14 @@ title: 'Mistral: Pixtral 12B'
 
 
 
+
+
+
+
+
+
+
+
+
 Mistral AI 的第一个图像到文本模型。根据他们的传统，其权重通过 torrent 发布： https://x.com/mistralai/status/1833758285167722836
 

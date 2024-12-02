@@ -1,21 +1,9 @@
 ---
 title: Microsoft Azure
-email: azure@microsoft.com
-image: "https://img.rifx.online/logo/microsoft.svg"
-description: Microsoft Azure - A leading platform providing comprehensive cloud computing and AI services
-analysis_url: https://artificialanalysis.ai/providers/azure
-social:
-  - name: github
-    icon: FaGithub
-    link: https://github.com/azure
-
-  - name: twitter
-    icon: FaTwitter
-    link: https://twitter.com/azure
-
-  - name: linkedin
-    icon: FaLinkedin
-    link: https://www.linkedin.com/company/microsoft-azure
+image: "https://img.rifx.online/icons/azure-color.svg"
+description: no content
+date: 2024-11-18T03:29:24Z
+last_updated: 2024-11-25T12:48:17Z
 ---
 
 Microsoft Azure is Microsoft's cloud computing platform, holding a leading position in AI and large language model services. In addition to the GPT series models offered through Azure OpenAI Service, Microsoft has developed its innovative Phi series models.
@@ -48,3 +36,4 @@ Azure's core strengths:
 - Comprehensive development tools and API support
 
 By offering both high-end GPT models and innovative small models, Microsoft Azure provides comprehensive AI solutions for users with different scenarios and requirements. 
+

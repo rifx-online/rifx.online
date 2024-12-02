@@ -29,5 +29,14 @@ title: 'Perplexity: Llama 3.1 Sonar 405B Online'
 
 
 
+
+
+
+
+
+
+
+
+
 Llama 3.1 Sonar is Perplexity's latest model family. It surpasses their earlier Sonar models in cost-efficiency, speed, and performance. The model is built upon the Llama 3.1 405B and has internet access.
 

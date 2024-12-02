@@ -1,21 +1,9 @@
 ---
 title: Microsoft Azure
-email: azure@microsoft.com
-image: "https://img.rifx.online/logo/microsoft.svg"
-description: Microsoft Azure - 提供全面的云计算和AI服务的领先平台
-analysis_url: https://artificialanalysis.ai/providers/azure
-social:
-  - name: github
-    icon: FaGithub
-    link: https://github.com/azure
-
-  - name: twitter
-    icon: FaTwitter
-    link: https://twitter.com/azure
-
-  - name: linkedin
-    icon: FaLinkedin
-    link: https://www.linkedin.com/company/microsoft-azure
+image: "https://img.rifx.online/icons/azure-color.svg"
+description: no content
+date: 2024-11-18T03:29:24Z
+last_updated: 2024-11-25T12:48:17Z
 ---
 
 Microsoft Azure是微软公司的云计算平台，在AI和大型语言模型服务领域处于领先地位。除了Azure OpenAI Service提供的GPT系列模型外，微软还自主研发了创新的Phi系列模型。
@@ -48,3 +36,5 @@ Azure的核心优势：
 - 完善的开发工具和API支持
 
 通过同时提供高端的GPT模型和创新的小型模型，Microsoft Azure为不同场景和需求的用户提供了全面的AI解决方案。
+
+

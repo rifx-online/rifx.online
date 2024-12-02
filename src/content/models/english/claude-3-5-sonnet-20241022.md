@@ -30,6 +30,15 @@ title: 'Anthropic: Claude 3.5 Sonnet (2024-06-20)'
 
 
 
+
+
+
+
+
+
+
+
+
 Claude 3.5 Sonnet delivers better-than-Opus capabilities, faster-than-Sonnet speeds, at the same Sonnet prices. Sonnet is particularly good at:
 
 - Coding: Autonomously writes, edits, and runs code with reasoning and troubleshooting

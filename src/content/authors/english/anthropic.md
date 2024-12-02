@@ -1,17 +1,9 @@
 ---
 title: Anthropic
-email: info@anthropic.com
-image: "https://img.rifx.online/logo/anthropic.svg"
-description: Anthropic - A research company dedicated to developing safe and reliable AI systems
-analysis_url: https://artificialanalysis.ai/providers/anthropic
-social:
-  - name: twitter
-    icon: FaTwitter
-    link: https://twitter.com/anthropic
-
-  - name: linkedin
-    icon: FaLinkedin
-    link: https://www.linkedin.com/company/anthropic
+image: "https://img.rifx.online/icons/anthropic.svg"
+description: no content
+date: 2024-11-18T03:20:35Z
+last_updated: 2024-11-25T12:49:54Z
 ---
 
 Anthropic is an artificial intelligence research company founded in 2021 by former OpenAI researchers including Dario Amodei and Paul Christiano. The company focuses on developing safe and reliable AI systems, guided by the principle of "constitutional AI" to ensure the safety and ethics of AI technology.
@@ -70,3 +62,4 @@ Technical Characteristics:
 
 Corporate Vision:
 Anthropic is committed to developing safe, reliable, and ethically conscious AI systems. Through continuous innovation and strict safety standards, the company is driving AI technology toward a more responsible direction. Their Claude series models maintain high performance while particularly emphasizing safety and ethics, providing users with trustworthy AI solutions. 
+

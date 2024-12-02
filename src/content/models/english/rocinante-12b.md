@@ -29,6 +29,15 @@ title: Rocinante 12B
 
 
 
+
+
+
+
+
+
+
+
+
 Rocinante 12B is designed for engaging storytelling and rich prose.
 
 Early testers have reported:

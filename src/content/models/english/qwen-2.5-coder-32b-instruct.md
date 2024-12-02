@@ -30,6 +30,15 @@ title: Qwen2.5 Coder 32B Instruct
 
 
 
+
+
+
+
+
+
+
+
+
 Qwen2.5-Coder is the latest series of Code-Specific Qwen large language models (formerly known as CodeQwen). Qwen2.5-Coder brings the following improvements upon CodeQwen1.5:
 
 - Significantly improvements in **code generation**, **code reasoning** and **code fixing**. 

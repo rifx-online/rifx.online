@@ -29,6 +29,15 @@ title: 'xAI: Grok Beta'
 
 
 
+
+
+
+
+
+
+
+
+
 Grok Beta 是 xAI 的实验性语言模型，具有最先进的推理能力，最适合复杂和多步骤的用例。
 
 它是 [Grok 2](https://x.ai/blog/grok-2) 的继任者，具有增强的上下文长度。

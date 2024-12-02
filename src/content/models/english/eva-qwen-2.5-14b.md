@@ -30,6 +30,15 @@ title: EVA Qwen2.5 14B
 
 
 
+
+
+
+
+
+
+
+
+
 A model specializing in RP and creative writing, this model is based on Qwen2.5-14B, fine-tuned with a mixture of synthetic and natural data.
 
 It is trained on 1.5M tokens of role-play data, and fine-tuned on 1.5M tokens of synthetic data.

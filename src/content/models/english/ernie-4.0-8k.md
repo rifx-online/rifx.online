@@ -30,6 +30,15 @@ title: ERNIE-4.0-8K
 
 
 
+
+
+
+
+
+
+
+
+
 **Developer/Company:** Baidu Research
 
 **Key Capabilities & Use Cases:** ERNIE-4.0-8K is valuable in natural language processing (NLP), applicable to search engines, intelligent customer service, content recommendation, and sentiment analysis.

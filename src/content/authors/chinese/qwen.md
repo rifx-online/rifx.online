@@ -1,20 +1,9 @@
 ---
 title: Qwen
-email: qwen@alibaba.com
-image: "https://img.rifx.online/logo/qwen.svg"
-description: 通义千问是由阿里云开发的大型语言模型
-social:
-  - name: github
-    icon: FaGithub
-    link: https://github.com/QwenLM
-
-  - name: twitter
-    icon: FaTwitter
-    link: https://twitter.com/AlibabaCloud
-
-  - name: linkedin
-    icon: FaLinkedin
-    link: https://www.linkedin.com/company/alibaba-cloud/
+image: "https://img.rifx.online/icons/qwen-color.svg"
+description: no content
+date: 2024-11-18T03:30:17Z
+last_updated: 2024-11-26T00:45:39Z
 ---
 
 通义千问是由阿里云开发的先进大型语言模型。作为阿里巴巴的重要AI产品，它采用了最新的深度学习技术和海量的训练数据，具备强大的自然语言理解和生成能力。
@@ -30,3 +19,5 @@ social:
 通义千问已在教育、医疗、金融等多个领域得到应用，并持续通过技术创新提升性能。它不仅是一个强大的AI助手，更是推动产业智能化升级的重要工具。
 
 如需了解更多信息或开始使用，欢迎访问通义千问的官方GitHub仓库或阿里云官网。
+
+

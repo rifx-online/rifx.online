@@ -31,6 +31,15 @@ title: Toppy M 7B (free)
 
 
 
+
+
+
+
+
+
+
+
+
 A wild 7B 参数模型，使用 mergekit 的新 task_arithmetic 合并方法合并了多个模型。  
 合并模型列表：  
 - NousResearch/Nous-Capybara-7B-V1.9  

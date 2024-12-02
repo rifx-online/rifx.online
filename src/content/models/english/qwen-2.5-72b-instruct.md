@@ -29,6 +29,15 @@ title: Qwen2.5 72B Instruct
 
 
 
+
+
+
+
+
+
+
+
+
 Qwen2.5 72B is the latest series of Qwen large language models. Qwen2.5 brings the following improvements upon Qwen2:
 
 - Significantly more knowledge and has greatly improved capabilities in coding and mathematics, thanks to our specialized expert models in these domains.

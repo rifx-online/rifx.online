@@ -29,6 +29,15 @@ title: 'Google: Gemma 2 27B'
 
 
 
+
+
+
+
+
+
+
+
+
 Gemma 2 27B by Google is an open model built from the same research and technology used to create the [Gemini models](/models?q=gemini).
 
 Gemma models are well-suited for a variety of text generation tasks, including question answering, summarization, and reasoning.

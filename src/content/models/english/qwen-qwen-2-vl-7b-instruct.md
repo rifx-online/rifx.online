@@ -4,7 +4,7 @@ meta_title: "Qwen2-VL 7B Instruct"
 description: "Qwen2-VL 7B Instruct"
 date: 2024-12-02T04:10:44Z
 image: "https://img.rifx.online/icons/qwen-color.svg"
-categories: ["text imaget 2 text"]
+categories: ["text image 2 text"]
 author: "Qwen"
 tags: ["Technology", "Machine Learning", "Computer Vision", "Robotics", "Natural Language Processing"]
 draft: False

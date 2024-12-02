@@ -4,7 +4,7 @@ meta_title: "Anthropic: Claude 3 Sonnet"
 description: "Anthropic: Claude 3 Sonnet"
 date: 2024-12-02T04:24:01Z
 image: "https://img.rifx.online/icons/anthropic.svg"
-categories: ["text imaget 2 text"]
+categories: ["text image 2 text"]
 author: "Anthropic"
 tags: ["Technology", "Programming", "Data Science", "Machine Learning", "Generative AI"]
 draft: False

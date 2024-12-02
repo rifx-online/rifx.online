@@ -1,17 +1,9 @@
 ---
 title: Perplexity
-email: contact@perplexity.ai
-image: "https://img.rifx.online/logo/perplexity.svg"
-description: Perplexity - 提供高性能语言模型服务的AI公司
-analysis_url: https://artificialanalysis.ai/providers/perplexity
-social:
-  - name: twitter
-    icon: FaTwitter
-    link: https://twitter.com/perplexity_ai
-
-  - name: linkedin
-    icon: FaLinkedin
-    link: https://www.linkedin.com/company/perplexity-ai
+image: "https://img.rifx.online/icons/perplexity-color.svg"
+description: no content
+date: 2024-11-18T03:29:51Z
+last_updated: 2024-11-25T12:50:16Z
 ---
 
 Perplexity是一家专注于提供高性能语言模型服务的AI公司。该公司提供多种支持函数调用(Function Calling)的先进语言模型，主要包括：
@@ -44,3 +36,5 @@ Perplexity是一家专注于提供高性能语言模型服务的AI公司。该�
 - Sonar 3.1 Large：$0.80
 
 所有这些模型都支持JSON模式输出，这使它们特别适合构建需要结构化数据处理的应用程序。通过提供这些支持函数调用的多样化模型选择，Perplexity为开发者提供了灵活且强大的AI开发工具。
+
+

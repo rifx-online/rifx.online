@@ -29,6 +29,15 @@ title: 'Cohere: Command R (08-2024)'
 
 
 
+
+
+
+
+
+
+
+
+
 command-r-08-2024 是 [Command R](/cohere/command-r) 的更新，提升了多语言检索增强生成 (RAG) 和工具使用的性能。更广泛地说，它在数学、代码和推理方面表现更佳，并且与之前的更大版本 Command R+ 模型具有竞争力。
 
 阅读发布帖子 [这里](https://docs.cohere.com/changelog/command-gets-refreshed)。

@@ -29,5 +29,14 @@ title: 'Inflection: Inflection 3 Pi'
 
 
 
+
+
+
+
+
+
+
+
+
 Inflection 3 Pi 的 [Pi](https://pi.ai) 聊天机器人，包含背景故事、情感智能、生产力和安全性。它在客户支持、角色扮演和情感智能等场景中表现出色。
 

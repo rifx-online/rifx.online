@@ -29,6 +29,15 @@ title: Qwen 2 7B Instruct
 
 
 
+
+
+
+
+
+
+
+
+
 Qwen2 7B is a transformer-based model that excels in language understanding, multilingual capabilities, coding, mathematics, and reasoning.
 
 It features SwiGLU activation, attention QKV bias, and group query attention. It is pretrained on extensive data with supervised finetuning and direct preference optimization.

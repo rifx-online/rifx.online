@@ -1,20 +1,9 @@
 ---
 title: Meta Llama
-email: press@meta.com
-image: "https://img.rifx.online/logo/meta.svg"
-description: Meta Llama - 来自Meta AI的开源大型语言模型
-social:
-  - name: github
-    icon: FaGithub
-    link: https://github.com/facebookresearch/llama
-
-  - name: twitter
-    icon: FaTwitter
-    link: https://twitter.com/MetaAI
-
-  - name: linkedin
-    icon: FaLinkedin
-    link: https://www.linkedin.com/company/meta-ai
+image: "https://img.rifx.online/icons/meta-color.svg"
+description: no content
+date: 2024-11-18T03:28:53Z
+last_updated: 2024-11-25T12:48:58Z
 ---
 
 Meta Llama由Meta AI(前身为Facebook AI Research)开发,代表了开源大型语言模型(LLMs)的重大进步。由Meta Platforms, Inc.推出的Llama迅速成为AI领域的重要参与者,为全球研究人员和开发者提供强大的语言模型。
@@ -28,3 +17,5 @@ Meta Llama的一个关键特点是其开源性质。通过免费提供这些模�
 Meta对负责任的AI开发的承诺在他们对Llama的方法中显而易见。这些模型在设计时考虑了安全因素,Meta提供了道德使用指南。这种对负责任AI的关注与开发不仅强大而且值得信赖并有益于社会的AI系统的日益增长的重视相一致。
 
 随着Meta继续开发和完善Llama模型,他们在民主化获取先进AI技术方面发挥着关键作用。通过提供强大的开源语言模型,Meta Llama使研究人员、开发者和各种规模的组织能够在他们的工作和应用中探索和利用大型语言模型的能力。
+
+

@@ -29,6 +29,15 @@ title: Toppy M 7B
 
 
 
+
+
+
+
+
+
+
+
+
 一个野生的7B参数模型，通过mergekit中的新task_arithmetic合并方法合并了多个模型。
 合并模型列表：
 - NousResearch/Nous-Capybara-7B-V1.9

@@ -29,6 +29,15 @@ title: Qwen2-VL 7B Instruct
 
 
 
+
+
+
+
+
+
+
+
+
 Qwen2 VL 7B is a multimodal LLM from the Qwen Team with the following key enhancements:
 
 - SoTA understanding of images of various resolution & ratio: Qwen2-VL achieves state-of-the-art performance on visual understanding benchmarks, including MathVista, DocVQA, RealWorldQA, MTVQA, etc.

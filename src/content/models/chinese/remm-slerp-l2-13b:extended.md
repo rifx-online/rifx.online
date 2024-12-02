@@ -29,6 +29,15 @@ title: ReMM SLERP 13B (extended)
 
 
 
+
+
+
+
+
+
+
+
+
 原始 MythoMax-L2-B13 的重现试验，但使用了更新的模型。 #merge
 
 _这些是 [ReMM SLERP 13B](/undi95/remm-slerp-l2-13b) 的扩展上下文端点。它们可能具有更高的价格。_

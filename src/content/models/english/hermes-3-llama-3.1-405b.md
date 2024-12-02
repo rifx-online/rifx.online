@@ -29,6 +29,15 @@ title: 'Nous: Hermes 3 405B Instruct'
 
 
 
+
+
+
+
+
+
+
+
+
 Hermes 3 is a generalist language model with many improvements over Hermes 2, including advanced agentic capabilities, much better roleplaying, reasoning, multi-turn conversation, long context coherence, and improvements across the board.
 
 Hermes 3 405B is a frontier-level, full-parameter finetune of the Llama-3.1 405B foundation model, focused on aligning LLMs to the user, with powerful steering capabilities and control given to the end user.

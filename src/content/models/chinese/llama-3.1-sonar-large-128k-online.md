@@ -29,6 +29,15 @@ title: 'Perplexity: Llama 3.1 Sonar 70B Online'
 
 
 
+
+
+
+
+
+
+
+
+
 Llama 3.1 Sonar 是 Perplexity 最新的模型系列。它在成本效益、速度和性能方面超越了他们早期的 Sonar 模型。
 
 这是 [离线聊天模型](/perplexity/llama-3.1-sonar-large-128k-chat) 的在线版本。它专注于提供有帮助、最新和真实的响应。 #online

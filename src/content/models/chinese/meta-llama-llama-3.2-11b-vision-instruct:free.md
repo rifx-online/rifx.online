@@ -4,7 +4,7 @@ meta_title: "Meta: Llama 3.2 11B Vision Instruct (free)"
 description: "Meta: Llama 3.2 11B Vision Instruct (free)"
 date: 2024-12-02T03:57:54Z
 image: "https://img.rifx.online/icons/meta-color.svg"
-categories: ["text imaget 2 text"]
+categories: ["text image 2 text"]
 author: "Meta Llama"
 tags: ["Natural Language Processing", "Computer Vision", "Machine Learning", "Generative AI", "Ethics", "Free"]
 draft: False

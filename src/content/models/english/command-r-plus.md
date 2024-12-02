@@ -29,6 +29,15 @@ title: 'Cohere: Command R+ (08-2024)'
 
 
 
+
+
+
+
+
+
+
+
+
 command-r-plus-08-2024 is an update of the [Command R+](/cohere/command-r-plus) with roughly 50% higher throughput and 25% lower latencies as compared to the previous Command R+ version, while keeping the hardware footprint the same.
 
 Read the launch post [here](https://docs.cohere.com/changelog/command-gets-refreshed).

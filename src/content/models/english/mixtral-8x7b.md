@@ -30,6 +30,15 @@ title: Mixtral 8x7B (base)
 
 
 
+
+
+
+
+
+
+
+
+
 A pretrained generative Sparse Mixture of Experts, by Mistral AI. Incorporates 8 experts (feed-forward networks) for a total of 47B parameters. Base model (not fine-tuned for instructions) - see [Mixtral 8x7B Instruct](/mistralai/mixtral-8x7b-instruct) for an instruct-tuned model.
 
 #moe

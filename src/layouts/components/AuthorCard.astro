@@ -2,7 +2,7 @@
 import { getLangFromUrl, slugSelector } from "@/lib/utils/languageParser";
 import { plainify, slugify } from "@/lib/utils/textConverter";
 import ImageMod from "./ImageMod.astro";
-import Social from "./Social.astro";
+
 
 const { data } = Astro.props;
 const { title, image, social } = data.data;
@@ -30,5 +30,5 @@ const lang = getLangFromUrl(Astro.url);
   <p class="mb-4">
     {plainify(data.body?.slice(0, 100))}
   </p>
-  <Social source={social} className="social-icons" />
+  
 </div>

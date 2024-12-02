@@ -29,6 +29,15 @@ title: 'Meta: Llama 3.1 8B Instruct'
 
 
 
+
+
+
+
+
+
+
+
+
 Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 8B instruct-tuned version is fast and efficient.
 
 It has demonstrated strong performance compared to leading closed-source models in human evaluations.

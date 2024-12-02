@@ -1,17 +1,9 @@
 ---
 title: Cohere
-email: contact@cohere.com
-image: "https://img.rifx.online/logo/cohere.svg"
-description: Cohere - 专注于开发企业级语言模型的AI公司
-analysis_url: https://artificialanalysis.ai/providers/cohere
-social:
-  - name: twitter
-    icon: FaTwitter
-    link: https://twitter.com/cohere
-
-  - name: linkedin
-    icon: FaLinkedin
-    link: https://www.linkedin.com/company/cohere
+image: "https://img.rifx.online/icons/cohere-color.svg"
+description: no content
+date: 2024-11-18T03:25:38Z
+last_updated: 2024-11-25T12:49:40Z
 ---
 
 Cohere是一家专注于开发企业级语言模型的AI公司，提供多个系列的高性能模型，包括Command系列和Aya Expanse系列。
@@ -59,3 +51,4 @@ Aya Expanse系列：
 - 在LMSys Chatbot Arena的ELO评分中表现突出
 
 Cohere通过提供多样化的模型选择和灵活的定价策略，为企业和开发者提供了全面的AI解决方案。公司特别注重模型的实用性和可靠性，致力于为用户提供高质量的语言模型服务。 
+

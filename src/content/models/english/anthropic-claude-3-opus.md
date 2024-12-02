@@ -4,7 +4,7 @@ meta_title: "Anthropic: Claude 3 Opus"
 description: "Anthropic: Claude 3 Opus"
 date: 2024-12-02T04:24:05Z
 image: "https://img.rifx.online/icons/anthropic.svg"
-categories: ["text imaget 2 text"]
+categories: ["text image 2 text"]
 author: "Anthropic"
 tags: ["Programming", "Machine Learning", "Natural Language Processing", "Generative AI", "Chatbots"]
 draft: False

@@ -1,17 +1,9 @@
 ---
 title: Cohere
-email: contact@cohere.com
-image: "https://img.rifx.online/logo/cohere.svg"
-description: Cohere - AI company focused on developing enterprise-grade language models
-analysis_url: https://artificialanalysis.ai/providers/cohere
-social:
-  - name: twitter
-    icon: FaTwitter
-    link: https://twitter.com/cohere
-
-  - name: linkedin
-    icon: FaLinkedin
-    link: https://www.linkedin.com/company/cohere
+image: "https://img.rifx.online/icons/cohere-color.svg"
+description: no content
+date: 2024-11-18T03:25:38Z
+last_updated: 2024-11-25T12:49:40Z
 ---
 
 Cohere is an AI company focused on developing enterprise-grade language models, offering multiple series of high-performance models including the Command series and Aya Expanse series.
@@ -59,3 +51,4 @@ Performance Evaluation:
 - Strong showing in LMSys Chatbot Arena ELO ratings
 
 Cohere provides comprehensive AI solutions for enterprises and developers through diverse model offerings and flexible pricing strategies. The company particularly emphasizes model practicality and reliability, committed to delivering high-quality language model services to users. 
+

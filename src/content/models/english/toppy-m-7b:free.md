@@ -31,6 +31,15 @@ title: Toppy M 7B (free)
 
 
 
+
+
+
+
+
+
+
+
+
 A wild 7B parameter model that merges several models using the new task_arithmetic merge method from mergekit.
 List of merged models:
 - NousResearch/Nous-Capybara-7B-V1.9

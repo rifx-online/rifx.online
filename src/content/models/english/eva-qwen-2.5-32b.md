@@ -30,6 +30,15 @@ title: Eva Qwen2.5 32B
 
 
 
+
+
+
+
+
+
+
+
+
 A roleplaying/storywriting specialist model, full-parameter finetune of Qwen2.5-32B on mixture of synthetic and natural data.
 
 It uses Celeste 70B 0.1 data mixture, greatly expanding it to improve versatility, creativity and "flavor" of the resulting model.

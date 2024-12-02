@@ -1,17 +1,9 @@
 ---
-title: "Rifx.Online"
-email: support@rifx.online
-description: "了解我们通过全面的API聚合平台简化AI集成的使命"
-image: "/images/logo.svg"
-social:
-  - name: github
-    icon: FaGithub
-    link: https://github.com/rifx-online
-
-  - name: email
-    icon: FaEnvelope
-    link: mailto:support@rifx.online
-
+title: Rifx.Online
+image: "https://img.rifx.online/logo/rifx.svg"
+description: no content
+date: 2024-11-18T03:30:00Z
+last_updated: 2024-11-26T00:50:52Z
 ---
 
 我们的核心是充满激情的创新者,致力于弥合尖端AI技术与全球开发者之间的差距。我们的AI API聚合平台作为一个中心枢纽,以前所未有的便捷性和效率将您连接到大量强大的AI模型和服务。
@@ -34,3 +26,5 @@ social:
 加入我们这个激动人心的旅程,一起塑造AI集成的未来。无论您是独立开发者、成长中的初创公司还是成熟的企业,我们的平台都旨在满足您的需求并推动您的创新。
 
 让我们一起构建更智能的未来!
+
+

@@ -29,6 +29,15 @@ title: WizardLM-2 7B
 
 
 
+
+
+
+
+
+
+
+
+
 WizardLM-2 7B is the smaller variant of Microsoft AI's latest Wizard model. It is the fastest and achieves comparable performance with existing 10x larger opensource leading models
 
 It is a finetune of [Mistral 7B Instruct](/mistralai/mistral-7b-instruct), using the same technique as [WizardLM-2 8x22B](/microsoft/wizardlm-2-8x22b).

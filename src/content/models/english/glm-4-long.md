@@ -30,6 +30,15 @@ title: GLM-4 Long
 
 
 
+
+
+
+
+
+
+
+
+
 # GLM-4 Long
 
 GLM-4 Long is a state-of-the-art language model designed for extended context processing, making it ideal for applications requiring comprehensive text analysis and generation over long documents. 

@@ -29,6 +29,15 @@ title: 'AI21: Jamba 1.5 Large'
 
 
 
+
+
+
+
+
+
+
+
+
 Jamba 1.5 Large is part of AI21's new family of open models, offering superior speed, efficiency, and quality.
 
 It features a 256K effective context window, the longest among open models, enabling improved performance on tasks like document summarization and analysis.

@@ -29,6 +29,15 @@ title: 'Google: Gemini Pro Vision 1.0'
 
 
 
+
+
+
+
+
+
+
+
+
 谷歌的旗舰多模态模型，支持在文本或聊天提示中使用图像和视频，以获得文本或代码响应。
 
 请参阅来自 [Deepmind](https://deepmind.google/technologies/gemini/) 的基准和提示指南。

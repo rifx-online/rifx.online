@@ -29,6 +29,15 @@ title: 'Cohere: Command R+ (08-2024)'
 
 
 
+
+
+
+
+
+
+
+
+
 command-r-plus-08-2024 是 [Command R+](/cohere/command-r-plus) 的更新，与之前的 Command R+ 版本相比，吞吐量提高了大约 50%，延迟降低了 25%，同时保持相同的硬件占用。
 
 在 [这里](https://docs.cohere.com/changelog/command-gets-refreshed) 阅读发布帖子。

@@ -28,6 +28,15 @@ title: 'OpenAI: ChatGPT-4o'
 
 
 
+
+
+
+
+
+
+
+
+
 Dynamic model continuously updated to the current version of [GPT-4o](/openai/gpt-4o) in ChatGPT. Intended for research and evaluation.
 
 Note: This model is currently experimental and not suitable for production use-cases, and may be heavily rate-limited.
