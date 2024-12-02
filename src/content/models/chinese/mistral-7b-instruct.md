@@ -26,6 +26,9 @@ title: 'Mistral: Mistral 7B Instruct'
 
 
 
+
+
+
 一个高性能、行业标准的7.3B参数模型，针对速度和上下文长度进行了优化。
 
 *Mistral 7B Instruct有多个版本变体，本文旨在介绍最新版本。*

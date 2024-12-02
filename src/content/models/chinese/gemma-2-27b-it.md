@@ -26,6 +26,9 @@ title: 'Google: Gemma 2 27B'
 
 
 
+
+
+
 Gemma 2 27B 由 Google 开发，是一个开放模型，基于创建 [Gemini 模型](/models?q=gemini) 所使用的相同研究和技术。
 
 Gemma 模型非常适合多种文本生成任务，包括问答、摘要和推理。

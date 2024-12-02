@@ -27,6 +27,9 @@ title: 'Anthropic: Claude 3.5 Sonnet (2024-06-20)'
 
 
 
+
+
+
 Claude 3.5 Sonnet 提供了超越 Opus 的能力，以比 Sonnet 更快的速度，且价格与 Sonnet 相同。Sonnet 在以下方面表现尤为出色：
 
 - 编程：自主编写、编辑和运行代码，并进行推理和故障排除

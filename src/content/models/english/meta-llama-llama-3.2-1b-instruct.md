@@ -2,8 +2,8 @@
 title: "Meta: Llama 3.2 1B Instruct"
 meta_title: "Meta: Llama 3.2 1B Instruct"
 description: "Meta: Llama 3.2 1B Instruct"
-date: 2024-09-25T00:00:00Z
-image: "/images/logo.svg"
+date: 2024-12-02T02:35:34Z
+image: "https://img.rifx.online/icons/meta-color.svg"
 categories: ["text 2 text"]
 author: "Meta Llama"
 tags: ["Natural Language Processing", "Programming", "Technology", "Machine Learning", "Data Science"]

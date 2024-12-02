@@ -2,8 +2,8 @@
 title: "Qwen2-VL 72B Instruct"
 meta_title: "Qwen2-VL 72B Instruct"
 description: "Qwen2-VL 72B Instruct"
-date: 2024-09-18T00:00:00Z
-image: "/images/logo.svg"
+date: 2024-12-02T02:37:49Z
+image: "https://img.rifx.online/icons/qwen-color.svg"
 categories: ["text imaget 2 text"]
 author: "Qwen"
 tags: ["Natural Language Processing", "Computer Vision", "Robotics", "Technology/Web"]

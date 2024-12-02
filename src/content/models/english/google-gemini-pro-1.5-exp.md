@@ -2,8 +2,8 @@
 title: "Google: Gemini Pro 1.5 Experimental"
 meta_title: "Google: Gemini Pro 1.5 Experimental"
 description: "Google: Gemini Pro 1.5 Experimental"
-date: 2024-08-01T00:00:00Z
-image: "/images/logo.svg"
+date: 2024-12-02T04:25:36Z
+image: "https://img.rifx.online/icons/google-color.svg"
 categories: ["text 2 text"]
 author: "Google"
 tags: ["Programming", "Technology", "Machine Learning", "Natural Language Processing", "Generative AI", "Free"]

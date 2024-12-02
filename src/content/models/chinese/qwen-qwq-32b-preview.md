@@ -2,8 +2,8 @@
 title: "Qwen: QwQ 32B Preview"
 meta_title: "Qwen: QwQ 32B Preview"
 description: "Qwen: QwQ 32B Preview"
-date: 2024-11-28T00:42:21Z
-image: "/images/logo.svg"
+date: 2024-12-02T02:39:21Z
+image: "https://img.rifx.online/icons/qwen-color.svg"
 categories: ["text 2 text"]
 author: "Qwen"
 tags: ["Machine Learning", "Natural Language Processing", "Ethics", "Programming/Scripting"]

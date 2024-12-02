@@ -26,5 +26,8 @@ title: 'OpenAI: GPT-3.5 Turbo Instruct'
 
 
 
+
+
+
 该模型是GPT-3.5 Turbo的一个变体，针对教学提示进行了调整，并省略了与聊天相关的优化。训练数据：截至2021年9月。
 

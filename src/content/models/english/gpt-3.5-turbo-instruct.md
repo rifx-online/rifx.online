@@ -26,5 +26,8 @@ title: 'OpenAI: GPT-3.5 Turbo Instruct'
 
 
 
+
+
+
 This model is a variant of GPT-3.5 Turbo tuned for instructional prompts and omitting chat-related optimizations. Training data: up to Sep 2021.
 

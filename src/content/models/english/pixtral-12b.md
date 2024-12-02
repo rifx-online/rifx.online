@@ -26,5 +26,8 @@ title: 'Mistral: Pixtral 12B'
 
 
 
+
+
+
 The first image to text model from Mistral AI. Its weight was launched via torrent per their tradition: https://x.com/mistralai/status/1833758285167722836
 

@@ -2,8 +2,8 @@
 title: "Inflection: Inflection 3 Pi"
 meta_title: "Inflection: Inflection 3 Pi"
 description: "Inflection: Inflection 3 Pi"
-date: 2024-10-11T00:00:00Z
-image: "/images/logo.svg"
+date: 2024-12-02T02:38:47Z
+image: "https://img.rifx.online/icons/rifx.svg"
 categories: ["text 2 text"]
 author: "Inflection"
 tags: ["Roleplay", "Chatbots"]

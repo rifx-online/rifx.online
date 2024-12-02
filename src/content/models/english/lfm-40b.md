@@ -27,6 +27,9 @@ title: 'Liquid: LFM 40B MoE'
 
 
 
+
+
+
 Liquid's 40.3B Mixture of Experts (MoE) model. Liquid Foundation Models (LFMs) are large neural networks built with computational units rooted in dynamic systems.
 
 LFMs are general-purpose AI models that can be used to model any kind of sequential data, including video, audio, text, time series, and signals.

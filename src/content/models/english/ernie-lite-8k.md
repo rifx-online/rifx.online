@@ -28,6 +28,9 @@ title: ERNIE-Lite-8K:free
 
 
 
+
+
+
 **Key Capabilities and Use Cases:**
 - Designed for resource-constrained environments like mobile and edge devices.
 - Applicable in smart assistants, voice recognition, and localized processing in smart homes.

@@ -26,6 +26,9 @@ title: 'xAI: Grok Beta'
 
 
 
+
+
+
 Grok Beta is xAI's experimental language model with state-of-the-art reasoning capabilities, best for complex and multi-step use cases.
 
 It is the successor of [Grok 2](https://x.ai/blog/grok-2) with enhanced context length.

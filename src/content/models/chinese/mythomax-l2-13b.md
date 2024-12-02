@@ -26,5 +26,8 @@ title: MythoMax 13B
 
 
 
+
+
+
 Llama 2 13B 的性能最高且最受欢迎的微调之一，具有丰富的描述和角色扮演。 #merge
 

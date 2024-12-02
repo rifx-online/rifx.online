@@ -2,8 +2,8 @@
 title: "Rocinante 12B"
 meta_title: "Rocinante 12B"
 description: "Rocinante 12B"
-date: 2024-09-30T00:00:00Z
-image: "/images/logo.svg"
+date: 2024-12-02T02:38:27Z
+image: "https://img.rifx.online/icons/rifx.svg"
 categories: ["text 2 text"]
 author: "Thedrummer"
 tags: ["Roleplay", "Programming", "Natural Language Processing", "Generative AI", "Chatbots"]

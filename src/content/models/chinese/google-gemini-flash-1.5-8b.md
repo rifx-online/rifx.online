@@ -2,8 +2,8 @@
 title: "Google: Gemini 1.5 Flash-8B"
 meta_title: "Google: Gemini 1.5 Flash-8B"
 description: "Google: Gemini 1.5 Flash-8B"
-date: 2024-10-03T00:00:00Z
-image: "/images/logo.svg"
+date: 2024-12-02T02:39:30Z
+image: "https://img.rifx.online/icons/google-color.svg"
 categories: ["text image 2 text"]
 author: "Google"
 tags: ["Programming", "Natural Language Processing", "Chatbots", "Translation", "Technology/Web"]

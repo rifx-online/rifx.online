@@ -26,6 +26,9 @@ title: DeepSeek V2.5
 
 
 
+
+
+
 DeepSeek-V2.5 是一个升级版本，结合了 DeepSeek-V2-Chat 和 DeepSeek-Coder-V2-Instruct。新模型整合了前两个版本的通用能力和编码能力。
 
 DeepSeek-V2 Chat 是 DeepSeek-V2 的对话微调版本，属于混合专家（MoE）语言模型。它总共包含 236B 个参数，其中每个 token 激活 21B。

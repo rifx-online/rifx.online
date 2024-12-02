@@ -2,8 +2,8 @@
 title: "Nous: Hermes 3 405B Instruct"
 meta_title: "Nous: Hermes 3 405B Instruct"
 description: "Nous: Hermes 3 405B Instruct"
-date: 2024-08-16T00:00:00Z
-image: "/images/logo.svg"
+date: 2024-12-02T03:58:41Z
+image: "https://img.rifx.online/icons/rifx.svg"
 categories: ["text 2 text"]
 author: "NousreSearch"
 tags: ["Programming", "Natural Language Processing", "Machine Learning", "Generative AI", "Chatbots"]

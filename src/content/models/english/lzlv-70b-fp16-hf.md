@@ -26,6 +26,9 @@ title: lzlv 70B
 
 
 
+
+
+
 A Mythomax/MLewd_13B-style merge of selected 70B models.
 A multi-model merge of several LLaMA2 70B finetunes for roleplaying and creative work. The goal was to create a model that combines creativity with intelligence for an enhanced experience.
 

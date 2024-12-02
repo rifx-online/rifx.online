@@ -2,8 +2,8 @@
 title: "Lumimaid v0.2 8B"
 meta_title: "Lumimaid v0.2 8B"
 description: "Lumimaid v0.2 8B"
-date: 2024-09-15T00:00:00Z
-image: "/images/logo.svg"
+date: 2024-12-02T03:46:10Z
+image: "https://img.rifx.online/icons/meta-color.svg"
 categories: ["text 2 text"]
 author: "Meta Llama"
 tags: ["Programming", "Machine Learning", "Natural Language Processing", "Generative AI", "Ethics"]

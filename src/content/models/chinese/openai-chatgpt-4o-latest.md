@@ -2,8 +2,8 @@
 title: "OpenAI: ChatGPT-4o"
 meta_title: "OpenAI: ChatGPT-4o"
 description: "OpenAI: ChatGPT-4o"
-date: 2024-08-14T00:00:00Z
-image: "/images/logo.svg"
+date: 2024-12-02T04:06:16Z
+image: "https://img.rifx.online/icons/openai.svg"
 categories: ["text imaget 2 text"]
 author: "OpenAI"
 tags: ["Programming", "Machine Learning", "Natural Language Processing", "Chatbots", "Generative AI"]

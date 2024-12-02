@@ -26,5 +26,8 @@ title: 'Google: PaLM 2 Code Chat 32k'
 
 
 
+
+
+
 PaLM 2 针对帮助解决代码相关问题的聊天机器人对话进行了微调。
 

@@ -28,6 +28,9 @@ title: 'Mistral: Mistral 7B Instruct (free)'
 
 
 
+
+
+
 A high-performing, industry-standard 7.3B parameter model, with optimizations for speed and context length.
 
 *Mistral 7B Instruct has multiple version variants, and this is intended to be the latest version.*

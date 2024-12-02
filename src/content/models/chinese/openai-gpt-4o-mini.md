@@ -2,8 +2,8 @@
 title: "OpenAI: GPT-4o-mini"
 meta_title: "OpenAI: GPT-4o-mini"
 description: "OpenAI: GPT-4o-mini"
-date: 2024-07-18T00:00:00Z
-image: "/images/logo.svg"
+date: 2024-12-02T03:11:52Z
+image: "https://img.rifx.online/icons/openai.svg"
 categories: ["text image 2 text"]
 author: "OpenAI"
 tags: ["OpenAI"]

@@ -26,6 +26,9 @@ title: 'Google: Gemini Pro 1.5'
 
 
 
+
+
+
 Google's latest multimodal model, supporting image and video in text or chat prompts.
 
 Optimized for language tasks including:

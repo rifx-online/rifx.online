@@ -2,8 +2,8 @@
 title: "Inflection: Inflection 3 Productivity"
 meta_title: "Inflection: Inflection 3 Productivity"
 description: "Inflection: Inflection 3 Productivity"
-date: 2024-10-11T00:00:00Z
-image: "/images/logo.svg"
+date: 2024-12-02T02:39:17Z
+image: "https://img.rifx.online/icons/rifx.svg"
 categories: ["text 2 text"]
 author: "Inflection"
 tags: ["Programming", "Technology", "Chatbots", "Generative AI", "Data Science"]

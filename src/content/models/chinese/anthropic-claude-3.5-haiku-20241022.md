@@ -2,8 +2,8 @@
 title: "Anthropic: Claude 3.5 Haiku (2024-10-22)"
 meta_title: "Anthropic: Claude 3.5 Haiku (2024-10-22)"
 description: "Anthropic: Claude 3.5 Haiku (2024-10-22)"
-date: 2024-11-04T00:00:00Z
-image: "/images/logo.svg"
+date: 2024-12-02T04:24:08Z
+image: "https://img.rifx.online/icons/anthropic.svg"
 categories: ["text 2 text"]
 author: "Anthropic"
 tags: ["Programming", "Chatbots", "Data Science", "Natural Language Processing", "Predictive Analytics"]

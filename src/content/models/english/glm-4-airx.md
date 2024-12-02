@@ -27,6 +27,9 @@ title: GLM-4 AirX
 
 
 
+
+
+
 ## Basic Information
 
 The "GLM-4-AIRX" is an advanced large language model developed by experts in the field of artificial intelligence. It is renowned for its powerful natural language processing capabilities, enabling it to effectively understand and generate natural language text. This model leverages deep learning technologies, particularly the Transformer architecture, which is widely used in the NLP (Natural Language Processing) domain.

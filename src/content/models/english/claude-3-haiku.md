@@ -26,6 +26,9 @@ title: 'Anthropic: Claude 3 Haiku'
 
 
 
+
+
+
 Claude 3 Haiku is Anthropic's fastest and most compact model for
 near-instant responsiveness. Quick and accurate targeted performance.
 

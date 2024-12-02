@@ -2,8 +2,8 @@
 title: "Meta: Llama 3.1 405B (base)"
 meta_title: "Meta: Llama 3.1 405B (base)"
 description: "Meta: Llama 3.1 405B (base)"
-date: 2024-08-02T00:00:00Z
-image: "/images/logo.svg"
+date: 2024-12-02T04:25:40Z
+image: "https://img.rifx.online/icons/meta-color.svg"
 categories: ["text 2 text"]
 author: "Meta Llama"
 tags: ["Programming", "Machine Learning", "Natural Language Processing", "Generative AI", "Ethics"]

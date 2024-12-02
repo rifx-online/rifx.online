@@ -27,6 +27,9 @@ title: Qwen2.5 Coder 32B Instruct
 
 
 
+
+
+
 Qwen2.5-Coder 是最新一系列针对代码的 Qwen 大型语言模型（以前称为 CodeQwen）。Qwen2.5-Coder 在 CodeQwen1.5 的基础上带来了以下改进：
 
 - 在 **代码生成**、**代码推理** 和 **代码修复** 方面有显著提升。

@@ -25,6 +25,9 @@ title: Qwen2-VL 72B Instruct
 
 
 
+
+
+
 Qwen2 VL 72B is a multimodal LLM from the Qwen Team with the following key enhancements:
 
 - SoTA understanding of images of various resolution & ratio: Qwen2-VL achieves state-of-the-art performance on visual understanding benchmarks, including MathVista, DocVQA, RealWorldQA, MTVQA, etc.

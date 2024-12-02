@@ -26,6 +26,9 @@ title: 'OpenAI: o1-mini'
 
 
 
+
+
+
 The latest and strongest model family from OpenAI, o1 is designed to spend more time thinking before responding.
 
 The o1 models are optimized for math, science, programming, and other STEM-related tasks. They consistently exhibit PhD-level accuracy on benchmarks in physics, chemistry, and biology. Learn more in the [launch announcement](https://openai.com/o1).

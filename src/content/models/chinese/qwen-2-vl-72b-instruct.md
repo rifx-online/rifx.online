@@ -25,6 +25,9 @@ title: Qwen2-VL 72B Instruct
 
 
 
+
+
+
 Qwen2 VL 72B 是来自 Qwen Team 的多模态 LLM，具有以下关键增强功能：
 
 - 对各种分辨率和比例图像的最先进理解：Qwen2-VL 在视觉理解基准测试中实现了最先进的性能，包括 MathVista、DocVQA、RealWorldQA、MTVQA 等。

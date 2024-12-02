@@ -26,6 +26,9 @@ title: 'Google: Gemini Pro Vision 1.0'
 
 
 
+
+
+
 Google's flagship multimodal model, supporting image and video in text or chat prompts for a text or code response.
 
 See the benchmarks and prompting guidelines from [Deepmind](https://deepmind.google/technologies/gemini/).

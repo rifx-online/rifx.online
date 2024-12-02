@@ -26,6 +26,9 @@ title: Mistral Nemo Inferor 12B
 
 
 
+
+
+
 Inferor is a merge of top roleplay models, expert on immersive narratives and storytelling.
 
 This model was merged using the [Model Stock](https://arxiv.org/abs/2403.19522) merge method using [anthracite-org/magnum-v4-12b](https://openrouter.ai/anthracite-org/magnum-v4-72b) as a base.

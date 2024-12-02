@@ -26,6 +26,9 @@ title: Magnum v4 72B
 
 
 
+
+
+
 This is a series of models designed to replicate the prose quality of the Claude 3 models, specifically Sonnet and Opus.
 
 The model is fine-tuned on top of [Qwen2.5 72B].

@@ -26,6 +26,9 @@ title: Sorcererlm 8x22b
 
 
 
+
+
+
 SorcererLM 是一个先进的 RP 和故事讲述模型，作为一个低秩 16 位 LoRA 在 WizardLM-2-8x22B 上进行微调。
 
 - 先进的推理和情感智能，实现引人入胜和沉浸式的互动

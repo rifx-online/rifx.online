@@ -2,8 +2,8 @@
 title: "AI21: Jamba 1.5 Large"
 meta_title: "AI21: Jamba 1.5 Large"
 description: "AI21: Jamba 1.5 Large"
-date: 2024-08-23T00:00:00Z
-image: "/images/logo.svg"
+date: 2024-12-02T04:08:59Z
+image: "https://img.rifx.online/icons/ai21-brand-color.svg"
 categories: ["text 2 text"]
 author: "Ai21"
 tags: ["Technology", "Machine Learning", "Data Science", "Generative AI", "Chatbots"]

@@ -26,6 +26,9 @@ title: 'Anthropic: Claude 3 Opus'
 
 
 
+
+
+
 Claude 3 Opus 是 Anthropic 针对高度复杂任务的最强大模型。它拥有顶级的性能、智能、流畅性和理解能力。
 
 查看发布公告和基准测试结果 [here](https://www.anthropic.com/news/claude-3-family)

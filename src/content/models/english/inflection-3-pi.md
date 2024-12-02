@@ -26,5 +26,8 @@ title: 'Inflection: Inflection 3 Pi'
 
 
 
+
+
+
 Inflection 3 Pi powers Inflection's [Pi](https://pi.ai) chatbot, including backstory, emotional intelligence, productivity, and safety. It excels in scenarios like customer support, roleplay, and emotional intelligence.
 

@@ -2,8 +2,8 @@
 title: "Liquid: LFM 40B MoE (free)"
 meta_title: "Liquid: LFM 40B MoE (free)"
 description: "Liquid: LFM 40B MoE (free)"
-date: 2024-09-30T00:00:00Z
-image: "/images/logo.svg"
+date: 2024-12-02T02:38:41Z
+image: "https://img.rifx.online/icons/rifx.svg"
 categories: ["text 2 text"]
 author: "Liquid"
 tags: ["Technology", "Machine Learning", "Natural Language Processing", "Data Science", "Generative AI", "Free"]

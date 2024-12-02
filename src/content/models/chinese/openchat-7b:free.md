@@ -28,6 +28,9 @@ title: OpenChat 3.5 7B (free)
 
 
 
+
+
+
 OpenChat 7B 是一个开源语言模型库，经过“C-RLFT（条件强化学习微调）”的精细调优——这是一种受离线强化学习启发的策略。它是在没有偏好标签的混合质量数据上进行训练的。
 
 - 对于在 Mistral 7B 上微调的 OpenChat，请查看 [OpenChat 7B](/openchat/openchat-7b)。

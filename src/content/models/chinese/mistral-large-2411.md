@@ -27,6 +27,9 @@ title: Mistral Large 2411
 
 
 
+
+
+
 Mistral Large 2 2411 是 [Mistral Large 2](/mistralai/mistral-large) 的更新版本，与 [Pixtral Large 2411](mistralai/pixtral-large-2411) 一起发布。
 
 它流利地支持英语、法语、西班牙语、德语和意大利语，具有高语法准确性，并且其长上下文窗口允许从大型文档中精确回忆信息。

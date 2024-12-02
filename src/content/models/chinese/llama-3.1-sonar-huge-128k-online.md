@@ -26,5 +26,8 @@ title: 'Perplexity: Llama 3.1 Sonar 405B Online'
 
 
 
+
+
+
 Llama 3.1 Sonar 是 Perplexity 最新的模型系列。它在成本效益、速度和性能上超越了他们早期的 Sonar 模型。该模型基于 Llama 3.1 405B，并具有互联网访问功能。
 

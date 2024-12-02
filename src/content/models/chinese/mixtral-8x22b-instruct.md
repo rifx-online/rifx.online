@@ -27,6 +27,9 @@ title: 'Mistral: Mixtral 8x22B Instruct'
 
 
 
+
+
+
 Mistral的官方指令微调版本[Mixtral 8x22B](/mistralai/mixtral-8x22b)。它使用141B中的39B活跃参数，为其规模提供无与伦比的成本效益。它的优点包括：
 - 强大的数学、编码和推理能力
 - 大上下文长度（64k）

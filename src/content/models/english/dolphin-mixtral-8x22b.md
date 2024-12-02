@@ -26,6 +26,9 @@ title: Dolphin 2.9.2 Mixtral 8x22B 🐬
 
 
 
+
+
+
 Dolphin 2.9 is designed for instruction following, conversational, and coding. This model is a finetune of [Mixtral 8x22B Instruct](/mistralai/mixtral-8x22b-instruct). It features a 64k context length and was fine-tuned with a 16k sequence length using ChatML templates.
 
 This model is a successor to [Dolphin Mixtral 8x7B](/cognitivecomputations/dolphin-mixtral-8x7b).

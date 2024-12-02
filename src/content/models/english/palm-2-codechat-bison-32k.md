@@ -26,5 +26,8 @@ title: 'Google: PaLM 2 Code Chat 32k'
 
 
 
+
+
+
 PaLM 2 fine-tuned for chatbot conversations that help with code-related questions.
 

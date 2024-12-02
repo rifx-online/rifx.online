@@ -26,6 +26,9 @@ title: Sorcererlm 8x22b
 
 
 
+
+
+
 SorcererLM is an advanced RP and storytelling model, built as a Low-rank 16-bit LoRA fine-tuned on WizardLM-2-8x22B.
 
 - Advanced reasoning and emotional intelligence for engaging and immersive interactions

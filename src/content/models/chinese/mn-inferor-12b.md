@@ -26,6 +26,9 @@ title: Mistral Nemo Inferor 12B
 
 
 
+
+
+
 Inferor 是顶级角色扮演模型的合并体，专注于沉浸式叙事和故事讲述。
 
 该模型使用 [Model Stock](https://arxiv.org/abs/2403.19522) 合并方法，基于 [anthracite-org/magnum-v4-12b](https://openrouter.ai/anthracite-org/magnum-v4-72b) 进行合并。

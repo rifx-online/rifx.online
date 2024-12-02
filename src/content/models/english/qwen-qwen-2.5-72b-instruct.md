@@ -2,8 +2,8 @@
 title: "Qwen2.5 72B Instruct"
 meta_title: "Qwen2.5 72B Instruct"
 description: "Qwen2.5 72B Instruct"
-date: 2024-09-19T00:00:00Z
-image: "/images/logo.svg"
+date: 2024-12-02T02:37:43Z
+image: "https://img.rifx.online/icons/qwen-color.svg"
 categories: ["text 2 text"]
 author: "Qwen"
 tags: ["Programming", "Natural Language Processing", "Machine Learning", "Generative AI", "Chatbots"]

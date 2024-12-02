@@ -2,8 +2,8 @@
 title: "Phi-3.5 Mini 128K Instruct"
 meta_title: "Phi-3.5 Mini 128K Instruct"
 description: "Phi-3.5 Mini 128K Instruct"
-date: 2024-08-21T00:00:00Z
-image: "/images/logo.svg"
+date: 2024-12-02T04:07:53Z
+image: "https://img.rifx.online/icons/azure-color.svg"
 categories: ["text 2 text"]
 author: "Microsoft Azure"
 tags: ["Programming", "Machine Learning", "Natural Language Processing", "Data Science", "Generative AI"]

@@ -2,8 +2,8 @@
 title: "OpenAI: o1-mini"
 meta_title: "OpenAI: o1-mini"
 description: "OpenAI: o1-mini"
-date: 2024-09-12T00:00:00Z
-image: "/images/logo.svg"
+date: 2024-12-02T02:30:05Z
+image: "https://img.rifx.online/icons/openai.svg"
 categories: ["text 2 text"]
 author: "OpenAI"
 tags: ["Programming", "Science", "Technology", "Machine Learning", "Natural Language Processing"]

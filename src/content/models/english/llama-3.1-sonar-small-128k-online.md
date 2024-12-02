@@ -26,6 +26,9 @@ title: 'Perplexity: Llama 3.1 Sonar 8B Online'
 
 
 
+
+
+
 Llama 3.1 Sonar is Perplexity's latest model family. It surpasses their earlier Sonar models in cost-efficiency, speed, and performance.
 
 This is the online version of the [offline chat model](/perplexity/llama-3.1-sonar-small-128k-chat). It is focused on delivering helpful, up-to-date, and factual responses. #online

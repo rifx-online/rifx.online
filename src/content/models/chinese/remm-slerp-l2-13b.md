@@ -27,5 +27,8 @@ title: ReMM SLERP 13B
 
 
 
+
+
+
 原始 MythoMax-L2-B13 的重创版本，但采用了更新的模型。 #merge
 

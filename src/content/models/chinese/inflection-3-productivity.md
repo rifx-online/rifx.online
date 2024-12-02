@@ -26,6 +26,9 @@ title: 'Inflection: Inflection 3 Productivity'
 
 
 
+
+
+
 Inflection 3 的生产力经过优化，以便更好地遵循指令。它更适合需要 JSON 输出或精确遵循提供的指导方针的任务。
 
 有关类似于 Pi 的情感智能，请参见 [Inflect 3 Pi](/inflection/inflection-3-pi)。

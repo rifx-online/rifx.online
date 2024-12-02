@@ -2,8 +2,8 @@
 title: "Anthropic: Claude 3 Haiku"
 meta_title: "Anthropic: Claude 3 Haiku"
 description: "Anthropic: Claude 3 Haiku"
-date: 2024-03-13T00:00:00Z
-image: "/images/logo.svg"
+date: 2024-12-02T04:23:57Z
+image: "https://img.rifx.online/icons/anthropic.svg"
 categories: ["text imaget 2 text"]
 author: "Anthropic"
 tags: ["Programming", "Technology", "Machine Learning", "Generative AI", "Chatbots"]

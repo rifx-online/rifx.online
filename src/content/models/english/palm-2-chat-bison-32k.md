@@ -26,5 +26,8 @@ title: 'Google: PaLM 2 Chat 32k'
 
 
 
+
+
+
 PaLM 2 is a language model by Google with improved multilingual, reasoning and coding capabilities.
 

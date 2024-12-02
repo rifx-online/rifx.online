@@ -27,6 +27,9 @@ title: ERNIE-Bot-turbo
 
 
 
+
+
+
 **开发者/公司：** 百度
 
 **概述：** ERNIE Bot Turbo 是 ERNIE Bot 的增强版本，提供扩展的功能，支持 7K 输入 + 1K 输出。它包括系统设置和新的推理参数。

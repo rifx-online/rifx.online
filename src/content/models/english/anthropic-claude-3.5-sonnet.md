@@ -2,8 +2,8 @@
 title: "Anthropic: Claude 3.5 Sonnet"
 meta_title: "Anthropic: Claude 3.5 Sonnet"
 description: "Anthropic: Claude 3.5 Sonnet"
-date: 2024-06-20T00:00:00Z
-image: "/images/logo.svg"
+date: 2024-12-02T04:23:46Z
+image: "https://img.rifx.online/icons/anthropic.svg"
 categories: ["text imaget 2 text"]
 author: "Anthropic"
 tags: ["Programming", "Data Science", "Computer Vision", "Autonomous Systems", "Chatbots"]

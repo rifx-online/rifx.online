@@ -28,6 +28,9 @@ title: 'Mistral: Mistral 7B Instruct (free)'
 
 
 
+
+
+
 一个高性能、行业标准的 7.3B 参数模型，针对速度和上下文长度进行了优化。
 
 *Mistral 7B Instruct 有多个版本变体，这里是最新版本。*

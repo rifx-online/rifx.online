@@ -26,6 +26,9 @@ title: 'Meta: Llama 3.2 3B Instruct'
 
 
 
+
+
+
 Llama 3.2 3B is a 3-billion-parameter multilingual large language model, optimized for advanced natural language processing tasks like dialogue generation, reasoning, and summarization. Designed with the latest transformer architecture, it supports eight languages, including English, Spanish, and Hindi, and is adaptable for additional languages.
 
 Trained on 9 trillion tokens, the Llama 3.2B model excels in instruction-following, complex reasoning, and tool use. Its balanced performance makes it ideal for applications needing accuracy and efficiency in text generation across multilingual settings.
