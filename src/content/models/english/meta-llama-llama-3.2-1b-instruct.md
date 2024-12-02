@@ -2,13 +2,13 @@
 title: "Meta: Llama 3.2 1B Instruct"
 meta_title: "Meta: Llama 3.2 1B Instruct"
 description: "Meta: Llama 3.2 1B Instruct"
-date: 2024-12-02T02:35:34Z
+date: 2024-12-02T12:58:28Z
 image: "https://img.rifx.online/icons/meta-color.svg"
 categories: ["text 2 text"]
 author: "Meta Llama"
 tags: ["Natural Language Processing", "Programming", "Technology", "Machine Learning", "Data Science"]
 draft: False
-is_recommended: False
+is_recommended: True
 is_active: True
 
 id: "meta-llama/llama-3.2-1b-instruct"
@@ -17,7 +17,7 @@ input: 1e-08
 output: 2e-08
 img: 0
 request: 0
-last_updated: 2024-12-02T02:35:34Z
+last_updated: 2024-12-02T12:58:28Z
 ---
 
 Llama 3.2 1B is a 1-billion-parameter language model focused on efficiently performing natural language tasks, such as summarization, dialogue, and multilingual text analysis. Its smaller size allows it to operate efficiently in low-resource environments while maintaining strong task performance.

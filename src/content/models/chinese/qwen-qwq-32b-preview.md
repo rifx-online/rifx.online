@@ -2,13 +2,13 @@
 title: "Qwen: QwQ 32B Preview"
 meta_title: "Qwen: QwQ 32B Preview"
 description: "Qwen: QwQ 32B Preview"
-date: 2024-12-02T02:39:21Z
+date: 2024-12-02T12:57:51Z
 image: "https://img.rifx.online/icons/qwen-color.svg"
 categories: ["text 2 text"]
 author: "Qwen"
 tags: ["Machine Learning", "Natural Language Processing", "Ethics", "Programming/Scripting"]
 draft: False
-is_recommended: False
+is_recommended: True
 is_active: True
 
 id: "qwen/qwq-32b-preview"
@@ -17,7 +17,7 @@ input: 1.5e-07
 output: 6e-07
 img: 0
 request: 0
-last_updated: 2024-12-02T02:39:21Z
+last_updated: 2024-12-02T12:57:51Z
 ---
 
 QwQ-32B-Preview 是一个专注于 AI 推理能力的实验研究模型，由 Qwen 团队开发。作为预览版本，它展示了有前景的分析能力，但也存在几个重要的限制：

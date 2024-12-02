@@ -2,13 +2,13 @@
 title: "gpt-4o-mini"
 meta_title: "gpt-4o-mini"
 description: "gpt-4o-mini"
-date: 2024-12-02T03:19:02Z
+date: 2024-12-02T12:58:57Z
 image: "https://img.rifx.online/icons/openai.svg"
 categories: ["text image 2 text"]
 author: "OpenAI"
 tags: ["OpenAI"]
 draft: False
-is_recommended: False
+is_recommended: True
 is_active: True
 
 id: "gpt-4o-mini"
@@ -17,7 +17,7 @@ input: 1.5e-07
 output: 6e-07
 img: 0.007225
 request: 0
-last_updated: 2024-12-02T03:19:02Z
+last_updated: 2024-12-02T12:58:57Z
 ---
 
 GPT-4o mini 是 OpenAI 在 [GPT-4 Omni](/openai/gpt-4o) 之后推出的最新模型，支持文本和图像输入，并提供文本输出。

@@ -2,13 +2,13 @@
 title: "Anthropic: Claude 3.5 Sonnet (2024-06-20)"
 meta_title: "Anthropic: Claude 3.5 Sonnet (2024-06-20)"
 description: "Anthropic: Claude 3.5 Sonnet (2024-06-20)"
-date: 2024-12-02T04:23:50Z
+date: 2024-12-02T12:58:41Z
 image: "https://img.rifx.online/icons/anthropic.svg"
 categories: ["text image 2 text"]
 author: "Anthropic"
 tags: ["Programming", "Data Science", "Computer Vision", "Autonomous Systems", "Chatbots"]
 draft: False
-is_recommended: False
+is_recommended: True
 is_active: True
 
 id: "anthropic/claude-3.5-sonnet-20240620"
@@ -17,7 +17,7 @@ input: 3e-06
 output: 1.5e-05
 img: 0.0048
 request: 0
-last_updated: 2024-12-02T04:23:50Z
+last_updated: 2024-12-02T12:58:41Z
 ---
 
 Claude 3.5 Sonnet 提供了超越 Opus 的能力，以比 Sonnet 更快的速度，且价格与 Sonnet 相同。Sonnet 在以下方面表现尤为出色：

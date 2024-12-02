@@ -2,13 +2,13 @@
 title: "Qwen: QwQ 32B Preview"
 meta_title: "Qwen: QwQ 32B Preview"
 description: "Qwen: QwQ 32B Preview"
-date: 2024-12-02T02:39:21Z
+date: 2024-12-02T12:57:51Z
 image: "https://img.rifx.online/icons/qwen-color.svg"
 categories: ["text 2 text"]
 author: "Qwen"
 tags: ["Machine Learning", "Natural Language Processing", "Ethics", "Programming/Scripting"]
 draft: False
-is_recommended: False
+is_recommended: True
 is_active: True
 
 id: "qwen/qwq-32b-preview"
@@ -17,7 +17,7 @@ input: 1.5e-07
 output: 6e-07
 img: 0
 request: 0
-last_updated: 2024-12-02T02:39:21Z
+last_updated: 2024-12-02T12:57:51Z
 ---
 
 QwQ-32B-Preview is an experimental research model focused on AI reasoning capabilities developed by the Qwen Team. As a preview release, it demonstrates promising analytical abilities while having several important limitations:
