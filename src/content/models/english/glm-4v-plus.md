@@ -1,23 +1,31 @@
 ---
-title: "glm-4v-plus"
-meta_title: "glm-4v-plus"
-description: "glm-4v-plus"
-date: 2024-11-15T12:53:06Z
-image: "/images/logo.svg"
-categories: ["text 2 text"]
-author: "ChatGLM"
-tags: ["Computer Vision", "Technology", "Machine Learning", "Data Science", "Generative AI"]
-draft: False
-is_recommended: False
-
-id: "glm-4v-plus"
+author: ChatGLM
+categories:
+- text 2 text
 context: 32000
-input: 1.4e-06
-output: 1.4e-06
+date: 2024-11-15 12:53:06+00:00
+description: glm-4v-plus
+draft: false
+id: glm-4v-plus
+image: /images/logo.svg
 img: 0
+input: 1.4e-06
+is_active: false
+is_recommended: false
+last_updated: 2024-11-18 00:21:16+00:00
+meta_title: glm-4v-plus
+output: 1.4e-06
 request: 0
-last_updated: 2024-11-18T00:21:16Z
+tags:
+- Computer Vision
+- Technology
+- Machine Learning
+- Data Science
+- Generative AI
+title: glm-4v-plus
 ---
+
+
 
 ## GLM-4V-Plus Model Introduction
 

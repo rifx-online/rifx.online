@@ -1,22 +1,30 @@
 ---
-title: "Lumimaid v0.2 70B"
-meta_title: "Lumimaid v0.2 70B"
-description: "Lumimaid v0.2 70B"
-date: 2024-10-22T00:00:00Z
-image: "/images/logo.svg"
-categories: ["text 2 text"]
-author: "neversleep"
-tags: ["Programming", "Machine Learning", "Natural Language Processing", "Generative AI", "Ethics"]
-draft: False
-
-id: "llama-3.1-lumimaid-70b"
+author: neversleep
+categories:
+- text 2 text
 context: 131072
-input: 3.375e-06
-output: 4.5e-06
+date: 2024-10-22 00:00:00+00:00
+description: Lumimaid v0.2 70B
+draft: false
+id: llama-3.1-lumimaid-70b
+image: /images/logo.svg
 img: 0
+input: 3.375e-06
+is_active: false
+last_updated: 2024-11-11 03:03:31+00:00
+meta_title: Lumimaid v0.2 70B
+output: 4.5e-06
 request: 0
-last_updated: 2024-11-11T03:03:31Z
+tags:
+- Programming
+- Machine Learning
+- Natural Language Processing
+- Generative AI
+- Ethics
+title: Lumimaid v0.2 70B
 ---
+
+
 
 Lumimaid v0.2 70B is a finetune of [Llama 3.1 70B](/meta-llama/llama-3.1-70b-instruct) with a "HUGE step up dataset wise" compared to Lumimaid v0.1. Sloppy chats output were purged.
 

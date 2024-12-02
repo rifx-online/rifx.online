@@ -1,23 +1,31 @@
 ---
-title: "glm-4-plus"
-meta_title: "glm-4-plus"
-description: "glm-4-plus"
-date: 2024-11-15T12:53:05Z
-image: "/images/logo.svg"
-categories: ["text 2 text"]
-author: "ChatGLM"
-tags: ["Generative AI", "Machine Learning", "Natural Language Processing", "Technology", "Chatbots"]
-draft: False
-is_recommended: False
-
-id: "glm-4-plus"
+author: ChatGLM
+categories:
+- text 2 text
 context: 128000
-input: 7e-06
-output: 7e-06
+date: 2024-11-15 12:53:05+00:00
+description: glm-4-plus
+draft: false
+id: glm-4-plus
+image: /images/logo.svg
 img: 0
+input: 7e-06
+is_active: false
+is_recommended: false
+last_updated: 2024-11-18 00:21:27+00:00
+meta_title: glm-4-plus
+output: 7e-06
 request: 0
-last_updated: 2024-11-18T00:21:27Z
+tags:
+- Generative AI
+- Machine Learning
+- Natural Language Processing
+- Technology
+- Chatbots
+title: glm-4-plus
 ---
+
+
 
 ## GLM-4-Plus 模型介绍
 

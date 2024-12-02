@@ -1,23 +1,32 @@
 ---
-title: "ERNIE-Tiny-8K"
-meta_title: "ERNIE-Tiny-8K"
-description: "ERNIE-Tiny-8K"
-date: 2024-11-17T06:27:45Z
-image: "/images/logo.svg"
-categories: ["text 2 text"]
-author: "ernie"
-tags: ["Natural Language Processing", "Machine Learning", "Data Science", "Chatbots", "Voice Assistants", "Free"]
-draft: False
-is_recommended: False
-
-id: "ernie-tiny-8k"
+author: ernie
+categories:
+- text 2 text
 context: 8192
-input: 0.0
-output: 0.0
+date: 2024-11-17 06:27:45+00:00
+description: ERNIE-Tiny-8K
+draft: false
+id: ernie-tiny-8k
+image: /images/logo.svg
 img: 0
+input: 0.0
+is_active: false
+is_recommended: false
+last_updated: 2024-11-18 11:44:48+00:00
+meta_title: ERNIE-Tiny-8K
+output: 0.0
 request: 0
-last_updated: 2024-11-18T11:44:48Z
+tags:
+- Natural Language Processing
+- Machine Learning
+- Data Science
+- Chatbots
+- Voice Assistants
+- Free
+title: ERNIE-Tiny-8K
 ---
+
+
 
 **开发者/公司:** 百度团队
 

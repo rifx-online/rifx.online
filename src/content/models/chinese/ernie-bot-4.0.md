@@ -1,23 +1,31 @@
 ---
-title: "ERNIE-Bot-4.0"
-meta_title: "ERNIE-Bot-4.0"
-description: "ERNIE-Bot-4.0"
-date: 2024-11-17T06:28:58Z
-image: "/images/logo.svg"
-categories: ["text 2 text"]
-author: "ernie-bot-4.0"
-tags: ["Natural Language Processing", "Chatbots", "Generative AI", "Data Science", "Machine Learning"]
-draft: False
-is_recommended: False
-
-id: "ernie-bot-4.0"
+author: ernie-bot-4.0
+categories:
+- text 2 text
 context: 8192
-input: 1.644e-05
-output: 1.644e-05
+date: 2024-11-17 06:28:58+00:00
+description: ERNIE-Bot-4.0
+draft: false
+id: ernie-bot-4.0
+image: /images/logo.svg
 img: 0
+input: 1.644e-05
+is_active: false
+is_recommended: false
+last_updated: 2024-11-17 09:20:47+00:00
+meta_title: ERNIE-Bot-4.0
+output: 1.644e-05
 request: 0
-last_updated: 2024-11-17T09:20:47Z
+tags:
+- Natural Language Processing
+- Chatbots
+- Generative AI
+- Data Science
+- Machine Learning
+title: ERNIE-Bot-4.0
 ---
+
+
 
 # ERNIE Bot 概述
 

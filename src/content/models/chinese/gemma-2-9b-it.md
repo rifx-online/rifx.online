@@ -1,22 +1,30 @@
 ---
-title: "Google: Gemma 2 9B"
-meta_title: "Google: Gemma 2 9B"
-description: "Google: Gemma 2 9B"
-date: 2024-06-28T00:00:00Z
-image: "https://img.rifx.online/logo/google.svg"
-categories: ["text 2 text"]
-author: "google"
-tags: ["Programming", "Natural Language Processing", "Machine Learning", "Data Science", "Open Source"]
-draft: False
-
-id: "gemma-2-9b-it"
+author: google
+categories:
+- text 2 text
 context: 8192
-input: 6e-08
-output: 6e-08
+date: 2024-06-28 00:00:00+00:00
+description: 'Google: Gemma 2 9B'
+draft: false
+id: gemma-2-9b-it
+image: https://img.rifx.online/logo/google.svg
 img: 0
+input: 6e-08
+is_active: false
+last_updated: 2024-11-11 03:14:49+00:00
+meta_title: 'Google: Gemma 2 9B'
+output: 6e-08
 request: 0
-last_updated: 2024-11-11T03:14:49Z
+tags:
+- Programming
+- Natural Language Processing
+- Machine Learning
+- Data Science
+- Open Source
+title: 'Google: Gemma 2 9B'
 ---
+
+
 
 Gemma 2 9B by Google 是一个先进的开源语言模型，在其尺寸类别中设定了效率和性能的新标准。
 

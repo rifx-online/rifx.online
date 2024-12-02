@@ -1,23 +1,31 @@
 ---
-title: "GLM-4 Air"
-meta_title: "GLM-4 Air"
-description: "GLM-4 Air"
-date: 2024-11-14T10:21:13Z
-image: "/images/logo.svg"
-categories: ["text 2 text"]
-author: "ChatGLM"
-tags: ["Programming", "Technology", "Machine Learning", "Data Science", "Generative AI"]
-draft: False
-is_recommended: False
-
-id: "glm-4-air"
+author: ChatGLM
+categories:
+- text 2 text
 context: 128000
-input: 1.4e-07
-output: 1.4e-07
+date: 2024-11-14 10:21:13+00:00
+description: GLM-4 Air
+draft: false
+id: glm-4-air
+image: /images/logo.svg
 img: 0
+input: 1.4e-07
+is_active: false
+is_recommended: false
+last_updated: 2024-11-18 00:21:20+00:00
+meta_title: GLM-4 Air
+output: 1.4e-07
 request: 0
-last_updated: 2024-11-18T00:21:20Z
+tags:
+- Programming
+- Technology
+- Machine Learning
+- Data Science
+- Generative AI
+title: GLM-4 Air
 ---
+
+
 
 ## GLM-4 Air 模型介绍
 

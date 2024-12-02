@@ -1,22 +1,30 @@
 ---
-title: "Google: Gemini Flash 8B 1.5 Experimental"
-meta_title: "Google: Gemini Flash 8B 1.5 Experimental"
-description: "Google: Gemini Flash 8B 1.5 Experimental"
-date: 2024-08-28T00:00:00Z
-image: "https://img.rifx.online/logo/google.svg"
-categories: ["text image 2 text"]
-author: "google"
-tags: ["Technology", "Machine Learning", "Natural Language Processing", "Generative AI", "Chatbots"]
-draft: False
-
-id: "gemini-flash-1.5-8b-exp"
+author: google
+categories:
+- text image 2 text
 context: 1000000
-input: 0.0
-output: 0
+date: 2024-08-28 00:00:00+00:00
+description: 'Google: Gemini Flash 8B 1.5 Experimental'
+draft: false
+id: gemini-flash-1.5-8b-exp
+image: https://img.rifx.online/logo/google.svg
 img: 0
+input: 0.0
+is_active: false
+last_updated: 2024-11-11 03:14:22+00:00
+meta_title: 'Google: Gemini Flash 8B 1.5 Experimental'
+output: 0
 request: 0
-last_updated: 2024-11-11T03:14:22Z
+tags:
+- Technology
+- Machine Learning
+- Natural Language Processing
+- Generative AI
+- Chatbots
+title: 'Google: Gemini Flash 8B 1.5 Experimental'
 ---
+
+
 
 Gemini 1.5 Flash 8B Experimental is an experimental, 8B parameter version of the [Gemini 1.5 Flash](/google/gemini-flash-1.5) model.
 

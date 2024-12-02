@@ -1,22 +1,30 @@
 ---
-title: "Google: Gemma 2 27B"
-meta_title: "Google: Gemma 2 27B"
-description: "Google: Gemma 2 27B"
-date: 2024-07-13T00:00:00Z
-image: "https://img.rifx.online/logo/google.svg"
-categories: ["text 2 text"]
-author: "google"
-tags: ["Programming", "Machine Learning", "Natural Language Processing", "Generative AI", "Chatbots"]
-draft: False
-
-id: "gemma-2-27b-it"
+author: google
+categories:
+- text 2 text
 context: 8192
-input: 2.7e-07
-output: 2.7e-07
+date: 2024-07-13 00:00:00+00:00
+description: 'Google: Gemma 2 27B'
+draft: false
+id: gemma-2-27b-it
+image: https://img.rifx.online/logo/google.svg
 img: 0
+input: 2.7e-07
+is_active: false
+last_updated: 2024-11-11 03:14:49+00:00
+meta_title: 'Google: Gemma 2 27B'
+output: 2.7e-07
 request: 0
-last_updated: 2024-11-11T03:14:49Z
+tags:
+- Programming
+- Machine Learning
+- Natural Language Processing
+- Generative AI
+- Chatbots
+title: 'Google: Gemma 2 27B'
 ---
+
+
 
 Gemma 2 27B by Google is an open model built from the same research and technology used to create the [Gemini models](/models?q=gemini).
 

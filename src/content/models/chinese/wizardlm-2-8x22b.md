@@ -1,22 +1,30 @@
 ---
-title: "WizardLM-2 8x22B"
-meta_title: "WizardLM-2 8x22B"
-description: "WizardLM-2 8x22B"
-date: 2024-04-16T00:00:00Z
-image: "https://img.rifx.online/logo/microsoft.svg"
-categories: ["text 2 text"]
-author: "microsoft"
-tags: ["Programming", "Machine Learning", "Natural Language Processing", "Generative AI", "Chatbots"]
-draft: False
-
-id: "wizardlm-2-8x22b"
+author: microsoft
+categories:
+- text 2 text
 context: 65536
-input: 5e-07
-output: 5e-07
+date: 2024-04-16 00:00:00+00:00
+description: WizardLM-2 8x22B
+draft: false
+id: wizardlm-2-8x22b
+image: https://img.rifx.online/logo/microsoft.svg
 img: 0
+input: 5e-07
+is_active: false
+last_updated: 2024-10-31 23:24:21+00:00
+meta_title: WizardLM-2 8x22B
+output: 5e-07
 request: 0
-last_updated: 2024-10-31T23:24:21Z
+tags:
+- Programming
+- Machine Learning
+- Natural Language Processing
+- Generative AI
+- Chatbots
+title: WizardLM-2 8x22B
 ---
+
+
 
 WizardLM-2 8x22B 是微软 AI 最先进的 Wizard 模型。与领先的专有模型相比，它展示了高度竞争的性能，并且始终优于所有现有的最先进的开源模型。
 

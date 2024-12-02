@@ -1,22 +1,30 @@
 ---
-title: "OpenAI: o1-mini"
-meta_title: "OpenAI: o1-mini"
-description: "OpenAI: o1-mini"
-date: 2024-09-12T00:00:00Z
-image: "https://img.rifx.online/logo/openai.svg"
-categories: ["text 2 text"]
-author: "openai"
-tags: ["Programming", "Science", "Natural Language Processing", "Machine Learning", "Data Science"]
-draft: False
-
-id: "o1-mini"
+author: openai
+categories:
+- text 2 text
 context: 128000
-input: 3e-06
-output: 1.2e-05
+date: 2024-09-12 00:00:00+00:00
+description: 'OpenAI: o1-mini'
+draft: false
+id: o1-mini
+image: https://img.rifx.online/logo/openai.svg
 img: 0
+input: 3e-06
+is_active: false
+last_updated: 2024-09-12 00:00:00+00:00
+meta_title: 'OpenAI: o1-mini'
+output: 1.2e-05
 request: 0
-last_updated: 2024-09-12T00:00:00Z
+tags:
+- Programming
+- Science
+- Natural Language Processing
+- Machine Learning
+- Data Science
+title: 'OpenAI: o1-mini'
 ---
+
+
 
 The latest and strongest model family from OpenAI, o1 is designed to spend more time thinking before responding.
 

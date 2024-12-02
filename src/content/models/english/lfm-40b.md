@@ -1,23 +1,31 @@
 ---
-title: "Liquid: LFM 40B MoE"
-meta_title: "Liquid: LFM 40B MoE"
-description: "Liquid: LFM 40B MoE"
-date: 2024-09-30T00:00:00Z
-image: "/images/logo.svg"
-categories: ["text 2 text"]
-author: "liquid"
-tags: ["Machine Learning", "Natural Language Processing", "Data Science", "Generative AI", "Computer Vision"]
-draft: False
-is_recommended: True
-
-id: "lfm-40b"
+author: liquid
+categories:
+- text 2 text
 context: 32768
-input: 1e-06
-output: 2e-06
+date: 2024-09-30 00:00:00+00:00
+description: 'Liquid: LFM 40B MoE'
+draft: false
+id: lfm-40b
+image: /images/logo.svg
 img: 0
+input: 1e-06
+is_active: false
+is_recommended: true
+last_updated: 2024-11-14 05:10:16+00:00
+meta_title: 'Liquid: LFM 40B MoE'
+output: 2e-06
 request: 0
-last_updated: 2024-11-14T05:10:16Z
+tags:
+- Machine Learning
+- Natural Language Processing
+- Data Science
+- Generative AI
+- Computer Vision
+title: 'Liquid: LFM 40B MoE'
 ---
+
+
 
 Liquid's 40.3B Mixture of Experts (MoE) model. Liquid Foundation Models (LFMs) are large neural networks built with computational units rooted in dynamic systems.
 

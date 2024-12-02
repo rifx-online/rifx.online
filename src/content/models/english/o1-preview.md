@@ -1,22 +1,30 @@
 ---
-title: "OpenAI: o1-preview"
-meta_title: "OpenAI: o1-preview"
-description: "OpenAI: o1-preview"
-date: 2024-09-12T00:00:00Z
-image: "https://img.rifx.online/logo/openai.svg"
-categories: ["text 2 text"]
-author: "openai"
-tags: ["Programming", "Science", "Natural Language Processing", "Machine Learning", "Data Science"]
-draft: False
-
-id: "o1-preview"
+author: openai
+categories:
+- text 2 text
 context: 128000
-input: 1.5e-05
-output: 6e-05
+date: 2024-09-12 00:00:00+00:00
+description: 'OpenAI: o1-preview'
+draft: false
+id: o1-preview
+image: https://img.rifx.online/logo/openai.svg
 img: 0
+input: 1.5e-05
+is_active: false
+last_updated: 2024-09-12 00:00:00+00:00
+meta_title: 'OpenAI: o1-preview'
+output: 6e-05
 request: 0
-last_updated: 2024-09-12T00:00:00Z
+tags:
+- Programming
+- Science
+- Natural Language Processing
+- Machine Learning
+- Data Science
+title: 'OpenAI: o1-preview'
 ---
+
+
 
 The latest and strongest model family from OpenAI, o1 is designed to spend more time thinking before responding.
 

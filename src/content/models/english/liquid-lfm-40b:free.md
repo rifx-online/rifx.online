@@ -5,17 +5,19 @@ description: "Liquid: LFM 40B MoE (free)"
 date: 2024-09-30T00:00:00Z
 image: "/images/logo.svg"
 categories: ["text 2 text"]
-author: "liquid"
-tags: ["Generative AI", "Machine Learning", "Natural Language Processing", "Data Science", "Technology/Web"]
+author: "Liquid"
+tags: ["Technology", "Machine Learning", "Natural Language Processing", "Data Science", "Generative AI", "Free"]
 draft: False
+is_recommended: False
+is_active: True
 
 id: "liquid/lfm-40b:free"
 context: 8192
 input: 0.0
-output: 0
+output: 0.0
 img: 0
 request: 0
-last_updated: 2024-11-07T00:17:57Z
+last_updated: 2024-12-02T02:38:41Z
 ---
 
 Liquid's 40.3B Mixture of Experts (MoE) model. Liquid Foundation Models (LFMs) are large neural networks built with computational units rooted in dynamic systems.

@@ -1,22 +1,30 @@
 ---
-title: "WizardLM-2 7B"
-meta_title: "WizardLM-2 7B"
-description: "WizardLM-2 7B"
-date: 2024-04-16T00:00:00Z
-image: "https://img.rifx.online/logo/microsoft.svg"
-categories: ["text 2 text"]
-author: "microsoft"
-tags: ["Programming", "Machine Learning", "Natural Language Processing", "Generative AI", "Chatbots"]
-draft: False
-
-id: "wizardlm-2-7b"
+author: microsoft
+categories:
+- text 2 text
 context: 32000
-input: 5.5e-08
-output: 5.5e-08
+date: 2024-04-16 00:00:00+00:00
+description: WizardLM-2 7B
+draft: false
+id: wizardlm-2-7b
+image: https://img.rifx.online/logo/microsoft.svg
 img: 0
+input: 5.5e-08
+is_active: false
+last_updated: 2024-10-31 23:23:36+00:00
+meta_title: WizardLM-2 7B
+output: 5.5e-08
 request: 0
-last_updated: 2024-10-31T23:23:36Z
+tags:
+- Programming
+- Machine Learning
+- Natural Language Processing
+- Generative AI
+- Chatbots
+title: WizardLM-2 7B
 ---
+
+
 
 WizardLM-2 7B 是微软 AI 最新 Wizard 模型的较小版本。它是最快的，并且在性能上与现有的 10 倍更大的开源领先模型相当。
 

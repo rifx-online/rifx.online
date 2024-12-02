@@ -1,23 +1,32 @@
 ---
-title: "Qwen 2 7B Instruct (free)"
-meta_title: "Qwen 2 7B Instruct (free)"
-description: "Qwen 2 7B Instruct (free)"
-date: 2024-07-16T00:00:00Z
-image: "/images/logo.svg"
-categories: ["text 2 text"]
-author: "Rifx.Online"
-tags: ["Natural Language Processing", "Programming", "Machine Learning", "Data Science", "Ethics", "Free"]
-draft: False
-is_recommended: False
-
-id: "qwen-2-7b-instruct:free"
+author: Rifx.Online
+categories:
+- text 2 text
 context: 8192
-input: 0.0
-output: 0.0
+date: 2024-07-16 00:00:00+00:00
+description: Qwen 2 7B Instruct (free)
+draft: false
+id: qwen-2-7b-instruct:free
+image: /images/logo.svg
 img: 0
+input: 0.0
+is_active: false
+is_recommended: false
+last_updated: 2024-11-18 11:46:42+00:00
+meta_title: Qwen 2 7B Instruct (free)
+output: 0.0
 request: 0
-last_updated: 2024-11-18T11:46:42Z
+tags:
+- Natural Language Processing
+- Programming
+- Machine Learning
+- Data Science
+- Ethics
+- Free
+title: Qwen 2 7B Instruct (free)
 ---
+
+
 
 Qwen2 7B 是一个基于变换器的模型，在语言理解、多语言能力、编码、数学和推理方面表现出色。
 

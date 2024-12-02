@@ -1,22 +1,30 @@
 ---
-title: "DeepSeek V2.5"
-meta_title: "DeepSeek V2.5"
-description: "DeepSeek V2.5"
-date: 2024-05-14T00:00:00Z
-image: "https://img.rifx.online/logo/deepseek.svg"
-categories: ["text 2 text"]
-author: "deepseek"
-tags: ["Programming", "Natural Language Processing", "Machine Learning", "Data Science", "Chatbots"]
-draft: False
-
-id: "deepseek-chat"
+author: deepseek
+categories:
+- text 2 text
 context: 128000
-input: 1.4e-07
-output: 2.8e-07
+date: 2024-05-14 00:00:00+00:00
+description: DeepSeek V2.5
+draft: false
+id: deepseek-chat
+image: https://img.rifx.online/logo/deepseek.svg
 img: 0
+input: 1.4e-07
+is_active: false
+last_updated: 2024-11-01 04:19:11+00:00
+meta_title: DeepSeek V2.5
+output: 2.8e-07
 request: 0
-last_updated: 2024-11-01T04:19:11Z
+tags:
+- Programming
+- Natural Language Processing
+- Machine Learning
+- Data Science
+- Chatbots
+title: DeepSeek V2.5
 ---
+
+
 
 DeepSeek-V2.5 is an upgraded version that combines DeepSeek-V2-Chat and DeepSeek-Coder-V2-Instruct. The new model integrates the general and coding abilities of the two previous versions.
 

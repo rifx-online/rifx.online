@@ -1,22 +1,30 @@
 ---
-title: "Qwen2-VL 7B Instruct"
-meta_title: "Qwen2-VL 7B Instruct"
-description: "Qwen2-VL 7B Instruct"
-date: 2024-08-28T00:00:00Z
-image: "https://img.rifx.online/logo/qwen.svg"
-categories: ["text image 2 text"]
-author: "qwen"
-tags: ["Natural Language Processing", "Computer Vision", "Robotics", "Multimodal AI", "Generative AI"]
-draft: False
-
-id: "qwen-2-vl-7b-instruct"
+author: qwen
+categories:
+- text image 2 text
 context: 32768
-input: 1e-07
-output: 1e-07
+date: 2024-08-28 00:00:00+00:00
+description: Qwen2-VL 7B Instruct
+draft: false
+id: qwen-2-vl-7b-instruct
+image: https://img.rifx.online/logo/qwen.svg
 img: 0.0001445
+input: 1e-07
+is_active: false
+last_updated: 2024-11-11 03:13:01+00:00
+meta_title: Qwen2-VL 7B Instruct
+output: 1e-07
 request: 0
-last_updated: 2024-11-11T03:13:01Z
+tags:
+- Natural Language Processing
+- Computer Vision
+- Robotics
+- Multimodal AI
+- Generative AI
+title: Qwen2-VL 7B Instruct
 ---
+
+
 
 Qwen2 VL 7B 是来自 Qwen 团队的多模态 LLM，具有以下关键增强功能：
 

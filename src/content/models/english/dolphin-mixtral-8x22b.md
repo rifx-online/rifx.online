@@ -1,22 +1,30 @@
 ---
-title: "Dolphin 2.9.2 Mixtral 8x22B 🐬"
-meta_title: "Dolphin 2.9.2 Mixtral 8x22B 🐬"
-description: "Dolphin 2.9.2 Mixtral 8x22B 🐬"
-date: 2024-06-08T00:00:00Z
-image: "/images/logo.svg"
-categories: ["text 2 text"]
-author: "cognitivecomputations"
-tags: ["Natural Language Processing", "Generative AI", "Chatbots", "Roleplay", "Ethics"]
-draft: False
-
-id: "dolphin-mixtral-8x22b"
+author: cognitivecomputations
+categories:
+- text 2 text
 context: 65536
-input: 9e-07
-output: 9e-07
+date: 2024-06-08 00:00:00+00:00
+description: Dolphin 2.9.2 Mixtral 8x22B 🐬
+draft: false
+id: dolphin-mixtral-8x22b
+image: /images/logo.svg
 img: 0
+input: 9e-07
+is_active: false
+last_updated: 2024-11-04 12:49:50+00:00
+meta_title: Dolphin 2.9.2 Mixtral 8x22B 🐬
+output: 9e-07
 request: 0
-last_updated: 2024-11-04T12:49:50Z
+tags:
+- Natural Language Processing
+- Generative AI
+- Chatbots
+- Roleplay
+- Ethics
+title: Dolphin 2.9.2 Mixtral 8x22B 🐬
 ---
+
+
 
 Dolphin 2.9 is designed for instruction following, conversational, and coding. This model is a finetune of [Mixtral 8x22B Instruct](/mistralai/mixtral-8x22b-instruct). It features a 64k context length and was fine-tuned with a 16k sequence length using ChatML templates.
 

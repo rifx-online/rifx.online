@@ -1,23 +1,31 @@
 ---
-title: "Google: Gemini Flash 1.5"
-meta_title: "Google: Gemini Flash 1.5"
-description: "Google: Gemini Flash 1.5"
-date: 2024-05-14T00:00:00Z
-image: "https://img.rifx.online/logo/google.svg"
-categories: ["text image 2 text"]
-author: "google"
-tags: ["Programming", "Machine Learning", "Natural Language Processing", "Computer Vision", "Chatbots"]
-draft: False
-is_recommended: True
-
-id: "gemini-flash-1.5"
+author: google
+categories:
+- text image 2 text
 context: 1000000
-input: 7.5e-08
-output: 3e-07
+date: 2024-05-14 00:00:00+00:00
+description: 'Google: Gemini Flash 1.5'
+draft: false
+id: gemini-flash-1.5
+image: https://img.rifx.online/logo/google.svg
 img: 4e-05
+input: 7.5e-08
+is_active: false
+is_recommended: true
+last_updated: 2024-11-14 08:23:12+00:00
+meta_title: 'Google: Gemini Flash 1.5'
+output: 3e-07
 request: 0
-last_updated: 2024-11-14T08:23:12Z
+tags:
+- Programming
+- Machine Learning
+- Natural Language Processing
+- Computer Vision
+- Chatbots
+title: 'Google: Gemini Flash 1.5'
 ---
+
+
 
 Gemini 1.5 Flash 是一个基础模型，在视觉理解、分类、摘要以及从图像、音频和视频创建内容等多种多模态任务中表现出色。它擅长处理视觉和文本输入，例如照片、文档、信息图和截图。
 

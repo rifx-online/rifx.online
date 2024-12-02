@@ -1,23 +1,31 @@
 ---
-title: "Qwen2.5 Coder 32B Instruct"
-meta_title: "Qwen2.5 Coder 32B Instruct"
-description: "Qwen2.5 Coder 32B Instruct"
-date: 2024-11-11T23:40:00Z
-image: "https://img.rifx.online/logo/qwen.svg"
-categories: ["text 2 text"]
-author: "qwen"
-tags: ["Programming", "Programming/Scripting", "Machine Learning", "Natural Language Processing", "Generative AI"]
-draft: False
-is_recommended: True
-
-id: "qwen-2.5-coder-32b-instruct"
+author: qwen
+categories:
+- text 2 text
 context: 32768
-input: 1.8e-07
-output: 1.8e-07
+date: 2024-11-11 23:40:00+00:00
+description: Qwen2.5 Coder 32B Instruct
+draft: false
+id: qwen-2.5-coder-32b-instruct
+image: https://img.rifx.online/logo/qwen.svg
 img: 0
+input: 1.8e-07
+is_active: false
+is_recommended: true
+last_updated: 2024-11-15 23:24:23+00:00
+meta_title: Qwen2.5 Coder 32B Instruct
+output: 1.8e-07
 request: 0
-last_updated: 2024-11-15T23:24:23Z
+tags:
+- Programming
+- Programming/Scripting
+- Machine Learning
+- Natural Language Processing
+- Generative AI
+title: Qwen2.5 Coder 32B Instruct
 ---
+
+
 
 Qwen2.5-Coder is the latest series of Code-Specific Qwen large language models (formerly known as CodeQwen). Qwen2.5-Coder brings the following improvements upon CodeQwen1.5:
 

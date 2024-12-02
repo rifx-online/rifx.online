@@ -1,23 +1,32 @@
 ---
-title: "OpenChat 3.5 7B (free)"
-meta_title: "OpenChat 3.5 7B (free)"
-description: "OpenChat 3.5 7B (free)"
-date: 2023-11-28T00:00:00Z
-image: "/images/logo.svg"
-categories: ["text 2 text"]
-author: "Rifx.Online"
-tags: ["Programming", "Natural Language Processing", "Machine Learning", "Open Source", "Generative AI", "Free"]
-draft: False
-is_recommended: False
-
-id: "openchat-7b:free"
+author: Rifx.Online
+categories:
+- text 2 text
 context: 8192
-input: 0.0
-output: 0.0
+date: 2023-11-28 00:00:00+00:00
+description: OpenChat 3.5 7B (free)
+draft: false
+id: openchat-7b:free
+image: /images/logo.svg
 img: 0
+input: 0.0
+is_active: false
+is_recommended: false
+last_updated: 2024-11-18 11:45:53+00:00
+meta_title: OpenChat 3.5 7B (free)
+output: 0.0
 request: 0
-last_updated: 2024-11-18T11:45:53Z
+tags:
+- Programming
+- Natural Language Processing
+- Machine Learning
+- Open Source
+- Generative AI
+- Free
+title: OpenChat 3.5 7B (free)
 ---
+
+
 
 OpenChat 7B 是一个开源语言模型库，经过“C-RLFT（条件强化学习微调）”的精细调优——这是一种受离线强化学习启发的策略。它是在没有偏好标签的混合质量数据上进行训练的。
 

@@ -1,22 +1,30 @@
 ---
-title: "Anthropic: Claude 3.5 Haiku"
-meta_title: "Anthropic: Claude 3.5 Haiku"
-description: "Anthropic: Claude 3.5 Haiku"
-date: 2024-11-04T00:00:00Z
-image: "https://img.rifx.online/logo/anthropic.svg"
-categories: ["text 2 text"]
-author: "anthropic"
-tags: ["Programming", "Chatbots", "Data Science", "Machine Learning", "Natural Language Processing"]
-draft: False
-
-id: "claude-3.5-haiku"
+author: anthropic
+categories:
+- text 2 text
 context: 200000
-input: 1e-06
-output: 5e-06
+date: 2024-11-04 00:00:00+00:00
+description: 'Anthropic: Claude 3.5 Haiku'
+draft: false
+id: claude-3.5-haiku
+image: https://img.rifx.online/logo/anthropic.svg
 img: 0
+input: 1e-06
+is_active: false
+last_updated: 2024-11-07 09:46:02+00:00
+meta_title: 'Anthropic: Claude 3.5 Haiku'
+output: 5e-06
 request: 0
-last_updated: 2024-11-07T09:46:02Z
+tags:
+- Programming
+- Chatbots
+- Data Science
+- Machine Learning
+- Natural Language Processing
+title: 'Anthropic: Claude 3.5 Haiku'
 ---
+
+
 
 Claude 3.5 Haiku 特性提供了更高的速度、编码准确性和工具使用能力。旨在在实时应用中表现出色，它提供了快速的响应时间，这对于动态任务（如聊天互动和即时编码建议）至关重要。
 

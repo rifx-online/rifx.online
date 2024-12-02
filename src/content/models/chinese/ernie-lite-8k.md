@@ -1,23 +1,32 @@
 ---
-title: "ERNIE-Lite-8K:free"
-meta_title: "ERNIE-Lite-8K:free"
-description: "ERNIE-Lite-8K:free"
-date: 2024-11-17T06:28:29Z
-image: "/images/logo.svg"
-categories: ["text 2 text"]
-author: "ernie"
-tags: ["Programming/Scripting", "Natural Language Processing", "Machine Learning", "Voice Assistants", "Chatbots", "Free"]
-draft: False
-is_recommended: False
-
-id: "ernie-lite-8k"
+author: ernie
+categories:
+- text 2 text
 context: 8192
-input: 0.0
-output: 0.0
+date: 2024-11-17 06:28:29+00:00
+description: ERNIE-Lite-8K:free
+draft: false
+id: ernie-lite-8k
+image: /images/logo.svg
 img: 0
+input: 0.0
+is_active: false
+is_recommended: false
+last_updated: 2024-11-18 11:44:44+00:00
+meta_title: ERNIE-Lite-8K:free
+output: 0.0
 request: 0
-last_updated: 2024-11-18T11:44:44Z
+tags:
+- Programming/Scripting
+- Natural Language Processing
+- Machine Learning
+- Voice Assistants
+- Chatbots
+- Free
+title: ERNIE-Lite-8K:free
 ---
+
+
 
 **关键能力和使用案例：**
 - 设计用于资源受限的环境，如移动设备和边缘设备。

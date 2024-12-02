@@ -1,23 +1,32 @@
 ---
-title: "Mistral: Mistral 7B Instruct (free)"
-meta_title: "Mistral: Mistral 7B Instruct (free)"
-description: "Mistral: Mistral 7B Instruct (free)"
-date: 2024-05-27T00:00:00Z
-image: "/images/logo.svg"
-categories: ["text 2 text"]
-author: "Rifx.Online"
-tags: ["Programming", "Machine Learning", "Natural Language Processing", "Generative AI", "Chatbots", "Free"]
-draft: False
-is_recommended: False
-
-id: "mistral-7b-instruct:free"
+author: Rifx.Online
+categories:
+- text 2 text
 context: 8192
-input: 0.0
-output: 0.0
+date: 2024-05-27 00:00:00+00:00
+description: 'Mistral: Mistral 7B Instruct (free)'
+draft: false
+id: mistral-7b-instruct:free
+image: /images/logo.svg
 img: 0
+input: 0.0
+is_active: false
+is_recommended: false
+last_updated: 2024-11-18 11:46:03+00:00
+meta_title: 'Mistral: Mistral 7B Instruct (free)'
+output: 0.0
 request: 0
-last_updated: 2024-11-18T11:46:03Z
+tags:
+- Programming
+- Machine Learning
+- Natural Language Processing
+- Generative AI
+- Chatbots
+- Free
+title: 'Mistral: Mistral 7B Instruct (free)'
 ---
+
+
 
 一个高性能、行业标准的 7.3B 参数模型，针对速度和上下文长度进行了优化。
 

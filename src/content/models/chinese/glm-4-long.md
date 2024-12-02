@@ -1,23 +1,31 @@
 ---
-title: "GLM-4 Long"
-meta_title: "GLM-4 Long"
-description: "GLM-4 Long"
-date: 2024-11-15T12:53:01Z
-image: "/images/logo.svg"
-categories: ["text 2 text"]
-author: "ChatGLM"
-tags: ["Technology", "Machine Learning", "Natural Language Processing", "Data Science", "Generative AI"]
-draft: False
-is_recommended: False
-
-id: "glm-4-long"
+author: ChatGLM
+categories:
+- text 2 text
 context: 1000000
-input: 1.4e-07
-output: 1.4e-07
+date: 2024-11-15 12:53:01+00:00
+description: GLM-4 Long
+draft: false
+id: glm-4-long
+image: /images/logo.svg
 img: 0
+input: 1.4e-07
+is_active: false
+is_recommended: false
+last_updated: 2024-11-18 00:21:31+00:00
+meta_title: GLM-4 Long
+output: 1.4e-07
 request: 0
-last_updated: 2024-11-18T00:21:31Z
+tags:
+- Technology
+- Machine Learning
+- Natural Language Processing
+- Data Science
+- Generative AI
+title: GLM-4 Long
 ---
+
+
 
 # GLM-4 Long
 

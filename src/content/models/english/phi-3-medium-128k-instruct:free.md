@@ -1,23 +1,32 @@
 ---
-title: "Phi-3 Medium 128K Instruct (free)"
-meta_title: "Phi-3 Medium 128K Instruct (free)"
-description: "Phi-3 Medium 128K Instruct (free)"
-date: 2024-05-24T00:00:00Z
-image: "/images/logo.svg"
-categories: ["text 2 text"]
-author: "Rifx.Online"
-tags: ["Natural Language Processing", "Machine Learning", "Programming", "Data Science", "Chatbots", "Free"]
-draft: False
-is_recommended: False
-
-id: "phi-3-medium-128k-instruct:free"
+author: Rifx.Online
+categories:
+- text 2 text
 context: 8192
-input: 0.0
-output: 0.0
+date: 2024-05-24 00:00:00+00:00
+description: Phi-3 Medium 128K Instruct (free)
+draft: false
+id: phi-3-medium-128k-instruct:free
+image: /images/logo.svg
 img: 0
+input: 0.0
+is_active: false
+is_recommended: false
+last_updated: 2024-11-18 11:47:25+00:00
+meta_title: Phi-3 Medium 128K Instruct (free)
+output: 0.0
 request: 0
-last_updated: 2024-11-18T11:47:25Z
+tags:
+- Natural Language Processing
+- Machine Learning
+- Programming
+- Data Science
+- Chatbots
+- Free
+title: Phi-3 Medium 128K Instruct (free)
 ---
+
+
 
 Phi-3 128K Medium is a powerful 14-billion parameter model designed for advanced language understanding, reasoning, and instruction following. Optimized through supervised fine-tuning and preference adjustments, it excels in tasks involving common sense, mathematics, logical reasoning, and code processing.
 

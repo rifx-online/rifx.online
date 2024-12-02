@@ -1,23 +1,31 @@
 ---
-title: "GLM-4 AirX"
-meta_title: "GLM-4 AirX"
-description: "GLM-4 AirX"
-date: 2024-11-15T13:12:54Z
-image: "/images/logo.svg"
-categories: ["text 2 text"]
-author: "ChatGLM"
-tags: ["Technology", "Machine Learning", "Generative AI", "Data Science", "Chatbots"]
-draft: False
-is_recommended: False
-
-id: "glm-4-airx"
+author: ChatGLM
+categories:
+- text 2 text
 context: 8000
-input: 1.4e-06
-output: 1.4e-06
+date: 2024-11-15 13:12:54+00:00
+description: GLM-4 AirX
+draft: false
+id: glm-4-airx
+image: /images/logo.svg
 img: 0
+input: 1.4e-06
+is_active: false
+is_recommended: false
+last_updated: 2024-11-17 23:35:35+00:00
+meta_title: GLM-4 AirX
+output: 1.4e-06
 request: 0
-last_updated: 2024-11-17T23:35:35Z
+tags:
+- Technology
+- Machine Learning
+- Generative AI
+- Data Science
+- Chatbots
+title: GLM-4 AirX
 ---
+
+
 
 ## 基本信息
 

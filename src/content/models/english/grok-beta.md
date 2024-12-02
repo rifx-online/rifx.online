@@ -1,22 +1,30 @@
 ---
-title: "xAI: Grok Beta"
-meta_title: "xAI: Grok Beta"
-description: "xAI: Grok Beta"
-date: 2024-10-20T00:00:00Z
-image: "https://img.rifx.online/logo/xai.svg"
-categories: ["text 2 text"]
-author: "x-ai"
-tags: ["Natural Language Processing", "Machine Learning", "Generative AI", "Chatbots", "Data Science"]
-draft: False
-
-id: "grok-beta"
+author: x-ai
+categories:
+- text 2 text
 context: 131072
-input: 5e-06
-output: 1.5e-05
+date: 2024-10-20 00:00:00+00:00
+description: 'xAI: Grok Beta'
+draft: false
+id: grok-beta
+image: https://img.rifx.online/logo/xai.svg
 img: 0
+input: 5e-06
+is_active: false
+last_updated: 2024-11-07 09:32:49+00:00
+meta_title: 'xAI: Grok Beta'
+output: 1.5e-05
 request: 0
-last_updated: 2024-11-07T09:32:49Z
+tags:
+- Natural Language Processing
+- Machine Learning
+- Generative AI
+- Chatbots
+- Data Science
+title: 'xAI: Grok Beta'
 ---
+
+
 
 Grok Beta is xAI's experimental language model with state-of-the-art reasoning capabilities, best for complex and multi-step use cases.
 

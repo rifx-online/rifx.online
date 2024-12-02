@@ -1,22 +1,30 @@
 ---
-title: "Qwen2.5 72B Instruct"
-meta_title: "Qwen2.5 72B Instruct"
-description: "Qwen2.5 72B Instruct"
-date: 2024-09-19T00:00:00Z
-image: "https://img.rifx.online/logo/qwen.svg"
-categories: ["text 2 text"]
-author: "qwen"
-tags: ["Programming", "Natural Language Processing", "Chatbots", "Machine Learning", "Data Science"]
-draft: False
-
-id: "qwen-2.5-72b-instruct"
+author: qwen
+categories:
+- text 2 text
 context: 131072
-input: 3.5e-07
-output: 4e-07
+date: 2024-09-19 00:00:00+00:00
+description: Qwen2.5 72B Instruct
+draft: false
+id: qwen-2.5-72b-instruct
+image: https://img.rifx.online/logo/qwen.svg
 img: 0
+input: 3.5e-07
+is_active: false
+last_updated: 2024-09-19 00:00:00+00:00
+meta_title: Qwen2.5 72B Instruct
+output: 4e-07
 request: 0
-last_updated: 2024-09-19T00:00:00Z
+tags:
+- Programming
+- Natural Language Processing
+- Chatbots
+- Machine Learning
+- Data Science
+title: Qwen2.5 72B Instruct
 ---
+
+
 
 Qwen2.5 72B 是 Qwen 大型语言模型的最新系列。Qwen2.5 在 Qwen2 的基础上带来了以下改进：
 

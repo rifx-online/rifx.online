@@ -1,23 +1,31 @@
 ---
-title: "Mistral: Mixtral 8x22B Instruct"
-meta_title: "Mistral: Mixtral 8x22B Instruct"
-description: "Mistral: Mixtral 8x22B Instruct"
-date: 2024-04-17T00:00:00Z
-image: "https://img.rifx.online/logo/mistral.png"
-categories: ["text 2 text"]
-author: "mistralai"
-tags: ["Programming", "Natural Language Processing", "Machine Learning", "Data Science", "Generative AI"]
-draft: False
-is_recommended: False
-
-id: "mixtral-8x22b-instruct"
+author: mistralai
+categories:
+- text 2 text
 context: 65536
-input: 9e-07
-output: 9e-07
+date: 2024-04-17 00:00:00+00:00
+description: 'Mistral: Mixtral 8x22B Instruct'
+draft: false
+id: mixtral-8x22b-instruct
+image: https://img.rifx.online/logo/mistral.png
 img: 0
+input: 9e-07
+is_active: false
+is_recommended: false
+last_updated: 2024-11-14 08:21:32+00:00
+meta_title: 'Mistral: Mixtral 8x22B Instruct'
+output: 9e-07
 request: 0
-last_updated: 2024-11-14T08:21:32Z
+tags:
+- Programming
+- Natural Language Processing
+- Machine Learning
+- Data Science
+- Generative AI
+title: 'Mistral: Mixtral 8x22B Instruct'
 ---
+
+
 
 Mistral's official instruct fine-tuned version of [Mixtral 8x22B](/mistralai/mixtral-8x22b). It uses 39B active parameters out of 141B, offering unparalleled cost efficiency for its size. Its strengths include:
 - strong math, coding, and reasoning

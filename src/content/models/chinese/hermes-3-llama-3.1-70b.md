@@ -1,22 +1,30 @@
 ---
-title: "Nous: Hermes 3 70B Instruct"
-meta_title: "Nous: Hermes 3 70B Instruct"
-description: "Nous: Hermes 3 70B Instruct"
-date: 2024-08-18T00:00:00Z
-image: "/images/logo.svg"
-categories: ["text 2 text"]
-author: "nousresearch"
-tags: ["Natural Language Processing", "Machine Learning", "Generative AI", "Chatbots", "Programming"]
-draft: False
-
-id: "hermes-3-llama-3.1-70b"
+author: nousresearch
+categories:
+- text 2 text
 context: 131072
-input: 4e-07
-output: 4e-07
+date: 2024-08-18 00:00:00+00:00
+description: 'Nous: Hermes 3 70B Instruct'
+draft: false
+id: hermes-3-llama-3.1-70b
+image: /images/logo.svg
 img: 0
+input: 4e-07
+is_active: false
+last_updated: 2024-11-11 03:16:38+00:00
+meta_title: 'Nous: Hermes 3 70B Instruct'
+output: 4e-07
 request: 0
-last_updated: 2024-11-11T03:16:38Z
+tags:
+- Natural Language Processing
+- Machine Learning
+- Generative AI
+- Chatbots
+- Programming
+title: 'Nous: Hermes 3 70B Instruct'
 ---
+
+
 
 Hermes 3 是一个通用语言模型，相较于 [Hermes 2](/nousresearch/nous-hermes-2-mistral-7b-dpo) 有许多改进，包括先进的代理能力，更好的角色扮演，推理，多轮对话，长上下文连贯性，以及各方面的改进。
 

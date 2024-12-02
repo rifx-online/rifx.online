@@ -1,22 +1,30 @@
 ---
-title: "Mistral: Mistral Nemo"
-meta_title: "Mistral: Mistral Nemo"
-description: "Mistral: Mistral Nemo"
-date: 2024-07-19T00:00:00Z
-image: "https://img.rifx.online/logo/mistral.png"
-categories: ["text 2 text"]
-author: "mistralai"
-tags: ["Programming", "Machine Learning", "Natural Language Processing", "Generative AI", "Data Science"]
-draft: False
-
-id: "mistral-nemo"
+author: mistralai
+categories:
+- text 2 text
 context: 128000
-input: 1.3e-07
-output: 1.3e-07
+date: 2024-07-19 00:00:00+00:00
+description: 'Mistral: Mistral Nemo'
+draft: false
+id: mistral-nemo
+image: https://img.rifx.online/logo/mistral.png
 img: 0
+input: 1.3e-07
+is_active: false
+last_updated: 2024-10-31 23:10:58+00:00
+meta_title: 'Mistral: Mistral Nemo'
+output: 1.3e-07
 request: 0
-last_updated: 2024-10-31T23:10:58Z
+tags:
+- Programming
+- Machine Learning
+- Natural Language Processing
+- Generative AI
+- Data Science
+title: 'Mistral: Mistral Nemo'
 ---
+
+
 
 A 12B parameter model with a 128k token context length built by Mistral in collaboration with NVIDIA.
 

@@ -1,22 +1,30 @@
 ---
-title: "Llama 3 8B Lunaris"
-meta_title: "Llama 3 8B Lunaris"
-description: "Llama 3 8B Lunaris"
-date: 2024-08-13T00:00:00Z
-image: "/images/logo.svg"
-categories: ["text 2 text"]
-author: "sao10k"
-tags: ["Roleplay", "Programming", "Machine Learning", "Natural Language Processing", "Chatbots"]
-draft: False
-
-id: "l3-lunaris-8b"
+author: sao10k
+categories:
+- text 2 text
 context: 8192
-input: 2e-06
-output: 2e-06
+date: 2024-08-13 00:00:00+00:00
+description: Llama 3 8B Lunaris
+draft: false
+id: l3-lunaris-8b
+image: /images/logo.svg
 img: 0
+input: 2e-06
+is_active: false
+last_updated: 2024-11-11 03:12:13+00:00
+meta_title: Llama 3 8B Lunaris
+output: 2e-06
 request: 0
-last_updated: 2024-11-11T03:12:13Z
+tags:
+- Roleplay
+- Programming
+- Machine Learning
+- Natural Language Processing
+- Chatbots
+title: Llama 3 8B Lunaris
 ---
+
+
 
 Lunaris 8B is a versatile generalist and roleplaying model based on Llama 3. It's a strategic merge of multiple models, designed to balance creativity with improved logic and general knowledge.
 

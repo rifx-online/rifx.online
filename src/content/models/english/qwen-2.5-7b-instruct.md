@@ -1,22 +1,30 @@
 ---
-title: "Qwen2.5 7B Instruct"
-meta_title: "Qwen2.5 7B Instruct"
-description: "Qwen2.5 7B Instruct"
-date: 2024-10-16T00:00:00Z
-image: "https://img.rifx.online/logo/qwen.svg"
-categories: ["text 2 text"]
-author: "qwen"
-tags: ["Programming", "Natural Language Processing", "Chatbots", "Machine Learning", "Data Science"]
-draft: False
-
-id: "qwen-2.5-7b-instruct"
+author: qwen
+categories:
+- text 2 text
 context: 131072
-input: 2.7e-07
-output: 2.7e-07
+date: 2024-10-16 00:00:00+00:00
+description: Qwen2.5 7B Instruct
+draft: false
+id: qwen-2.5-7b-instruct
+image: https://img.rifx.online/logo/qwen.svg
 img: 0
+input: 2.7e-07
+is_active: false
+last_updated: 2024-10-16 00:00:00+00:00
+meta_title: Qwen2.5 7B Instruct
+output: 2.7e-07
 request: 0
-last_updated: 2024-10-16T00:00:00Z
+tags:
+- Programming
+- Natural Language Processing
+- Chatbots
+- Machine Learning
+- Data Science
+title: Qwen2.5 7B Instruct
 ---
+
+
 
 Qwen2.5 7B is the latest series of Qwen large language models. Qwen2.5 brings the following improvements upon Qwen2:
 

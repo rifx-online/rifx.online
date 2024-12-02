@@ -1,22 +1,30 @@
 ---
-title: "AI21: Jamba 1.5 Mini"
-meta_title: "AI21: Jamba 1.5 Mini"
-description: "AI21: Jamba 1.5 Mini"
-date: 2024-08-23T00:00:00Z
-image: "/images/logo.svg"
-categories: ["text 2 text"]
-author: "ai21"
-tags: ["Programming", "Technology", "Machine Learning", "Natural Language Processing", "Data Science"]
-draft: False
-
-id: "jamba-1-5-mini"
+author: ai21
+categories:
+- text 2 text
 context: 256000
-input: 2e-07
-output: 4e-07
+date: 2024-08-23 00:00:00+00:00
+description: 'AI21: Jamba 1.5 Mini'
+draft: false
+id: jamba-1-5-mini
+image: /images/logo.svg
 img: 0
+input: 2e-07
+is_active: false
+last_updated: 2024-11-11 03:11:12+00:00
+meta_title: 'AI21: Jamba 1.5 Mini'
+output: 4e-07
 request: 0
-last_updated: 2024-11-11T03:11:12Z
+tags:
+- Programming
+- Technology
+- Machine Learning
+- Natural Language Processing
+- Data Science
+title: 'AI21: Jamba 1.5 Mini'
 ---
+
+
 
 Jamba 1.5 Mini is the world's first production-grade Mamba-based model, combining SSM and Transformer architectures for a 256K context window and high efficiency.
 

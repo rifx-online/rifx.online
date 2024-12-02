@@ -1,23 +1,32 @@
 ---
-title: "ERNIE-Speed-128K"
-meta_title: "ERNIE-Speed-128K"
-description: "ERNIE-Speed-128K"
-date: 2024-11-17T06:28:55Z
-image: "/images/logo.svg"
-categories: ["text 2 text"]
-author: "ernie"
-tags: ["Programming", "Natural Language Processing", "Machine Learning", "Technology", "Translation", "Free"]
-draft: False
-is_recommended: False
-
-id: "ernie-speed-128k"
+author: ernie
+categories:
+- text 2 text
 context: 131072
-input: 0.0
-output: 0.0
+date: 2024-11-17 06:28:55+00:00
+description: ERNIE-Speed-128K
+draft: false
+id: ernie-speed-128k
+image: /images/logo.svg
 img: 0
+input: 0.0
+is_active: false
+is_recommended: false
+last_updated: 2024-11-18 11:44:52+00:00
+meta_title: ERNIE-Speed-128K
+output: 0.0
 request: 0
-last_updated: 2024-11-18T11:44:52Z
+tags:
+- Programming
+- Natural Language Processing
+- Machine Learning
+- Technology
+- Translation
+- Free
+title: ERNIE-Speed-128K
 ---
+
+
 
 **Developer/Company:** Baidu Research
 

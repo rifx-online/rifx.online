@@ -1,23 +1,31 @@
 ---
-title: "ERNIE-Bot-turbo"
-meta_title: "ERNIE-Bot-turbo"
-description: "ERNIE-Bot-turbo"
-date: 2024-11-17T06:28:18Z
-image: "/images/logo.svg"
-categories: ["text 2 text"]
-author: "ernie"
-tags: ["Natural Language Processing", "Programming", "Technology", "Generative AI", "Chatbots"]
-draft: False
-is_recommended: False
-
-id: "ernie-bot-turbo"
+author: ernie
+categories:
+- text 2 text
 context: 8192
-input: 1.65e-06
-output: 1.65e-06
+date: 2024-11-17 06:28:18+00:00
+description: ERNIE-Bot-turbo
+draft: false
+id: ernie-bot-turbo
+image: /images/logo.svg
 img: 0
+input: 1.65e-06
+is_active: false
+is_recommended: false
+last_updated: 2024-11-17 09:23:59+00:00
+meta_title: ERNIE-Bot-turbo
+output: 1.65e-06
 request: 0
-last_updated: 2024-11-17T09:23:59Z
+tags:
+- Natural Language Processing
+- Programming
+- Technology
+- Generative AI
+- Chatbots
+title: ERNIE-Bot-turbo
 ---
+
+
 
 **Developer/Company:** Baidu
 

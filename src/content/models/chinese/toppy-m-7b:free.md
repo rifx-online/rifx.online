@@ -1,23 +1,32 @@
 ---
-title: "Toppy M 7B (free)"
-meta_title: "Toppy M 7B (free)"
-description: "Toppy M 7B (free)"
-date: 2023-11-10T00:00:00Z
-image: "/images/logo.svg"
-categories: ["text 2 text"]
-author: "Rifx.Online"
-tags: ["Programming", "Machine Learning", "Generative AI", "Uncensored", "Data Science", "Free"]
-draft: False
-is_recommended: False
-
-id: "toppy-m-7b:free"
+author: Rifx.Online
+categories:
+- text 2 text
 context: 4096
-input: 0.0
-output: 0.0
+date: 2023-11-10 00:00:00+00:00
+description: Toppy M 7B (free)
+draft: false
+id: toppy-m-7b:free
+image: /images/logo.svg
 img: 0
+input: 0.0
+is_active: false
+is_recommended: false
+last_updated: 2024-11-18 11:45:52+00:00
+meta_title: Toppy M 7B (free)
+output: 0.0
 request: 0
-last_updated: 2024-11-18T11:45:52Z
+tags:
+- Programming
+- Machine Learning
+- Generative AI
+- Uncensored
+- Data Science
+- Free
+title: Toppy M 7B (free)
 ---
+
+
 
 A wild 7B 参数模型，使用 mergekit 的新 task_arithmetic 合并方法合并了多个模型。  
 合并模型列表：  

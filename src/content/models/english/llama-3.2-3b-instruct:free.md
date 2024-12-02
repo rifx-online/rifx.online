@@ -1,23 +1,32 @@
 ---
-title: "Meta: Llama 3.2 3B Instruct (free)"
-meta_title: "Meta: Llama 3.2 3B Instruct (free)"
-description: "Meta: Llama 3.2 3B Instruct (free)"
-date: 2024-09-25T00:00:00Z
-image: "/images/logo.svg"
-categories: ["text 2 text"]
-author: "Rifx.Online"
-tags: ["Natural Language Processing", "Machine Learning", "Generative AI", "Chatbots", "Multilingual", "Free"]
-draft: False
-is_recommended: False
-
-id: "llama-3.2-3b-instruct:free"
+author: Rifx.Online
+categories:
+- text 2 text
 context: 4096
-input: 0.0
-output: 0.0
+date: 2024-09-25 00:00:00+00:00
+description: 'Meta: Llama 3.2 3B Instruct (free)'
+draft: false
+id: llama-3.2-3b-instruct:free
+image: /images/logo.svg
 img: 0
+input: 0.0
+is_active: false
+is_recommended: false
+last_updated: 2024-11-18 11:47:07+00:00
+meta_title: 'Meta: Llama 3.2 3B Instruct (free)'
+output: 0.0
 request: 0
-last_updated: 2024-11-18T11:47:07Z
+tags:
+- Natural Language Processing
+- Machine Learning
+- Generative AI
+- Chatbots
+- Multilingual
+- Free
+title: 'Meta: Llama 3.2 3B Instruct (free)'
 ---
+
+
 
 Llama 3.2 3B is a 3-billion-parameter multilingual large language model, optimized for advanced natural language processing tasks like dialogue generation, reasoning, and summarization. Designed with the latest transformer architecture, it supports eight languages, including English, Spanish, and Hindi, and is adaptable for additional languages.
 

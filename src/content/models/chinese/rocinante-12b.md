@@ -1,22 +1,30 @@
 ---
-title: "Rocinante 12B"
-meta_title: "Rocinante 12B"
-description: "Rocinante 12B"
-date: 2024-09-30T00:00:00Z
-image: "/images/logo.svg"
-categories: ["text 2 text"]
-author: "thedrummer"
-tags: ["Roleplay", "Programming", "Natural Language Processing", "Generative AI", "Chatbots"]
-draft: False
-
-id: "rocinante-12b"
+author: thedrummer
+categories:
+- text 2 text
 context: 32768
-input: 2.5e-07
-output: 5e-07
+date: 2024-09-30 00:00:00+00:00
+description: Rocinante 12B
+draft: false
+id: rocinante-12b
+image: /images/logo.svg
 img: 0
+input: 2.5e-07
+is_active: false
+last_updated: 2024-11-11 03:09:37+00:00
+meta_title: Rocinante 12B
+output: 5e-07
 request: 0
-last_updated: 2024-11-11T03:09:37Z
+tags:
+- Roleplay
+- Programming
+- Natural Language Processing
+- Generative AI
+- Chatbots
+title: Rocinante 12B
 ---
+
+
 
 Rocinante 12B 旨在提供引人入胜的叙事和丰富的散文。
 

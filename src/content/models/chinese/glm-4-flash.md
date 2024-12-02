@@ -1,23 +1,31 @@
 ---
-title: "glm-4-flash"
-meta_title: "glm-4-flash"
-description: "glm-4-flash"
-date: 2024-11-15T12:53:10Z
-image: "/images/logo.svg"
-categories: ["text 2 text"]
-author: "ChatGLM"
-tags: ["Generative AI", "Machine Learning", "Natural Language Processing", "Technology", "Chatbots"]
-draft: False
-is_recommended: False
-
-id: "glm-4-flash"
+author: ChatGLM
+categories:
+- text 2 text
 context: 128000
-input: 1e-08
-output: 1e-08
+date: 2024-11-15 12:53:10+00:00
+description: glm-4-flash
+draft: false
+id: glm-4-flash
+image: /images/logo.svg
 img: 0
+input: 1e-08
+is_active: false
+is_recommended: false
+last_updated: 2024-11-18 00:21:24+00:00
+meta_title: glm-4-flash
+output: 1e-08
 request: 0
-last_updated: 2024-11-18T00:21:24Z
+tags:
+- Generative AI
+- Machine Learning
+- Natural Language Processing
+- Technology
+- Chatbots
+title: glm-4-flash
 ---
+
+
 
 ## GLM-4-Flash 模型介绍
 

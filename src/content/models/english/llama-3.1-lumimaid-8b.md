@@ -1,22 +1,30 @@
 ---
-title: "Lumimaid v0.2 8B"
-meta_title: "Lumimaid v0.2 8B"
-description: "Lumimaid v0.2 8B"
-date: 2024-09-15T00:00:00Z
-image: "/images/logo.svg"
-categories: ["text 2 text"]
-author: "neversleep"
-tags: ["Programming", "Machine Learning", "Natural Language Processing", "Chatbots", "Ethics"]
-draft: False
-
-id: "llama-3.1-lumimaid-8b"
+author: neversleep
+categories:
+- text 2 text
 context: 131072
-input: 1.875e-07
-output: 1.125e-06
+date: 2024-09-15 00:00:00+00:00
+description: Lumimaid v0.2 8B
+draft: false
+id: llama-3.1-lumimaid-8b
+image: /images/logo.svg
 img: 0
+input: 1.875e-07
+is_active: false
+last_updated: 2024-11-11 03:10:19+00:00
+meta_title: Lumimaid v0.2 8B
+output: 1.125e-06
 request: 0
-last_updated: 2024-11-11T03:10:19Z
+tags:
+- Programming
+- Machine Learning
+- Natural Language Processing
+- Chatbots
+- Ethics
+title: Lumimaid v0.2 8B
 ---
+
+
 
 Lumimaid v0.2 8B is a finetune of [Llama 3.1 8B](/meta-llama/llama-3.1-8b-instruct) with a "HUGE step up dataset wise" compared to Lumimaid v0.1. Sloppy chats output were purged.
 

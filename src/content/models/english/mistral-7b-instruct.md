@@ -1,22 +1,30 @@
 ---
-title: "Mistral: Mistral 7B Instruct"
-meta_title: "Mistral: Mistral 7B Instruct"
-description: "Mistral: Mistral 7B Instruct"
-date: 2024-05-27T00:00:00Z
-image: "https://img.rifx.online/logo/mistral.png"
-categories: ["text 2 text"]
-author: "mistralai"
-tags: ["Programming", "Machine Learning", "Natural Language Processing", "Generative AI", "Chatbots"]
-draft: False
-
-id: "mistral-7b-instruct"
+author: mistralai
+categories:
+- text 2 text
 context: 32768
-input: 5.5e-08
-output: 5.5e-08
+date: 2024-05-27 00:00:00+00:00
+description: 'Mistral: Mistral 7B Instruct'
+draft: false
+id: mistral-7b-instruct
+image: https://img.rifx.online/logo/mistral.png
 img: 0
+input: 5.5e-08
+is_active: false
+last_updated: 2024-10-31 23:13:12+00:00
+meta_title: 'Mistral: Mistral 7B Instruct'
+output: 5.5e-08
 request: 0
-last_updated: 2024-10-31T23:13:12Z
+tags:
+- Programming
+- Machine Learning
+- Natural Language Processing
+- Generative AI
+- Chatbots
+title: 'Mistral: Mistral 7B Instruct'
 ---
+
+
 
 A high-performing, industry-standard 7.3B parameter model, with optimizations for speed and context length.
 

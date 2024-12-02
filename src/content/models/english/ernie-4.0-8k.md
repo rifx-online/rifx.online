@@ -1,23 +1,31 @@
 ---
-title: "ERNIE-4.0-8K"
-meta_title: "ERNIE-4.0-8K"
-description: "ERNIE-4.0-8K"
-date: 2024-11-17T06:28:08Z
-image: "/images/logo.svg"
-categories: ["text 2 text"]
-author: "ernie"
-tags: ["Natural Language Processing", "Machine Learning", "Data Science", "Generative AI", "Chatbots"]
-draft: False
-is_recommended: False
-
-id: "ernie-4.0-8k"
+author: ernie
+categories:
+- text 2 text
 context: 8192
-input: 5.48e-06
-output: 1.644e-05
+date: 2024-11-17 06:28:08+00:00
+description: ERNIE-4.0-8K
+draft: false
+id: ernie-4.0-8k
+image: /images/logo.svg
 img: 0
+input: 5.48e-06
+is_active: false
+is_recommended: false
+last_updated: 2024-11-17 09:23:44+00:00
+meta_title: ERNIE-4.0-8K
+output: 1.644e-05
 request: 0
-last_updated: 2024-11-17T09:23:44Z
+tags:
+- Natural Language Processing
+- Machine Learning
+- Data Science
+- Generative AI
+- Chatbots
+title: ERNIE-4.0-8K
 ---
+
+
 
 **Developer/Company:** Baidu Research
 

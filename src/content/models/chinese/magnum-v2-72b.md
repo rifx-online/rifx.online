@@ -1,22 +1,30 @@
 ---
-title: "Magnum v2 72B"
-meta_title: "Magnum v2 72B"
-description: "Magnum v2 72B"
-date: 2024-09-30T00:00:00Z
-image: "/images/logo.svg"
-categories: ["text 2 text"]
-author: "anthracite-org"
-tags: ["Roleplay", "Programming", "Machine Learning", "Natural Language Processing", "Generative AI"]
-draft: False
-
-id: "magnum-v2-72b"
+author: anthracite-org
+categories:
+- text 2 text
 context: 32768
-input: 3.75e-06
-output: 4.5e-06
+date: 2024-09-30 00:00:00+00:00
+description: Magnum v2 72B
+draft: false
+id: magnum-v2-72b
+image: /images/logo.svg
 img: 0
+input: 3.75e-06
+is_active: false
+last_updated: 2024-11-11 03:09:19+00:00
+meta_title: Magnum v2 72B
+output: 4.5e-06
 request: 0
-last_updated: 2024-11-11T03:09:19Z
+tags:
+- Roleplay
+- Programming
+- Machine Learning
+- Natural Language Processing
+- Generative AI
+title: Magnum v2 72B
 ---
+
+
 
 来自[Goliath](https://openrouter.ai/alpindale/goliath-120b)的制造商，Magnum 72B是第七个旨在达到Claude 3模型的散文质量的模型系列，特别是Opus和Sonnet。
 

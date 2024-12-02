@@ -1,23 +1,31 @@
 ---
-title: "glm-4v"
-meta_title: "glm-4v"
-description: "glm-4v"
-date: 2024-11-15T12:53:30Z
-image: "/images/logo.svg"
-categories: ["text 2 text"]
-author: "ChatGLM"
-tags: ["Technology", "Computer Vision", "Data Science", "Machine Learning", "Robotics"]
-draft: False
-is_recommended: False
-
-id: "glm-4v"
+author: ChatGLM
+categories:
+- text 2 text
 context: 32000
-input: 7e-06
-output: 7e-06
+date: 2024-11-15 12:53:30+00:00
+description: glm-4v
+draft: false
+id: glm-4v
+image: /images/logo.svg
 img: 0
+input: 7e-06
+is_active: false
+is_recommended: false
+last_updated: 2024-11-17 23:35:15+00:00
+meta_title: glm-4v
+output: 7e-06
 request: 0
-last_updated: 2024-11-17T23:35:15Z
+tags:
+- Technology
+- Computer Vision
+- Data Science
+- Machine Learning
+- Robotics
+title: glm-4v
 ---
+
+
 
 ## GLM-4V 模型介绍
 

@@ -1,22 +1,30 @@
 ---
-title: "Qwen 2 7B Instruct"
-meta_title: "Qwen 2 7B Instruct"
-description: "Qwen 2 7B Instruct"
-date: 2024-07-16T00:00:00Z
-image: "https://img.rifx.online/logo/qwen.svg"
-categories: ["text 2 text"]
-author: "qwen"
-tags: ["Natural Language Processing", "Programming", "Machine Learning", "Data Science", "Ethics"]
-draft: False
-
-id: "qwen-2-7b-instruct"
+author: qwen
+categories:
+- text 2 text
 context: 32768
-input: 5.4e-08
-output: 5.4e-08
+date: 2024-07-16 00:00:00+00:00
+description: Qwen 2 7B Instruct
+draft: false
+id: qwen-2-7b-instruct
+image: https://img.rifx.online/logo/qwen.svg
 img: 0
+input: 5.4e-08
+is_active: false
+last_updated: 2024-07-16 00:00:00+00:00
+meta_title: Qwen 2 7B Instruct
+output: 5.4e-08
 request: 0
-last_updated: 2024-07-16T00:00:00Z
+tags:
+- Natural Language Processing
+- Programming
+- Machine Learning
+- Data Science
+- Ethics
+title: Qwen 2 7B Instruct
 ---
+
+
 
 Qwen2 7B 是一个基于变换器的模型，擅长语言理解、多语言能力、编码、数学和推理。
 

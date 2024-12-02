@@ -1,22 +1,30 @@
 ---
-title: "Nous: Hermes 3 405B Instruct"
-meta_title: "Nous: Hermes 3 405B Instruct"
-description: "Nous: Hermes 3 405B Instruct"
-date: 2024-08-16T00:00:00Z
-image: "/images/logo.svg"
-categories: ["text 2 text"]
-author: "nousresearch"
-tags: ["Programming", "Natural Language Processing", "Machine Learning", "Generative AI", "Chatbots"]
-draft: False
-
-id: "hermes-3-llama-3.1-405b"
+author: nousresearch
+categories:
+- text 2 text
 context: 131072
-input: 1.79e-06
-output: 2.49e-06
+date: 2024-08-16 00:00:00+00:00
+description: 'Nous: Hermes 3 405B Instruct'
+draft: false
+id: hermes-3-llama-3.1-405b
+image: /images/logo.svg
 img: 0
+input: 1.79e-06
+is_active: false
+last_updated: 2024-11-11 03:16:40+00:00
+meta_title: 'Nous: Hermes 3 405B Instruct'
+output: 2.49e-06
 request: 0
-last_updated: 2024-11-11T03:16:40Z
+tags:
+- Programming
+- Natural Language Processing
+- Machine Learning
+- Generative AI
+- Chatbots
+title: 'Nous: Hermes 3 405B Instruct'
 ---
+
+
 
 Hermes 3 is a generalist language model with many improvements over Hermes 2, including advanced agentic capabilities, much better roleplaying, reasoning, multi-turn conversation, long context coherence, and improvements across the board.
 

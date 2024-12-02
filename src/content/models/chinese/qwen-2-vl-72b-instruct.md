@@ -1,22 +1,29 @@
 ---
-title: "Qwen2-VL 72B Instruct"
-meta_title: "Qwen2-VL 72B Instruct"
-description: "Qwen2-VL 72B Instruct"
-date: 2024-09-18T00:00:00Z
-image: "https://img.rifx.online/logo/qwen.svg"
-categories: ["text image 2 text"]
-author: "qwen"
-tags: ["Natural Language Processing", "Computer Vision", "Robotics", "Machine Learning"]
-draft: False
-
-id: "qwen-2-vl-72b-instruct"
+author: qwen
+categories:
+- text image 2 text
 context: 32768
-input: 4e-07
-output: 4e-07
+date: 2024-09-18 00:00:00+00:00
+description: Qwen2-VL 72B Instruct
+draft: false
+id: qwen-2-vl-72b-instruct
+image: https://img.rifx.online/logo/qwen.svg
 img: 0.000578
+input: 4e-07
+is_active: false
+last_updated: 2024-09-18 00:00:00+00:00
+meta_title: Qwen2-VL 72B Instruct
+output: 4e-07
 request: 0
-last_updated: 2024-09-18T00:00:00Z
+tags:
+- Natural Language Processing
+- Computer Vision
+- Robotics
+- Machine Learning
+title: Qwen2-VL 72B Instruct
 ---
+
+
 
 Qwen2 VL 72B 是来自 Qwen Team 的多模态 LLM，具有以下关键增强功能：
 
