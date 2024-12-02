@@ -30,6 +30,7 @@ const {
   author,
   img,
   request,
+  is_active,
 } = data.data;
 
 const lang = getLangFromUrl(Astro.url);
@@ -64,13 +65,15 @@ data.slug = modifiedSlug;
     </span>
   </div>
 
+{is_active && (
   <div class="flex items-center mb-4">
     <CopyIconButton client:load textToCopy={id}>
       <span class="mr-2 font-medium text-base text-primary dark:text-darkmode-primary border-b border-dashed border-primary/30 hover:border-primary/60 transition-colors duration-200">
         ID: {id}
       </span>
-    </CopyIconButton>
-  </div>
+      </CopyIconButton>
+    </div>
+  )}
 
   <p class="text-base text-gray-400 dark:text-gray-600 mb-6 leading-relaxed">
     {plainify(data.body?.slice(0, Number(summary_length)))}...
