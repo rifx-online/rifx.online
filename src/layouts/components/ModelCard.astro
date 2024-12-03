@@ -1,18 +1,14 @@
 ---
 import config from "@/config/config.json";
-import dateFormat from "@/lib/utils/dateFormat";
 import {
   getLangFromUrl,
-  getTranslations,
   slugSelector,
 } from "@/lib/utils/languageParser";
 import { humanize, plainify, slugify } from "@/lib/utils/textConverter";
 import { formatNumber, formatTokens } from "@/lib/utils/formatUtils";
-import type { ContentEntryMap } from "astro:content";
-import { FaRegFolder, FaRegUserCircle } from "react-icons/fa";
 import { MdTextFields } from "react-icons/md";
-import ImageMod from "./ImageMod.astro";
 import CopyIconButton from '../helpers/CopyIconButton';
+import { Image } from "astro:assets";
 
 const { summary_length }: { summary_length: number; model_folder: string } =
   config.settings;
@@ -34,7 +30,6 @@ const {
 } = data.data;
 
 const lang = getLangFromUrl(Astro.url);
-const { read_more } = await getTranslations(lang as keyof ContentEntryMap);
 
 const slugParts = data.slug.split("/");
 slugParts[0] = "models";
@@ -83,7 +78,17 @@ data.slug = modifiedSlug;
     <span class="flex items-center">
       <a href={slugSelector(`/authors/${slugify(author)}`, lang)} 
          class="flex items-center hover:text-primary dark:hover:text-darkmode-primary transition-colors duration-200">
-        <FaRegUserCircle className={"mr-2"} />
+        {image && (
+          <div class="w-6 h-6 mr-2 rounded-full overflow-hidden border-2 border-gray-200 dark:border-gray-600 hover:border-gray-400 dark:hover:border-gray-400 transition-all duration-200 hover:scale-110">
+            <Image
+              src={image}
+              alt={title}
+              width={24}
+              height={24}
+              class="w-full h-full object-cover"
+            />
+          </div>
+        )}
         {humanize(author)}
       </a>
     </span>
