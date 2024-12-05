@@ -39,7 +39,7 @@ const posts = await getSinglePage(
 );
 const similarPosts = similarItems(post, posts);
 const { Content } = await post.render();
-const { title, description, author, categories, image, date, tags, id, context, input, output, img, request, is_active } = post.data;
+const { title, description, author, categories, image, date, tags, id, context, input, output, img, request, is_active, discount, is_free } = post.data;
 
 // console.log(post.data);
 
@@ -56,43 +56,60 @@ const { title, description, author, categories, image, date, tags, id, context, 
         </div>
         
         <div class="mb-6">
-          <div class="flex items-center gap-2 mb-4">
+          <div class="relative flex items-start gap-2 mb-4">
             <div class="flex-1">
-              <h1 set:html={markdownify(title)} class="h2 mb-0" />
-              <div class="mt-2">
-                {is_active && (
-                  <CopyIconButton client:load textToCopy={id}>
-                    <span class="mr-2 underline font-medium text-lg">ID: {id}</span>
-                  </CopyIconButton>
-                )}
+              <div class="relative">
+                <h1 class="h2 mb-0 inline-flex items-center gap-4">
+                  <span set:html={markdownify(title)} />
+                  {(discount || is_free) && (
+                    <div class="badge-container inline-flex gap-1 translate-y-1">
+                      {discount < 1 && (
+                        <span class="badge inline-flex items-center px-3 py-1 rounded-full text-sm font-bold bg-gradient-to-r from-red-500 to-pink-500 text-white shadow-lg transform hover:scale-105 transition-transform duration-200">
+                          {Math.round((1-discount) * 100)}% OFF
+                        </span>
+                      )}
+                      {is_free && (
+                        <span class="badge inline-flex items-center px-3 py-1 rounded-full text-sm font-bold bg-gradient-to-r from-green-400 to-emerald-500 text-white shadow-lg transform hover:scale-105 transition-transform duration-200">
+                          FREE
+                        </span>
+                      )}
+                    </div>
+                  )}
+                </h1>
+                <div class="mt-2">
+                  {is_active && (
+                    <CopyIconButton client:load textToCopy={id}>
+                      <span class="mr-2 underline font-medium text-lg">ID: {id}</span>
+                    </CopyIconButton>
+                  )}
+                </div>
               </div>
             </div>
-            
           </div>
         </div>
 
         <ul class="mb-4 flex flex-wrap gap-x-6 gap-y-2 text-sm text-gray-500 dark:text-gray-400">
           <li class="inline-flex items-center">
-            <FaRegFileAlt className={"mr-2"} />
+            <FaRegFileAlt className="mr-2" />
             {formatNumber(context)} Context
           </li>
           <li class="inline-flex items-center">
-            <LuFolderInput className={"mr-2"} />
+            <LuFolderInput className="mr-2" />
             {formatTokens(input * 1000000)} Input Tokens
           </li>
           <li class="inline-flex items-center">
-            <LuFolderOutput className={"mr-2"} />
+            <LuFolderOutput className="mr-2" />
             {formatTokens(output * 1000000)} Output Tokens
           </li>
           {img > 0 && (
             <li class="inline-flex items-center">
-              <LuImage className={"mr-2"} />
+              <LuImage className="mr-2" />
               {formatTokens(img)} Image Tokens
             </li>
           )}
           {request > 0 && (
             <li class="inline-flex items-center">
-              <FaRegFileAlt className={"mr-2"} />
+              <FaRegFileAlt className="mr-2" />
               {formatTokens(request)} Request Tokens
             </li>
           )}
@@ -179,14 +196,29 @@ const { title, description, author, categories, image, date, tags, id, context, 
     <div class="section pb-0">
       <h2 class="h3 mb-12 text-center">Related Posts</h2>
       <div class="row justify-center">
-        {
-          similarPosts.map((post, index) => (
-            <div class={`lg:col-6 md:col-6 mb-14 ${index % 2 === 0 ? 'clear-left' : ''}`}>
-              <ModelCard data={post} />
-            </div>
-          ))
-        }
+        {similarPosts.map((post, index) => (
+          <div class={`lg:col-6 md:col-6 mb-14 ${index % 2 === 0 ? 'clear-left' : ''}`}>
+            <ModelCard data={post} />
+          </div>
+        ))}
       </div>
     </div>
   </div>
 </section>
+
+<style>
+  .badge-container {
+    transform-origin: center;
+    transition: transform 0.3s ease;
+  }
+
+  .badge {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+  }
+
+  .badge:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+</style>

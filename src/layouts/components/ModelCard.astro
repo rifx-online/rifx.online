@@ -27,6 +27,8 @@ const {
   img,
   request,
   is_active,
+  discount,
+  is_free,
 } = data.data;
 
 const lang = getLangFromUrl(Astro.url);
@@ -38,7 +40,22 @@ data.slug = modifiedSlug;
 
 ---
 
-<div class="bg-body dark:bg-darkmode-body p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200">
+<div class="relative bg-body dark:bg-darkmode-body p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200">
+  {(discount || is_free) && (
+    <div class="badge-container absolute -top-2 -right-2 z-10 flex gap-1">
+      {discount < 1 && (
+        <span class="badge inline-flex items-center px-3 py-1 rounded-full text-sm font-bold bg-gradient-to-r from-red-500 to-pink-500 text-white shadow-lg transform hover:scale-105 transition-transform duration-200">
+          {Math.round((1-discount) * 100)}% OFF
+        </span>
+      )}
+      {is_free && (
+        <span class="badge inline-flex items-center px-3 py-1 rounded-full text-sm font-bold bg-gradient-to-r from-green-400 to-emerald-500 text-white shadow-lg transform hover:scale-105 transition-transform duration-200">
+          FREE
+        </span>
+      )}
+    </div>
+  )}
+
   <div class="flex justify-between items-center mb-3">
     <h3 class="text-2xl font-semibold">
       <a href={slugSelector(`/${data.slug}`, lang)} class="text-primary dark:text-darkmode-primary hover:text-primary/70 transition-colors duration-200">
@@ -121,3 +138,20 @@ data.slug = modifiedSlug;
     }
   </div>
 </div>
+
+<style>
+  .badge-container {
+    transform-origin: center;
+    transition: transform 0.3s ease;
+  }
+
+  .badge {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+  }
+
+  .badge:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+</style>
