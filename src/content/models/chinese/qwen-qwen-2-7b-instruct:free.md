@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/qwen-color.svg"
 categories: ["text 2 text"]
 author: "Qwen"
 tags: ["Programming", "Natural Language Processing", "Machine Learning", "Data Science", "Generative AI", "Free"]
+model_tags: []
 draft: False
 is_recommended: False
 is_active: True
+discount: 1
+is_free: True
 
 id: "qwen/qwen-2-7b-instruct:free"
 context: 32768

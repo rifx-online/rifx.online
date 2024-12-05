@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/ai21.svg"
 categories: ["text 2 text"]
 author: "Ai21"
 tags: ["Programming", "Technology", "Machine Learning", "Natural Language Processing", "Generative AI"]
+model_tags: []
 draft: False
 is_recommended: False
 is_active: True
+discount: 1
+is_free: False
 
 id: "ai21/jamba-1-5-mini"
 context: 256000

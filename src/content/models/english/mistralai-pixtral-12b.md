@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/mistral-color.svg"
 categories: ["text image 2 text"]
 author: "MistralAI"
 tags: ["Natural Language Processing", "Machine Learning", "Technology", "Generative AI", "Data Science"]
+model_tags: []
 draft: False
 is_recommended: True
 is_active: True
+discount: 1
+is_free: False
 
 id: "mistralai/pixtral-12b"
 context: 4096

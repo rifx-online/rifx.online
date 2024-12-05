@@ -12,6 +12,7 @@ draft: False
 is_recommended: True
 is_active: True
 discount: 0.6
+is_free: False
 
 id: "rifx/claude-3-5-sonnet-20240620"
 context: 200000

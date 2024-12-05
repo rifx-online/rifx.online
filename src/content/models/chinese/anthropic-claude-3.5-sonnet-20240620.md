@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/anthropic.svg"
 categories: ["text image 2 text"]
 author: "Anthropic"
 tags: ["Programming", "Data Science", "Computer Vision", "Autonomous Systems", "Chatbots"]
+model_tags: []
 draft: False
 is_recommended: True
 is_active: True
+discount: 1
+is_free: False
 
 id: "anthropic/claude-3.5-sonnet-20240620"
 context: 200000

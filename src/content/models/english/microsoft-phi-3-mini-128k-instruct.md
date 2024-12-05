@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/azure-color.svg"
 categories: ["text 2 text"]
 author: "Microsoft Azure"
 tags: ["Natural Language Processing", "Machine Learning", "Data Science", "Programming", "Technology/Web"]
+model_tags: []
 draft: False
 is_recommended: False
 is_active: True
+discount: 1
+is_free: False
 
 id: "microsoft/phi-3-mini-128k-instruct"
 context: 128000

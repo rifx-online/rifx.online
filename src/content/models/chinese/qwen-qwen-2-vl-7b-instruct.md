@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/qwen-color.svg"
 categories: ["text image 2 text"]
 author: "Qwen"
 tags: ["Technology", "Machine Learning", "Computer Vision", "Robotics", "Natural Language Processing"]
+model_tags: []
 draft: False
 is_recommended: False
 is_active: True
+discount: 1
+is_free: False
 
 id: "qwen/qwen-2-vl-7b-instruct"
 context: 32768

@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/perplexity-color.svg"
 categories: ["text 2 text"]
 author: "Perplexity"
 tags: ["Programming", "Machine Learning", "Natural Language Processing", "Generative AI", "Chatbots"]
+model_tags: []
 draft: False
 is_recommended: False
 is_active: True
+discount: 1
+is_free: False
 
 id: "perplexity/llama-3.1-sonar-small-128k-chat"
 context: 131072

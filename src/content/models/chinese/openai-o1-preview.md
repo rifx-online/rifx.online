@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/openai.svg"
 categories: ["text 2 text"]
 author: "OpenAI"
 tags: ["Programming", "Science", "Technology", "Machine Learning", "Natural Language Processing"]
+model_tags: []
 draft: False
 is_recommended: False
 is_active: True
+discount: 1
+is_free: False
 
 id: "openai/o1-preview"
 context: 128000

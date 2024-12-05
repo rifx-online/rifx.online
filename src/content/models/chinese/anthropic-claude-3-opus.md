@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/anthropic.svg"
 categories: ["text image 2 text"]
 author: "Anthropic"
 tags: ["Programming", "Machine Learning", "Natural Language Processing", "Generative AI", "Chatbots"]
+model_tags: []
 draft: False
 is_recommended: False
 is_active: True
+discount: 1
+is_free: False
 
 id: "anthropic/claude-3-opus"
 context: 200000

@@ -6,10 +6,13 @@ date: 2024-12-02T03:11:52Z
 image: "https://img.rifx.online/icons/openai.svg"
 categories: ["text image 2 text"]
 author: "OpenAI"
-tags: ["OpenAI"]
+tags: ["Technology", "Machine Learning", "Natural Language Processing", "Generative AI", "Chatbots"]
+model_tags: []
 draft: False
 is_recommended: False
 is_active: True
+discount: 1
+is_free: False
 
 id: "openai/gpt-4o-mini"
 context: 128000

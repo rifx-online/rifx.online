@@ -16,6 +16,14 @@ banner:
     enable: true
     title: "推荐模型"
 
+# 优惠和免费模型
+discount_free_models:
+  enable: true
+  title: "特惠与免费模型"
+  description: "发现最新的优惠模型和免费资源"
+  discount_title: "优惠模型"
+  free_title: "免费模型"
+
 # 主题
 topic:
   title: "为应用注入AI能力"

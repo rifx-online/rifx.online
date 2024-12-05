@@ -1,0 +1,44 @@
+---
+import RecommendedModelCard from "./ModelCardMini.astro";
+import { getListPage } from "@/lib/contentParser.astro";
+import type { ContentEntryMap } from "astro:content";
+const { lang } = Astro.params;
+const homepage = await getListPage("homepage", lang as keyof ContentEntryMap);
+const { discount_free_models } = homepage[0].data;
+
+const { discountModels, freeModels } = Astro.props;
+---
+
+<div class="section-sm">
+  <div class="container">
+    <div class="text-center mb-8">
+      <h2 class="text-2xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+        {discount_free_models?.title}
+      </h2>
+      <p class="mt-4 text-lg text-muted-foreground">
+        {discount_free_models?.description}
+      </p>
+    </div>
+    <div class="grid md:grid-cols-2 gap-8">
+      <!-- 优惠区 -->
+      <div>
+        <h3 class="text-xl font-bold mb-6">{discount_free_models?.discount_title}</h3>
+        <div class="space-y-4">
+          {discountModels.slice(0, 3).map((model: any) => (
+            <RecommendedModelCard data={model} />
+          ))}
+        </div>
+      </div>
+
+      <!-- 免费区 -->
+      <div>
+        <h3 class="text-xl font-bold mb-6">{discount_free_models?.free_title}</h3>
+        <div class="space-y-4">
+          {freeModels.slice(0, 3).map((model: any) => (
+            <RecommendedModelCard data={model} />
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 

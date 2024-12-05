@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/rifx.svg"
 categories: ["text 2 text"]
 author: "Inflection"
 tags: ["Programming", "Technology", "Chatbots", "Generative AI", "Data Science"]
+model_tags: []
 draft: False
 is_recommended: False
 is_active: True
+discount: 1
+is_free: False
 
 id: "inflection/inflection-3-productivity"
 context: 8000

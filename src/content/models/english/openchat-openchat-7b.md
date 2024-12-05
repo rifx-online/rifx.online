@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/openchat-color.svg"
 categories: ["text 2 text"]
 author: "Openchat"
 tags: ["Programming", "Machine Learning", "Natural Language Processing", "Generative AI"]
+model_tags: []
 draft: False
 is_recommended: False
 is_active: True
+discount: 1
+is_free: False
 
 id: "openchat/openchat-7b"
 context: 8192

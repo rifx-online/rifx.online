@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/mistral-color.svg"
 categories: ["text 2 text"]
 author: "MistralAI"
 tags: ["Translation", "Natural Language Processing", "Data Science", "Machine Learning", "Chatbots"]
+model_tags: []
 draft: False
 is_recommended: False
 is_active: True
+discount: 1
+is_free: False
 
 id: "mistralai/mistral-small"
 context: 32000

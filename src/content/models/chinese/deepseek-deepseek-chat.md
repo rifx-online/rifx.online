@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/deepseek-color.svg"
 categories: ["text 2 text"]
 author: "DeepSeek"
 tags: ["Programming", "Technology", "Machine Learning", "Natural Language Processing", "Generative AI"]
+model_tags: []
 draft: False
 is_recommended: False
 is_active: True
+discount: 1
+is_free: False
 
 id: "deepseek/deepseek-chat"
 context: 128000

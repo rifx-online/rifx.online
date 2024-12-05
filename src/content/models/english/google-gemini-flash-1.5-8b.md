@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/google-color.svg"
 categories: ["text image 2 text"]
 author: "Google"
 tags: ["Programming", "Natural Language Processing", "Chatbots", "Translation", "Technology/Web"]
+model_tags: []
 draft: False
 is_recommended: False
 is_active: True
+discount: 1
+is_free: False
 
 id: "google/gemini-flash-1.5-8b"
 context: 1000000

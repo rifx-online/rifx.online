@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/google-color.svg"
 categories: ["text 2 text"]
 author: "Google"
 tags: ["Natural Language Processing", "Programming", "Generative AI", "Chatbots"]
+model_tags: []
 draft: False
 is_recommended: False
 is_active: True
+discount: 1
+is_free: False
 
 id: "google/gemini-pro"
 context: 32760

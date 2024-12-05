@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/rifx.svg"
 categories: ["text 2 text"]
 author: "NousreSearch"
 tags: ["Programming", "Natural Language Processing", "Machine Learning", "Generative AI", "Chatbots"]
+model_tags: []
 draft: False
 is_recommended: False
 is_active: True
+discount: 1
+is_free: False
 
 id: "nousresearch/hermes-3-llama-3.1-70b"
 context: 131072

@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/mistral-color.svg"
 categories: ["text 2 text"]
 author: "MistralAI"
 tags: ["Programming", "Technology", "Machine Learning", "Data Science", "Generative AI"]
+model_tags: []
 draft: False
 is_recommended: False
 is_active: True
+discount: 1
+is_free: False
 
 id: "mistralai/codestral-mamba"
 context: 256000

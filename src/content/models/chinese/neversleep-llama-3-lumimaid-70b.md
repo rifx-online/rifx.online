@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/meta-color.svg"
 categories: ["text 2 text"]
 author: "Meta Llama"
 tags: ["Roleplay", "Programming", "Generative AI", "Uncensored", "Ethics"]
+model_tags: []
 draft: False
 is_recommended: False
 is_active: True
+discount: 1
+is_free: False
 
 id: "neversleep/llama-3-lumimaid-70b"
 context: 8192

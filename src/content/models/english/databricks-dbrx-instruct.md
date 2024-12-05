@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/rifx.svg"
 categories: ["text 2 text"]
 author: "Databricks"
 tags: ["Programming", "Machine Learning", "Natural Language Processing", "Data Science", "Generative AI"]
+model_tags: []
 draft: False
 is_recommended: False
 is_active: True
+discount: 1
+is_free: False
 
 id: "databricks/dbrx-instruct"
 context: 32768

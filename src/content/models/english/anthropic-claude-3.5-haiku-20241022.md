@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/anthropic.svg"
 categories: ["text 2 text"]
 author: "Anthropic"
 tags: ["Programming", "Chatbots", "Data Science", "Natural Language Processing", "Predictive Analytics"]
+model_tags: []
 draft: False
 is_recommended: False
 is_active: True
+discount: 1
+is_free: False
 
 id: "anthropic/claude-3.5-haiku-20241022"
 context: 200000

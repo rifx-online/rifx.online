@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/zeroone.svg"
 categories: ["text 2 text"]
 author: "01-ai"
 tags: ["Programming", "Natural Language Processing", "Chatbots", "Data Science", "Machine Learning"]
+model_tags: []
 draft: False
 is_recommended: False
 is_active: True
+discount: 1
+is_free: False
 
 id: "01-ai/yi-large"
 context: 32768

@@ -12,6 +12,7 @@ draft: False
 is_recommended: True
 is_active: True
 discount: 0.6
+is_free: False
 
 id: "rifx/gpt-4o-mini"
 context: 128000

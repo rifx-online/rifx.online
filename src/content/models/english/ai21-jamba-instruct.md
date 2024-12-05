@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/ai21.svg"
 categories: ["text 2 text"]
 author: "Ai21"
 tags: ["Programming", "Technology", "Machine Learning", "Natural Language Processing", "Chatbots"]
+model_tags: []
 draft: False
 is_recommended: False
 is_active: True
+discount: 1
+is_free: False
 
 id: "ai21/jamba-instruct"
 context: 256000

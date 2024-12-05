@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/openai.svg"
 categories: ["text image 2 text"]
 author: "OpenAI"
 tags: ["Programming", "Machine Learning", "Natural Language Processing", "Chatbots", "Generative AI"]
+model_tags: []
 draft: False
 is_recommended: True
 is_active: True
+discount: 1
+is_free: False
 
 id: "openai/chatgpt-4o-latest"
 context: 128000

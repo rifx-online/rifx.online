@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/rifx.svg"
 categories: ["text 2 text"]
 author: "Alpindale"
 tags: ["Programming", "Machine Learning", "Natural Language Processing", "Generative AI", "Chatbots"]
+model_tags: []
 draft: False
 is_recommended: False
 is_active: True
+discount: 1
+is_free: False
 
 id: "alpindale/goliath-120b"
 context: 6144

@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/qwen-color.svg"
 categories: ["text 2 text"]
 author: "Qwen"
 tags: ["Programming", "Natural Language Processing", "Machine Learning", "Generative AI", "Chatbots"]
+model_tags: []
 draft: False
 is_recommended: False
 is_active: True
+discount: 1
+is_free: False
 
 id: "qwen/qwen-2.5-72b-instruct"
 context: 131072

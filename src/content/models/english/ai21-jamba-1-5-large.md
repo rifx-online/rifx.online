@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/ai21.svg"
 categories: ["text 2 text"]
 author: "Ai21"
 tags: ["Technology", "Machine Learning", "Data Science", "Generative AI", "Chatbots"]
+model_tags: []
 draft: False
 is_recommended: False
 is_active: True
+discount: 1
+is_free: False
 
 id: "ai21/jamba-1-5-large"
 context: 256000

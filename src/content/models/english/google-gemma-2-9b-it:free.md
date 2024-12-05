@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/google-color.svg"
 categories: ["text 2 text"]
 author: "Google"
 tags: ["Programming", "Natural Language Processing", "Machine Learning", "Technology", "Free"]
+model_tags: []
 draft: False
 is_recommended: False
 is_active: True
+discount: 1
+is_free: True
 
 id: "google/gemma-2-9b-it:free"
 context: 8192

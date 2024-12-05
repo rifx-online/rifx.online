@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/openai.svg"
 categories: ["text 2 text"]
 author: "OpenAI"
 tags: ["Programming", "Natural Language Processing", "Machine Learning", "Generative AI", "Chatbots"]
+model_tags: []
 draft: False
 is_recommended: False
 is_active: True
+discount: 1
+is_free: False
 
 id: "openai/gpt-3.5-turbo-1106"
 context: 16385

@@ -7,9 +7,12 @@ image: "https://img.rifx.online/logo/rifx.svg"
 categories: ["text 2 text"]
 author: "Rifx.Online"
 tags: ["Roleplay", "Programming", "Machine Learning", "Generative AI", "Chatbots"]
+model_tags: []
 draft: False
 is_recommended: False
 is_active: True
+discount: 1
+is_free: False
 
 id: "sao10k/l3.1-euryale-70b"
 context: 8192

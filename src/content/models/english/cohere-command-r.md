@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/cohere-color.svg"
 categories: ["text 2 text"]
 author: "Cohere"
 tags: ["Natural Language Processing", "Chatbots", "Generative AI", "Programming", "Technology/Web"]
+model_tags: []
 draft: False
 is_recommended: False
 is_active: True
+discount: 1
+is_free: False
 
 id: "cohere/command-r"
 context: 128000

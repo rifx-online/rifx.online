@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/google-color.svg"
 categories: ["text image 2 text"]
 author: "Google"
 tags: ["Programming", "Technology", "Machine Learning", "Natural Language Processing", "Computer Vision"]
+model_tags: []
 draft: False
 is_recommended: False
 is_active: True
+discount: 1
+is_free: False
 
 id: "google/gemini-pro-vision"
 context: 16384

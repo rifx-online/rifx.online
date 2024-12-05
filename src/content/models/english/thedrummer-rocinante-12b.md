@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/rifx.svg"
 categories: ["text 2 text"]
 author: "Thedrummer"
 tags: ["Roleplay", "Programming", "Natural Language Processing", "Generative AI", "Chatbots"]
+model_tags: []
 draft: False
 is_recommended: False
 is_active: True
+discount: 1
+is_free: False
 
 id: "thedrummer/rocinante-12b"
 context: 32768

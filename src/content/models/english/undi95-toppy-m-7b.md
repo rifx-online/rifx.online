@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/rifx.svg"
 categories: ["text 2 text"]
 author: "Undi95"
 tags: ["Programming", "Technology", "Generative AI", "Uncensored", "Machine Learning"]
+model_tags: []
 draft: False
 is_recommended: False
 is_active: True
+discount: 1
+is_free: False
 
 id: "undi95/toppy-m-7b"
 context: 4096

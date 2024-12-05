@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/rifx.svg"
 categories: ["text 2 text"]
 author: "Gryphe"
 tags: ["Roleplay", "Programming", "Technology", "Generative AI", "Chatbots", "Free"]
+model_tags: []
 draft: False
 is_recommended: False
 is_active: True
+discount: 1
+is_free: True
 
 id: "gryphe/mythomax-l2-13b:free"
 context: 8192

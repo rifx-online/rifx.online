@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/meta-color.svg"
 categories: ["text 2 text"]
 author: "Meta Llama"
 tags: ["Natural Language Processing", "Machine Learning", "Generative AI", "Technology/Web"]
+model_tags: []
 draft: False
 is_recommended: False
 is_active: True
+discount: 1
+is_free: False
 
 id: "meta-llama/llama-3.2-3b-instruct"
 context: 131072

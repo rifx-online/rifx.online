@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/meta-color.svg"
 categories: ["text 2 text"]
 author: "Meta Llama"
 tags: ["Programming", "Machine Learning", "Natural Language Processing", "Ethics", "Chatbots"]
+model_tags: []
 draft: False
 is_recommended: False
 is_active: True
+discount: 1
+is_free: False
 
 id: "meta-llama/llama-guard-2-8b"
 context: 8192

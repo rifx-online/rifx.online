@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/azure-color.svg"
 categories: ["text 2 text"]
 author: "Microsoft Azure"
 tags: ["Programming", "Machine Learning", "Generative AI", "Chatbots", "Data Science"]
+model_tags: []
 draft: False
 is_recommended: False
 is_active: True
+discount: 1
+is_free: False
 
 id: "microsoft/wizardlm-2-7b"
 context: 32000

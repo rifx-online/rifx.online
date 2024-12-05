@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/meta-color.svg"
 categories: ["text image 2 text"]
 author: "Meta Llama"
 tags: ["Natural Language Processing", "Computer Vision", "Machine Learning", "Generative AI", "Ethics"]
+model_tags: []
 draft: False
 is_recommended: False
 is_active: True
+discount: 1
+is_free: False
 
 id: "meta-llama/llama-3.2-11b-vision-instruct"
 context: 131072

@@ -16,6 +16,14 @@ banner:
     enable: true
     title: "Recommended Models"
 
+# Discount and Free Models
+discount_free_models:
+  enable: true
+  title: "Special Offers & Free Models"
+  description: "Discover our latest discounted and free resources"
+  discount_title: "Special Offers"
+  free_title: "Free Models"
+
 # Topic
 topic:
   title: "Empower Your Apps with AI"

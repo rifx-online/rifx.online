@@ -7,9 +7,12 @@ image: "https://img.rifx.online/icons/qwen-color.svg"
 categories: ["text 2 text"]
 author: "Qwen"
 tags: ["Machine Learning", "Natural Language Processing", "Ethics", "Programming/Scripting"]
+model_tags: []
 draft: False
 is_recommended: True
 is_active: True
+discount: 1
+is_free: False
 
 id: "qwen/qwq-32b-preview"
 context: 32768
