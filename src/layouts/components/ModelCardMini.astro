@@ -39,15 +39,15 @@ data.slug = modifiedSlug;
 
 <div class="relative h-full bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-100 dark:border-gray-700 hover:shadow-md transition-shadow duration-200">
   {(discount || is_free) && (
-    <div class="badge-container absolute -top-1.5 -right-1.5 z-10">
+    <div class="badge-container absolute -top-2 -right-2 z-10 flex gap-1">
       {discount < 1 && (
-        <span class="badge inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200">
-          {discount * 100}%
+        <span class="badge inline-flex items-center px-3 py-1 rounded-full text-sm font-bold bg-gradient-to-r from-red-500 to-pink-500 text-white shadow-lg transform hover:scale-105 transition-transform duration-200">
+          {Math.round((1-discount) * 100)}% OFF
         </span>
       )}
       {is_free && (
-        <span class="badge inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200">
-          Free
+        <span class="badge inline-flex items-center px-3 py-1 rounded-full text-sm font-bold bg-gradient-to-r from-green-400 to-emerald-500 text-white shadow-lg transform hover:scale-105 transition-transform duration-200">
+          FREE
         </span>
       )}
     </div>
@@ -98,16 +98,16 @@ data.slug = modifiedSlug;
   /* 优化的标签样式和动画 */
   .badge-container {
     transform-origin: center;
-    transition: transform 0.2s ease;
+    transition: transform 0.3s ease;
   }
 
   .badge {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: all 0.2s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
   }
 
   .badge:hover {
-    transform: translateY(-1px);
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   }
 </style>
