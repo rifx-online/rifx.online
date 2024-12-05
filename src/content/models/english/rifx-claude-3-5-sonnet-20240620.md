@@ -1,8 +1,8 @@
 ---
-title: "Claude 3.5 Sonnet-20240620  40% off"
-meta_title: "Claude 3.5 Sonnet-20240620  40% off"
-description: "Claude 3.5 Sonnet-20240620  40% off"
-date: 2024-12-05T02:08:04Z
+title: "Claude 3.5 Sonnet-20240620"
+meta_title: "Claude 3.5 Sonnet-20240620"
+description: "Claude 3.5 Sonnet-20240620"
+date: 2024-12-05T02:57:19Z
 image: "https://img.rifx.online/icons/anthropic.svg"
 categories: ["text image 2 text"]
 author: "Anthropic"
@@ -20,7 +20,7 @@ input: 3e-06
 output: 1.5e-05
 img: 0.0048
 request: 0
-last_updated: 2024-12-05T02:08:04Z
+last_updated: 2024-12-05T02:57:19Z
 ---
 
 Claude 3.5 Sonnet delivers better-than-Opus capabilities, faster-than-Sonnet speeds, at the same Sonnet prices. Sonnet is particularly good at:
