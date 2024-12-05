@@ -2,14 +2,14 @@
 title: "Toppy M 7B"
 meta_title: "Toppy M 7B"
 description: "Toppy M 7B"
-date: 2024-12-03T02:31:26Z
+date: 2024-12-05T05:05:26Z
 image: "https://img.rifx.online/icons/rifx.svg"
 categories: ["text 2 text"]
 author: "Undi95"
 tags: ["Programming", "Technology", "Generative AI", "Uncensored", "Machine Learning"]
 model_tags: []
 draft: False
-is_recommended: False
+is_recommended: True
 is_active: True
 discount: 1
 is_free: False
@@ -20,7 +20,7 @@ input: 7e-08
 output: 7e-08
 img: 0
 request: 0
-last_updated: 2024-12-03T02:31:26Z
+last_updated: 2024-12-05T05:05:26Z
 ---
 
 A wild 7B parameter model that merges several models using the new task_arithmetic merge method from mergekit.

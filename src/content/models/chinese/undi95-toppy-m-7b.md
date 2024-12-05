@@ -2,14 +2,14 @@
 title: "Toppy M 7B"
 meta_title: "Toppy M 7B"
 description: "Toppy M 7B"
-date: 2024-12-03T02:31:26Z
+date: 2024-12-05T05:05:26Z
 image: "https://img.rifx.online/icons/rifx.svg"
 categories: ["text 2 text"]
 author: "Undi95"
 tags: ["Programming", "Technology", "Generative AI", "Uncensored", "Machine Learning"]
 model_tags: []
 draft: False
-is_recommended: False
+is_recommended: True
 is_active: True
 discount: 1
 is_free: False
@@ -20,7 +20,7 @@ input: 7e-08
 output: 7e-08
 img: 0
 request: 0
-last_updated: 2024-12-03T02:31:26Z
+last_updated: 2024-12-05T05:05:26Z
 ---
 
 一个野生的 7B 参数模型，使用来自 mergekit 的新任务算术合并方法合并了多个模型。  
