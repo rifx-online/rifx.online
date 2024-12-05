@@ -16,7 +16,7 @@ const { models } = Astro.props;
     <div class="swiper recommended-models-slider">
       <div class="swiper-wrapper">
         {models.map((model: any) => (
-          <div class="swiper-slide px-2">
+          <div class="swiper-slide px-2 mt-4">
             <RecommendedModelCard data={model} />
           </div>
         ))}
