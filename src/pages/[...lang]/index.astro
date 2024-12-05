@@ -13,7 +13,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { MessageSquare, Library } from 'lucide-react';
 import CopyButton from "@/layouts/helpers/CopyButton";
-import recommendedItems from "@/lib/utils/recommendedItems";
+import recommendedItems from "@/lib/utils/modelItems";
 import RecommendedModels from "@/layouts/components/RecommendedModels.astro";
 
 export const prerender = true;
@@ -137,6 +137,8 @@ const recommendedModels = recommendedItems(posts);
   </section>
 
   <!-- /Topic -->
+
+
 
   <!-- Features -->
   {
