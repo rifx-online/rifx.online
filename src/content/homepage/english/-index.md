@@ -19,10 +19,10 @@ banner:
 # Discount and Free Models
 discount_free_models:
   enable: true
-  title: "Special Offers & Free Models"
-  description: "Discover our latest discounted and free resources"
-  discount_title: "Special Offers"
-  free_title: "Free Models"
+  title: "Special Offers & Free Trial Models"
+  description: "Free trial models offer basic functionality (with rate limits), upgrade to special discounted models for full features and higher performance"
+  discount_title: "Discount Zone"
+  free_title: "Free Trial Zone"
 
 # Topic
 topic:

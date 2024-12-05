@@ -23,11 +23,11 @@ const CopyIconButton: React.FC<CopyIconButtonProps> = ({ textToCopy, className, 
   return (
     <button
       onClick={handleCopy}
-      className="inline-flex items-center gap-2 px-3 py-0.5 text-sm hover:bg-gray-100 dark:hover:bg-gray-800"
+      className="inline-flex items-start justify-start text-left py-0.5 text-sm hover:bg-gray-100 dark:hover:bg-gray-800"
       aria-label="Copy" 
       title="Copy"
     >
-      <span className="flex items-center gap-2">
+      <span className="flex items-start justify-start w-full">
         {children ? children : ''} 
         {isCopied ? 
           <Check className="h-4 w-4" /> : 

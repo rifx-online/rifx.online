@@ -7,6 +7,7 @@ import {
 import { humanize, plainify, slugify } from "@/lib/utils/textConverter";
 import { formatNumber, formatTokens } from "@/lib/utils/formatUtils";
 import { FaRegUserCircle } from "react-icons/fa";
+import CopyIconButton from "@/helpers/CopyIconButton";
 
 const { summary_length }: { summary_length: number; model_folder: string } =
   config.settings;
@@ -24,6 +25,7 @@ const {
   author,
   img,
   request,
+  is_active,
   discount,
   is_free,
 } = data.data;
@@ -61,6 +63,16 @@ data.slug = modifiedSlug;
         </a>
       </h3>
     </div>
+
+    {is_active && (
+      <div class="flex items-start mb-4">
+        <CopyIconButton client:load textToCopy={id}>
+          <span class="mr-2 font-mono text-sm text-gray-400 dark:text-gray-400 border-b border-dashed border-gray-500/30 hover:border-gray-500/60 transition-colors duration-200">
+          ID: {id}
+          </span>
+          </CopyIconButton>
+        </div>
+      )}
 
     <p class="text-sm text-gray-400 dark:text-gray-400 mb-6 line-clamp-2">
       {plainify(data.body?.slice(0, Number(summary_length)))}...

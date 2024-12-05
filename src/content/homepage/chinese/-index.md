@@ -19,10 +19,10 @@ banner:
 # 优惠和免费模型
 discount_free_models:
   enable: true
-  title: "特惠与免费模型"
-  description: "发现最新的优惠模型和免费资源"
-  discount_title: "优惠模型"
-  free_title: "免费模型"
+  title: "特别优惠与免费试用模型"
+  description: "免费试用模型可体验基础功能（有调用频率限制），升级至特惠模型可享受完整功能与更高性能"
+  discount_title: "优惠折扣区"
+  free_title: "免费体验区"
 
 # 主题
 topic:

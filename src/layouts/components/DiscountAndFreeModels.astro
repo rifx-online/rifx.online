@@ -32,14 +32,14 @@ const { discountModels, freeModels } = Astro.props;
 
       <div class="tabs-content pb-6">
         <div class="tab-pane active" id="discount">
-          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {discountModels.slice(0, 6).map((model: any) => (
               <ModelCardMini data={model} />
             ))}
           </div>
         </div>
         <div class="tab-pane" id="free">
-          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {freeModels.slice(0, 6).map((model: any) => (
               <ModelCardMini data={model} />
             ))}
@@ -54,19 +54,23 @@ const { discountModels, freeModels } = Astro.props;
   .tabs-header {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
     border-bottom: 2px solid #eee;
+    padding: 0.5rem 0;
   }
 
   .tab-button {
-    padding: 0.75rem 2rem;
-    font-weight: 600;
+    padding: 0.75rem 2.5rem;
+    font-weight: 700;
+    font-size: 1.25rem;
     color: #666;
     border: none;
     background: none;
     cursor: pointer;
     position: relative;
-    transition: all 0.3s;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
   }
 
   .tab-button::after {
@@ -75,19 +79,27 @@ const { discountModels, freeModels } = Astro.props;
     bottom: -2px;
     left: 0;
     width: 100%;
-    height: 2px;
+    height: 3px;
     background-color: transparent;
-    transition: all 0.3s;
+    transition: all 0.3s ease;
+  }
+
+  .tab-button:hover {
+    color: #000;
+    transform: translateY(-1px);
   }
 
   .tab-button.active {
     color: #000;
+    transform: translateY(-1px);
   }
 
   .tab-button.active::after {
     background-color: #000;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   }
 
+  /* 添加回 tab-pane 相关样式 */
   .tab-pane {
     display: none;
     animation: fadeIn 0.5s ease-in-out;
@@ -108,8 +120,13 @@ const { discountModels, freeModels } = Astro.props;
     }
   }
 
+  /* 暗色模式调整 */
   :global(.dark) .tab-button {
     color: #999;
+  }
+
+  :global(.dark) .tab-button:hover {
+    color: #fff;
   }
 
   :global(.dark) .tab-button.active {
@@ -118,6 +135,7 @@ const { discountModels, freeModels } = Astro.props;
 
   :global(.dark) .tab-button.active::after {
     background-color: #fff;
+    box-shadow: 0 1px 3px rgba(255, 255, 255, 0.2);
   }
 
   :global(.dark) .tabs-header {
