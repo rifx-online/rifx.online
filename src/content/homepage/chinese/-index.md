@@ -23,6 +23,7 @@ discount_free_models:
   description: "免费试用模型可体验基础功能（有调用频率限制），升级至特惠模型可享受完整功能与更高性能"
   discount_title: "优惠折扣区"
   free_title: "免费体验区"
+  view_more: "查看更多"
 
 # 主题
 topic:

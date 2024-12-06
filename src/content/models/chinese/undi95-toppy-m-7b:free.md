@@ -7,7 +7,7 @@ image: "https://img.rifx.online/icons/rifx.svg"
 categories: ["text 2 text"]
 author: "Undi95"
 tags: ["Programming", "Technology", "Generative AI", "Uncensored", "Machine Learning", "Free"]
-model_tags: []
+model_tags: ['Free']
 draft: False
 is_recommended: False
 is_active: True

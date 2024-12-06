@@ -6,8 +6,8 @@ date: 2024-12-06T00:53:05Z
 image: "https://img.rifx.online/icons/google-color.svg"
 categories: ["text image 2 text"]
 author: "Google"
-tags: ["Programming", "Technology", "Machine Learning", "Natural Language Processing", "Computer Vision"]
-model_tags: []
+tags: ["Programming", "Technology", "Machine Learning", "Natural Language Processing", "Computer Vision", "Discount"]
+model_tags: ['Discount']
 draft: False
 is_recommended: True
 is_active: True

@@ -6,8 +6,8 @@ date: 2024-12-06T01:19:52Z
 image: "https://img.rifx.online/icons/anthropic.svg"
 categories: ["text image 2 text"]
 author: "Anthropic"
-tags: ["Programming", "Technology", "Machine Learning", "Generative AI", "Chatbots"]
-model_tags: []
+tags: ["Programming", "Technology", "Machine Learning", "Generative AI", "Chatbots", "Discount"]
+model_tags: ['Discount']
 draft: False
 is_recommended: False
 is_active: True

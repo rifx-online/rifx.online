@@ -7,7 +7,7 @@ image: "https://img.rifx.online/icons/meta-color.svg"
 categories: ["text image 2 text"]
 author: "Meta Llama"
 tags: ["Natural Language Processing", "Computer Vision", "Machine Learning", "Generative AI", "Ethics", "Free"]
-model_tags: []
+model_tags: ['Free']
 draft: False
 is_recommended: False
 is_active: True

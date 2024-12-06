@@ -6,8 +6,8 @@ date: 2024-12-05T04:43:20Z
 image: "https://img.rifx.online/icons/openai.svg"
 categories: ["text image 2 text"]
 author: "OpenAI"
-tags: ["Programming", "Technology", "Machine Learning", "Natural Language Processing", "Computer Vision"]
-model_tags: []
+tags: ["Programming", "Technology", "Machine Learning", "Natural Language Processing", "Computer Vision", "Discount"]
+model_tags: ['Discount']
 draft: False
 is_recommended: False
 is_active: True

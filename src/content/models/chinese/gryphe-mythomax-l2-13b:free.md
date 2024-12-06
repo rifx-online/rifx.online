@@ -7,7 +7,7 @@ image: "https://img.rifx.online/icons/rifx.svg"
 categories: ["text 2 text"]
 author: "Gryphe"
 tags: ["Roleplay", "Programming", "Technology", "Generative AI", "Chatbots", "Free"]
-model_tags: []
+model_tags: ['Free']
 draft: False
 is_recommended: False
 is_active: True

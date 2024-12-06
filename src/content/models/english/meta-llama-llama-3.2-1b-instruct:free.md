@@ -7,7 +7,7 @@ image: "https://img.rifx.online/icons/meta-color.svg"
 categories: ["text 2 text"]
 author: "Meta Llama"
 tags: ["Natural Language Processing", "Programming", "Technology", "Machine Learning", "Data Science", "Free"]
-model_tags: []
+model_tags: ['Free']
 draft: False
 is_recommended: False
 is_active: True

@@ -37,12 +37,22 @@ const { discountModels, freeModels } = Astro.props;
               <ModelCardMini data={model} />
             ))}
           </div>
+          <div class="text-center mt-6">
+            <a href={`/${lang}/tags/discount`} class="view-more-link">
+              {discount_free_models?.view_more}
+            </a>
+          </div>
         </div>
         <div class="tab-pane" id="free">
           <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {freeModels.slice(0, 6).map((model: any) => (
               <ModelCardMini data={model} />
             ))}
+          </div>
+          <div class="text-center mt-6">
+            <a href={`/${lang}/tags/free`} class="view-more-link">
+              {discount_free_models?.view_more}
+            </a>
           </div>
         </div>
       </div>
@@ -140,6 +150,31 @@ const { discountModels, freeModels } = Astro.props;
 
   :global(.dark) .tabs-header {
     border-bottom-color: #333;
+  }
+
+  .view-more-link {
+    display: inline-block;
+    padding: 0.5rem 2rem;
+    border: 2px solid #000;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+
+  .view-more-link:hover {
+    background-color: #000;
+    color: #fff;
+    transform: translateY(-2px);
+  }
+
+  /* 暗色模式 */
+  :global(.dark) .view-more-link {
+    border-color: #fff;
+  }
+
+  :global(.dark) .view-more-link:hover {
+    background-color: #fff;
+    color: #000;
   }
 </style>
 

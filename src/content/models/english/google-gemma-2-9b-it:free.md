@@ -7,7 +7,7 @@ image: "https://img.rifx.online/icons/google-color.svg"
 categories: ["text 2 text"]
 author: "Google"
 tags: ["Programming", "Natural Language Processing", "Machine Learning", "Technology", "Free"]
-model_tags: []
+model_tags: ['Free']
 draft: False
 is_recommended: False
 is_active: True

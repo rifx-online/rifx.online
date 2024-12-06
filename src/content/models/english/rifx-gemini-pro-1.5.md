@@ -2,12 +2,12 @@
 title: "Gemini 1.5 Pro"
 meta_title: "Gemini 1.5 Pro"
 description: "Gemini 1.5 Pro"
-date: 2024-12-06T01:20:32Z
+date: 2024-12-06T01:55:28Z
 image: "https://img.rifx.online/icons/google-color.svg"
 categories: ["text image 2 text"]
 author: "Google"
-tags: ["Programming", "Technology", "Machine Learning", "Natural Language Processing", "Generative AI"]
-model_tags: []
+tags: ["Programming", "Technology", "Machine Learning", "Natural Language Processing", "Generative AI", "Discount"]
+model_tags: ['Discount']
 draft: False
 is_recommended: False
 is_active: True
@@ -20,7 +20,7 @@ input: 2.5e-06
 output: 1e-05
 img: 0.00263
 request: 0
-last_updated: 2024-12-06T01:20:32Z
+last_updated: 2024-12-06T01:55:28Z
 ---
 
 Google's latest multimodal model, supporting image and video in text or chat prompts.

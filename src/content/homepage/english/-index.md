@@ -23,6 +23,7 @@ discount_free_models:
   description: "Free trial models offer basic functionality (with rate limits), upgrade to special discounted models for full features and higher performance"
   discount_title: "Discount Zone"
   free_title: "Free Trial Zone"
+  view_more: "View More"
 
 # Topic
 topic:
