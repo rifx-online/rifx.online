@@ -2,7 +2,7 @@
 title: "使用人工智能提取和分析您的 Chrome 浏览器历史记录"
 meta_title: "使用人工智能提取和分析您的 Chrome 浏览器历史记录"
 description: "本文探讨了如何提取和分析Chrome浏览历史，以获取有关在线活动的见解。首先，介绍了获取历史文件的无代码和代码方法。然后，强调了清理数据的重要性，并展示了如何使用AI对浏览历史进行聚类，以识别使用模式、生产力趋势和学习主题。分析浏览历史不仅有助于提高个人生产力，还能促进自我反思和时间管理。"
-date: 2024-12-05T12:36:46Z
+date: 2024-12-06T00:33:50Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*PdmOFEeb9oX9-wXPuh5CQw.png"
 categories: ["Technology", "Programming", "Data Science"]
 author: "Rifx.Online"

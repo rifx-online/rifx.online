@@ -2,7 +2,7 @@
 title: "利用 LangGraph 和代理优化工作流程效率：关键功能、用例和集成..."
 meta_title: "利用 LangGraph 和代理优化工作流程效率：关键功能、用例和集成..."
 description: "在生成式AI和大型语言模型（LLMs）领域，代理和LangGraph是提升工作流程效率的重要工具。代理具备自主性、目标导向、交互性和多步骤能力，能够独立执行任务并与用户互动。LangGraph则通过有向图结构组织复杂任务，支持模块化和LLM集成，优化任务的并行与顺序执行。这些特性使得代理和LangGraph在客户支持、自动化研究、销售助手等多个领域中具有广泛应用，提升了操作效率和用户体验。"
-date: 2024-12-05T12:36:46Z
+date: 2024-12-06T00:36:47Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*MQo51k3wl176dzrmveCY2g.png"
 categories: ["Programming", "Autonomous Systems", "Natural Language Processing"]
 author: "Rifx.Online"

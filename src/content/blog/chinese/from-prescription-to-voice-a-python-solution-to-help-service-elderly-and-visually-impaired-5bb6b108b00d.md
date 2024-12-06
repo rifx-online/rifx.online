@@ -2,7 +2,7 @@
 title: "从处方到语音：帮助服务老年人和视障人士的 Python 解决方案..."
 meta_title: "从处方到语音：帮助服务老年人和视障人士的 Python 解决方案..."
 description: "本文介绍了一种结合OCR、计算机视觉和Google文本转语音的Python解决方案，旨在帮助老年人和视力障碍患者读取处方标签。文章详细讲解了如何使用Fast API构建后端服务，包括获取Google Cloud API凭据、设置文件结构、安装必要库、定义辅助函数、提取文本、处理图像以及使用Postman进行测试。最终，该解决方案将处方标签转换为语音，提供了对医疗信息的无障碍访问，支持老年人和视力障碍患者。"
-date: 2024-12-05T12:36:46Z
+date: 2024-12-06T00:36:47Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*8u9Vfaf6-o04440G"
 categories: ["Programming", "Health", "Technology/Web"]
 author: "Rifx.Online"
@@ -10,8 +10,6 @@ tags: ["FastAPI", "OCR", "TextToSpeech", "imageprocessing", "accessibility"]
 draft: False
 
 ---
-
-
 
 ### 学习如何构建一个结合OCR、计算机视觉和谷歌文本转语音的Fast API后端解决方案，以读取处方标签
 
@@ -94,6 +92,7 @@ python -m venv .venv
 
 .venv\Scripts\activate
 ```
+
 接下来，创建一个名为 *requirements.txt* 的文本文件，在其中输入以下库，然后返回终端（命令提示符）并通过运行下一行将它们安装到虚拟环境中。
 
 ```python
@@ -108,6 +107,7 @@ uvicorn
 ```python
 python -m pip install -r requirements.txt
 ```
+
 以下是这些库的用途：
 
 Pillow — 用于打开和保存处方标签图像文件。
@@ -174,11 +174,11 @@ def text2speech(message_text):
                                         name='en-US-wavenet-C',
                                         ssml_gender=texttospeech.SsmlVoiceGender.FEMALE)
     audio_config = texttospeech.AudioConfig(audio_encoding=texttospeech.AudioEncoding.MP3)  #specify audio file type to return
-    
+  
     response = client.synthesize_speech(input=synthesis_input,                               #perform the text to speech request
                                  voice=voice,
                                  audio_config=audio_config)
-    
+  
     with open('output.mp3', 'wb') as out:                                                  #write the response to an output file
         out.write(response.audio_content)
     print('Audio content written to output file "output.mp3"')
@@ -201,32 +201,32 @@ import src.outils
 class PrescriptionParser():
     def __init__(self, text):
         self.text = text
-    
-    # Converting to speech    
+  
+    # Converting to speech  
     def parse(self):
         prescription_name = self.get_field('prescription_name')
         dosage = (self.get_field('dosage').replace("GIVE", "TAKE")).lower().replace('\n\n', '')
         refills = self.get_field('refills')
         expirydate = self.get_field('expirydate')
-        
+      
         message_text = f'Hello, as prescription for the drug {prescription_name}, {dosage}. It can be refilled {refills} times, on or before {expirydate}.'
-        
+      
         speech = src.outil.text2speech(message_text)
-        
+      
         return speech
-                       
+                     
     # Getting the fields
     def get_field(self, field_name):
         pattern = ''
         flags = 0
-        
+      
         pattern_dict = {
             'prescription_name' : {'pattern': '(.*)Drug', 'flags' : 0},
             'dosage' : {'pattern': 'Netcare[^\n]*(.*)All', 'flags' : re.DOTALL},
             'refills' : {'pattern': 'Refilis:(.*)', 'flags' : 0},
             'expirydate' : {'pattern': 'Refills.Expire:(.*)', 'flags' : 0}
         }
-        
+      
         pattern_object = pattern_dict.get(field_name)
         if pattern_object:
             matches = re.findall(pattern_object['pattern'], self.text, flags=pattern_object['flags'])
@@ -274,6 +274,7 @@ def extract(file_path):
 
     return output_voice
 ```
+
 您可以看到，我们的代码中引入了一项新的功能，值得一提：
 
 ### 日志记录
@@ -360,6 +361,7 @@ if __name__ == "__main__":
 
 
 ```
+
 上述代码处理了整个运行过程。它从 Postman 上传文件，将其存储在临时位置（uploads 文件夹），使用自定义的 extract() 函数处理以提取文本，将语音消息作为 API 响应输出，然后通过从 *uploads* 文件夹中删除临时文件来进行清理。
 
 你一定注意到我们的代码中引入了另一个值得一提的新功能：
@@ -369,7 +371,6 @@ if __name__ == "__main__":
 我包含这个是为了能够创建一个错误类，以捕捉特定的错误，而不是通用异常。
 
 以下是您需要在您的‘*exceptions.py*’文件中编写的代码：
-
 
 ```python
 ## Enter this into exceptions.py
@@ -417,7 +418,4 @@ class CustomException(Exception):
 
 随着医疗保健不断应用数字解决方案，这是一种有意义的方式来支持那些最需要帮助的人。
 
-### 在我忘记之前
-
-*如果你喜欢你刚刚阅读的内容，请点击我在 Medium 上的“关注”按钮，或者在 [LinkedIn](https://www.linkedin.com/in/maryara) 上点击，给我一些掌声，突出你关注的内容，或者更好的是，留下你的评论？任何一项或所有这些都会非常感谢。*
 

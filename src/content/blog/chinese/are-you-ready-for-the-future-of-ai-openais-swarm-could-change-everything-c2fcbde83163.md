@@ -3,7 +3,7 @@ title: "你准备好迎接人工智能的未来了吗？OpenAI 的 Swarm 可能�
 meta_title: "你准备好迎接人工智能的未来了吗？OpenAI 的 Swarm 可能会改变一切"
 description: "
 OpenAI 的 Swarm 框架通过多个智能代理的协作，解决了复杂问题，每个代理专注于特定任务。本文介绍了如何配置和个性化 Swarm，以实现自动化、创新和协作。具体步骤包括设置 OpenAI API 密钥、加载和处理文档、生成嵌入和向量数据库、设置代理以及通过中央代理协调任务。测试结果显示，多代理系统能够准确处理政治和体育相关查询，但需要进一步优化以处理不相关主题的查询。总结中提到，Swarm 框架为各种应用提供了高效和可扩展的解决方案，未来可以探索更多优化和集成技术。"
-date: 2024-12-05T12:36:46Z
+date: 2024-12-06T00:33:27Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*E2cn3s5Dz4WAPrVJ"
 categories: ["Programming", "Machine Learning", "Chatbots"]
 author: "Rifx.Online"
@@ -11,8 +11,6 @@ tags: ["Swarm", "LLMs", "agents", "collaboration", "embeddings"]
 draft: False
 
 ---
-
-
 
 ### 学习如何配置和个性化 OpenAI 的 Swarm 框架，以创建强大的、协作的多代理系统，满足您的独特需求并推动更智能的自动化
 
@@ -76,7 +74,6 @@ print(f"Loaded {len(docs)} documents from the folder.")
 
 我们将使用 *RecursiveCharacterTextSplitter* 将文档拆分为更小的块。
 
-
 ```python
 ## Split documents into chunks
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
@@ -112,7 +109,6 @@ print("Vector store created and persisted to './chroma_db'")
 * 从向量数据库中检索相关信息片段。
 * 构建一个RAG链来处理和生成响应。
 
-
 ```python
 from langchain_core.prompts import ChatPromptTemplate
 from langchain.schema.runnable import RunnablePassthrough
@@ -147,6 +143,7 @@ def retrieve_and_generate_politics(question):
     response = rag_chain.invoke(question)
     return response
 ```
+
 注意：其他代理（如体育代理）也需要类似的设置。您可以参考 [***GitHub***](https://github.com/amitvkulkarni/Blogs/blob/main/Generative%20AI/OpenAI%20Swarm%20Multi-Agent%20RAG.ipynb) 仓库中的相应代码片段。
 
 ### 第 6 步：通过集中控制器协调代理
@@ -196,7 +193,6 @@ central_agent.functions = [transfer_to_politics, transfer_to_sports]
 
 我们将测试一个与政治相关的查询，以确保选择合适的代理来提供响应。
 
-
 ```python
 client = Swarm()
 
@@ -228,12 +224,12 @@ else:
 
 这些议题反映了旨在实现包容性发展和国际合作的议程。
 ```
+
 **观察：** 中央代理准确识别了查询主题，并将任务委托给政治代理，确保响应与源文档完全一致。
 
 ### 场景 2：
 
 在这种情况下，我们将提出与体育相关的问题。
-
 
 ```python
 How many test matches are to be played before the World Test Championship (WTC) and what is the maximum points that newzealand can have?
@@ -251,12 +247,12 @@ beat Australia 4-0: four wins and a draw would lift India to 65.79, which would 
 There are 17 Test matches to be played before the World Test Championship 
 (WTC). The maximum points that New Zealand can achieve is 64.29.
 ```
+
 **观察：** 中央代理将控制权交给了体育代理，有效地处理了任务。尽管问题包含两个独立的查询，代理仍然成功生成了准确的响应。
 
 ### 场景 3：
 
 现在，我们将提出一个既不涉及政治也不涉及体育的随机查询，而是关于食品/健康的问题。
-
 
 ```python
 What is glycemic index and what influences the glycemic index of a food?
@@ -273,6 +269,7 @@ It seems your query is neither related to politics nor sports. The glycemic inde
 
 These factors influence how quickly glucose is absorbed into the bloodstream, thus affecting the GI of the food.
 ```
+
 **观察：** 中心代理识别出查询不符合任何特定主题，但仍然提供了准确的响应。
 
 理想情况下，RAG 系统应仅提供与其分配主题相关的信息，例如在我们的案例中是政治或体育。然而，在此实例中，系统生成了不相关的响应。这突显了一个常见问题——未能为 RAG 系统设置明确的边界。幸运的是，有几种方法可以有效解决这一挑战。
@@ -286,7 +283,6 @@ These factors influence how quickly glucose is absorbed into the bloodstream, th
 
 ![](https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*Zx_CZREa5H1iJwv9nun7gQ.png)
 
-
 > 本博客中使用的完整代码可以从 [GitHub](https://github.com/amitvkulkarni/Blogs/blob/main/Generative%20AI/OpenAI%20Swarm%20Multi-Agent%20RAG.ipynb) 获取
 
 ## 结论
@@ -295,17 +291,8 @@ These factors influence how quickly glucose is absorbed into the bloodstream, th
 
 虽然我们已经涵盖了基础知识，但仍有许多可以探索的内容。例如，深入研究优化代理通信的高级技术或将 Swarm 与其他 AI 框架集成，可以进一步提升您的项目。此外，尝试不同类型的任务和微调代理角色将为特定用例提供更定制化的解决方案。
 
-## 与我联系
+* ## 参考资料
 
-* [***Linkedin***](http://www.linkedin.com/in/amitvkulkarni2)
-* [***Github***](https://github.com/amitvkulkarni)
-* [***Medium***](https://amitvkulkarni.medium.com/)
+[https://github.com/openai/swarm](https://github.com/openai/swarm)
 
-## 喜欢这个故事吗？
-
-[*免费订阅*](https://medium.com/subscribe/@amitvkulkarni) *以在发布新故事时收到通知。*
-
-## 参考资料
-
-<https://github.com/openai/swarm>
 

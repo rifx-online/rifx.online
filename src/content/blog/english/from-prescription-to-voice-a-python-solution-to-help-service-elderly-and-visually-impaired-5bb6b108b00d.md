@@ -2,7 +2,7 @@
 title: "From Prescription to Voice: A Python Solution to Help Service Elderly and Visually Impaired…"
 meta_title: "From Prescription to Voice: A Python Solution to Help Service Elderly and Visually Impaired…"
 description: "This article outlines a Python-based solution employing FastAPI, OCR, and Google’s Text-To-Speech API to assist elderly and visually impaired patients by converting prescription labels into audible messages. It details the process of extracting text from images using image processing techniques, followed by text-to-speech conversion. The tutorial includes steps for setting up the environment, defining necessary functions, and building a FastAPI server to handle requests. Ultimately, this application aims to enhance accessibility in healthcare by making prescription information more user-friendly."
-date: 2024-12-05T12:36:46Z
+date: 2024-12-06T00:36:47Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*8u9Vfaf6-o04440G"
 categories: ["Programming", "Health", "Technology/Web"]
 author: "Rifx.Online"
@@ -11,16 +11,11 @@ draft: False
 
 ---
 
-
-
-
-
 ### Learn how to build a Fast API backend solution that combines OCR, Computer Vision and Google’s Text\-To\-Speech to read a prescription label
 
 
 
 Under normal circumstances, reading the label on your prescription medication should not be a challenging task. Most often, the most important instruction, the dosage, is usually boldly printed, like:
-
 
 > ***“*Give 1\.5 tablets 3 times daily when required*”***
 
@@ -48,7 +43,6 @@ Below is the example label the we will be using here:
 
 Also, I’m using VS Code as our code editor.
 
-
 ## 1\. Obtaining credentials for Google Cloud API
 
 Google Cloud’s Text\-To\-Speech uses deep learning models to convert text into natural\-sounding speech depending on whatever language, voice, pitch or any other customization options you choose. Google has made this API available for public use. To access it, use the following steps to get your Google Cloud Platform’s API credentials in json format.
@@ -60,11 +54,9 @@ Google Cloud’s Text\-To\-Speech uses deep learning models to convert text into
 * Click ‘Add Key’ to create new key, select JSON as the key type and create.
 * This downloads the credentials JSON file to your computer. For the purpose of this article, I saved it in the working directory as gcp\_credentials.json.
 
-
 ## 2\. Folder structure
 
 At the end of this project, your folder structure will look like below. For now, do not bother about the details as we will treat every item as and when they roll up in the story.
-
 
 ```python
 Project-Folder/
@@ -95,14 +87,13 @@ Project-Folder/
 
 In the terminal of your code editor create and activate a Python environment using the lines:
 
-
 ```python
 python -m venv .venv
 
 .venv\Scripts\activate
 ```
-Next, create a text file called *requirements.txt*, where you will enter the following libraries, and then go back to your terminal (command prompt) and install them into your virtual environment by running the next line.
 
+Next, create a text file called *requirements.txt*, where you will enter the following libraries, and then go back to your terminal (command prompt) and install them into your virtual environment by running the next line.
 
 ```python
 pytesseract==0.3.10
@@ -116,6 +107,7 @@ uvicorn
 ```python
 python -m pip install -r requirements.txt
 ```
+
 Here’s how these libraries will be used:
 
 Pillow — for opening and saving the prescription label image file.
@@ -130,9 +122,7 @@ Google\-cloud\-texttospeech — to convert the text to voice.
 
 Uvicorn is the server that will be used to run the Fast API application.
 
-
 ## 4\. Defining the helper functions
-
 
 ### Outils
 
@@ -145,7 +135,6 @@ After such processing, our example label image above will look like this:
 ![](https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*3cgFL82JI9x7BKWE1HyFrA.jpeg)
 
 The second one is the text2speech function, which will take the message text as input and apply Google’s Text\-To\-Speech system to synthesize natural\-sounding speech from the text. This voice is saved to the current directory as the output file in the format, MP3\.
-
 
 ```python
 ## Enter the code below in your outils.py
@@ -185,11 +174,11 @@ def text2speech(message_text):
                                         name='en-US-wavenet-C',
                                         ssml_gender=texttospeech.SsmlVoiceGender.FEMALE)
     audio_config = texttospeech.AudioConfig(audio_encoding=texttospeech.AudioEncoding.MP3)  #specify audio file type to return
-    
+  
     response = client.synthesize_speech(input=synthesis_input,                               #perform the text to speech request
                                  voice=voice,
                                  audio_config=audio_config)
-    
+  
     with open('output.mp3', 'wb') as out:                                                  #write the response to an output file
         out.write(response.audio_content)
     print('Audio content written to output file "output.mp3"')
@@ -203,7 +192,6 @@ It defines the get\_field() function that uses regular expression to extract 4 f
 
 These fields are imputed into the parse() function to get the complete text message, on which the text2speech() function defined in the outils module above is called.
 
-
 ```python
 ## Enter the code below in your parser_prescription.py
 
@@ -213,32 +201,32 @@ import src.outils
 class PrescriptionParser():
     def __init__(self, text):
         self.text = text
-    
-    # Converting to speech    
+  
+    # Converting to speech  
     def parse(self):
         prescription_name = self.get_field('prescription_name')
         dosage = (self.get_field('dosage').replace("GIVE", "TAKE")).lower().replace('\n\n', '')
         refills = self.get_field('refills')
         expirydate = self.get_field('expirydate')
-        
+      
         message_text = f'Hello, as prescription for the drug {prescription_name}, {dosage}. It can be refilled {refills} times, on or before {expirydate}.'
-        
+      
         speech = src.outil.text2speech(message_text)
-        
+      
         return speech
-                       
+                     
     # Getting the fields
     def get_field(self, field_name):
         pattern = ''
         flags = 0
-        
+      
         pattern_dict = {
             'prescription_name' : {'pattern': '(.*)Drug', 'flags' : 0},
             'dosage' : {'pattern': 'Netcare[^\n]*(.*)All', 'flags' : re.DOTALL},
             'refills' : {'pattern': 'Refilis:(.*)', 'flags' : 0},
             'expirydate' : {'pattern': 'Refills.Expire:(.*)', 'flags' : 0}
         }
-        
+      
         pattern_object = pattern_dict.get(field_name)
         if pattern_object:
             matches = re.findall(pattern_object['pattern'], self.text, flags=pattern_object['flags'])
@@ -253,7 +241,6 @@ Next, in the same *src* folder, we create an *extractor.py* file, where we defin
 The text is then passed into the parse() method of the PrescriptionParser class above to output the voice reading the label as a .mp3 file.
 
 Please note that, in order to use Pytesseract, you have to download and install the Tesseract\-OCR executable from this [*link*](https://github.com/UB-Mannheim/tesseract/wiki). Please ensure the Tesseract installation directory is added to your system’s environment variable path. If not, include it’s path in your code as below.
-
 
 ```python
 ## Enter the code below in your extractor.py
@@ -287,15 +274,14 @@ def extract(file_path):
 
     return output_voice
 ```
-You can see that a new capability has been introduced into our code that is worth mentioning:
 
+You can see that a new capability has been introduced into our code that is worth mentioning:
 
 ### Logging
 
 logging has been intergrated into *extractor.py* in order to track events in a folder called ‘logs’ while the application runs.
 
 So, we create a folder called ‘logging’, where, we centralize our logging code in a \_\_init\_\_.py file to avoid repetitive logging setup in multiple modules:
-
 
 ```python
 ## Enter this code into the __init__.py file of your loggings directory
@@ -328,7 +314,6 @@ Now create a temporal folder called ‘*uploads*’ , in your working directory.
 We are about to use Postman as the testing tool instead of your browser because our current project requires passing an image file, which will be tough on a browser. If you do not have Postman yet, you can download it from Google.
 
 We’ll now design our Fast API application to run on the local server using Uvicorn as follows:
-
 
 ```python
 ## Enter thse in your main.py file
@@ -376,17 +361,16 @@ if __name__ == "__main__":
 
 
 ```
+
 The above code handles the entire run. It uploads the file from Postman, stores it in a temporary location (the uploads folder), processes it to extract the text using the custom extract() function defined further up in the article, outputs the voice message as the API response, and then performs a cleanup by deleting the temporary file from the *uploads* folder.
 
 You must have noticed that another new capability has been introduced into our code that is worth mentioning:
-
 
 ### Custom exception
 
 I included this so to be able to create an error class to catch specific errors rather than generic exceptions.
 
 Here’s the code to write in your ‘*exceptions.py*’ file:
-
 
 ```python
 ## Enter this into exceptions.py
@@ -424,9 +408,7 @@ After a successful run as indicated by the “200 OK” seen in Postman, the voi
 
 As the result of our current example, click the link below to listen to the output voice reading the label.
 
-
 > [**The complete voice output for our prescription label**](https://aramary.com/images/projects/output.mp4)
-
 
 ## Conclusion
 
@@ -435,10 +417,5 @@ To sum it all, the article shows how Python, FastAPI and Google Cloud’s Text\-
 By leveraging OCR and computer vision, we can transform prescription labels into easily accessible voice messages.
 
 As healthcare continues to apply digital solutions, this is a meaningful way to support those who need it the most.
-
-
-### Before I forget
-
-*If you like what you just read, please could you click my ‘Follow’ button here on medium or on [LinkedIn](https://www.linkedin.com/in/maryara), push in some claps, highlight what catches your attention or better still, throw in some comments? Any or all of those will be greatly appreciated.*
 
 
