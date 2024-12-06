@@ -1,8 +1,8 @@
 ---
-title: "claude-3-haiku-20240307"
-meta_title: "claude-3-haiku-20240307"
-description: "claude-3-haiku-20240307"
-date: 2024-12-06T00:49:12Z
+title: "Claude-3-Haiku-20240307"
+meta_title: "Claude-3-Haiku-20240307"
+description: "Claude-3-Haiku-20240307"
+date: 2024-12-06T01:19:52Z
 image: "https://img.rifx.online/icons/anthropic.svg"
 categories: ["text image 2 text"]
 author: "Anthropic"
@@ -20,7 +20,7 @@ input: 5e-07
 output: 2.5e-06
 img: 0.0004
 request: 0
-last_updated: 2024-12-06T00:49:12Z
+last_updated: 2024-12-06T01:19:52Z
 ---
 
 Claude 3 Haiku 是 Anthropic 最快、最紧凑的模型，提供近乎即时的响应能力。快速且准确的针对性表现。

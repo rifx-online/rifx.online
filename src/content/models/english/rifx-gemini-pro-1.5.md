@@ -1,8 +1,8 @@
 ---
-title: "gemini-1.5-pro-002"
-meta_title: "gemini-1.5-pro-002"
-description: "gemini-1.5-pro-002"
-date: 2024-12-06T00:50:51Z
+title: "Gemini 1.5 Pro"
+meta_title: "Gemini 1.5 Pro"
+description: "Gemini 1.5 Pro"
+date: 2024-12-06T01:20:32Z
 image: "https://img.rifx.online/icons/google-color.svg"
 categories: ["text image 2 text"]
 author: "Google"
@@ -20,7 +20,7 @@ input: 2.5e-06
 output: 1e-05
 img: 0.00263
 request: 0
-last_updated: 2024-12-06T00:50:51Z
+last_updated: 2024-12-06T01:20:32Z
 ---
 
 Google's latest multimodal model, supporting image and video in text or chat prompts.
