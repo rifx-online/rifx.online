@@ -79,19 +79,21 @@ data.slug = modifiedSlug;
   </div>
 
   {model_tags && model_tags.length > 0 && (
-    <div class="flex flex-wrap gap-1.5 mb-4">
+    <div class="flex flex-wrap gap-2 mb-4">
       {model_tags.map((tag: string) => (
         <a 
           href={slugSelector(`/tags/${slugify(tag)}`, lang)}
-          class="inline-flex items-center px-2 py-0.5 text-xs font-medium rounded-full 
-          bg-gray-50 dark:bg-gray-800/50 text-gray-600 dark:text-gray-400 
-          border border-gray-200 dark:border-gray-700/50
-          hover:bg-gray-100 dark:hover:bg-gray-700/50 
-          hover:text-gray-900 dark:hover:text-gray-200
-          hover:border-gray-300 dark:hover:border-gray-600
-          transition-all duration-200"
+          class="group inline-flex items-center px-2.5 py-0.5 text-xs font-medium rounded-full 
+          bg-primary/5 dark:bg-primary/10 
+          text-primary/70 dark:text-primary/60
+          border border-primary/10 dark:border-primary/20
+          hover:bg-primary/10 dark:hover:bg-primary/20 
+          hover:text-primary dark:hover:text-primary
+          hover:border-primary/30 dark:hover:border-primary/40
+          hover:shadow-sm hover:-translate-y-0.5
+          transition-all duration-200 ease-in-out"
         >
-          <span class="text-primary/60 dark:text-primary/40 mr-0.5">#</span>
+          <span class="text-primary/50 dark:text-primary/40 mr-0.5 group-hover:text-primary/70">#</span>
           {tag}
         </a>
       ))}
