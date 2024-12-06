@@ -2,16 +2,16 @@
 title: "Gemini Flash 1.5"
 meta_title: "Gemini Flash 1.5"
 description: "Gemini Flash 1.5"
-date: 2024-12-05T05:02:30Z
+date: 2024-12-06T00:53:05Z
 image: "https://img.rifx.online/icons/google-color.svg"
 categories: ["text image 2 text"]
 author: "Google"
 tags: ["Programming", "Technology", "Machine Learning", "Natural Language Processing", "Computer Vision"]
 model_tags: []
 draft: False
-is_recommended: False
+is_recommended: True
 is_active: True
-discount: 0.9
+discount: 0.6
 is_free: False
 
 id: "rifx/gemini-flash-1.5"
@@ -20,7 +20,7 @@ input: 1.5e-07
 output: 6e-07
 img: 4e-05
 request: 0
-last_updated: 2024-12-05T05:02:30Z
+last_updated: 2024-12-06T00:53:05Z
 ---
 
 Gemini 1.5 Flash 是一个基础模型，在视觉理解、分类、摘要以及从图像、音频和视频创建内容等多种多模态任务中表现出色。它擅长处理视觉和文本输入，如照片、文档、信息图和截图。
