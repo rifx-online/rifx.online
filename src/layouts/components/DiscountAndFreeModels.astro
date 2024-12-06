@@ -2,7 +2,13 @@
 import ModelCardMini from "./ModelCardMini.astro";
 import { getListPage } from "@/lib/contentParser.astro";
 import type { ContentEntryMap } from "astro:content";
-const { lang } = Astro.params;
+import {
+  getLangFromUrl,
+  slugSelector,
+} from "@/lib/utils/languageParser";
+
+// const { lang } = Astro.params;
+const lang = getLangFromUrl(Astro.url);
 const homepage = await getListPage("homepage", lang as keyof ContentEntryMap);
 const { discount_free_models } = homepage[0].data;
 
@@ -38,7 +44,7 @@ const { discountModels, freeModels } = Astro.props;
             ))}
           </div>
           <div class="text-center mt-6">
-            <a href={`/${lang}/tags/discount`} class="view-more-link">
+            <a href={slugSelector(`/tags/discount`, lang)} class="view-more-link">
               {discount_free_models?.view_more}
             </a>
           </div>
@@ -50,7 +56,7 @@ const { discountModels, freeModels } = Astro.props;
             ))}
           </div>
           <div class="text-center mt-6">
-            <a href={`/${lang}/tags/free`} class="view-more-link">
+            <a href={slugSelector(`/tags/free`, lang)}  class="view-more-link">
               {discount_free_models?.view_more}
             </a>
           </div>
