@@ -1,7 +1,7 @@
 ---
 title: Amazon
 image: "https://img.rifx.online/icons/aws-color.svg"
-description: Amazon Bedrock is Amazons enterprise-grade generative AI service platform. Through Bedrock, businesses can access foundation models from leading AI companies, including Anthropic, AI21 Labs, Cohere, Meta, Stability AI, and Amazons own models. Key Features: - Supports multiple foundation models, including text, image, and embedding models - Provides comprehensive security and
+description: Amazon Bedrock is Amazons enterprise-grade generative AI service platform.
 date: 2024-12-06T01:17:14Z
 last_updated: 2024-12-06T04:04:09Z
 ---
