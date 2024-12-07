@@ -133,9 +133,13 @@ data.slug = modifiedSlug;
       </a>
     </span>
     
-    <span class="flex items-center border-l border-gray-200 dark:border-gray-700 pl-3">
-      {formatNumber(context)} context
-    </span>
+    {
+      context && context > 0 && (
+        <span class="flex items-center border-l border-gray-200 dark:border-gray-700 pl-3">
+          {formatNumber(context)} context
+        </span>
+      )
+    }
     
     <span class="flex items-center border-l border-gray-200 dark:border-gray-700 pl-3">
       ${formatTokens(input * 1000000)} input tokens
