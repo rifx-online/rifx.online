@@ -83,11 +83,15 @@ data.slug = modifiedSlug;
         <FaRegUserCircle className="mr-1" />
         {humanize(author)}
       </span>
-      <span class="flex items-center">
-        <span class="px-3">{formatNumber(context)}</span>
-        <span class="border-l border-gray-200 px-3">${formatTokens(input * 1000000)}</span>
-        <span class="border-l border-gray-200 px-3">${formatTokens(output * 1000000)}</span>
-      </span>
+      {
+        context && context > 0 && (
+          <span class="flex items-center">
+            <span class="px-3">{formatNumber(context)}</span>
+            <span class="border-l border-gray-200 px-3">${formatTokens(input * 1000000)}</span>
+            <span class="border-l border-gray-200 px-3">${formatTokens(output * 1000000)}</span>
+          </span>
+        )
+      }
     </div>
   </div>
 </div>

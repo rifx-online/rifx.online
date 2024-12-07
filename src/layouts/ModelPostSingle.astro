@@ -89,10 +89,14 @@ const { title, description, author, categories, image, date, tags, id, context, 
         </div>
 
         <ul class="mb-4 flex flex-wrap gap-x-6 gap-y-2 text-sm text-gray-500 dark:text-gray-400">
-          <li class="inline-flex items-center">
-            <FaRegFileAlt className="mr-2" />
-            {formatNumber(context)} Context
-          </li>
+          {
+            context && context > 0 && (
+              <li class="inline-flex items-center">
+                <FaRegFileAlt className="mr-2" />
+                {formatNumber(context)} Context
+              </li>
+            )
+          }
           <li class="inline-flex items-center">
             <LuFolderInput className="mr-2" />
             {formatTokens(input * 1000000)} Input Tokens
