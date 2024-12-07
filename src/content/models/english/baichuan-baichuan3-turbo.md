@@ -2,7 +2,7 @@
 title: "baichuan3-turbo"
 meta_title: "baichuan3-turbo"
 description: "baichuan3-turbo"
-date: 2024-12-06T12:53:06Z
+date: 2024-12-06T13:23:32Z
 image: "https://img.rifx.online/icons/baichuan-color.svg"
 categories: ["text 2 text"]
 author: "Baichuan"
@@ -20,10 +20,10 @@ input: 1.7e-06
 output: 1.7e-06
 img: 0
 request: 0
-last_updated: 2024-12-06T12:53:06Z
+last_updated: 2024-12-06T13:23:32Z
 ---
 
-百川大模型Baichuan3-Turbo is an advanced artificial intelligence language model designed to provide users with efficient and intelligent natural language processing solutions. Leveraging the latest deep learning technologies, this model boasts powerful text generation and comprehension capabilities, making it suitable for a wide range of applications including conversational systems, content creation, and information retrieval.
+Baichuan3-Turbo is an advanced artificial intelligence language model designed to provide users with efficient and intelligent natural language processing solutions. Leveraging the latest deep learning technologies, this model boasts powerful text generation and comprehension capabilities, making it suitable for a wide range of applications including conversational systems, content creation, and information retrieval.
 
 ### Key Features:
 

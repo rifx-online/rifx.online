@@ -2,7 +2,7 @@
 title: "baichuan3-turbo"
 meta_title: "baichuan3-turbo"
 description: "baichuan3-turbo"
-date: 2024-12-06T12:53:06Z
+date: 2024-12-06T13:23:32Z
 image: "https://img.rifx.online/icons/baichuan-color.svg"
 categories: ["text 2 text"]
 author: "Baichuan"
@@ -20,7 +20,7 @@ input: 1.7e-06
 output: 1.7e-06
 img: 0
 request: 0
-last_updated: 2024-12-06T12:53:06Z
+last_updated: 2024-12-06T13:23:32Z
 ---
 
 Baichuan3-Turbo 是一款先进的人工智能语言模型，旨在为用户提供高效、智能的自然语言处理解决方案。该模型结合了最新的深度学习技术，具有强大的文本生成和理解能力，可以广泛应用于对话系统、内容创作、信息检索等领域。
