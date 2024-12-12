@@ -1,27 +1,33 @@
 ---
-title: "OpenAI: o1-mini (2024-09-12)"
-meta_title: "OpenAI: o1-mini (2024-09-12)"
-description: "OpenAI: o1-mini (2024-09-12)"
-date: 2024-12-02T02:30:00Z
-image: "https://img.rifx.online/icons/openai.svg"
-categories: ["text 2 text"]
-author: "OpenAI"
-tags: ["Programming", "Science", "Technology", "Machine Learning", "Natural Language Processing"]
-model_tags: []
-draft: False
-is_recommended: False
-is_active: True
-discount: 1
-is_free: False
-
-id: "openai/o1-mini-2024-09-12"
+author: OpenAI
+categories:
+- text 2 text
 context: 128000
-input: 3e-06
-output: 1.2e-05
+date: 2024-12-02 02:30:00+00:00
+description: 'OpenAI: o1-mini (2024-09-12)'
+discount: 1
+draft: false
+id: openai/o1-mini-2024-09-12
+image: https://img.rifx.online/icons/openai.svg
 img: 0
+input: 3e-06
+is_active: false
+is_free: false
+is_recommended: false
+last_updated: 2024-12-02 02:30:00+00:00
+meta_title: 'OpenAI: o1-mini (2024-09-12)'
+model_tags: []
+output: 1.2e-05
 request: 0
-last_updated: 2024-12-02T02:30:00Z
+tags:
+- Programming
+- Science
+- Technology
+- Machine Learning
+- Natural Language Processing
+title: 'OpenAI: o1-mini (2024-09-12)'
 ---
+
 
 OpenAI 最新和最强大的模型系列，o1 旨在在响应之前花更多时间思考。
 
