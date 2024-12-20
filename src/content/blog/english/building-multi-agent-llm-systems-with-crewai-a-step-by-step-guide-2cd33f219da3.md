@@ -1,12 +1,12 @@
 ---
 title: "Building Multi-Agent LLM Systems with crewAI: A Step-by-Step Guide"
 meta_title: "Building Multi-Agent LLM Systems with crewAI: A Step-by-Step Guide"
-description: "The article discusses the development of Multi-Agent Systems (MAS) using the crewAI framework, which facilitates the collaboration of autonomous AI agents to enhance decision-making across various industries, including healthcare, finance, and transportation. It outlines the role of AI in MAS, detailing the installation and project creation processes in crewAI, and emphasizes the importance of agents, tasks, tools, processes, and crews in this framework. Additionally, it provides examples of defining agents and tasks, running projects, and testing crew performance, showcasing the practical applications of crewAI in automating complex tasks and improving efficiency."
-date: 2024-12-07T12:26:35Z
+description: "The article discusses the development and implementation of Multi-Agent Systems (MAS) using the crewAI framework. It highlights how MAS integrates multiple autonomous agents for enhanced decision-making in various sectors like healthcare, finance, and transportation. The guide covers the installation of crewAI, project creation, agent and task customization, and testing capabilities. Key components of crewAI include agents, tasks, tools, and processes, which facilitate collaboration among agents to achieve common goals. The article also provides practical examples and coding instructions for building and running projects within the crewAI environment."
+date: 2024-12-19T22:13:58Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*YqQv29ycAYb9ponN2PbbUQ.png"
-categories: ["Autonomous Systems", "Programming", "Technology"]
+categories: ["Programming", "Autonomous Systems", "Technology/Web"]
 author: "Rifx.Online"
-tags: ["Multi-Agent", "Systems", "crewAI", "Agents", "Tasks"]
+tags: ["Multi-Agent", "Systems", "crewAI", "agents", "tasks"]
 draft: False
 
 ---

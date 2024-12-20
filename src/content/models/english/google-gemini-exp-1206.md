@@ -1,27 +1,33 @@
 ---
-title: "gemini-exp-1206"
-meta_title: "gemini-exp-1206"
-description: "gemini-exp-1206"
-date: 2024-12-09T23:14:32Z
-image: "https://img.rifx.online/icons/google-color.svg"
-categories: ["text image 2 text"]
-author: "Google"
-tags: ["Technology", "Programming", "Machine Learning", "Generative AI", "Chatbots"]
-model_tags: []
-draft: False
-is_recommended: False
-is_active: True
-discount: 1
-is_free: False
-
-id: "google/gemini-exp-1206"
+author: Google
+categories:
+- text image 2 text
 context: 8192
-input: 4e-06
-output: 1.6e-05
+date: 2024-12-09 23:14:32+00:00
+description: gemini-exp-1206
+discount: 1
+draft: false
+id: google/gemini-exp-1206
+image: https://img.rifx.online/icons/google-color.svg
 img: 0
+input: 4e-06
+is_active: false
+is_free: false
+is_recommended: false
+last_updated: 2024-12-09 23:14:32+00:00
+meta_title: gemini-exp-1206
+model_tags: []
+output: 1.6e-05
 request: 0
-last_updated: 2024-12-09T23:14:32Z
+tags:
+- Technology
+- Programming
+- Machine Learning
+- Generative AI
+- Chatbots
+title: gemini-exp-1206
 ---
+
 
 Experimental release (December 6, 2024) of Gemini.
 

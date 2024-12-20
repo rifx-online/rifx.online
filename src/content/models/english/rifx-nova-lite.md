@@ -1,27 +1,35 @@
 ---
-title: "nova-lite"
-meta_title: "nova-lite"
-description: "nova-lite"
-date: 2024-12-12T00:13:48Z
-image: "https://img.rifx.online/icons/aws-color.svg"
-categories: ["text image 2 text"]
-author: "Amazon"
-tags: ["Programming", "Technology", "Machine Learning", "Natural Language Processing", "Computer Vision", "Discount"]
-model_tags: ['Discount']
-draft: False
-is_recommended: True
-is_active: True
-discount: 0.3
-is_free: False
-
-id: "rifx/nova-lite"
+author: Amazon
+categories:
+- text image 2 text
 context: 300000
-input: 6e-08
-output: 2.4e-07
+date: 2024-12-12 00:13:48+00:00
+description: nova-lite
+discount: 0.3
+draft: false
+id: rifx/nova-lite
+image: https://img.rifx.online/icons/aws-color.svg
 img: 0
+input: 6e-08
+is_active: false
+is_free: false
+is_recommended: true
+last_updated: 2024-12-12 00:13:48+00:00
+meta_title: nova-lite
+model_tags:
+- Discount
+output: 2.4e-07
 request: 0
-last_updated: 2024-12-12T00:13:48Z
+tags:
+- Programming
+- Technology
+- Machine Learning
+- Natural Language Processing
+- Computer Vision
+- Discount
+title: nova-lite
 ---
+
 
 Amazon Nova Lite 1.0 is a very low-cost multimodal model from Amazon that focused on fast processing of image, video, and text inputs to generate text output. Amazon Nova Lite can handle real-time customer interactions, document analysis, and visual question-answering tasks with high accuracy.
 
