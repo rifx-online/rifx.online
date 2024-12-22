@@ -1,8 +1,8 @@
 ---
-title: "Build Production Ready AI Assistant Backend Service (in Python) — Part 2 | by Hadi Rouhani | Dec, 2024 | Medium"
-meta_title: "Build Production Ready AI Assistant Backend Service (in Python) — Part 2 | by Hadi Rouhani | Dec, 2024 | Medium"
+title: "Build Production Ready AI Assistant Backend Service (in Python) — Part 2"
+meta_title: "Build Production Ready AI Assistant Backend Service (in Python) — Part 2"
 description: "This article discusses the development of a production-ready AI assistant backend service in Python, specifically focusing on building a multi-agent Retrieval-Augmented Generation (RAG) system using LangGraph. It outlines the testing of various backend endpoints, including session management and context retrieval, while emphasizing the importance of proper data storage practices. The article also details the configuration of LangGraph for managing application states, nodes, and control flows, ultimately guiding the implementation of an AI assistant specialized in energy-saving tips. Future developments will include integrating a database for semantic data storage and vector search capabilities."
-date: 2024-12-22T04:01:47Z
+date: 2024-12-22T04:22:12Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*7UMUG_wfjCA_seURYn_xIA.png"
 categories: ["Programming", "Generative AI", "Chatbots"]
 author: "Rifx.Online"
