@@ -77,7 +77,7 @@ const openGraphConfig: {
     image: `${
       image ? image : config.metadata.meta_image
     }`,
-    url: `${Astro.url.pathname.replace("/", "")}`,
+    url: `${config.site.base_url}/${Astro.url.pathname.replace("/", "")}`,
   },
   optional: {
     description: plainify(
