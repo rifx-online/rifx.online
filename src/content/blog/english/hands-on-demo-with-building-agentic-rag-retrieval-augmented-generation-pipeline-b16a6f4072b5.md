@@ -2,7 +2,7 @@
 title: "Hands-on demo with building Agentic RAG (Retrieval-Augmented Generation) pipeline"
 meta_title: "Hands-on demo with building Agentic RAG (Retrieval-Augmented Generation) pipeline"
 description: "The article discusses the concept of Agentic Retrieval-Augmented Generation (RAG), which enhances traditional RAG systems by incorporating autonomous agents. These agents utilize large language models (LLMs) to intelligently decide which vector databases to query based on user queries, improving the relevance and accuracy of retrieved information. The article outlines the potential applications of Agentic RAG in various fields such as customer support and legal tech, and provides a demo using frameworks like CrewAI, LangChain, and Gradio to build an Agentic RAG application. This approach allows for more responsive and adaptable information retrieval systems."
-date: 2024-12-26T01:24:56Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*KEKmnC8BhWGCbTyNmullbw.png"
 categories: ["Generative AI", "Autonomous Systems", "Technology/Web"]
 author: "Rifx.Online"

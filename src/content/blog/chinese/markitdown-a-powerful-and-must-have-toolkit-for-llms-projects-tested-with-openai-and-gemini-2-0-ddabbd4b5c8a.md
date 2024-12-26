@@ -2,7 +2,7 @@
 title: "MarkItDown：LLMs 项目必备的强大工具包，已通过 OpenAI 和 Gemini 2.0 测试"
 meta_title: "MarkItDown：LLMs 项目必备的强大工具包，已通过 OpenAI 和 Gemini 2.0 测试"
 description: "MarkItDown是微软开发的工具包，能够将多种文件格式转换为Markdown，便于大型语言模型（LLMs）的训练和应用。它支持多种文档类型，包括办公文件和富媒体文件，提供结构化文本以提高训练效率。通过与OpenAI和Gemini 2.0 Flash的集成，用户可以实现文档分析和上下文增强，创建高效的LLM应用。使用该工具，开发者能够轻松处理文档并生成相应的LLM响应。"
-date: 2024-12-26T02:05:52Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*tiMyJhGoTluC-uHWRvnOAg.png"
 categories: ["Programming", "Machine Learning", "Natural Language Processing"]
 author: "Rifx.Online"

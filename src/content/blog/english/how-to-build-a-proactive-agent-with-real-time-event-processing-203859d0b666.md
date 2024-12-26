@@ -2,7 +2,7 @@
 title: "How to Build a Proactive Agent with Real-Time Event Processing"
 meta_title: "How to Build a Proactive Agent with Real-Time Event Processing"
 description: "The article discusses the development of proactive agents using real-time event processing combined with streaming databases and large language models (LLMs). It emphasizes the need for these agents to monitor events continuously, enabling them to act autonomously based on predefined conditions. By utilizing event listeners and streaming databases, the agents can efficiently process numerous events and invoke LLMs when specific thresholds are met. This architecture allows for automated actions, such as sending notifications or executing trades, without requiring direct human input. The article highlights the advantages of using SQL for querying and managing data in streaming environments, exemplified by the RisingWave database."
-date: 2024-12-26T01:31:32Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*F2O-619SAGxFhtSvqFCHfQ.jpeg"
 categories: ["Programming", "Technology", "Autonomous Systems"]
 author: "Rifx.Online"

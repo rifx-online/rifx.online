@@ -1,8 +1,8 @@
 ---
-title: "克劳德 MCP 是真正的代理时代的开端吗？"
-meta_title: "克劳德 MCP 是真正的代理时代的开端吗？"
+title: "Claude MCP引领智能代理时代的变革与应用"
+meta_title: "Claude MCP引领智能代理时代的变革与应用"
 description: "Claude MCP标志着AI代理时代的进步，允许Claude通过自然语言与计算机应用和API互动。MCP协议使Claude能够访问文件系统、Google Drive等，提升其执行现实任务的能力。与传统的LLM工具不同，MCP支持本地服务，增强隐私性和灵活性。这一技术的快速发展有潜力彻底改变多个行业的工作方式。"
-date: 2024-12-26T01:25:52Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*kE5KVeAoK0TZMQSCNd0l8g.png"
 categories: ["Programming", "Technology", "Machine Learning"]
 author: "Rifx.Online"

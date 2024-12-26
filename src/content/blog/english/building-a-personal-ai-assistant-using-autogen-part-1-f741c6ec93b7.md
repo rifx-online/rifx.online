@@ -2,7 +2,7 @@
 title: "Building a Personal AI Assistant using AutoGen — Part 1"
 meta_title: "Building a Personal AI Assistant using AutoGen — Part 1"
 description: "This article discusses the development of Aura, a personal AI assistant built using AutoGen v0.4, designed to manage emails and calendars effectively. The assistant integrates Gmail and Google Calendar to help users with tasks like drafting emails, organizing inboxes, and scheduling events. The frameworks dual-layer architecture allows for both quick setup and deep customization. Future enhancements will focus on expanding capabilities, improving robustness, and adding memory for personalization. The source code is available on GitHub for collaboration and further development."
-date: 2024-12-19T22:15:42Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*1g_i3Vctbl9mmisplJmOEA.png"
 categories: ["Programming", "Chatbots", "Technology/Web"]
 author: "Rifx.Online"

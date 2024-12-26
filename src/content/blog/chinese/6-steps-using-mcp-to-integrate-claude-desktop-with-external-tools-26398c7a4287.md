@@ -2,7 +2,7 @@
 title: "使用克劳德模型上下文协议（MCP）和外部工具的 6 个步骤"
 meta_title: "使用克劳德模型上下文协议（MCP）和外部工具的 6 个步骤"
 description: "本文介绍了如何通过模型上下文协议（MCP）集成GitHub和Brave Search，以增强Claude桌面的功能。MCP是由Anthropic开发的开放标准，允许AI模型安全地与多种数据源和工具交互。文章提供了详细的步骤，包括下载Claude桌面版、创建配置文件、选择MCP服务器、更新配置、重启应用程序以及故障排除提示，旨在帮助用户有效地利用Claude的增强功能。"
-date: 2024-12-26T01:00:56Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*kE_qjVInCTckUW4TqMqUEw.jpeg"
 categories: ["Programming", "Technology", "Security"]
 author: "Rifx.Online"
@@ -10,8 +10,6 @@ tags: ["MCP", "Claude", "GitHub", "Brave", "Slack"]
 draft: False
 
 ---
-
-
 
 ### 通过MCP集成GitHub和Brave Search来增强Claude桌面的功能
 
@@ -35,7 +33,7 @@ draft: False
 
 ## 1\. 下载 Claude 桌面版
 
-<https://claude.ai/download>
+[https://claude.ai/download](https://claude.ai/download)
 
 ## 2\. 创建 config.json
 
@@ -80,7 +78,7 @@ touch ~/Library/Application\ Support/Claude/claude_desktop_config.json
 
 ![](https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*6qi-DCeUlNkXB3CIhVAGUw.png)
 
-* GitHub MCP — <https://github.com/modelcontextprotocol/servers/tree/main/src/github>
+* GitHub MCP — [https://github.com/modelcontextprotocol/servers/tree/main/src/github](https://github.com/modelcontextprotocol/servers/tree/main/src/github)
 * Brave MCP: [https://github.com/modelcontextprotocol/servers/tree/main/src/brave\-search](https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search)
 
 ## 5\. 重启 Claude Desktop
@@ -105,18 +103,18 @@ touch ~/Library/Application\ Support/Claude/claude_desktop_config.json
 
 检查是否已安装 node：
 
-
 ```python
 node - version
 ```
-如果未安装，请从 <https://nodejs.org/> 下载
 
+如果未安装，请从 [https://nodejs.org/](https://nodejs.org/) 下载
 
 ```python
 brew update
 brew install node
 bode -v
 ```
+
 **进一步提示**
 
 * **检查服务器状态：** 确保 MCP 服务器正在运行且可访问。
@@ -127,15 +125,4 @@ bode -v
 
 有关如何使用 Claude Desktop 设置 MCP 的视觉演示，您可能会发现这个视频很有帮助：
 
-
-
-
-
-
-
-你好，欢迎您！**很高兴**您在这里。我们分享关于 D**ata、AI、科技趋势和未来**的见解。感谢您成为这个社区的一部分！
-
-🙏 **在您离开之前：** 如果您觉得这篇文章有价值，请**点赞**并**关注**以保持更新！👏
-
-了解更多信息，请访问：[**DemoHub.dev**](https://demohub.dev/)(现代数据工具) **\& [DaaiC.dev](https://www.daaic.dev/) (**数据分析 \& AI 会议)， [***YouTube***](https://www.youtube.com/@demohub) ***\&*[LinkedIn](https://www.linkedin.com/company/demohub-dev/)**
 

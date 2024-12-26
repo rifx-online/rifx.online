@@ -2,7 +2,7 @@
 title: "如何使用 Google DeepMind Gemini 2.0 Flash Live API 进行实时对话"
 meta_title: "如何使用 Google DeepMind Gemini 2.0 Flash Live API 进行实时对话"
 description: "Google DeepMind的Gemini 2.0 Flash API为实时对话应用程序提供了强大的支持，允许开发者构建能够处理实时音频交互的应用。本文介绍了如何使用Python实现该API，包括两个脚本`live_test.py`和`no_queue_version.py`，前者利用音频队列管理音频数据，后者则简化了音频处理。设置API密钥、Python环境和必要库后，用户可以通过麦克风与AI进行实时交互，适用于客户服务、教育等多种场景。"
-date: 2024-12-26T02:21:41Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*CID6kJNnEC5rRDPIpVK4ng.png"
 categories: ["Programming", "Chatbots", "Voice Assistants"]
 author: "Rifx.Online"

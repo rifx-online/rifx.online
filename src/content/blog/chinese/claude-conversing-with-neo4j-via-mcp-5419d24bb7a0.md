@@ -1,8 +1,8 @@
 ---
-title: "克劳德通过 MCP 与 Neo4j 对话"
-meta_title: "克劳德通过 MCP 与 Neo4j 对话"
+title: "Claude与Neo4j的动态数据交互与模型上下文协议应用"
+meta_title: "Claude与Neo4j的动态数据交互与模型上下文协议应用"
 description: "Anthropic发布了模型上下文协议（MCP），使得大型语言模型（LLM）如Claude能够与外部数据源如Neo4j数据库进行交互。通过MCP，LLM可以执行实时查询并获取额外信息，以增强对话体验。此协议支持多种传输方式，确保用户数据的安全性和隐私。Neo4j MCP服务器已实现，允许LLM使用Cypher查询数据库，展示了如何通过MCP提升语言模型的功能和交互性。"
-date: 2024-12-26T01:04:33Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*UnC-f-LmG5RB-wk3G16TgQ.png"
 categories: ["Natural Language Processing", "Programming", "Technology/WebAPI"]
 author: "Rifx.Online"

@@ -2,7 +2,7 @@
 title: "我对 2025 年人工智能的五大预测"
 meta_title: "我对 2025 年人工智能的五大预测"
 description: "文章对2025年的人工智能（AI）发展进行了五个主要预测，包括自驾机器人出租车的普及、行业特定AI的崛起、AI可靠性的提高、扩展的局限性以及AI代理的广泛应用。同时，作者指出一些不会发生的情况，如通用人工智能（AGI）的出现、AI意识的产生和AI对人类的威胁。文章强调需要在对AI的乐观与悲观之间找到平衡，并关注技术的实际进展与应用。"
-date: 2024-12-26T01:15:04Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*ty3_l3TVtv7QPd5N"
 categories: ["Autonomous Systems", "Chatbots", "Predictive Analytics"]
 author: "Rifx.Online"
@@ -10,8 +10,6 @@ tags: ["robotaxis", "chatbots", "reliability", "agents", "consciousness"]
 draft: False
 
 ---
-
-
 
 以及一些非预测
 
@@ -177,7 +175,4 @@ Sundar Pichai 宣布在2025年，“重点将放在提高人工智能模型的�
 
 也许我的预测是，在2025年，几乎没有人会呼吁在AI变得有意识并失控之前停止它。关于AI的更紧迫问题，比如它对劳动市场的影响、偏见的缓解、用于AI训练的人类工作的报酬以及限制误用（如政治虚假信息）等问题，最终将被认真对待。
 
-你看到了。你对AI的预测是什么？请在评论中发表！
-
-— *通过我的免费通讯“The Skeptic AI Enthusiast”订阅我精心策划的AI新闻见解和技术解释。从一位AI老兵的角度获得对当今科技格局的批判性看法，网址为<https://rafebrena.substack.com/>.*
 

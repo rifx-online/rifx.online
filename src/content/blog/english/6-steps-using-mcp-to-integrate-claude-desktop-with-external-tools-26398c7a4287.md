@@ -2,7 +2,7 @@
 title: "6 Steps Using Claude’s Model Context Protocol (MCP) with External Tools"
 meta_title: "6 Steps Using Claude’s Model Context Protocol (MCP) with External Tools"
 description: "The article outlines the Model Context Protocol (MCP) developed by Anthropic, which allows Claude Desktop to securely interact with external tools like GitHub and Brave Search. It details a step-by-step tutorial for integrating MCP, emphasizing secure data access, extensibility, and a standardized protocol. Key features include connecting to various services such as Google Drive and Slack, enabling enhanced functionality for tasks like file management and database querying. Troubleshooting tips are also provided to ensure successful implementation."
-date: 2024-12-26T01:00:56Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*kE_qjVInCTckUW4TqMqUEw.jpeg"
 categories: ["Programming", "Technology", "Security"]
 author: "Rifx.Online"

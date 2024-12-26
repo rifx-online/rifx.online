@@ -2,7 +2,7 @@
 title: "如何使用 CrewAI 和 Langchain 构建代理 RAG"
 meta_title: "如何使用 CrewAI 和 Langchain 构建代理 RAG"
 description: "文章介绍了如何利用CrewAI和Langchain构建Agentic RAG（检索增强生成）框架。Agentic RAG通过智能代理动态分析和处理用户查询，提升了查询响应的灵活性和准确性。文章详细说明了所需的Python库安装、API密钥配置、代理和工具的定义，以及如何通过定义的任务和团队协调代理的工作流程。最终，通过示例展示了如何使用该框架处理不同类型的用户查询。"
-date: 2024-12-22T04:00:01Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*67w_AjJ_xBAs_g2td-rAUA.png"
 categories: ["Generative AI", "Machine Learning", "Natural Language Processing"]
 author: "Rifx.Online"

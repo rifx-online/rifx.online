@@ -2,7 +2,7 @@
 title: "Make Playwright UI Testing Smart with Model Context Protocol of Claude AI 🤖🧠"
 meta_title: "Make Playwright UI Testing Smart with Model Context Protocol of Claude AI 🤖🧠"
 description: "The article discusses the integration of the Model Context Protocol (MCP) with Playwright, an open-source web automation testing tool. MCP enhances AI assistants by connecting them to local systems and tools, enabling them to execute commands like automating web tasks without extensive coding. The article provides a detailed example of using Playwright to automate user creation on a website, along with instructions for setting up an MCP server for Playwright. It emphasizes the ease of using plain text commands to perform actions through AI, showcasing the potential of combining AI with automation tools."
-date: 2024-12-26T01:00:01Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*PNlck4usjMCE6Zh2lpDH7g.gif?output=gif&n=50"
 categories: ["Programming/Scripting", "Technology/Web", "Chatbots"]
 author: "Rifx.Online"

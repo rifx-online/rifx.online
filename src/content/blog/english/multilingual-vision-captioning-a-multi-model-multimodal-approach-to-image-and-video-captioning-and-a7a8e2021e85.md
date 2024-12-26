@@ -2,7 +2,7 @@
 title: "Multilingual Vision Captioning: A Multi-Model Multimodal Approach to Image and Video Captioning and…"
 meta_title: "Multilingual Vision Captioning: A Multi-Model Multimodal Approach to Image and Video Captioning and…"
 description: "This article discusses a multi-model approach to multilingual vision captioning and translation, utilizing Metas Llama 3.2 11B Vision Instruct, Facebooks NLLB-200, and LLaVA-Next-Video 7B models. It details the process of generating descriptive tags, natural language descriptions, and sentiment analyses for images and videos. The article emphasizes the efficiency of AI in visual content analysis, including automated tagging, content moderation, and extracting insights. It also covers model hosting, quantization, and the prerequisites for implementation, providing example outputs for image and video analyses, demonstrating the capabilities of these AI models in producing detailed and nuanced descriptions across multiple languages."
-date: 2024-12-26T02:20:46Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*I1PvP9vmfC9oXJESlkt8dw.png"
 categories: ["Natural Language Processing", "Computer Vision", "Generative AI"]
 author: "Rifx.Online"

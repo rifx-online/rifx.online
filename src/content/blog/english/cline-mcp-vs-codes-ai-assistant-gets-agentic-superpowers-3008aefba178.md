@@ -2,7 +2,7 @@
 title: "🔌 Cline + MCP: VS Code’s AI Assistant Gets Agentic Superpowers"
 meta_title: "🔌 Cline + MCP: VS Code’s AI Assistant Gets Agentic Superpowers"
 description: "Cline, integrated with the Model Context Protocol (MCP), enhances VS Codes AI assistant capabilities by enabling it to autonomously investigate issues, deploy fixes, and manage development workflows. With features like terminal command execution, intelligent context understanding, and project-level intelligence, Cline streamlines tasks such as file management, environment setup, and browser testing. Users can configure Clines autonomy and create custom tools while benefiting from real-time error monitoring and project analysis, ultimately improving productivity in software development."
-date: 2024-12-22T03:58:37Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*_wqPDeIpD2BXhfxL"
 categories: ["Programming", "Technology/Web", "Data Science"]
 author: "Rifx.Online"

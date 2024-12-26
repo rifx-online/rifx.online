@@ -2,7 +2,7 @@
 title: "o1: ChatGPT’s New Model has Changed Data Analysis again! (Bitcoin Analysis!)"
 meta_title: "o1: ChatGPT’s New Model has Changed Data Analysis again! (Bitcoin Analysis!)"
 description: "The article discusses the new o1 model of ChatGPT, highlighting its enhanced capabilities for data analysis, specifically on Bitcoin. It outlines the models ability to process attachments and perform predictions using historical data. The author demonstrates how to utilize the o1 model alongside GPT-4o for analyzing Bitcoin price trends and visualizing the results. The article emphasizes the advancements in data analysis tools and encourages readers to explore these features while noting that the author is not a financial advisor."
-date: 2024-12-22T03:51:48Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*c_NC21VlBAsUh1uy68v5gQ.jpeg"
 categories: ["Chatbots", "Data Science", "Predictive Analytics"]
 author: "Rifx.Online"

@@ -2,7 +2,7 @@
 title: "我如何修复提示，让人工智能每次都能做出无懈可击的回应"
 meta_title: "我如何修复提示，让人工智能每次都能做出无懈可击的回应"
 description: "本文探讨了如何通过改进提示来获得更理想的AI响应。针对大型语言模型（LLM）可能产生的次优回应，作者建议重新审视提示内容，识别模糊或不清晰的部分，并提供具体的改进建议。通过使用调试提示的结构，用户可以更有效地分析和修正提示，从而确保AI能够理解并产生期望的输出。文章强调了不断验证和迭代的必要性，以实现更高质量的AI交互。"
-date: 2024-12-26T01:19:13Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*TfY_DcLm9LsznJBJclkr1Q.jpeg"
 categories: ["Natural Language Processing", "Chatbots", "Machine Learning"]
 author: "Rifx.Online"

@@ -2,7 +2,7 @@
 title: "使用 Markdown 和 Gemini 为 RAG 解锁 PDF"
 meta_title: "使用 Markdown 和 Gemini 为 RAG 解锁 PDF"
 description: "本文介绍了一种新技术，通过将PDF文件的内容提取为Markdown格式，提升检索增强生成（RAG）应用程序的准确性与上下文丰富性。PDF文件因其复杂布局和文本格式而难以处理，传统的Python库难以满足需求。新方法利用Gemini和Google Cloud，将每页PDF转换为图像并提取Markdown，支持并行处理以提高效率。Markdown格式增强了模型的理解能力，适合与大型语言模型结合使用。该方法在处理RAG应用中表现出色，提供了更好的文本提取质量和文档分块能力。"
-date: 2024-12-22T03:55:14Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*KWoWZylZN9Gkd1gM56NtFw.png"
 categories: ["Programming", "Technology", "Data Science"]
 author: "Rifx.Online"

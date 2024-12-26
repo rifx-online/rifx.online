@@ -1,8 +1,8 @@
 ---
-title: "利用代理工作流革新财务文件处理方式"
-meta_title: "利用代理工作流革新财务文件处理方式"
+title: "基于智能工作流的金融文档处理自动化解决方案"
+meta_title: "基于智能工作流的金融文档处理自动化解决方案"
 description: "本文介绍了一种创新的智能工作流，通过整合Phidata、n8n和Qdrant，自动化金融文档（如SEC 10-K报告）的分析过程。该工作流利用定制的财务分析代理，能够高效提取结构化数据并存储于Qdrant向量数据库，从而实现高级搜索和检索功能。该架构简化了复杂金融文件的处理，提高了决策效率，推动了数据驱动的决策方式，为未来金融数据管理提供了可扩展的解决方案。"
-date: 2024-12-26T01:36:10Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*l6iz1IorItTcrER2zAgqjA.png"
 categories: ["Finance", "Technology", "Data Science"]
 author: "Rifx.Online"

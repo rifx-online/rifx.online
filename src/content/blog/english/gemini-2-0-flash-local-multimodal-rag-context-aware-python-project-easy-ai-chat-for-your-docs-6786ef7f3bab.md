@@ -2,7 +2,7 @@
 title: "Gemini 2.0 Flash + Local Multimodal RAG + Context-aware Python Project: Easy AI/Chat for your Docs"
 meta_title: "Gemini 2.0 Flash + Local Multimodal RAG + Context-aware Python Project: Easy AI/Chat for your Docs"
 description: "The article presents a tutorial on creating a local multimodal Retrieval-Augmented Generation (RAG) chatbot using Googles Gemini 2.0 Flash model. Released in December 2023, this lightweight model boasts improved speed and performance, supporting multimodal inputs and outputs. The tutorial details the coding process, including PDF processing, image conversion, and embedding generation, to enable efficient question-answering from documents. It emphasizes context-aware responses to enhance the AIs relevance and accuracy. Overall, it highlights Gemini 2.0 Flashs potential in developing intelligent agents for various applications."
-date: 2024-12-22T03:46:35Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*5mhjGURhXDnPnulgwr8d7g.png"
 categories: ["Programming", "Chatbots", "Generative AI"]
 author: "Rifx.Online"

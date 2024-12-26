@@ -1,8 +1,8 @@
 ---
-title: "代理 RAG 系列：探索 LangGraph 高级工作流程"
-meta_title: "代理 RAG 系列：探索 LangGraph 高级工作流程"
+title: "Agentic RAG架构下LangGraph的多智能体系统创新与应用"
+meta_title: "Agentic RAG架构下LangGraph的多智能体系统创新与应用"
 description: "本文探讨了**LangGraph**在**Agentic RAG**框架中的应用，强调其在构建复杂推理能力的多代理系统中的优势。LangGraph提供了工作流编排、工具集成和可扩展性，适应动态需求。文章详细介绍了LangGraph的工作流程，包括查询处理、文档检索和生成响应的各个组件，并通过代码示例展示了如何实现文档问答助手。最终，LangGraph被视为推动Agentic RAG发展的关键工具，能够有效整合多种先进技术。"
-date: 2024-12-26T01:37:50Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*WTisqw_ypLsMp2mf"
 categories: ["Programming", "Machine Learning", "Chatbots"]
 author: "Rifx.Online"
@@ -12,10 +12,6 @@ draft: False
 ---
 
 
-
-
-
-### 被付费墙挡住了？免费阅读！
 
 ## 介绍
 
@@ -36,19 +32,11 @@ draft: False
 3. **可扩展性：** 以最小的开销处理复杂的多代理工作流。
 4. **灵活性：** 设计能够动态适应上下文和输入的工作流。
 
-## 如果你喜欢这篇文章并想表达一些支持：
-
-* **鼓掌** 50 次——每一次都比你想象的更有帮助！👏
-* **关注** 我在 [**Medium**](https://medium.com/@mauryaanoop3) 上，并免费订阅以获取我的最新文章。🫶
-* 让我们在 [**LinkedIn**](https://medium.com/towards-artificial-intelligence/www.linkedin.com/in/anoop-maurya-908499148) 上联系，查看我在 [**GitHub**](https://github.com/imanoop7) 上的项目，并在 [**Twitter**](https://x.com/imanoop_7) 上保持联系！
-* 如果你觉得这个项目有用，别忘了在 [**GitHub**](https://github.com/imanoop7/Agentic-RAG) 上给这个仓库 ⭐。这也帮助其他人找到它！
-
 ## LangGraph 架构用于 Agentic RAG
 
 一个典型的 LangGraph 工作流用于 Agentic RAG 可能包括查询重写、文档检索、相关性评分和生成响应的组件。
 
 ### 流程图：Agentic RAG 中的 LangGraph 工作流程
-
 
 ```python
 [Start Query]
@@ -65,6 +53,7 @@ draft: False
    v
 [End]
 ```
+
 * **Start Query:** 接收用户输入的查询。
 * **Agent Node:** 根据上下文和条件确定下一步。
 * **Retrieve Documents:** 从知识库中获取相关文档。
@@ -142,12 +131,11 @@ class AgentState(TypedDict):
 * 使用 `PyPDFLoader` 将 PDF 解析为文档。
 * 返回处理后的文档列表。
 
-
 ```python
 def process_sources(urls=None, pdf_files=None):
     """Process both URLs and PDF files"""
     docs_list = []
-    
+  
     # Handle URLs
     if urls and urls.strip():
         url_list = [url.strip() for url in urls.split(",")]
@@ -158,7 +146,7 @@ def process_sources(urls=None, pdf_files=None):
                     docs_list.extend(url_docs)
                 except Exception as e:
                     print(f"Error loading URL {url}: {e}")
-    
+  
     # Handle PDFs
     if pdf_files:
         for pdf in pdf_files:
@@ -178,17 +166,16 @@ def process_sources(urls=None, pdf_files=None):
 * 使用 `ChatOllama` 和特定提示将文档评分为 `yes` 或 `no`。
 * 提示要求模型评估文档内容是否与用户的问题一致。
 
-
 ```python
 def grade_documents(state) -> Literal["generate", "rewrite"]:
     print("---CHECK RELEVANCE---")
-    
+  
     class grade(BaseModel):
         binary_score: str = Field(description="Relevance score 'yes' or 'no'")
-    
+  
     model = ChatOllama(temperature=0, model="llama3.2", streaming=True)
     llm_with_tool = model.with_structured_output(grade)
-    
+  
     prompt = PromptTemplate(
         template="""You are a grader assessing relevance of a retrieved document to a user question.
         Document: {context}
@@ -197,13 +184,13 @@ def grade_documents(state) -> Literal["generate", "rewrite"]:
         Give a binary score 'yes' or 'no' score to indicate whether the document is relevant to the question.""",
         input_variables=["context", "question"],
     )
-    
+  
     chain = prompt | llm_with_tool
-    
+  
     messages = state["messages"]
     question = messages[0].content
     docs = messages[-1].content
-    
+  
     scored_result = chain.invoke({"question": question, "context": docs})
     return "generate" if scored_result.binary_score == "yes" else "rewrite"
 ```
@@ -214,7 +201,6 @@ def grade_documents(state) -> Literal["generate", "rewrite"]:
 
 * 通过调用代理的 LLM 能力与提供的工具处理一般查询。
 
-
 ```python
 def agent(state):
     print("---CALL AGENT---")
@@ -224,30 +210,30 @@ def agent(state):
     response = model.invoke(messages)
     return {"messages": [response]}
 ```
+
 `rewrite(state)`:
 
 * 使用语义推理重新表述用户的查询，以提高精确度。
-
 
 ```python
 def rewrite(state):
     print("---TRANSFORM QUERY---")
     messages = state["messages"]
     question = messages[0].content
-    
+  
     msg = [HumanMessage(content=f"""
     Look at the input and try to reason about the underlying semantic intent / meaning.
     Initial question: {question}
     Formulate an improved question:""")]
-    
+  
     model = ChatOllama(temperature=0, model="llama3.2", streaming=True)
     response = model.invoke(msg)
     return {"messages": [response]}
 ```
+
 `generate(state)`:
 
 * 利用相关文档内容，通过预构建的 RAG（检索与生成）提示回答用户的查询。
-
 
 ```python
 def generate(state):
@@ -255,11 +241,11 @@ def generate(state):
     messages = state["messages"]
     question = messages[0].content
     docs = messages[-1].content
-    
+  
     prompt = hub.pull("rlm/rag-prompt")
     llm = ChatOllama(temperature=0, streaming=True, model="llama3.2")
     rag_chain = prompt | llm | StrOutputParser()
-    
+  
     response = rag_chain.invoke({"context": docs, "question": question})
     return {"messages": [HumanMessage(content=response)]}
 ```
@@ -280,36 +266,35 @@ def generate(state):
 * 工作流程边缘根据条件定义这些节点之间的转换。
 * 执行图形以向用户提供其查询的响应。
 
-
 ```python
 def process_query(urls, pdf_files, query):
     docs_list = process_sources(urls, pdf_files)
     if not docs_list:
         return "No valid documents provided. Please input URLs or upload PDFs."
-    
+  
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=100, chunk_overlap=50)
     doc_splits = text_splitter.split_documents(docs_list)
-    
+  
     vectorstore = Chroma.from_documents(
         documents=doc_splits,
         collection_name="rag-chroma",
         embedding=OllamaEmbeddings(model="nomic-embed-text"),
     )
     retriever = vectorstore.as_retriever()
-    
+  
     global tools
     tools = [create_retriever_tool(
         retriever,
         "retrieve_documents",
         "Search and return information from the provided documents."
     )]
-    
+  
     workflow = StateGraph(AgentState)
     workflow.add_node("agent", agent)
     workflow.add_node("retrieve", ToolNode(tools))
     workflow.add_node("rewrite", rewrite)
     workflow.add_node("generate", generate)
-    
+  
     workflow.add_edge(START, "agent")
     workflow.add_conditional_edges(
         "agent",
@@ -323,16 +308,16 @@ def process_query(urls, pdf_files, query):
     )
     workflow.add_edge("generate", END)
     workflow.add_edge("rewrite", "agent")
-    
+  
     graph = workflow.compile()
-    
+  
     inputs = {"messages": [HumanMessage(content=query)]}
     response = ""
     for output in graph.stream(inputs):
         for key, value in output.items():
             if value.get("messages"):
                 response = value["messages"][-1].content
-    
+  
     return response
 ```
 
@@ -360,13 +345,13 @@ def create_interface():
     with gr.Blocks(title="Document Q&A Assistant") as interface:
         gr.Markdown("# Document Q&A Assistant")
         gr.Markdown("*You can provide URLs, PDF files, or both*")
-        
+      
         with gr.Tab("Upload Documents"):
             urls = gr.Textbox(label="Enter URLs (comma separated)", placeholder="https://example1.com, https://example2.com")
             pdfs = gr.File(file_count="multiple", label="Upload PDF files", file_types=[".pdf"])
             upload_btn = gr.Button("Process Documents")
             upload_status = gr.Textbox(label="Upload Status")
-            
+          
             def handle_upload(urls, pdfs):
                 if not urls and not pdfs:
                     return "Please provide either URLs, PDF files, or both"
@@ -374,31 +359,30 @@ def create_interface():
                 if docs:
                     return "Documents processed successfully!"
                 return "No valid documents provided. Please input valid URLs or PDF files"
-            
+          
             upload_btn.click(
                 fn=handle_upload,
                 inputs=[urls, pdfs],
                 outputs=upload_status
             )
-        
+      
         with gr.Tab("Chat"):
             query = gr.Textbox(label="Ask a question about the documents")
             chat_btn = gr.Button("Ask")
             response = gr.Textbox(label="Response")
-            
+          
             chat_btn.click(
                 fn=process_query,
                 inputs=[urls, pdfs, query],
                 outputs=response
             )
-            
+          
     return interface
 ```
 
 ### 8\. 应用程序启动
 
-* 当脚本被执行时，Gradio 界面被启动。 
-
+* 当脚本被执行时，Gradio 界面被启动。
 
 ```python
 interface = create_interface()
@@ -437,9 +421,4 @@ if __name__ == "__main__":
 
 LangGraph 是推动 Agentic RAG 发展的关键工具，它能够实现动态的多代理工作流程，以适应复杂场景。它与 LangChain、Chroma 和 ChatOllama 等工具的无缝集成确保开发者能够高效构建可扩展和智能的检索增强系统。
 
-在下一篇文章中，我们将探讨 **AutoGen** 及其在 Agentic RAG 框架中自动化代理推理的作用。
-
-## 额外资源：
-
-**完整代码：**[https://github.com/imanoop7/Agentic\-RAG](https://github.com/imanoop7/Agentic-RAG)**Ollama官方网站：** <https://ollama.com/>**Ollama Github：** [https://github.com/ollama/ollama?tab\=readme\-ov\-file](https://github.com/ollama/ollama?tab=readme-ov-file)**备忘单：** [https://cheatsheet.md/llm\-leaderboard/ollama.en](https://cheatsheet.md/llm-leaderboard/ollama.en)**Langgraph :**[https://langchain\-ai.github.io/langgraph/](https://langchain-ai.github.io/langgraph/)**我的GitHub：** <https://github.com/imanoop7>**LinkedIn：** [www.linkedin.com/in/anoop\-maurya\-908499148](http://www.linkedin.com/in/anoop-maurya-908499148)**X：** <https://x.com/imanoop_7>
 

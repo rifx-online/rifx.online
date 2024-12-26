@@ -2,7 +2,7 @@
 title: "EASY Web Scraping with Google Gemini 2.0"
 meta_title: "EASY Web Scraping with Google Gemini 2.0"
 description: "Google Gemini 2.0 simplifies web scraping by allowing users to extract data from webpages effortlessly through voice commands. The tool can handle complex and unstructured data, making it accessible for beginners. Users can set up Google AI Studio to share their screen and command Gemini to extract information, such as Airbnb reviews or specific table data from research articles, in structured formats like JSON. This innovative approach eliminates the need for coding, streamlining the data extraction process for various applications."
-date: 2024-12-22T03:49:34Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*Koz9eMv-AzQKmNDMGlPt1g.png"
 categories: ["Programming/Scripting", "Technology/Web", "Data Science"]
 author: "Rifx.Online"

@@ -2,7 +2,7 @@
 title: "利用 Claude AI 的模型上下文协议🤖🧠，让 Playwright UI 测试变得更智能"
 meta_title: "利用 Claude AI 的模型上下文协议🤖🧠，让 Playwright UI 测试变得更智能"
 description: "文章介绍了如何利用Claude AI的模型上下文协议（MCP）来增强Playwright自动化测试工具的智能化。MCP为AI助手与本地系统之间提供了标准化的连接，允许AI执行自动化测试而无需手动编写代码。通过设置MCP服务器，用户可以通过简单的文本指令来执行复杂的测试场景，提升了自动化测试的效率和便利性。文章还提供了相关代码示例和资源链接，帮助用户实现这一功能。"
-date: 2024-12-26T01:00:01Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*PNlck4usjMCE6Zh2lpDH7g.gif?output=gif&n=50"
 categories: ["Programming/Scripting", "Technology/Web", "Chatbots"]
 author: "Rifx.Online"

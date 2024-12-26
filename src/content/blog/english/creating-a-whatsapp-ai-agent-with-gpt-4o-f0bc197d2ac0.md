@@ -2,7 +2,7 @@
 title: "Creating a WhatsApp AI Agent with GPT-4o"
 meta_title: "Creating a WhatsApp AI Agent with GPT-4o"
 description: "The article outlines the process of creating a WhatsApp AI agent using Metas Cloud API and FastAPI. It details the integration of AI agents into WhatsApp for real-time communication and task automation. The guide covers setting up the WhatsApp Cloud API, creating a FastAPI application to handle webhooks, and implementing message processing, including user authentication and audio transcription. It emphasizes the importance of developing a working prototype before adding more complex features, and it lays the groundwork for future enhancements, such as database interactions and more sophisticated workflows."
-date: 2024-12-26T01:30:29Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*MtZ0n0nFFWmebZTncI2sqA.jpeg"
 categories: ["Programming", "Technology", "Chatbots"]
 author: "Rifx.Online"

@@ -2,7 +2,7 @@
 title: "From Posts to Reports: Leveraging LLMs for Social Media Data Mining"
 meta_title: "From Posts to Reports: Leveraging LLMs for Social Media Data Mining"
 description: "This article discusses the use of large language models (LLMs) to extract valuable insights from social media posts, specifically focusing on Instagram restaurant content. It outlines a systematic approach that includes data crawling, storage, prompt engineering, and response formatting to generate concise weekly reports on offers, events, and discounts. The implementation utilizes tools like Instaloader for data collection, MongoDB for storage, and Langchain for managing LLM interactions. The process culminates in creating structured Excel reports, enhancing data accessibility and usability for business growth."
-date: 2024-12-22T03:57:24Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*AImMcgC4HcCxLtYaHnlYrA.jpeg"
 categories: ["Programming", "Data Science", "Natural Language Processing"]
 author: "Rifx.Online"

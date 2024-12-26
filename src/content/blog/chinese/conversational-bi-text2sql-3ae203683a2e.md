@@ -2,7 +2,7 @@
 title: "对话式商业智能：Text2SQL 的挑战与解决方案"
 meta_title: "对话式商业智能：Text2SQL 的挑战与解决方案"
 description: "对话式商业智能（BI）通过自然语言查询SQL数据库的能力正在迅速发展。Text2SQL技术面临将自然语言查询准确转换为SQL查询的挑战，尤其是在复杂查询和数据库架构理解方面。Snowflake的Cortex Analyst通过用户意图验证、轻量级语义模型和灵活的LLM选择，提供了一种有效的对话式BI解决方案，提升了查询的准确性和用户体验。"
-date: 2024-12-26T01:20:35Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*kpV1Y-JzwIz7GQ5s.png"
 categories: ["Natural Language Processing", "Programming/Scripting", "Data Science"]
 author: "Rifx.Online"

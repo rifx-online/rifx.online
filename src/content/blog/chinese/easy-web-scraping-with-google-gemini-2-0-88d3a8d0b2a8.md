@@ -2,7 +2,7 @@
 title: "使用 Google 双子座 2.0 轻松进行网络抓取"
 meta_title: "使用 Google 双子座 2.0 轻松进行网络抓取"
 description: "Google Gemini 2.0 是一款多模态实时 API，极大简化了网页抓取的过程。用户只需通过共享屏幕并与 AI 交互，便可轻松提取复杂或非结构化的数据。文章中提供了两个实际示例：一是从 Airbnb 列表中实时抓取评论，二是从研究文章中提取特定的表格数据。Gemini 2.0 使得数据提取过程高效且无需编写代码，适合各种数据分析需求。"
-date: 2024-12-22T03:49:34Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*Koz9eMv-AzQKmNDMGlPt1g.png"
 categories: ["Programming/Scripting", "Technology/Web", "Data Science"]
 author: "Rifx.Online"

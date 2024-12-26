@@ -2,7 +2,7 @@
 title: "Crawl4AI：您的终极异步网络爬行伴侣 🕷️🤖"
 meta_title: "Crawl4AI：您的终极异步网络爬行伴侣 🕷️🤖"
 description: "Crawl4AI是一个开源的Python库，旨在提高网络爬虫和数据提取的效率，特别适用于大型语言模型和人工智能应用。它支持完全异步操作，允许并发爬取多个URL，并提供多种数据输出格式。Crawl4AI具备强大的特性，包括媒体标签提取、元数据提取、会话管理、动态内容爬取和自定义钩子等。该库易于安装，适合各种用例，性能优于许多付费服务。"
-date: 2024-12-22T03:50:49Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*ebriuVM77YzFHlkjbdIuFQ.jpeg"
 categories: ["Programming", "Technology/Web", "Data Science"]
 author: "Rifx.Online"

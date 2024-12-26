@@ -2,7 +2,7 @@
 title: "超越 Text2SQL：自然语言数据库查询的新领域"
 meta_title: "超越 Text2SQL：自然语言数据库查询的新领域"
 description: "本文介绍了表增强生成（TAG）模型，旨在改善自然语言与数据库查询之间的交互。TAG结合语言模型（LM）与数据库系统的优势，能够处理复杂查询，包括需要推理和外部知识的情况。与传统的Text2SQL和检索增强生成（RAG）方法相比，TAG在查询合成、执行和答案生成方面表现出色，展示了其在多样化查询和数据模型处理中的灵活性和高效性。研究结果表明，TAG显著提高了查询的准确性，为未来的研究和应用提供了广阔的前景。"
-date: 2024-12-26T01:18:13Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*mlnZpjaf3iJBvk-A5BSKoQ.jpeg"
 categories: ["Natural Language Processing", "Data Science", "Programming/Scripting"]
 author: "Rifx.Online"

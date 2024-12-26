@@ -2,7 +2,7 @@
 title: "OpenAI O3模型：人工智能的新进展与挑战"
 meta_title: "OpenAI O3模型：人工智能的新进展与挑战"
 description: "OpenAI的O3模型是其第三代大型语言模型，具有显著的推理能力和编码技能，能够在ARC-AGI基准测试中取得87.5%的高分。尽管O3在软件开发和各行业应用中展现出潜力，但社区对其是否接近通用人工智能（AGI）以及伦理问题仍持怀疑态度。O3的进步可能会改变行业格局，但同时也需要关注数据隐私和就业市场的影响。"
-date: 2024-12-20T23:23:56Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*dlDIP2DjgGzVhacz"
 categories: ["Artificial Intelligence", "Programming", "Ethics"]
 author: "Rifx.Online"

@@ -2,7 +2,7 @@
 title: "如何利用实时事件处理打造主动式代理"
 meta_title: "如何利用实时事件处理打造主动式代理"
 description: "本文探讨了如何构建具有实时事件处理能力的主动代理，结合流媒体数据库与大型语言模型（LLM），使其能够在未被请求时主动采取行动。主动代理通过事件监听器监控环境变化，及时响应特定事件，例如发送邮件或执行交易。流数据库在此过程中扮演关键角色，提供高效的事件处理和SQL接口，简化了复杂查询和数据更新。通过物化视图和增量更新，代理能够实时获取相关信息并做出决策，从而提升智能代理的自主性和效率。"
-date: 2024-12-26T01:31:32Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*F2O-619SAGxFhtSvqFCHfQ.jpeg"
 categories: ["Programming", "Technology", "Autonomous Systems"]
 author: "Rifx.Online"

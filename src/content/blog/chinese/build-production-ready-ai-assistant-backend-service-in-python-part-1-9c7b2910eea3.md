@@ -2,7 +2,7 @@
 title: "用 Python 构建可投入生产的人工智能助理后台服务 - 第 1 部分"
 meta_title: "用 Python 构建可投入生产的人工智能助理后台服务 - 第 1 部分"
 description: "本文介绍了如何使用Python构建生产就绪的AI助手后端服务。第一部分涵盖了后端服务的基础知识，包括API、端点、HTTP请求与响应、身份验证等概念。通过示例，读者可以学习如何使用FastAPI构建一个支持节能建议的AI聊天机器人后端服务，涉及会话管理、上下文检索和摘要生成等功能。此外，文章提供了相关的代码示例和GitHub代码库链接，便于读者实践和学习。"
-date: 2024-12-22T03:48:29Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*M7eoP1eeyhX9AoPL0gbaiA.jpeg"
 categories: ["Programming", "Technology/Web", "Chatbots"]
 author: "Rifx.Online"

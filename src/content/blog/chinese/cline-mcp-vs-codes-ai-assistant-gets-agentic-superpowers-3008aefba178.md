@@ -2,7 +2,7 @@
 title: "🔌 Cline + MCP：VS Code 的人工智能助手获得代理超能力"
 meta_title: "🔌 Cline + MCP：VS Code 的人工智能助手获得代理超能力"
 description: "Cline MCP VS Code的AI助手通过模型上下文协议（MCP）集成，获得了代理超能力，能够自动检查问题、部署修复和管理开发工作流程。该助手支持文件管理、终端命令执行和浏览器自动化，提升了开发效率。用户可通过配置自主性设置操作权限，并使用智能上下文理解功能来优化代码分析和错误监控。Cline还允许开发者创建自定义工具，支持多种开发和云基础设施集成，欢迎社区贡献以推动开源项目的发展。"
-date: 2024-12-22T03:58:37Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*_wqPDeIpD2BXhfxL"
 categories: ["Programming", "Technology/Web", "Data Science"]
 author: "Rifx.Online"

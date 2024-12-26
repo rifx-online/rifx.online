@@ -2,7 +2,7 @@
 title: "我刚刚试用了 OpenAI 的升级版 o1 模型。这项技术将重创华尔街"
 meta_title: "我刚刚试用了 OpenAI 的升级版 o1 模型。这项技术将重创华尔街"
 description: "OpenAI最新发布的o1模型在金融研究和交易策略生成方面展现出显著优势。与之前的o1-preview模型相比，新模型具备更高的准确性、视觉能力和函数调用支持，使用户能够生成有效的交易策略。利用该模型，用户可以快速生成复杂的金融查询并获得准确结果，进而转化为算法交易策略，显著提高投资回报。这一技术的进步为散户投资者提供了强大的工具，简化了金融分析和自动化交易的过程。"
-date: 2024-12-26T02:06:35Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*g3hVkAu_l6Lv9BeY.png"
 categories: ["Finance", "Programming", "Machine Learning"]
 author: "Rifx.Online"

@@ -2,7 +2,7 @@
 title: "使用 GPT-4o 创建 WhatsApp 人工智能代理"
 meta_title: "使用 GPT-4o 创建 WhatsApp 人工智能代理"
 description: "本文介绍了如何使用Meta API构建一个基于LLM的WhatsApp聊天机器人。通过整合WhatsApp Cloud API与AI代理，用户可以在熟悉的聊天界面中进行实时数据请求和任务自动化。文章详细描述了设置WhatsApp API、创建Webhook、使用FastAPI开发后端、处理多媒体消息及用户身份验证等步骤。最终目标是实现一个能够与用户互动并执行复杂任务的AI助手，为未来的AI驱动工作流奠定基础。"
-date: 2024-12-26T01:30:29Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*MtZ0n0nFFWmebZTncI2sqA.jpeg"
 categories: ["Programming", "Technology", "Chatbots"]
 author: "Rifx.Online"

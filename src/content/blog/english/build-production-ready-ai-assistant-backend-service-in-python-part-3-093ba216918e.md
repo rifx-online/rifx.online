@@ -2,7 +2,7 @@
 title: "Build Production Ready AI Assistant Backend Service (in Python) — Part 3"
 meta_title: "Build Production Ready AI Assistant Backend Service (in Python) — Part 3"
 description: "This article is the third part of a series focused on developing a production-ready AI assistant backend service using Python. It covers implementing authentication for incoming requests, connecting to an Atlas MongoDB database, constructing a vector search index, and adding semantic caching capabilities to enhance performance. The article emphasizes the importance of securing endpoints with authentication keys and outlines the necessary code modifications to achieve this. Additionally, it discusses the integration of a MongoDB database to store session data and improve the chatbots functionality. The final section introduces semantic caching to optimize response times based on contextual queries."
-date: 2024-12-22T04:22:12Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*5B5nnxVMVbRPW2ip_ydFNw.png"
 categories: ["Programming", "Technology", "Chatbots"]
 author: "Rifx.Online"

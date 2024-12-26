@@ -2,7 +2,7 @@
 title: "Unlocking PDFs for RAG with Markdown and Gemini"
 meta_title: "Unlocking PDFs for RAG with Markdown and Gemini"
 description: "This article discusses a novel technique for extracting text from PDFs in Markdown format to enhance Retrieval Augmented Generation (RAG) applications, particularly using the Gemini model. It highlights the challenges of working with PDFs due to their complex layouts and the limitations of existing Python libraries. The proposed method involves converting each PDF page into an image and using Gemini to generate Markdown, which improves response quality and context. The implementation leverages Google Cloud for efficient parallel processing and concludes by suggesting a comparison with Google Clouds DocumentAI for document parsing."
-date: 2024-12-22T03:55:14Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*KWoWZylZN9Gkd1gM56NtFw.png"
 categories: ["Programming", "Technology", "Data Science"]
 author: "Rifx.Online"

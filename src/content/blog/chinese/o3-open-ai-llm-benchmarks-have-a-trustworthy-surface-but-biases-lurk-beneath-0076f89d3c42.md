@@ -2,7 +2,7 @@
 title: "OpenAI 的 O3 模型：崛起与信任的重构"
 meta_title: "OpenAI 的 O3 模型：崛起与信任的重构"
 description: "文章探讨了o3 Open AI LLM的基准测试，尽管其表现令人印象深刻，但潜在的偏见和信任问题仍然存在。作者对o3模型的高分数和声誉表示怀疑，指出其可能继承了以往信用评级机构的缺陷。文章强调，尽管新模型在性能上有突破，真正的卓越和信任需要经过时间的考验。作者呼吁对这些数据和声明保持警惕，质疑其背后的真实性。"
-date: 2024-12-20T23:20:23Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*aqdiyHASkV7a2IiaWgOQzA.jpeg"
 categories: ["Technology", "Ethics", "Data Science"]
 author: "Rifx.Online"

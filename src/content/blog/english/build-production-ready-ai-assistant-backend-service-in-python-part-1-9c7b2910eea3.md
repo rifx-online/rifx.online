@@ -2,7 +2,7 @@
 title: "Build Production Ready AI Assistant Backend Service (in Python) — Part 1"
 meta_title: "Build Production Ready AI Assistant Backend Service (in Python) — Part 1"
 description: "This article outlines the first part of a tutorial series on building a production-ready AI assistant backend service using Python and FastAPI. It covers essential backend concepts, including APIs, endpoints, HTTP requests/responses, payloads, status codes, and authentication. The tutorial guides readers through creating a backend service for an AI chatbot focused on energy-saving tips, detailing the implementation of endpoints for session management and context retrieval. Additionally, it introduces the use of vector stores and the integration of libraries such as langchain and FastAPI for effective application development."
-date: 2024-12-22T03:48:29Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*M7eoP1eeyhX9AoPL0gbaiA.jpeg"
 categories: ["Programming", "Technology/Web", "Chatbots"]
 author: "Rifx.Online"

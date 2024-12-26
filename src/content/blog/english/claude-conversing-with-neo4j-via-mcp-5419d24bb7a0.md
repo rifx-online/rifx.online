@@ -2,7 +2,7 @@
 title: "Claude Conversing With Neo4j Via MCP"
 meta_title: "Claude Conversing With Neo4j Via MCP"
 description: "Anthropic introduced the Model Context Protocol (MCP) to enhance LLMs like Claude by enabling them to interact with external data sources, such as databases and APIs. This allows for dynamic information retrieval during conversations. The Neo4j MCP server was implemented to facilitate querying a Neo4j database, enabling users to obtain movie-related information through natural language queries. The protocol emphasizes user consent, data privacy, and tool safety, addressing security concerns when LLMs access external data. The integration enhances user experience by combining conversational AI with real-time data access and visualization capabilities."
-date: 2024-12-26T01:04:33Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*UnC-f-LmG5RB-wk3G16TgQ.png"
 categories: ["Natural Language Processing", "Programming", "Technology/WebAPI"]
 author: "Rifx.Online"

@@ -2,7 +2,7 @@
 title: "Anthropic’s MCP: Set up Git MCP Agentic Tooling with Claude Desktop"
 meta_title: "Anthropic’s MCP: Set up Git MCP Agentic Tooling with Claude Desktop"
 description: "The article provides a comprehensive guide on setting up and utilizing the Model Context Protocol (MCP) Git integration with Claude Desktop. It explains the components and architecture of MCP, installation prerequisites, and detailed steps for configuration. Key features include advanced code analysis, version control capabilities, and various use cases for repository management and team collaboration. The guide also addresses troubleshooting common issues, best practices, and performance optimization. Overall, it highlights the potential of MCP in enhancing AI interactions with Git repositories, while noting challenges in multi-tool configurations."
-date: 2024-12-26T01:09:45Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*YKLBm9xalmkqAydKi30Lxg.png"
 categories: ["Programming", "Technology", "Git"]
 author: "Rifx.Online"

@@ -2,7 +2,7 @@
 title: "Beyond Text2SQL: A New Frontier in Natural Language Database Queries"
 meta_title: "Beyond Text2SQL: A New Frontier in Natural Language Database Queries"
 description: "The article introduces Table-Augmented Generation (TAG), a unified model designed to enhance natural language queries over databases. TAG addresses the limitations of existing approaches like Text2SQL and Retrieval-Augmented Generation (RAG) by integrating the reasoning capabilities of language models with efficient database execution. It consists of three main steps: query synthesis, query execution, and answer generation, allowing it to handle complex queries requiring external knowledge and semantic reasoning. TAG has demonstrated superior accuracy in evaluations, outperforming traditional methods, and shows promise for future advancements in data interaction."
-date: 2024-12-26T01:18:13Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*mlnZpjaf3iJBvk-A5BSKoQ.jpeg"
 categories: ["Natural Language Processing", "Data Science", "Programming/Scripting"]
 author: "Rifx.Online"

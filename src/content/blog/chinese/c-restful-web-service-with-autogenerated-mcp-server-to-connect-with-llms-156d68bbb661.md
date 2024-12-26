@@ -2,7 +2,7 @@
 title: "使用自动生成的 MCP 服务器的 C++ RESTful 网络服务与 LLM 连接"
 meta_title: "使用自动生成的 MCP 服务器的 C++ RESTful 网络服务与 LLM 连接"
 description: "本文介绍了如何将MCP（模型上下文协议）服务器集成到现有的Oat++应用程序中，以便与大型语言模型（LLMs）进行交互。教程首先要求用户具备有效的Oat++ web服务，然后指导用户克隆和安装oatpp-mcp模块，并将其链接到项目中。接着，文章详细说明了如何通过HTTP-SSE和STDIO两种传输方式暴露REST API，并通过MCP Inspector进行测试。最后，介绍了如何在Claude桌面应用中配置MCP服务器，以实现基本的CRUD操作。"
-date: 2024-12-26T01:05:30Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*Sl3qB0cBSn5xbz8wmMUCnA.png"
 categories: ["Programming", "Technology/Web", "Machine Learning"]
 author: "Rifx.Online"

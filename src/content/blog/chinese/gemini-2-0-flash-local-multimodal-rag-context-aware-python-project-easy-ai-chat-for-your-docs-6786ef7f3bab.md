@@ -2,7 +2,7 @@
 title: "Gemini 2.0 Flash + 本地多模式 RAG + 上下文感知 Python 项目：文档的简易人工智能/聊天"
 meta_title: "Gemini 2.0 Flash + 本地多模式 RAG + 上下文感知 Python 项目：文档的简易人工智能/聊天"
 description: "Gemini 2.0 Flash 是谷歌推出的低延迟、高性能的多模态 AI 模型，支持图像、视频和音频输入输出。该模型在基准测试中表现优异，速度提升至两倍，适合构建快速响应的聊天机器人。通过结合多模态 RAG 和上下文感知响应，用户可以创建强大的文档分析和问答系统，处理 PDF 文件并生成相应的答案。该项目展示了使用 Python 构建高效 AI 应用程序的过程，强调了 Gemini 2.0 Flash 在 AI 代理领域的潜力。"
-date: 2024-12-22T03:46:35Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*5mhjGURhXDnPnulgwr8d7g.png"
 categories: ["Programming", "Chatbots", "Generative AI"]
 author: "Rifx.Online"

@@ -2,7 +2,7 @@
 title: "构建生产就绪的人工智能助理后台服务（Python）--第 3 部分"
 meta_title: "构建生产就绪的人工智能助理后台服务（Python）--第 3 部分"
 description: "本文介绍了如何构建一个生产就绪的AI助手后端服务，重点在于使用授权密钥保护应用程序和通过MongoDB数据库提升后端吞吐量。文章回顾了之前部分的内容，并详细讲解了如何实现API请求的身份验证、连接MongoDB、构建向量搜索索引、实现语义缓存等关键功能。通过这些步骤，确保了后端服务的安全性和效率，为AI聊天机器人提供了强大的支持。"
-date: 2024-12-22T04:22:12Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*5B5nnxVMVbRPW2ip_ydFNw.png"
 categories: ["Programming", "Technology", "Chatbots"]
 author: "Rifx.Online"

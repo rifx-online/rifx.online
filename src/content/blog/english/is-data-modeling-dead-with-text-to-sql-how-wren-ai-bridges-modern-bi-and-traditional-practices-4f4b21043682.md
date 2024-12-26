@@ -2,7 +2,7 @@
 title: "Is Data Modeling Dead with Text-to-SQL? How Wren AI Bridges Modern BI and Traditional Practices"
 meta_title: "Is Data Modeling Dead with Text-to-SQL? How Wren AI Bridges Modern BI and Traditional Practices"
 description: "The article discusses the ongoing relevance of data modeling in the age of Text-to-SQL tools like Wren AI. It argues that while these AI-driven solutions enhance data interaction, they rely heavily on well-structured, business-oriented datasets to function effectively. Data modeling remains crucial for clarifying business concepts, establishing semantic layers, precomputing metrics, and ensuring governance and consistency. By integrating traditional BI practices with modern AI capabilities, organizations can achieve accurate, reliable insights through natural language queries, emphasizing that data modeling is not obsolete but essential for effective analytics."
-date: 2024-12-26T01:22:17Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*89iFBho21kXS5QnQ.png"
 categories: ["Data Science", "Programming", "Technology/Web"]
 author: "Rifx.Online"

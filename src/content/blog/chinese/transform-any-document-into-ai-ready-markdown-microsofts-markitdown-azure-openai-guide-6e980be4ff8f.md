@@ -2,7 +2,7 @@
 title: "将任何文档转化为人工智能就绪的 Markdown：微软 MarkItDown + Azure OpenAI 指南"
 meta_title: "将任何文档转化为人工智能就绪的 Markdown：微软 MarkItDown + Azure OpenAI 指南"
 description: "微软的MarkItDown是一款新开源工具，用于将PDF、Office文件和图像转换为Markdown格式。该工具与Azure OpenAI集成，增强了图像处理能力。MarkItDown支持多种文档和数据格式，适用于文档转换和自然语言处理。使用时需有效的Azure订阅和API权限。开发者可利用示例代码批量处理文档，MarkItDown为文档处理提供了坚实基础。"
-date: 2024-12-26T01:13:12Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*7prmWElJ3rqdbMK_z9uAXw.png"
 categories: ["Programming", "Technology", "Machine Learning"]
 author: "Rifx.Online"

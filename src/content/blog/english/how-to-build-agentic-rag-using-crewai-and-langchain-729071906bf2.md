@@ -2,7 +2,7 @@
 title: "How to build Agentic RAG using CrewAI and Langchain"
 meta_title: "How to build Agentic RAG using CrewAI and Langchain"
 description: "Agentic RAG is an advanced framework combining Retrieval-Augmented Generation (RAG) with modular agents to dynamically analyze and respond to user queries. It utilizes specialized agents, such as Router_Agent and Retriever_Agent, to route and retrieve information from vector stores or perform web searches. The implementation requires libraries like CrewAI and LangChain, and involves defining tasks and tools for efficient query handling. This modular approach enhances the flexibility and accuracy of responses, making it well-suited for complex and diverse queries."
-date: 2024-12-22T04:00:01Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*67w_AjJ_xBAs_g2td-rAUA.png"
 categories: ["Generative AI", "Machine Learning", "Natural Language Processing"]
 author: "Rifx.Online"

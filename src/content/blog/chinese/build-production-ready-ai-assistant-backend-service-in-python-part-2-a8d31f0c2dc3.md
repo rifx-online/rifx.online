@@ -2,7 +2,7 @@
 title: "构建生产就绪的人工智能助理后台服务（Python）--第 2 部分"
 meta_title: "构建生产就绪的人工智能助理后台服务（Python）--第 2 部分"
 description: "本文介绍了使用 LangGraph 构建多代理 RAG 系统的步骤，重点在于为 AI 助手后端服务进行单元测试和应用程序构建。首先，验证了各个 API 端点的功能，包括生成会话 ID、处理用户问题和检索上下文。接着，讲解了如何使用 LangGraph 定义应用程序状态、节点和控制流，构建了一个简单的 RAG 应用程序。最后，展示了如何生成摘要并保存会话数据，为后续集成数据库奠定基础。"
-date: 2024-12-22T04:22:12Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*7UMUG_wfjCA_seURYn_xIA.png"
 categories: ["Programming", "Generative AI", "Chatbots"]
 author: "Rifx.Online"

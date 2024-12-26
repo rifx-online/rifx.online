@@ -2,7 +2,7 @@
 title: "构建 Agentic RAG（检索-增强生成）管道的实践演示"
 meta_title: "构建 Agentic RAG（检索-增强生成）管道的实践演示"
 description: "Agentic RAG是一种增强的检索增强生成（RAG）管道，通过将大型语言模型（LLM）作为主动代理，优化信息检索和响应生成。该系统能够智能选择最佳数据源，处理用户查询并提供准确的信息，适用于客户支持、法律科技等多个领域。结合CrewAI、LangChain和Gradio等框架，Agentic RAG实现了高效的信息检索和验证，确保响应的质量和可靠性。"
-date: 2024-12-26T01:24:56Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*KEKmnC8BhWGCbTyNmullbw.png"
 categories: ["Generative AI", "Autonomous Systems", "Technology/Web"]
 author: "Rifx.Online"

@@ -2,7 +2,7 @@
 title: "How I Built an LLM App Based on Graph-RAG System with ChromaDB and Chainlit"
 meta_title: "How I Built an LLM App Based on Graph-RAG System with ChromaDB and Chainlit"
 description: "The article details the creation of an end-to-end application utilizing a Graph-RAG system, integrating Chainlit for the user interface, ChromaDB for vector storage, and Networkx for graph management. The application enhances LLM responses by organizing knowledge through a structured knowledge graph while leveraging embeddings for semantic search. It outlines the architecture, advantages, and implementation of the system in three scripts, demonstrating how to efficiently manage knowledge and interact with a pre-existing LLM without fine-tuning."
-date: 2024-12-26T02:11:51Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*Qx_4JrUXsH9egwm-BbJKzA.jpeg"
 categories: ["Programming", "Machine Learning", "Natural Language Processing"]
 author: "Rifx.Online"

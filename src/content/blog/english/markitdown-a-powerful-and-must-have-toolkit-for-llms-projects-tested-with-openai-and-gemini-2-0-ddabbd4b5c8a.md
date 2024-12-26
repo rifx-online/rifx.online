@@ -2,7 +2,7 @@
 title: "MarkItDown: A Powerful and must-have Toolkit for LLMs projects, tested with OpenAI and Gemini 2.0"
 meta_title: "MarkItDown: A Powerful and must-have Toolkit for LLMs projects, tested with OpenAI and Gemini 2.0"
 description: "MarkItDown is a toolkit developed by Microsoft that converts various file formats into Markdown, facilitating the preparation of training data for Large Language Models (LLMs). It supports Office documents, media files, and structured data formats. The toolkit enhances context for LLM applications by providing clean, structured text. Integration examples with OpenAI and Gemini 2.0 Flash models demonstrate its utility in generating grounded responses from documents, enabling applications like document analysis and image-to-image pipelines. The toolkit simplifies the processing of diverse documents for improved training and response accuracy in LLM projects."
-date: 2024-12-26T02:05:52Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*tiMyJhGoTluC-uHWRvnOAg.png"
 categories: ["Programming", "Machine Learning", "Natural Language Processing"]
 author: "Rifx.Online"

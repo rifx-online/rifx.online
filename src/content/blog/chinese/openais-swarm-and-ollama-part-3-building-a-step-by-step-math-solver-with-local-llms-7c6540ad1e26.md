@@ -2,7 +2,7 @@
 title: "OpenAI 的 Swarm 和 Ollama（第 3 部分）：利用本地 LLM 逐步构建数学求解器"
 meta_title: "OpenAI 的 Swarm 和 Ollama（第 3 部分）：利用本地 LLM 逐步构建数学求解器"
 description: "本文介绍了一种基于OpenAI的Swarm框架和Ollama本地LLM的数学解题器，旨在提供互动式的数学学习体验。该系统由求解代理和验证代理组成，模拟人类学习过程，逐步引导用户解决数学问题并进行验证。其主要特点包括增量步骤、互动流程和灵活学习，强调用户的主动参与和即时反馈。项目利用本地运行的LLM，确保隐私性、速度和成本效益，最终目标是改变数学教育，使其更具吸引力和有效性。"
-date: 2024-12-26T01:27:52Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*r-r13TnVuhs24uZK5LB3ug.png"
 categories: ["Education", "Programming", "Chatbots"]
 author: "Rifx.Online"

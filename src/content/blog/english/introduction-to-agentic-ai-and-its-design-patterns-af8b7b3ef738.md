@@ -2,7 +2,7 @@
 title: "Introduction to Agentic AI and Its Design Patterns"
 meta_title: "Introduction to Agentic AI and Its Design Patterns"
 description: "Agentic AI refers to autonomous systems capable of perception, reasoning, and independent action towards achieving defined goals. It emphasizes autonomy and adaptability, differing from traditional AI models. Key features include goal-orientation and context-awareness, with applications in diverse fields such as autonomous vehicles and intelligent customer service. Agentic Patterns provide design frameworks for developing these systems, addressing challenges like complexity and ethical concerns. The future of Agentic AI promises transformative impacts across industries, enhancing human-machine collaboration and operational efficiency."
-date: 2024-12-26T01:38:53Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*FzSFr1mu9QAjj620ViKaQQ.png"
 categories: ["Autonomous Systems", "Machine Learning", "Ethics"]
 author: "Rifx.Online"

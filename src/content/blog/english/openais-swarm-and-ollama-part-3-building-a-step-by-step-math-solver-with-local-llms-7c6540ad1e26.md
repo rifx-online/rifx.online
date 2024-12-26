@@ -2,7 +2,7 @@
 title: "OpenAI’s Swarm and Ollama (Part 3) : Building a Step-by-Step Math Solver with Local LLMs"
 meta_title: "OpenAI’s Swarm and Ollama (Part 3) : Building a Step-by-Step Math Solver with Local LLMs"
 description: "The article discusses the development of an interactive math solver utilizing OpenAIs Swarm framework and Ollamas local LLM deployment. It features a dual-agent system, comprising a Solver Agent that guides users through problem-solving step-by-step and a Validator Agent that reviews solutions for correctness and offers insights. The system emphasizes active user participation, immediate feedback, and flexible learning paths, creating a conversational and engaging math tutoring experience. The project aims to enhance math education by making it more approachable and less intimidating, while also maintaining privacy and cost-effectiveness through local computations."
-date: 2024-12-26T01:27:52Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*r-r13TnVuhs24uZK5LB3ug.png"
 categories: ["Education", "Programming", "Chatbots"]
 author: "Rifx.Online"

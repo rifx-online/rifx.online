@@ -2,7 +2,7 @@
 title: "从自然语言到 SQL 生成的代理反射"
 meta_title: "从自然语言到 SQL 生成的代理反射"
 description: "本文讨论了一种通过代理反思提高自然语言到SQL（NL2SQL）生成准确性的方法。该方法超越了传统的单次生成流程，采用迭代工作流程，允许对初始生成的SQL进行验证和修正。通过使用生成式AI模型，本文展示了在实际业务场景中，利用反思代理实现超过90%的SQL生成准确率。该方法包含多个步骤，包括预处理请求、生成SQL、验证和反思，以确保最终输出的SQL语句在语法和逻辑上均正确。"
-date: 2024-12-26T00:58:59Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*Kz0Xc98OTPMnebDAoYSdFg.png"
 categories: ["Programming", "Natural Language Processing", "Data Science"]
 author: "Rifx.Online"

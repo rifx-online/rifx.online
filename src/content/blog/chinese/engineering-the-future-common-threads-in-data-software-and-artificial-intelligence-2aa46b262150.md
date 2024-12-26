@@ -2,7 +2,7 @@
 title: "未来工程：数据、软件和人工智能的共同点"
 meta_title: "未来工程：数据、软件和人工智能的共同点"
 description: "文章探讨了在IT工程、数据工程和人工智能领域中，过度专业化的趋势对协作和系统整合的负面影响。强调了跨学科合作的重要性，提出模块化、版本控制、实时处理和抽象等共同原则，以促进不同领域工程师之间的有效互动。通过建立统一的工程思维，企业能够更好地应对复杂性，实现系统的高效整合与创新，从而在竞争中获得优势。"
-date: 2024-12-26T01:23:43Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*wJurAMzy5rcdibdSdeD7gg.png"
 categories: ["Programming", "Data Science", "Technology/Web"]
 author: "Rifx.Online"

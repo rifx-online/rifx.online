@@ -2,7 +2,7 @@
 title: "Crawl4AI: Your Ultimate Asynchronous Web Crawling Companion 🕷️🤖"
 meta_title: "Crawl4AI: Your Ultimate Asynchronous Web Crawling Companion 🕷️🤖"
 description: "Crawl4AI is an open-source Python library designed for efficient and asynchronous web crawling, tailored for AI applications and large language models. It offers robust features, including concurrent crawling, media and metadata extraction, and customizable settings for user-agents and proxies. The library supports various output formats and allows JavaScript execution for dynamic content. Installation can be done via pip, with options for both asynchronous and synchronous versions. Crawl4AI is noted for its speed, outperforming many paid services, making it an ideal choice for developers seeking to streamline web data extraction tasks."
-date: 2024-12-22T03:50:49Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*ebriuVM77YzFHlkjbdIuFQ.jpeg"
 categories: ["Programming", "Technology/Web", "Data Science"]
 author: "Rifx.Online"

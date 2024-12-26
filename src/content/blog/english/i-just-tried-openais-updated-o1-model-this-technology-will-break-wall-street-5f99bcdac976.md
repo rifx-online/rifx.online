@@ -2,7 +2,7 @@
 title: "I just tried OpenAI’s updated o1 model. This technology will BREAK Wall Street"
 meta_title: "I just tried OpenAI’s updated o1 model. This technology will BREAK Wall Street"
 description: "The newly released OpenAI O1 model offers significant advancements over its predecessor, enabling enhanced financial research and the generation of effective trading strategies. With improved accuracy, function-calling capabilities, and the ability to process complex queries, it allows users to derive insights and automate trading without technical expertise. The models performance in creating market-beating strategies demonstrates its potential to transform retail investing, making sophisticated financial analysis accessible to a broader audience."
-date: 2024-12-26T02:06:35Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*g3hVkAu_l6Lv9BeY.png"
 categories: ["Finance", "Programming", "Machine Learning"]
 author: "Rifx.Online"

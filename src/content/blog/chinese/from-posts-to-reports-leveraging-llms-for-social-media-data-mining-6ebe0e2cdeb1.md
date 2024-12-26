@@ -2,7 +2,7 @@
 title: "从帖子到报告：利用 LLM 进行社交媒体数据挖掘"
 meta_title: "从帖子到报告：利用 LLM 进行社交媒体数据挖掘"
 description: "本文探讨了如何利用大型语言模型（LLMs）从社交媒体平台（如Instagram）中提取商业相关信息。通过使用数据爬虫、MongoDB数据库和提示工程，用户可以自动化获取餐厅的特价、活动和新菜单信息，并生成结构化的报告。该方法优于传统的网页抓取，能够有效过滤信息噪音，并以CSV或Excel格式存储数据，适用于商业分析和决策支持。"
-date: 2024-12-22T03:57:24Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*AImMcgC4HcCxLtYaHnlYrA.jpeg"
 categories: ["Programming", "Data Science", "Natural Language Processing"]
 author: "Rifx.Online"

@@ -2,7 +2,7 @@
 title: "Conversational BI: Text2SQL Challenges & Solutions"
 meta_title: "Conversational BI: Text2SQL Challenges & Solutions"
 description: "Conversational Business Intelligence (BI) is emerging as a significant advancement, allowing users to query databases in natural language through Text2SQL systems. Challenges in translating natural language queries to SQL include understanding database schemas and mapping user intent to SQL components. Snowflakes Cortex Analyst addresses these challenges with features like user intent validation, a lightweight semantic model, and flexibility in LLM selection. This enables accurate and reliable query responses, enhancing self-service analytics capabilities for business users."
-date: 2024-12-26T01:20:35Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*kpV1Y-JzwIz7GQ5s.png"
 categories: ["Natural Language Processing", "Programming/Scripting", "Data Science"]
 author: "Rifx.Online"

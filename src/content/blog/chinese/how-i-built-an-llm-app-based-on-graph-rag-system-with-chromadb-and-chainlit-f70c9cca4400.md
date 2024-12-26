@@ -2,7 +2,7 @@
 title: "我如何利用 ChromaDB 和 Chainlit 构建基于 Graph-RAG 系统的 LLM 应用程序"
 meta_title: "我如何利用 ChromaDB 和 Chainlit 构建基于 Graph-RAG 系统的 LLM 应用程序"
 description: "本文介绍了如何利用GraphRAG系统结合ChromaDB和Chainlit构建一个端到端的大型语言模型（LLM）应用。文章阐述了使用Chainlit作为前端、ChromaDB进行知识存储、Networkx管理知识图谱、以及Sentence-transformers生成嵌入的整体架构。系统通过用户输入提示，处理知识嵌入，生成上下文并查询LLM，确保知识的持久性和关系意识。该实现展示了现代RAG技术与知识图谱的结合，为构建复杂应用提供了基础。"
-date: 2024-12-26T02:11:51Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*Qx_4JrUXsH9egwm-BbJKzA.jpeg"
 categories: ["Programming", "Machine Learning", "Natural Language Processing"]
 author: "Rifx.Online"

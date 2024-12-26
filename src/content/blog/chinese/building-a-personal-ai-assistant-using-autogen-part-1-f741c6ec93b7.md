@@ -2,7 +2,7 @@
 title: "使用 AutoGen 构建人工智能个人助理 - 第 1 部分"
 meta_title: "使用 AutoGen 构建人工智能个人助理 - 第 1 部分"
 description: "本文介绍了Aura，一个使用AutoGen框架构建的个人AI助手，旨在通过整合Gmail和Google日历来提高用户的生产力。Aura的设计目标包括管理电子邮件混乱、跟上技术趋势和记住用户上下文。文章详细阐述了选择AutoGen的原因、工具集成过程以及Aura的交互设计。未来的计划包括扩展工具、提高鲁棒性和个性化，使Aura能够更好地满足用户需求。源代码已公开，鼓励用户参与贡献。"
-date: 2024-12-19T22:15:42Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*1g_i3Vctbl9mmisplJmOEA.png"
 categories: ["Programming", "Chatbots", "Technology/Web"]
 author: "Rifx.Online"

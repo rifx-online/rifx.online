@@ -2,7 +2,7 @@
 title: "17 Mindblowing GitHub Repositories You Never Knew Existed"
 meta_title: "17 Mindblowing GitHub Repositories You Never Knew Existed"
 description: "The article highlights 17 unique GitHub repositories that provide valuable resources for developers. These repositories include tools for coding practices, privacy alternatives, interactive web development without JavaScript, and enhancing image quality. Notable mentions include a collection of free programming books, a list of APIs, and a curated archive of influential computer science papers. The repositories aim to improve coding skills, promote best practices, and facilitate learning within the programming community."
-date: 2024-12-26T02:13:23Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*BTFmu55ASuQzlUg5"
 categories: ["Programming", "Technology/Web", "Education"]
 author: "Rifx.Online"

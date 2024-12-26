@@ -2,7 +2,7 @@
 title: "OpenAI新语言模型O3与O3-mini的潜力与挑战"
 meta_title: "OpenAI新语言模型O3与O3-mini的潜力与挑战"
 description: "OpenAI推出了O3和O3-mini两款新语言模型，分别针对复杂任务和资源有限设备，具备高效的文本生成和翻译能力，同时需关注其潜在的偏见和不当使用风险。"
-date: 2024-12-20T23:24:49Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*jCfDa43zW1Ze1-2R"
 categories: ["Natural Language Processing", "Generative AI", "Ethics"]
 author: "Rifx.Online"

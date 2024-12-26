@@ -2,7 +2,7 @@
 title: "代理人工智能及其设计模式简介"
 meta_title: "代理人工智能及其设计模式简介"
 description: "代理人工智能（Agentic AI）是指能够自主感知、推理和行动的智能系统，强调自主性和目标导向，适应复杂环境。其设计模式（Agentic Patterns）提供了构建有效自主代理的框架，包括反应式、目标导向、层次、基于学习和协作模式。代理AI在自动驾驶、智能客服和工业自动化等领域具有重要应用，提升了效率和适应性。尽管面临复杂性、伦理和安全等挑战，代理AI的未来将推动智能机器人和物联网等创新。"
-date: 2024-12-26T01:38:53Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*FzSFr1mu9QAjj620ViKaQQ.png"
 categories: ["Autonomous Systems", "Machine Learning", "Ethics"]
 author: "Rifx.Online"
@@ -10,8 +10,6 @@ tags: ["autonomy", "perception", "reasoning", "adaptability", "goal-orientation"
 draft: False
 
 ---
-
-
 
 
 
@@ -86,6 +84,7 @@ draft: False
 代理模式为开发人员提供了构建强大且可扩展的人工智能系统的蓝图。以下是有效实施这些模式的方法：
 
 1. **理解问题领域**：
+
 * 确定您的人工智能需要执行的任务以及必须遵循的限制。
 
 **2\. 选择正确的模式**：
@@ -121,11 +120,4 @@ Agentic AI 代表了人工智能的下一个前沿，将范式从被动工具转
 
 深入了解其变革潜力，学习 **Agentic Patterns** 如何彻底改变你设计智能系统的方式。无论你是在构建自适应虚拟助手、自动驾驶汽车，还是协作 AI 解决方案，现在都是利用 Agentic AI 的力量创造可扩展、高效和伦理技术的最佳时机。
 
-👉 今天就开始你的 **Agentic AI** 之旅，领先于快速发展的 AI 领域！
-
-📩 **让我们讨论！** 在评论中分享你的想法、挑战或 Agentic AI 的创新应用。💡
-
-🔗 **传播这个消息**，将这篇文章分享给你的网络！
-
-**\#AgenticAI \#AutonomousAgents \#AIInnovation \#ArtificialIntelligence \#AIForGood \#AIApplications \#AutonomousSystems \#IntelligentDesign \#AIThoughtLeadership \#FutureOfAI**
 

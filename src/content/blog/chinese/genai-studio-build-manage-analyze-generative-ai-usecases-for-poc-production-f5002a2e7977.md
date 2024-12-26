@@ -2,7 +2,7 @@
 title: "GenAI Studio：构建、管理和分析用于 POC 和生产的生成式人工智能用例"
 meta_title: "GenAI Studio：构建、管理和分析用于 POC 和生产的生成式人工智能用例"
 description: "GenAI Studio 是一个用户友好的平台，旨在简化生成式 AI 解决方案的创建、管理和分析，适用于教育和学习目的。其主要功能包括用例创建、更新、删除、测试、比较和分析，支持无编码操作，促进团队协作。该工具提供直观的界面，帮助用户优化 AI 配置、监控性能并降低成本，同时生成 API 端点以便于集成。GenAI Studio 为用户探索和利用 OpenAI 模型提供了良好的环境，助力创新与发现。"
-date: 2024-12-26T02:16:13Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*TYqqvAREwIgXUh47bhTqyQ.png"
 categories: ["Generative AI", "Education", "Technology/Web"]
 author: "Rifx.Online"
@@ -10,8 +10,6 @@ tags: ["generative", "studio", "analytics", "endpoints", "integration"]
 draft: False
 
 ---
-
-
 
 ### 您构建和管理生成式 AI 解决方案的中心
 
@@ -49,7 +47,6 @@ draft: False
 ![](https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*ZlYYa4x-zulWZRJbKQiKgg.png)
 
 ### Python代码
-
 
 ```python
 def main_page():
@@ -110,7 +107,6 @@ def main_page():
 
 ### Python 代码
 
-
 ```python
 def create_use_case():
 
@@ -123,7 +119,7 @@ def create_use_case():
 
     use_case_name = st.sidebar.text_input("用例名称", value="", placeholder="输入用例名称")
     ui_deployment_name = st.sidebar.selectbox("部署名称", list(MODEL_DICT.keys()))
-    
+  
     azure_deployment_name = MODEL_DEPLOYMENT_NAME_MAPPING[ui_deployment_name]
     selected_model = MODEL_DICT[ui_deployment_name]
 
@@ -201,7 +197,6 @@ AI 解决方案在不断发展。通过 *更新用例* 功能，您可以调整�
 
 ### Python 代码
 
-
 ```python
 def update_use_case():
 
@@ -230,7 +225,7 @@ def update_use_case():
             max_tokens = st.sidebar.slider("最大令牌", 10, 1000, config["max_tokens"])
         else:
             max_tokens = None
-            
+          
         uucc = config["uucc"]
         prompt = st.text_area("在此输入您的提示", value=config["prompt"], help="**可选** 更新提示")
         config = {
@@ -270,7 +265,6 @@ def update_use_case():
 
 ### Python 代码
 
-
 ```python
 def delete_use_case_page():
     st.title("删除现有用例")
@@ -297,7 +291,7 @@ def delete_use_case_page():
         if modal.is_open():
             with modal.container():
                 user_input = st.text_input("输入确认代码:")
-                
+              
                 if st.button("确认删除"):
                     if user_input == confirmation_code:
                         if delete_use_case(selected_use_case.replace("/api/", "")):
@@ -333,7 +327,6 @@ def delete_use_case_page():
 ![](https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*Pllxg9HGyXyLYwRngkkk0Q.png)
 
 ### Python 代码
-
 
 ```python
 def test_model():
@@ -375,7 +368,7 @@ def test_model():
             st.write(f"配置：{config}")
 
         user_query = st.text_area("询问查询")
-    
+  
         if st.button("生成响应"):
             if user_query:
                 with st.spinner("思考中..."):
@@ -415,7 +408,6 @@ def test_model():
 ![](https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*PcoaH5AwT1IOuSzCpviUEA.png)
 
 ### Python 代码
-
 
 ```python
 def compare_use_cases():
@@ -521,7 +513,6 @@ def compare_use_cases():
 
 ### Python 代码
 
-
 ```python
 def analytics_dashboard():
     st.title("APIs 分析仪表板")
@@ -539,7 +530,7 @@ def analytics_dashboard():
             listed_usecases.append(k)
 
     selected_use_case = st.sidebar.selectbox("选择用例", list(listed_usecases))
-    
+  
     if selected_use_case:
     # 日期范围选择
         end_date = datetime.now().date()
@@ -572,7 +563,7 @@ def analytics_dashboard():
         st.header("每日使用情况")
         daily_df = pd.DataFrame(data['daily_usage'])
         daily_df['date'] = pd.to_datetime(daily_df['date'])
-        
+      
         fig = create_daily_usage_chart(daily_df)
         st.plotly_chart(fig, use_container_width=True)
 
@@ -654,23 +645,4 @@ Gen AI Studio 不仅简化了 AI — 它还赋予你创造性思维，探索 AI 
 
 因此，无论你是经验丰富的 AI 专业人士，还是充满好奇的初学者，Gen AI Studio 邀请你踏上一个迷人的发现之旅。释放你的创造力，尝试 OpenAI 模型的强大功能，解锁未来无限的可能性。
 
-*如果你喜欢阅读，请务必给它 50 次掌声！ 👏 你的点击比你想象的更重要。*
-
-20 个人拍一次手？那就是 20 次掌声。
-
-20 个人拍 50 次手？那就是 1000 次！
-
-让我们实现它！ 👏
-
-***关注*** *并且不要错过我未来的任何帖子 - **订阅** 我的个人资料，以便在未来获取必读的博客文章！*
-
-***感谢阅读！***
-
-![](https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*m9yt4jqcQCtL8FDF.png)
-
-此故事发布在 [Generative AI](https://generativeai.pub/)。在 [LinkedIn](https://www.linkedin.com/company/generative-ai-publication) 上与我们连接，并关注 [Zeniteq](https://www.zeniteq.com/)，以便及时了解最新的 AI 故事。
-
-订阅我们的 [新闻通讯](https://www.generativeaipub.com/) 和 [YouTube](https://www.youtube.com/@generativeaipub) 频道，以便获取最新的生成 AI 新闻和更新。让我们共同塑造 AI 的未来！
-
-![](https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*HoYGZXAZcXyISS5v.png)
 

@@ -2,7 +2,7 @@
 title: "Revolutionizing Financial Document Processing with Agentic Workflows"
 meta_title: "Revolutionizing Financial Document Processing with Agentic Workflows"
 description: "The article discusses a workflow designed to automate the processing of complex financial documents, specifically SEC 10-K reports, utilizing tools such as Phidata, n8n, and Qdrant. It outlines an architecture that includes a Local File Trigger, a custom-built Sec10k Agent for analysis, and a Qdrant Vector Store for managing data. The implementation details a structured approach for extracting financial metrics and storing them in a vector database, enhancing search and retrieval capabilities. The solution aims to streamline financial operations, making data accessible and actionable for decision-makers, ultimately promoting smarter financial management through AI and automation."
-date: 2024-12-26T01:36:10Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*l6iz1IorItTcrER2zAgqjA.png"
 categories: ["Finance", "Technology", "Data Science"]
 author: "Rifx.Online"

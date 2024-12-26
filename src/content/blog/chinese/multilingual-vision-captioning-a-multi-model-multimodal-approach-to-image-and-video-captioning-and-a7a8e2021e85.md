@@ -1,8 +1,8 @@
 ---
-title: "多语言视觉字幕：图像和视频字幕的多模型、多模态方法和多语言视觉字幕：..."
-meta_title: "多语言视觉字幕：图像和视频字幕的多模型、多模态方法和多语言视觉字幕：..."
+title: "多模态多语言视觉描述技术：基于Llama 3.2与NLLB-200的图像视频分析方法"
+meta_title: "多模态多语言视觉描述技术：基于Llama 3.2与NLLB-200的图像视频分析方法"
 description: "本文介绍了一种多模型多模态的图像和视频字幕与翻译方法，利用Meta的Llama 3.2、Facebook的NLLB-200和LLaVA-Next-Video模型生成多语言描述、标签和情感分析。文章详细阐述了如何使用先进的机器学习模型批量处理视觉内容，并生成自然语言描述、情感分析和多语言翻译。通过具体示例，展示了如何分析广告和创意内容，强调了AI在视觉内容分析中的应用潜力。"
-date: 2024-12-26T02:20:46Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*I1PvP9vmfC9oXJESlkt8dw.png"
 categories: ["Natural Language Processing", "Computer Vision", "Generative AI"]
 author: "Rifx.Online"
@@ -10,8 +10,6 @@ tags: ["multimodal", "vision", "captioning", "translation", "quantization"]
 draft: False
 
 ---
-
-
 
 ### 使用Meta的Llama 3.2 11B Vision Instruct、Facebook的600M NLLB-200和LLaVA-Next-Video 7B模型生成多语言图像和视频标题、描述标签以及情感分析。
 
@@ -106,7 +104,6 @@ huggingface-cli download SeanScripts/Llama-3.2-11B-Vision-Instruct-nf4
 
 包含所有依赖项的 `requirements.txt` 文件：
 
-
 ```python
 accelerate
 av
@@ -119,8 +116,8 @@ requests
 transformers
 transformers[sentencepiece]
 ```
-用于创建虚拟环境并安装本帖所需包的 Python 3 和 `pip` 命令：
 
+用于创建虚拟环境并安装本帖所需包的 Python 3 和 `pip` 命令：
 
 ```python
 python -m venv .venv
@@ -138,7 +135,6 @@ pip install flash-attn --no-build-isolation
 ### Anaconda虚拟环境与pip
 
 使用[Anaconda](https://www.anaconda.com/)和`pip`创建虚拟环境并安装本帖所需包的命令：
-
 
 ```python
 python --version
@@ -323,6 +319,7 @@ def main() -> None:
 if __name__ == "__main__":
     main()
 ```
+
 主要的图像处理功能，用于所有类型的生成输出，已被分离到 `ImageProcessor` 类 `imageProcessor.py` 中。
 
 ```python
@@ -446,6 +443,7 @@ class ImageProcessor:
         time_per_token = total_time / generated_tokens
         return output, generated_tokens, total_time, time_per_token
 ```
+
 以下是 `Translator` 类 `translator.py`，它使用 2.5 GB 的 `facebook/nllb-200-distilled-600M` 模型进行分词和翻译。
 
 ```python
@@ -521,6 +519,7 @@ class Translator:
 
         return response
 ```
+
 该脚本遍历图像目录。它打开每个图像文件并将其转换为 RGB 颜色空间，这是一种在数字成像中使用的标准颜色模型。`Image.open` 函数是 Python Imaging Library (PIL) 的一部分，通常用于打开、处理和保存多种不同的图像文件格式。此转换是必要的，因为许多图像处理算法和模型期望输入图像为 RGB 格式。然后，该脚本准备图像以输入机器学习模型。`processor` 函数接受图像和 `prompt`，并将处理后的数据作为张量返回，张量是 PyTorch 中的核心数据抽象。`return_tensors="pt"` 参数指定输出应为 PyTorch 张量格式，这在深度学习框架中常用。最后，`.to(DEVICE)` 方法将处理后的张量移动到指定设备，即启用 CUDA 的 NVIDIA GPU。
 
 `generate_description` 函数调用 4 位量化的 `SeanScripts/Llama-3.2–11B-Vision-Instruct-nf4` 模型为图像生成文本描述。它接受模型、输入、温度和最大新令牌数作为参数，并返回生成的描述。该函数使用 `transformers` 的 `MllamaForConditionalGeneration` 类，其中的 Mllama 模型由一个视觉编码器和一个语言模型组成。
@@ -565,6 +564,7 @@ Hugging Face [Transformers](https://huggingface.co/docs/transformers/en/index) �
   }
 }
 ```
+
 上述内容展示了由 4 位 `SeanScripts/Llama-3.2–11B-Vision-Instruct-nf4 模型` 生成的图像的英语描述，之后是法语、西班牙语和印地语翻译。生成的英语描述非常详细：
 
 “*图像描绘了一栋房子，前面有一个红色标志，上面用黑色字母写着“再见信用卡债务”。这栋房子是一层结构，屋顶是灰色的，白色的装饰，采用棕色砖石建造。房子的前面有一个带白色柱子的有顶走廊，左侧有一扇窗户，右侧有一扇门。*
@@ -733,6 +733,7 @@ def main() -> None:
 if __name__ == "__main__":
     main()
 ```
+
 主要的视频处理功能被分离到 `VideoProcessor` 类中，位于 `videoProcessor.py`。
 
 ```python
@@ -899,9 +900,8 @@ class VideoProcessor:
 
         return assistant_value
 ```
+
 该脚本使用 `os` 和 `av` Python 包从指定目录加载所有视频到已加载视频容器的列表中 (`list[av.container.input.InputContainer]`)。该脚本使用 NumPy 库的 `np.arange` 函数生成帧索引数组。`np.arange` 函数在给定范围内创建一个均匀间隔的值数组。这里，范围从 0 开始，到 `video_stream.frames` 结束，表示视频的总帧数。步长为 `video_stream.frames / 16`，这意味着该函数将在将总帧数除以 16 的间隔处生成索引。这有效地从视频中选择 16 个均匀分布的帧。`.astype(int)` 方法将结果数组转换为整数，确保索引是有效的帧编号。最后，`generate_response` 函数处理视频内容（处理后的帧）并使用 `llava-hf/LLaVA-NeXT-Video-7B-hf` 模型和处理器生成文本响应。
-
-
 
 ### 视频字幕示例
 
@@ -940,6 +940,7 @@ class VideoProcessor:
   }
 }
 ```
+
 以上，我们看到视频的原始英文描述，随后是法语、西班牙语和印地语的翻译。生成的英文视频描述非常出色，详细描述了视觉、音频和非语言内容：
 
 “*视频捕捉到一位女性运动员的动态场景，她穿着白色背心和短裤，在跑道上奔跑。她正处于比赛中，随着她接近终点线，她的速度和专注显而易见。相机从后面跟随她，强调了她的决心和竞争的激烈。在背景中，一个穿蓝衬衫和短裤的男人正在奔跑，增加了竞争氛围的感觉。然后相机转向一位穿蓝衬衫的女性，她似乎是一名记者，正在对正在进行的比赛进行评论或分析。音频包括运动员的脚步声和呼吸声，以及评论员的声音，创造出一种真实而沉浸的体验。视觉风格真实，着重于运动员的身体素质和跑道的质感，传达了这项运动中速度和努力的感觉。整体氛围充满活力和竞争，随着比赛接近尾声，带着一丝兴奋。视频似乎是与体育相关的作品，可能是纪录片或现场直播，旨在吸引体育爱好者或粉丝，突出竞争的激烈和运动员的奉献精神。*”
@@ -967,6 +968,7 @@ Format your response as a single line of comma-separated tags, ordered from most
 Example output:
 urban landscape, neon lights, electronic music, fast-paced editing, young protagonists, street dance, nighttime setting, energetic atmosphere, handheld camera, diverse cast, futuristic fashion, crowd cheering, bold color palette, rebellious theme, social media integration, drone footage, underground culture, viral challenge, generational conflict, street art"""
 ```
+
 分析同样的耐克2024年“*胜利并非人人可得*”广告，`llava-hf/LLaVA-NeXT-Video-7B-hf` 模型生成了以下标签列表，随后通过实用类 `tagsProcessor.py` 进行了去重和排序：
 
 ```python
@@ -1053,6 +1055,7 @@ Presentation Guidelines:
 Your sentiment analysis should provide readers with a clear understanding of the emotional content and impact of the video, 
 supported by specific observations from various aspects of the video's production."""
 ```
+
 使用耐克2024年“*胜利并不适合每个人*”广告的相同示例，`llava-hf/LLaVA-NeXT-Video-7B-hf` 模型生成了以下情感分析：
 
 “*该视频展现了一系列多样的情感和情绪，整体氛围以积极和充满活力为主。主导情感是兴奋和期待，这在小女孩和男人的表情中显而易见。女孩睁大眼睛的凝视和男人专注的表情传达出一种渴望和准备的感觉，暗示他们渴望参与即将进行的活动或事件。温暖的灯光和鲜艳的色彩，例如女孩的黄色球衣和男人的红白制服，进一步增强了这种充满活力和积极的情绪。背景音乐活泼而欢快，增加了场景的兴奋和热情。*”
@@ -1132,6 +1135,7 @@ Guidelines:
 Your description should weave together these elements to create a cohesive and insightful portrayal of the advertisement, 
 allowing readers to visualize it clearly and understand its key messages and strategies.<|eot_id|><|start_header_id|>assistant<|end_header_id|>"""让我们来看看对 World Wide Technology 在 Yahoo! 上的数字广告分析生成的结果。
 ```
+
 ![](https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*qcaej4V1bcvzfzdoklkcQA.png)
 
 `SeanScripts/Llama-3.2–11B-Vision-Instruct-nf4` 模型生成了以下详细分析：
@@ -1146,7 +1150,4 @@ allowing readers to visualize it clearly and understand its key messages and str
 
 在这篇文章中，我们学习了如何使用 Llama 3.2 11B Vision Instruct 模型的 4 位和 8 位量化版本以及 LLaVA-Next-Video 7B 模型的组合，生成详细的自然语言描述、描述性标签和图像与视频的情感分析。我们还学习了如何使用 Facebook 的 600M 参数变体的 NLLB-200 模型，从生成的描述中产生翻译。Hugging Face 上有超过一百万个模型，我们可以使用无限的模型组合来解决即使是最复杂的 NLP 任务。
 
-*如果您还不是 Medium 会员并希望支持像我这样的作者，请在此注册：<https://garystafford.medium.com/membership>。*
-
-*本博客代表我的观点，而不是我雇主亚马逊网络服务（AWS）的观点。所有产品名称、图像、徽标和品牌均为其各自所有者的财产。*
 

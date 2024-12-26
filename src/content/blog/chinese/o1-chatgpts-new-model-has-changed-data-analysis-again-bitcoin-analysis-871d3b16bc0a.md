@@ -2,7 +2,7 @@
 title: "o1:ChatGPT 的新模式再次改变了数据分析！(比特币分析）"
 meta_title: "o1:ChatGPT 的新模式再次改变了数据分析！(比特币分析）"
 description: "ChatGPT最近推出的O1模型在比特币数据分析方面展现了显著的改进。该模型现在能够处理附件，并通过优化提示来预测比特币的未来价格。用户可以从CoinGecko下载数据，并利用O1模型进行分析，生成折线图等可视化结果。尽管当前无法直接上传CSV文件，但模型的分析能力仍然为用户提供了强大的数据洞察。整体而言，这些新功能标志着数据分析领域的进一步发展。"
-date: 2024-12-22T03:51:48Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*c_NC21VlBAsUh1uy68v5gQ.jpeg"
 categories: ["Chatbots", "Data Science", "Predictive Analytics"]
 author: "Rifx.Online"

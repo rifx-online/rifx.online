@@ -2,7 +2,7 @@
 title: "Anthropic 的 MCP：使用 Claude Desktop 设置 Git MCP Agentic 工具"
 meta_title: "Anthropic 的 MCP：使用 Claude Desktop 设置 Git MCP Agentic 工具"
 description: "本文介绍了如何在Claude Desktop上设置Model Context Protocol (MCP)与Git的集成，提供了详细的步骤和最佳实践。MCP是一个开源标准，旨在改善AI助手与数据源的交互，支持代码分析和版本控制。文章涵盖了MCP的背景、设置要求、功能、用例、故障排除等内容，强调了在配置多个工具时需注意的事项，以确保系统的有效性和可靠性。通过MCP，开发者可以高效分析Git仓库，提升开发效率。"
-date: 2024-12-26T01:09:45Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*YKLBm9xalmkqAydKi30Lxg.png"
 categories: ["Programming", "Technology", "Git"]
 author: "Rifx.Online"

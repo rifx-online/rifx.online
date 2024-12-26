@@ -2,7 +2,7 @@
 title: "Transform Any Document into AI-Ready Markdown: Microsoft’s MarkItDown + Azure OpenAI Guide"
 meta_title: "Transform Any Document into AI-Ready Markdown: Microsoft’s MarkItDown + Azure OpenAI Guide"
 description: "Microsoft’s MarkItDown is an open-source tool designed to convert various document formats, such as PDFs and images, into Markdown, facilitating easier integration with machine learning models. The tool can be enhanced with Azure OpenAI for advanced image processing capabilities. MarkItDown supports multiple formats, including Office files and media, and allows batch processing. Security best practices and specific Azure requirements are outlined for users. The project is actively developed, with ongoing improvements and updates expected."
-date: 2024-12-26T01:13:12Z
+date: 2024-12-26T04:30:18Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*7prmWElJ3rqdbMK_z9uAXw.png"
 categories: ["Programming", "Technology", "Machine Learning"]
 author: "Rifx.Online"
