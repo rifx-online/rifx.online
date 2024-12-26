@@ -32,7 +32,7 @@ export async function getStaticPaths() {
 }
 
 const { post } = Astro.props;
-const { title, meta_title, description, image } = post.data;
+const { title, meta_title, description, image, tags, date } = post.data;
 ---
 
 <Base
@@ -40,6 +40,9 @@ const { title, meta_title, description, image } = post.data;
   meta_title={meta_title}
   description={description}
   image={image}
+  keywords={tags}
+  date={date?.toISOString()}
+  type="article"
 >
   <PostSingle post={post} />
 </Base>

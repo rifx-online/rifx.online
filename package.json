@@ -31,6 +31,7 @@
     "astro": "^4.16.7",
     "astro-auto-import": "^0.4.2",
     "astro-font": "^0.1.81",
+    "astro-seo": "^0.8.4",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "date-fns": "^3.6.0",
