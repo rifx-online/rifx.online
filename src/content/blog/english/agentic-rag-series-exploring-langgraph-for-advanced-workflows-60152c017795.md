@@ -1,12 +1,12 @@
 ---
 title: "Agentic RAG Series: Exploring LangGraph for Advanced Workflows"
 meta_title: "Agentic RAG Series: Exploring LangGraph for Advanced Workflows"
-description: "The article discusses LangGraph, an innovative framework for creating advanced multi-agent systems within the Agentic Retrieval-Augmented Generation (RAG) architecture. LangGraph enhances workflow orchestration, tool integration, scalability, and flexibility, allowing for intelligent agent interactions. It outlines the architecture, key advantages, and a detailed code breakdown for a Document Q&A Assistant that processes URLs and PDFs, evaluates document relevance, and generates responses. The integration with tools like LangChain and Chroma is emphasized, showcasing LangGraphs capability to support complex, dynamic workflows in AI applications."
-date: 2024-12-26T04:30:18Z
+description: "The article discusses the integration of LangGraph within the Agentic Retrieval-Augmented Generation (RAG) framework, emphasizing its capabilities for orchestrating multi-agent workflows. LangGraph facilitates stateful interactions among agents, supports dynamic context adaptation, and integrates with tools like LangChain. Key features include workflow orchestration, tool integration, scalability, and flexibility, making it suitable for advanced AI applications. The article also outlines a Document Q&A Assistant built using LangGraph, demonstrating its functionality through a user-friendly interface and various processing workflows."
+date: 2024-12-27T11:09:55Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*WTisqw_ypLsMp2mf"
 categories: ["Programming", "Machine Learning", "Chatbots"]
 author: "Rifx.Online"
-tags: ["LangGraph", "RAG", "LangChain", "Chroma", "workflows"]
+tags: ["LangGraph", "RAG", "workflows", "LangChain", "scalability"]
 draft: False
 
 ---
