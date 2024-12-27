@@ -2,7 +2,7 @@
 title: "Use Gemini 2.0 to Build a Realtime Chat App with Multimodal Live API"
 meta_title: "Use Gemini 2.0 to Build a Realtime Chat App with Multimodal Live API"
 description: "The article discusses the capabilities of Googles Gemini 2.0, particularly its multimodal features that allow real-time processing of text, images, audio, and video. It provides a tutorial on building a real-time chat application using the Gemini 2.0 multimodal live API, highlighting the differences from previous models and the necessary server-client architecture. The tutorial includes code implementation details for both server-side (Python) and client-side (JavaScript), guiding developers through the setup and execution of a chatbot that supports voice and video interactions. The article emphasizes Gemini 2.0s potential to enhance user experience through its advanced functionalities."
-date: 2024-12-27T10:54:25Z
+date: 2024-12-27T12:59:06Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*NPi_bfYxg7MChSJNnCWb8w.png"
 categories: ["Programming", "Chatbots", "Natural Language Processing"]
 author: "Rifx.Online"

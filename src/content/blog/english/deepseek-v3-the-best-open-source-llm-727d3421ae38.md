@@ -2,7 +2,7 @@
 title: "DeepSeek V3: The best Open-source LLM | by Mehul Gupta | Data Science in your pocket | Dec, 2024 | Medium"
 meta_title: "DeepSeek V3: The best Open-source LLM | by Mehul Gupta | Data Science in your pocket | Dec, 2024 | Medium"
 description: "DeepSeek V3, released by Chinas DeepSeek, is an advanced open-source large language model (LLM) with 685 billion parameters, outperforming notable competitors like Claude 3.5 and GPT-4o. It achieves high accuracy near 90% and operates at 60 tokens per second, demonstrating efficiency and cost-effectiveness. Key features include Mixture-of-Experts architecture, multi-head latent attention, and extensive training on 14.8 trillion tokens. DeepSeek V3 excels in various performance metrics, including math reasoning and complex question answering, making it one of the best open-source models available."
-date: 2024-12-27T03:43:30Z
+date: 2024-12-27T12:59:06Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*QYVWKYv9qo54BvFi"
 categories: ["Natural Language Processing", "Machine Learning", "Data Science"]
 author: "Rifx.Online"

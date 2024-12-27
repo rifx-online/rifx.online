@@ -2,7 +2,7 @@
 title: "人工智能代理框架终极指南：CrewAI vs LangGraph vs PhiData vs Relevance AI"
 meta_title: "人工智能代理框架终极指南：CrewAI vs LangGraph vs PhiData vs Relevance AI"
 description: "本文探讨了四个主要的AI代理框架：CrewAI、LangGraph、PhiData和Relevance AI。CrewAI专注于构建协作AI团队，LangGraph强调生产级应用的状态管理，PhiData追求简化的多模态代理开发，而Relevance AI提供无代码的商业自动化解决方案。每个框架具有独特的优势，适合不同的开发者和商业用户需求，选择时需考虑具体用例和团队技术能力。"
-date: 2024-12-27T10:40:23Z
+date: 2024-12-27T12:59:06Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*tyIpTYbZZRXD9dJ4WMtdUg@2x.png"
 categories: ["Programming", "Machine Learning", "Autonomous Systems"]
 author: "Rifx.Online"

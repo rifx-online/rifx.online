@@ -2,7 +2,7 @@
 title: "2025 年企业数据与人工智能趋势：代理、平台和新产品"
 meta_title: "2025 年企业数据与人工智能趋势：代理、平台和新产品"
 description: "文章讨论了到2025年企业数据和人工智能的趋势，强调智能数据平台和人工智能代理的崛起。主要趋势包括应用人工智能的代理自动化、多代理系统的协作、代理管理系统的开发以及任务特定模型的演进。此外，智能数据平台的整合和ETL流程的扩展对数据准备至关重要。月球任务项目则探索了认知代理和具身智能体等前沿概念，可能会重新定义人机交互。整体而言，这些趋势将重塑企业与技术的互动方式。"
-date: 2024-12-27T10:56:56Z
+date: 2024-12-27T12:59:06Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*2VviwkXT_ZF7wRkc"
 categories: ["Data Science", "Artificial Intelligence", "Technology"]
 author: "Rifx.Online"

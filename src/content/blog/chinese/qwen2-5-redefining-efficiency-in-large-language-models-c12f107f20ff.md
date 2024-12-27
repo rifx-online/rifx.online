@@ -2,7 +2,7 @@
 title: "Qwen2.5：重新定义大型语言模型的效率"
 meta_title: "Qwen2.5：重新定义大型语言模型的效率"
 description: "Qwen2.5是一个先进的大型语言模型，旨在提高效率和学习能力，采用强化学习和多阶段微调技术。其目标是解决模型性能、与人类偏好的对齐及成本效益等问题。Qwen2.5支持从0.5B到72B的多种参数配置，具备长达100万令牌的上下文处理能力，广泛适用于各种AI应用。通过基于人类反馈的强化学习，Qwen2.5能够更好地满足用户需求，减少不相关输出，展现出在数学推理和编码等领域的优秀性能，突显其在大型语言模型中的重要进展。"
-date: 2024-12-27T10:46:05Z
+date: 2024-12-27T12:59:06Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*Jux9f0JoyZRBUPP7YjjQiQ.jpeg"
 categories: ["Programming", "Machine Learning", "Natural Language Processing"]
 author: "Rifx.Online"

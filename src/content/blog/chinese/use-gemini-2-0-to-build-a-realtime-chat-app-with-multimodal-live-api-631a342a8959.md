@@ -2,7 +2,7 @@
 title: "使用 Gemini 2.0 通过多模态实时 API 构建实时聊天应用程序"
 meta_title: "使用 Gemini 2.0 通过多模态实时 API 构建实时聊天应用程序"
 description: "谷歌推出的Gemini 2.0模型在多模态处理能力上表现突出，可以实时处理文本、图像、音频和视频输入，极大提升了AI代理的交互性。本文介绍了如何利用Gemini 2.0的多模态实时API构建聊天应用，包括后端Python代码实现和前端JavaScript逻辑，展示了音频和视频交互的具体步骤。开发者可以通过Google AI Studio体验这些功能，并在本地自托管应用中实现更复杂的交互。"
-date: 2024-12-27T10:54:25Z
+date: 2024-12-27T12:59:06Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*NPi_bfYxg7MChSJNnCWb8w.png"
 categories: ["Programming", "Chatbots", "Natural Language Processing"]
 author: "Rifx.Online"

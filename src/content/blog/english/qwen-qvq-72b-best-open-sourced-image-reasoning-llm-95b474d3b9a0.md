@@ -2,7 +2,7 @@
 title: "Qwen QVQ-72B: Best open-sourced Image Reasoning LLM"
 meta_title: "Qwen QVQ-72B: Best open-sourced Image Reasoning LLM"
 description: "Qwen QVQ-72B, developed by Alibaba, is an open-sourced visual reasoning language model that integrates multimodal processing of text and images. It demonstrates enhanced reasoning capabilities, achieving high benchmark scores, particularly in math-related tasks. Despite its advancements, it faces limitations such as language mixing and potential inaccuracies. Built on a transformer-based architecture, Qwen QVQ-72B is accessible for research and development, although it may require significant computational resources for optimal performance."
-date: 2024-12-27T10:42:49Z
+date: 2024-12-27T12:59:06Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*tmbEax6HI5uMGiJp"
 categories: ["Natural Language Processing", "Machine Learning", "Technology/Web"]
 author: "Rifx.Online"

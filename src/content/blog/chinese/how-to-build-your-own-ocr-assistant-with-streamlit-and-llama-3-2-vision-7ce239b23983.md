@@ -2,7 +2,7 @@
 title: "如何使用 Streamlit 和 Llama 3.2-Vision 构建自己的 OCR 助手"
 meta_title: "如何使用 Streamlit 和 Llama 3.2-Vision 构建自己的 OCR 助手"
 description: "本文介绍了如何使用Streamlit和Llama 3.2-Vision构建OCR助手。OCR技术用于将图像中的文本转换为可编辑数据，具有自动化数据录入和数字化记录的应用价值。Llama 3.2-Vision以其高准确性和高级格式化能力，成为OCR任务的优选模型。文章提供了详细的步骤，包括安装Ollama、设置开发环境、运行OCR应用程序等，帮助用户快速搭建功能齐全的OCR工具，并探讨了潜在的应用和改进方向。"
-date: 2024-12-27T10:58:08Z
+date: 2024-12-27T12:59:06Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*f0fXSegk9ihTiWEo0TB2eg.png"
 categories: ["Programming", "Technology", "Computer Vision"]
 author: "Rifx.Online"

@@ -2,7 +2,7 @@
 title: "使用 Gemini 2.0 提取任何文档 | 使用 ExtractThinker 提取文档智能"
 meta_title: "使用 Gemini 2.0 提取任何文档 | 使用 ExtractThinker 提取文档智能"
 description: "本文探讨了Google的Gemini 2.0模型与ExtractThinker框架结合，增强智能文档处理（IDP）能力。ExtractThinker是一个开源库，能够协调OCR、分类、文档拆分和数据提取。Gemini 2.0支持多模态输入，适用于快速数据提取。文章详细介绍了Google Document AI的功能及其定价，强调了ExtractThinker在处理复杂文档时的灵活性和效率。通过结合这些工具，用户可以构建高效的IDP工作流，优化成本和准确性。"
-date: 2024-12-27T10:50:43Z
+date: 2024-12-27T12:59:06Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*u6Q__5Dg6zHmo3sFHOeN4g.png"
 categories: ["Technology", "Programming", "Data Science"]
 author: "Rifx.Online"

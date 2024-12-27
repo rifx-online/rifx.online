@@ -2,7 +2,7 @@
 title: "Building a Multi-agent Internet Research Assistant"
 meta_title: "Building a Multi-agent Internet Research Assistant"
 description: "The article presents a tutorial on building a multi-agent internet research assistant using OpenAI Swarm and Llama 3.2. It describes a three-agent system where Agent 1 searches the web based on user queries, Agent 2 refines the search results, and Agent 3 drafts a comprehensive article. The tutorial outlines the implementation steps, including agent definitions and workflow orchestration, utilizing Streamlit for the user interface. The article emphasizes the capabilities of AI agents in reasoning and information extraction, and it aims to provide practical applications for AI engineering and LLMs."
-date: 2024-12-27T10:41:33Z
+date: 2024-12-27T12:59:06Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*S7Vz0Bq6_4szvCYFLBGASA.png"
 categories: ["Programming", "Machine Learning", "Chatbots"]
 author: "Rifx.Online"

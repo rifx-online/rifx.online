@@ -2,7 +2,7 @@
 title: "2024 年 RAG 的崛起与演变：年度回顾"
 meta_title: "2024 年 RAG 的崛起与演变：年度回顾"
 description: "2024年，检索增强生成（RAG）经历了显著的发展，主要体现在技术演变、开源LLM的影响以及多模态文档处理能力的提升。RAG逐渐被广泛接受，尤其是在与大型语言模型结合使用时，展现了成本效益和实时性能的优势。然而，RAG仍面临多模态文档解析、低召回率和语义差距等技术挑战。多个创新如GraphRAG和混合搜索的兴起，推动了RAG的应用与研究，展望2025年，预计多模态RAG将迎来快速发展。"
-date: 2024-12-27T11:05:25Z
+date: 2024-12-27T12:59:06Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*r1FbYrgTSvZI0QfegGAUOQ.png"
 categories: ["Generative AI", "Machine Learning", "Data Science"]
 author: "Rifx.Online"

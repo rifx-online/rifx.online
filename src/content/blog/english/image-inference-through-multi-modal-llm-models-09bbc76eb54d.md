@@ -2,7 +2,7 @@
 title: "Image Inference through Multi-Modal LLM Models"
 meta_title: "Image Inference through Multi-Modal LLM Models"
 description: "This article discusses the advancements in multimodal AI models that integrate visual and textual data for enhanced image inference. It highlights the transition from traditional text extraction methods to modern models like OpenAI and Gemini, which facilitate efficient data processing. The article provides practical guidance on sending image-based requests to these models, emphasizing the importance of context windows and request structures. It concludes by outlining the benefits of multimodal AI in various fields, including healthcare and creative industries, showcasing its potential for improved decision-making and accessibility."
-date: 2024-12-27T10:47:46Z
+date: 2024-12-27T12:59:06Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*Hws72hKiwND8Qphp6OYGJQ.png"
 categories: ["Natural Language Processing", "Computer Vision", "Generative AI"]
 author: "Rifx.Online"

@@ -2,7 +2,7 @@
 title: "Qwen QVQ-72B：最佳开源图像推理 LLM"
 meta_title: "Qwen QVQ-72B：最佳开源图像推理 LLM"
 description: "Qwen QVQ-72B是阿里巴巴推出的一款开源视觉推理LLM，旨在处理图像和文本的多模态任务。该模型在多模态数学理解评估中表现出色，得分达到70.3，显著提升了推理能力，尤其在复杂分析任务中。尽管存在语言混合和多步骤推理的挑战，QVQ-72B仍为研究人员和开发者提供了良好的开源访问，促进了视觉推理技术的发展。"
-date: 2024-12-27T10:42:49Z
+date: 2024-12-27T12:59:06Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*tmbEax6HI5uMGiJp"
 categories: ["Natural Language Processing", "Machine Learning", "Technology/Web"]
 author: "Rifx.Online"

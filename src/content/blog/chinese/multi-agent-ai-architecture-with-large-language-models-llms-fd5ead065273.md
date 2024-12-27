@@ -2,7 +2,7 @@
 title: "具有大型语言模型（LLM）的多代理人工智能架构"
 meta_title: "具有大型语言模型（LLM）的多代理人工智能架构"
 description: "本文探讨了多智能体架构与大型语言模型（LLMs）的结合，强调其在解决复杂任务中的优势。多智能体系统由多个自主智能体组成，能够独立决策并协作完成任务，广泛应用于机器人技术和虚拟助手等领域。文章提供了一个使用LLMs的多智能体应用的端到端实现示例，展示了如何通过协调者和多个代理利用LLMs进行自然语言处理与推理。"
-date: 2024-12-27T10:48:53Z
+date: 2024-12-27T12:59:06Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*mDld8-UAl8yND332Pw9kgg.png"
 categories: ["Programming", "Machine Learning", "Natural Language Processing"]
 author: "Rifx.Online"

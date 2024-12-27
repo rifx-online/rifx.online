@@ -2,7 +2,7 @@
 title: "Building a Multi Agent based — “Auto Recursive” — Plan , Execute, Re-Plan Process"
 meta_title: "Building a Multi Agent based — “Auto Recursive” — Plan , Execute, Re-Plan Process"
 description: "The article discusses the development of a multi-agent system designed for a recursive plan-execute-replan process. It identifies the limitations of simpler agentic solutions and proposes a more sophisticated framework that utilizes a supervisor agent to manage configurations and facilitate communication among independent agents. The system is designed to adapt dynamically, allowing for human intervention when necessary and ensuring flexibility in calling external systems. This innovative approach aims to automate complex, multi-step processes effectively, showcasing its iterative and recursive capabilities."
-date: 2024-12-27T10:43:58Z
+date: 2024-12-27T12:59:06Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*V01_TB1pHE2c-bXGK9qxkg.png"
 categories: ["Programming", "Autonomous Systems", "Generative AI"]
 author: "Rifx.Online"

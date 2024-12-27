@@ -2,7 +2,7 @@
 title: "构建基于多代理的 自动递归--计划、执行、再计划流程"
 meta_title: "构建基于多代理的 自动递归--计划、执行、再计划流程"
 description: "本文讨论了基于多智能体的自动递归计划执行与重新计划过程。首先，提出了智能体在计划、执行和重新计划中的应用场景，强调了在复杂任务中需要动态调整和灵活性的必要性。接着，介绍了一种基于Azure Gen AI Foundation框架的解决方案，使用监督者和执行者智能体协作，通过递归调用实现任务的自动化执行与重新规划。最后，作者分享了多种智能体用例，展示了其在不同领域的应用潜力。"
-date: 2024-12-27T10:43:58Z
+date: 2024-12-27T12:59:06Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*V01_TB1pHE2c-bXGK9qxkg.png"
 categories: ["Programming", "Autonomous Systems", "Generative AI"]
 author: "Rifx.Online"

@@ -2,7 +2,7 @@
 title: "The Ultimate Guide to AI Agent Frameworks: CrewAI vs LangGraph vs PhiData vs Relevance AI"
 meta_title: "The Ultimate Guide to AI Agent Frameworks: CrewAI vs LangGraph vs PhiData vs Relevance AI"
 description: "This guide examines four prominent AI agent frameworks: CrewAI, LangGraph, PhiData, and Relevance AI. CrewAI focuses on collaborative AI teams, LangGraph on structured, production-grade applications, PhiData on simplicity and multi-modal capabilities, and Relevance AI offers a no-code solution for business automation. Each framework has distinct strengths and is suited to different user needs, from developers requiring complex systems to business users needing automation without technical expertise. The choice of framework should align with specific project requirements and team capabilities."
-date: 2024-12-27T10:40:23Z
+date: 2024-12-27T12:59:06Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*tyIpTYbZZRXD9dJ4WMtdUg@2x.png"
 categories: ["Programming", "Machine Learning", "Autonomous Systems"]
 author: "Rifx.Online"

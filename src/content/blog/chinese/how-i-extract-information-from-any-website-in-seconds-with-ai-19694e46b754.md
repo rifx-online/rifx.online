@@ -2,7 +2,7 @@
 title: "我如何利用人工智能在几秒钟内从任何网站提取信息"
 meta_title: "我如何利用人工智能在几秒钟内从任何网站提取信息"
 description: "本文介绍了如何使用 Langchain、OpenAI、Bright Data 和 Next.js 构建一个免费的 AI 工具，能够从任何网站快速抓取、提取和分析数据。文章详细描述了项目的前提条件、凭证获取、应用程序构建步骤、组件实现、API 路由设置以及核心逻辑的编写，最终形成一个高效的网页内容查询系统，结合了 AI 模型和强大的爬虫工具，适用于研究、内容分析等多个领域。"
-date: 2024-12-27T11:00:20Z
+date: 2024-12-27T12:59:06Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*Lh0rFsMKIJ9tfsTxzNPqpQ.gif"
 categories: ["Programming", "Technology/Web", "Data Science"]
 author: "Rifx.Online"

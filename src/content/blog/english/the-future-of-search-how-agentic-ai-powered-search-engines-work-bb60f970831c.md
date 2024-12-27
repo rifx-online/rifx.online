@@ -2,11 +2,11 @@
 title: "The Future of Search: How Agentic AI Powered Search Engines Work"
 meta_title: "The Future of Search: How Agentic AI Powered Search Engines Work"
 description: "The article discusses the emergence of Agentic AI in search engines, which enhances the search experience by transforming it from a reactive process to a proactive one. These AI agents anticipate user needs, summarize content from multiple sources, and provide clear, relevant answers, improving efficiency and accuracy. Key components include perception, decision-making, execution, and learning systems, enabling agents to adapt and make informed decisions across various domains. The integration of such AI technologies, exemplified by Googles MUM project, signifies a shift towards more intelligent, user-friendly search solutions."
-date: 2024-12-27T11:01:31Z
+date: 2024-12-27T12:59:06Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*92eyrkz6zXqOAdMq"
 categories: ["Technology", "Machine Learning", "Data Science"]
 author: "Rifx.Online"
-tags: [""]
+tags: ["Agentic", "MUM", "perception", "decision-making", "learning"]
 draft: False
 
 ---

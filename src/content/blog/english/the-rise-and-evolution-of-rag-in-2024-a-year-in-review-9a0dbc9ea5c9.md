@@ -2,7 +2,7 @@
 title: "The Rise and Evolution of RAG in 2024: A Year in Review"
 meta_title: "The Rise and Evolution of RAG in 2024: A Year in Review"
 description: "In 2024, Retrieval-Augmented Generation (RAG) experienced significant advancements, particularly in addressing technical challenges and enhancing capabilities through hybrid search and multimodal integration. Key developments included the open-source release of RAGFlow, which introduced semantic chunking and hybrid search techniques, and the popularization of GraphRAG to tackle semantic gaps. The convergence of open-source and commercial LLMs improved RAG applications in various sectors. Additionally, innovations in ranking models and the integration of agent frameworks indicated a shift towards more complex, adaptive RAG systems, setting the stage for further growth in multimodal RAG and its applications in 2025."
-date: 2024-12-27T11:05:25Z
+date: 2024-12-27T12:59:06Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*r1FbYrgTSvZI0QfegGAUOQ.png"
 categories: ["Generative AI", "Machine Learning", "Data Science"]
 author: "Rifx.Online"

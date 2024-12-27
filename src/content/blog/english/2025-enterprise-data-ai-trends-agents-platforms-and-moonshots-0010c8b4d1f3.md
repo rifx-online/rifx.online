@@ -2,7 +2,7 @@
 title: "2025 Enterprise Data & AI Trends: Agents, Platforms, and Moonshots"
 meta_title: "2025 Enterprise Data & AI Trends: Agents, Platforms, and Moonshots"
 description: "The article discusses the anticipated trends in enterprise data and AI for 2025, focusing on three main categories: Applied AI, Data & Ops, and Moonshots. Key predictions include the rise of intelligent data platforms and AI agents that automate complex tasks, enhance user experiences, and collaborate in multi-agent systems. The need for robust data management practices and data readiness is emphasized for successful AI implementation. Additionally, moonshot projects exploring cognitive and embodied agents are highlighted as potential game-changers in technology. Overall, organizations are advised to prepare for these transformative trends by aligning their strategies and workforce capabilities."
-date: 2024-12-27T10:56:56Z
+date: 2024-12-27T12:59:06Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*2VviwkXT_ZF7wRkc"
 categories: ["Data Science", "Artificial Intelligence", "Technology"]
 author: "Rifx.Online"

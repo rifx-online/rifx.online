@@ -2,7 +2,7 @@
 title: "DeepSeek V3：超越竞争对手的开源大语言模型技术解析"
 meta_title: "DeepSeek V3：超越竞争对手的开源大语言模型技术解析"
 description: "DeepSeek发布的开源模型DeepSeek-V3在性能上超越了Claude 3.5 Sonnet、GPT-4o等主要竞争者，拥有6850亿个参数，具备高准确性和性价比。该模型使用专家混合模型提高效率，经过14.8万亿高质量令牌的预训练，表现出色，尤其在数学推理和编程问题解决方面。DeepSeek-V3的模型权重可通过HuggingFace访问，用户可在其官网进行聊天体验。"
-date: 2024-12-27T03:43:30Z
+date: 2024-12-27T12:59:06Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*QYVWKYv9qo54BvFi"
 categories: ["Natural Language Processing", "Machine Learning", "Data Science"]
 author: "Rifx.Online"

@@ -2,11 +2,11 @@
 title: "搜索的未来：人工智能搜索引擎的工作原理"
 meta_title: "搜索的未来：人工智能搜索引擎的工作原理"
 description: "AI驱动的搜索引擎正在通过集成Agentic AI技术，转变为主动助手，能够预测用户需求并提供更智能的搜索结果。AI代理通过感知、决策和执行等关键组件，独立处理任务并优化信息呈现，显著提高搜索效率和准确性。此技术能够总结信息、分析数据并生成清晰答案，提升用户体验，标志着网络搜索的未来将更注重信息的理解与整合。"
-date: 2024-12-27T11:01:31Z
+date: 2024-12-27T12:59:06Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*92eyrkz6zXqOAdMq"
 categories: ["Technology", "Machine Learning", "Data Science"]
 author: "Rifx.Online"
-tags: [""]
+tags: ["Agentic", "MUM", "perception", "decision-making", "learning"]
 draft: False
 
 ---

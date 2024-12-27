@@ -2,7 +2,7 @@
 title: "构建多代理互联网研究助手"
 meta_title: "构建多代理互联网研究助手"
 description: "本文介绍了如何使用OpenAI Swarm和Llama 3.2构建一个多智能体互联网研究助手。该助手由三个智能体组成：第一个智能体接受用户查询并进行网络搜索，第二个智能体对搜索结果进行筛选和精炼，第三个智能体负责撰写文章。通过OpenAI Swarm框架实现智能体的管理和协调，用户界面则使用Streamlit设计。文章详细描述了各个智能体的功能和实现步骤，提供了构建多智能体应用的实用指南。"
-date: 2024-12-27T10:41:33Z
+date: 2024-12-27T12:59:06Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*S7Vz0Bq6_4szvCYFLBGASA.png"
 categories: ["Programming", "Machine Learning", "Chatbots"]
 author: "Rifx.Online"

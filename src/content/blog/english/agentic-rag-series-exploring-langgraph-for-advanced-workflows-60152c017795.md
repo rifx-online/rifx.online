@@ -2,7 +2,7 @@
 title: "Agentic RAG Series: Exploring LangGraph for Advanced Workflows"
 meta_title: "Agentic RAG Series: Exploring LangGraph for Advanced Workflows"
 description: "The article discusses the integration of LangGraph within the Agentic Retrieval-Augmented Generation (RAG) framework, emphasizing its capabilities for orchestrating multi-agent workflows. LangGraph facilitates stateful interactions among agents, supports dynamic context adaptation, and integrates with tools like LangChain. Key features include workflow orchestration, tool integration, scalability, and flexibility, making it suitable for advanced AI applications. The article also outlines a Document Q&A Assistant built using LangGraph, demonstrating its functionality through a user-friendly interface and various processing workflows."
-date: 2024-12-27T11:09:55Z
+date: 2024-12-27T12:59:06Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*WTisqw_ypLsMp2mf"
 categories: ["Programming", "Machine Learning", "Chatbots"]
 author: "Rifx.Online"

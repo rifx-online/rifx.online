@@ -2,7 +2,7 @@
 title: "代理 RAG 系列：探索 LangGraph 高级工作流程"
 meta_title: "代理 RAG 系列：探索 LangGraph 高级工作流程"
 description: "本文探讨了**LangGraph**在构建**Agentic RAG**架构中的应用，强调其在协调复杂工作流程中的优势。LangGraph支持多代理系统的创建，具备工作流编排、工具集成和灵活性等特性，适合动态需求。文章还介绍了基于LangGraph的工作流程，包括查询处理、文档检索和响应生成，并提供了相关代码示例，展示其在处理多模态文档时的有效性和高效性。"
-date: 2024-12-27T11:09:55Z
+date: 2024-12-27T12:59:06Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*WTisqw_ypLsMp2mf"
 categories: ["Programming", "Machine Learning", "Chatbots"]
 author: "Rifx.Online"

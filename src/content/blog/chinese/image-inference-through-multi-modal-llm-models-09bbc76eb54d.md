@@ -2,7 +2,7 @@
 title: "通过多模态 LLM 模型进行图像推理"
 meta_title: "通过多模态 LLM 模型进行图像推理"
 description: "本文探讨了多模态人工智能在图像推理中的应用，强调其将视觉和文本信息整合以提升数据分析能力的优势。多模态模型如OpenAI和Gemini，通过处理多种数据类型（如图像和文本），为各行业提供更准确的人工智能解决方案。文章还提供了如何向大型语言模型（LLMs）发送图像请求的技术细节，并展示了这些模型在自动化任务和提升无障碍性方面的潜力。"
-date: 2024-12-27T10:47:46Z
+date: 2024-12-27T12:59:06Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*Hws72hKiwND8Qphp6OYGJQ.png"
 categories: ["Natural Language Processing", "Computer Vision", "Generative AI"]
 author: "Rifx.Online"

@@ -2,7 +2,7 @@
 title: "现代人工智能的核心：知识图谱和矢量数据库"
 meta_title: "现代人工智能的核心：知识图谱和矢量数据库"
 description: "现代人工智能中的检索增强生成（RAG）系统依赖于知识图谱和向量数据库这两大关键技术。知识图谱通过图状结构映射实体关系，适合处理结构化数据，强调推理和可解释性；而向量数据库则通过识别数据点相似性，专注于非结构化数据，支持快速检索和语义理解。两者的结合能够创建混合系统，充分利用各自优势，推动医疗、电子商务、法律等行业的创新。未来，这些技术将继续发展，推动智能数据驱动决策的进程。"
-date: 2024-12-27T10:52:26Z
+date: 2024-12-27T12:59:06Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*S5BiQMyZ417IlRfx.jpg"
 categories: ["Technology", "Data Science", "Machine Learning"]
 author: "Rifx.Online"

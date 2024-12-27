@@ -2,7 +2,7 @@
 title: "How to Build Your Own OCR Assistant with Streamlit and Llama 3.2-Vision"
 meta_title: "How to Build Your Own OCR Assistant with Streamlit and Llama 3.2-Vision"
 description: "This article provides a comprehensive guide on building an Optical Character Recognition (OCR) assistant using Streamlit and Llama 3.2-Vision. It outlines the significance of OCR in automating text extraction from images and documents. The guide includes step-by-step instructions for setting up the necessary environment, installing dependencies, and running the OCR application. It highlights the advantages of using Llama 3.2-Vision, such as high accuracy and advanced formatting. Additionally, it discusses real-world applications of the OCR tool and troubleshooting common issues. The article encourages further enhancements and cloud deployment of the application."
-date: 2024-12-27T10:58:08Z
+date: 2024-12-27T12:59:06Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*f0fXSegk9ihTiWEo0TB2eg.png"
 categories: ["Programming", "Technology", "Computer Vision"]
 author: "Rifx.Online"

@@ -2,7 +2,7 @@
 title: "Multi-Agent AI Architecture with Large Language Models (LLMs)"
 meta_title: "Multi-Agent AI Architecture with Large Language Models (LLMs)"
 description: "This article discusses the integration of Multi-Agent Architecture with Large Language Models (LLMs), showcasing its effectiveness in addressing complex tasks that require collaboration and advanced reasoning. It highlights how autonomous agents powered by LLMs can independently make decisions and communicate using natural language. The article also provides a practical implementation example using the Swarm framework, demonstrating how multiple agents can coordinate to extract and summarize news based on user queries. Overall, it emphasizes the scalability and versatility of multi-agent systems enhanced by LLMs."
-date: 2024-12-27T10:48:53Z
+date: 2024-12-27T12:59:06Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*mDld8-UAl8yND332Pw9kgg.png"
 categories: ["Programming", "Machine Learning", "Natural Language Processing"]
 author: "Rifx.Online"

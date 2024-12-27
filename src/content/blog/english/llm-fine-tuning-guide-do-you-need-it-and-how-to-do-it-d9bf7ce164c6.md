@@ -2,7 +2,7 @@
 title: "Llm Fine Tuning Guide: Do You Need It and How to Do It"
 meta_title: "Llm Fine Tuning Guide: Do You Need It and How to Do It"
 description: "The article discusses the necessity and methodology of fine-tuning large language models (LLMs). It emphasizes that fine-tuning is often unnecessary for many applications, as modern LLMs perform adequately without it. However, fine-tuning is warranted in specific cases, such as when domain-specific knowledge or unique communication formats are required. The article outlines the data requirements for fine-tuning, including the importance of quality, preparation, and evaluation. Various fine-tuning techniques are presented, including full retraining, LoRA, and QLoRA, each with distinct advantages and limitations. Furthermore, the article highlights the significance of aligning models with human preferences through methods like Reinforcement Learning with Human Feedback (RLHF) and Direct Preference Optimization (DPO). Finally, it provides insights on hosting and experimenting with fine-tuning infrastructure, recommending platforms like AWS SageMaker and Hugging Face for model deployment and collaboration."
-date: 2024-12-27T11:07:54Z
+date: 2024-12-27T12:59:06Z
 image: "https://images.weserv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/0*uToXHs-gjKoiRxpP.png"
 categories: ["Natural Language Processing", "Machine Learning", "Data Science"]
 author: "Rifx.Online"

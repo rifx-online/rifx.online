@@ -2,7 +2,7 @@
 title: "Extract any Document with Gemini 2.0 | Document Intelligence with ExtractThinker"
 meta_title: "Extract any Document with Gemini 2.0 | Document Intelligence with ExtractThinker"
 description: "The article discusses the integration of Googles Gemini 2.0 models with ExtractThinker, an open-source framework for Intelligent Document Processing (IDP). It highlights how IDP transforms unstructured data into structured information through a pipeline that includes OCR, classification, splitting, and data extraction. The article details the capabilities of Google Document AI, pricing, and the advantages of using ExtractThinker for document workflows. It emphasizes the synergy between Document AI and Gemini 2.0 for efficient and accurate data extraction, and provides code examples for implementation. Overall, it presents a comprehensive solution for various document processing needs."
-date: 2024-12-27T10:50:43Z
+date: 2024-12-27T12:59:06Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*u6Q__5Dg6zHmo3sFHOeN4g.png"
 categories: ["Technology", "Programming", "Data Science"]
 author: "Rifx.Online"
