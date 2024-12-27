@@ -1,33 +1,33 @@
 ---
-title: "DeepSeek V2.5"
-meta_title: "DeepSeek V2.5"
-description: "DeepSeek V2.5"
-date: 2024-12-02T13:47:08Z
+title: "DeepSeek V3"
+meta_title: "DeepSeek V3"
+description: "DeepSeek V3"
+date: 2024-12-27T09:59:13Z
 image: "https://img.rifx.online/icons/deepseek-color.svg"
 categories: ["text 2 text"]
 author: "DeepSeek"
-tags: ["Programming", "Technology", "Machine Learning", "Natural Language Processing", "Generative AI"]
-model_tags: []
+tags: ["Programming", "Technology", "Machine Learning", "Natural Language Processing", "Generative AI", "New", "Hot"]
+model_tags: ['New', 'Hot']
 draft: False
-is_recommended: False
+is_recommended: True
 is_active: True
 discount: 1
 is_free: False
 
 id: "deepseek/deepseek-chat"
-context: 128000
+context: 64000
 input: 1.4e-07
 output: 2.8e-07
 img: 0
 request: 0
-last_updated: 2024-12-02T13:47:08Z
+last_updated: 2024-12-27T09:59:13Z
 ---
 
-DeepSeek-V2.5 是一个升级版本，结合了 DeepSeek-V2-Chat 和 DeepSeek-Coder-V2-Instruct。新模型整合了前两个版本的通用能力和编程能力。
+DeepSeek-V3 是 DeepSeek 团队最新的模型，基于之前版本的指令跟随和编码能力。该模型在近 15 万亿个标记上进行预训练，报告的评估显示该模型在性能上优于其他开源模型，并与领先的闭源模型相媲美。有关模型的详细信息，请访问 DeepSeek-V3 仓库以获取更多信息。
 
-DeepSeek-V2 Chat 是 DeepSeek-V2 的对话微调版本，属于混合专家（Mixture-of-Experts, MoE）语言模型。它包含 236B 的总参数，其中每个 token 激活 21B。
+DeepSeek-V2 Chat 是 DeepSeek-V2 的对话微调版本，属于混合专家（MoE）语言模型。它总共有 236B 个参数，其中每个标记激活 21B 个。
 
 与 DeepSeek 67B 相比，DeepSeek-V2 实现了更强的性能，同时节省了 42.5% 的训练成本，减少了 93.3% 的 KV 缓存，并将最大生成吞吐量提升至 5.76 倍。
 
-DeepSeek-V2 在标准基准测试和开放式生成评估中都表现出色。
+DeepSeek-V2 在标准基准测试和开放式生成评估中表现出色。
 
