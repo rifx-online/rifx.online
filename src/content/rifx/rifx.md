@@ -10,6 +10,14 @@ description: "探索 Rifx.online 如何通过统一API接口、企业级特性�
 
 > 📢 TL;DR: Rifx.online 提供200+顶级AI模型的统一接入，支持多模态能力，比官方API便宜40-60%，并配备完整的企业级特性。
 
+## 快速导航
+
+- 🏠 [官网首页 https://rifx.online](https://rifx.online) 
+- 🤖 [模型市场 https://rifx.online/zh/models](https://rifx.online/zh/models)
+- 💬 [在线聊天 https://chat.rifx.online](https://chat.rifx.online)
+- 📚 [技术博客 https://rifx.online/zh/blog](https://rifx.online/zh/blog)
+- 📖 [开发文档 https://docs.rifx.online](https://docs.rifx.online)
+
 ## 一、平台概述
 
 ### 1. 为什么需要 Rifx.online？
@@ -32,12 +40,37 @@ description: "探索 Rifx.online 如何通过统一API接口、企业级特性�
 
 ### 1. 模型矩阵
 
-| 模型系列 | 核心特点 | 性能优势 | 成本优化 |
-|---------|---------|---------|---------|
-| **GPT-4o** | 文本+图像输入 | 优于GPT-3.5 | 低至官方40% |
-| **Gemini 2.0** | 实验性思维模式 | 强大推理能力 | 提供免费额度 |
-| **DeepSeek V3** | 15T参数量 | 接近GPT-4 | 高性价比 |
-| **Llama 3** | 8语种支持 | 128K上下文 | 开源生态 |
+#### 🎁 特别优惠与免费模型
+
+##### 限时折扣
+| 模型名称 | 折扣 | 特色功能 | 价格(/1M tokens) |
+|---------|------|---------|-----------------|
+| **EVA Llama 3.33 70b** | 50% OFF | 专业角色扮演，故事创作 | $4(输入)/$6(输出) |
+| **GPT-4o** | 40% OFF | 文本和图像输入，高性能输出 | $2.5(输入)/$10(输出) |
+| **GPT-4o mini** | 40% OFF | 轻量级多模态，性价比高 | $0.15(输入)/$0.6(输出) |
+
+##### 免费模型精选
+| 模型名称 | 特色功能 | 上下文长度 | 使用限制 |
+|---------|---------|------------|---------|
+| **Gemini 2.0 Flash** | 实验性思维模式 | 39.06K | 每日配额 |
+| **MythoMax 13B** | 丰富描述和角色扮演 | 8K | 无限制 |
+| **Toppy M 7B** | 通用对话和创作 | 4K | 无限制 |
+| **Qwen 2 7B** | 多语言理解和编码 | 32K | 每日配额 |
+
+#### 热门模型推荐
+
+| 模型名称 | 特点 | 上下文长度 | 价格(/1M tokens) |
+|---------|------|------------|-----------------|
+| **DeepSeek V3** | 15万亿参数训练，性能媲美顶级闭源模型 | 62.5K | $0.14(输入)/$0.28(输出) |
+| **Gemini 2.0 Flash** | 免费实验性思维模式，强大推理能力 | 39.06K | 免费 |
+| **Llama 3 70B** | 8种语言支持，超长上下文 | 128K | $0.13(输入)/$0.4(输出) |
+| **Grok 2 Vision** | 强大的视觉理解和多语言支持 | 32K | $2(输入)/$10(输出) |
+
+#### 模型分类导航
+
+- 🤖 **文本模型**：165+ 个高性能语言模型
+- 👁️ **多模态模型**：53+ 个支持图像理解的模型
+- 📊 **向量模型**：高性能文本嵌入模型，支持100+语言
 
 ### 2. 技术优势
 
@@ -133,7 +166,30 @@ async def create_content(topic: str, lang: str = "中文"):
 
 ## 四、快速开始
 
-### 1. 安装配置
+### 1. 在线体验
+
+#### 💬 聊天室
+访问 [chat.rifx.online](https://chat.rifx.online) 即刻体验：
+- 无需编码，直接对话
+- 支持多模型切换
+- 实时响应，流式输出
+- 历史记录保存
+
+#### 🔍 模型浏览器
+在 [rifx.online/zh/models](https://rifx.online/zh/models) 探索：
+- 实时模型状态和性能指标
+- 详细的价格和参数信息
+- 场景化的模型推荐
+- 完整的模型文档
+
+#### 📚 知识中心
+访问 [rifx.online/zh/blog](https://rifx.online/zh/blog) 获取：
+- 技术教程和最佳实践
+- AI 应用案例分享
+- 行业动态和趋势分析
+- 模型使用指南
+
+### 2. 安装配置
 ```bash
 # 安装SDK
 pip install openai
@@ -142,7 +198,7 @@ pip install openai
 export RIFX_API_KEY='your-api-key'
 ```
 
-### 2. 示例代码
+### 3. 示例代码
 ```python
 from openai import OpenAI
 
@@ -152,13 +208,14 @@ client = OpenAI(
     api_key="your-api-key"
 )
 
-# 简单调用
+# 简单调用示例
 async def quick_start():
     response = await client.chat.completions.create(
         model="gpt-4o",
         messages=[{"role": "user", "content": "Hello, Rifx!"}]
     )
     print(response.choices[0].message.content)
+
 ```
 
 ## 五、商业价值
@@ -201,8 +258,10 @@ async def quick_start():
    - 企业级特性增强
    - 安全合规建设
 
+
 ## 联系我们
 - 🌐 官网：[rifx.online](https://rifx.online)
 - 📚 文档：[docs.rifx.online](https://docs.rifx.online)
-- 📧 邮箱：business@rifx.online
+- 📧 GitHub：[github.com/rifx-online](https://github.com/rifx-online)
+- 📧 邮箱：[support@rifx.online](mailto:support@rifx.online)
 - 💬 微信：RifxAI
