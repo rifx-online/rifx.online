@@ -1,0 +1,93 @@
+// 项目技术栈
+tech_stack: {
+  framework: "Astro",
+  styling: "Tailwind CSS",
+  ui_components: "React",
+  language: "TypeScript",
+  deployment: "Cloudflare Pages"
+}
+
+// 项目结构说明
+project_structure: {
+  src/: {
+    pages/: "页面路由目录，使用 [...lang] 动态路由支持多语言",
+    content/: {
+      blog/: "博客文章内容，按语言分类 (english/chinese/french)",
+      models/: "AI 模型描述和文档，按语言分类 (english/chinese/french)",
+      docs/: "技术文档和指南",
+      authors/: "作者信息",
+      config/: "内容相关配置"
+    },
+    layouts/: "页面布局组件",
+    components/: "可复用的 Astro 和 React 组件",
+    lib/: "工具函数和业务逻辑",
+    config/: "项目配置文件",
+    styles/: "全局样式文件"
+  }
+}
+
+// 命名规范
+naming_conventions: {
+  components: "PascalCase (如: BlogCard.astro, Header.tsx)",
+  functions: "camelCase (如: getStaticPaths, formatDate)",
+  files: "kebab-case (如: blog-post.md)",
+  css_classes: "kebab-case (使用 Tailwind 类名)",
+  variables: "camelCase"
+}
+
+// 多语言支持规则
+i18n_rules: {
+  default_language: "en",
+  supported_languages: ["en", "zh", "fr"],
+  content_structure: "按语言分类存放在 src/content/blog/{lang}/ 目录",
+  url_structure: "/{lang}/path-to-page",
+  fallback_rules: "中文内容缺失时回退到英文"
+}
+
+// 代码风格
+code_style: {
+  formatting: "使用 Prettier 进行代码格式化",
+  linting: "使用 ESLint 进行代码检查",
+  typescript: "严格模式，需要类型定义",
+  imports: "使用 astro-auto-import 自动导入常用组件"
+}
+
+// 性能优化规则
+performance_rules: {
+  images: "使用 Astro 内置的图片优化",
+  css: "使用 Tailwind 按需加载样式",
+  js: "最小化客户端 JavaScript",
+  seo: "使用 astro-seo 优化元数据"
+}
+
+// 组件开发规则
+component_rules: {
+  astro_components: "优先使用 Astro 组件，除非需要交互功能",
+  react_components: "仅用于需要客户端交互的功能",
+  props_interface: "为所有组件定义 TypeScript 接口",
+  styling: "使用 Tailwind 类名，避免自定义 CSS"
+}
+
+// 内容管理规则
+content_rules: {
+  blog_posts: {
+    format: "Markdown/MDX",
+    frontmatter: "必须包含 title, date, image, author 等元数据",
+    images: "存放在 public/images/ 目录"
+  }
+}
+
+// API 和数据处理
+api_rules: {
+  data_fetching: "使用 Astro.glob() 处理本地内容",
+  external_apis: "在 src/lib/api/ 中集中管理 API 调用",
+  error_handling: "统一的错误处理和日志记录"
+}
+
+// 部署规则
+deployment_rules: {
+  platform: "Cloudflare Pages",
+  build_command: "yarn build",
+  environment_variables: "在 Cloudflare 后台配置",
+  cache_strategy: "利用 Cloudflare 的边缘缓存"
+}
