@@ -1,27 +1,37 @@
 ---
-title: "DeepSeek V3"
-meta_title: "DeepSeek V3"
-description: "DeepSeek V3"
-date: 2024-12-27T09:59:13Z
-image: "https://img.rifx.online/icons/deepseek-color.svg"
-categories: ["text 2 text"]
-author: "DeepSeek"
-tags: ["Programming", "Technology", "Machine Learning", "Natural Language Processing", "Generative AI", "New", "Hot"]
-model_tags: ['New', 'Hot']
-draft: False
-is_recommended: True
-is_active: True
-discount: 1
-is_free: False
-
-id: "deepseek/deepseek-chat"
+author: DeepSeek
+categories:
+- text 2 text
 context: 64000
-input: 1.4e-07
-output: 2.8e-07
+date: 2024-12-27 09:59:13+00:00
+description: DeepSeek V3
+discount: 1
+draft: false
+id: deepseek/deepseek-chat
+image: https://img.rifx.online/icons/deepseek-color.svg
 img: 0
+input: 1.4e-07
+is_active: false
+is_free: false
+is_recommended: true
+last_updated: 2024-12-27 09:59:13+00:00
+meta_title: DeepSeek V3
+model_tags:
+- New
+- Hot
+output: 2.8e-07
 request: 0
-last_updated: 2024-12-27T09:59:13Z
+tags:
+- Programming
+- Technology
+- Machine Learning
+- Natural Language Processing
+- Generative AI
+- New
+- Hot
+title: DeepSeek V3
 ---
+
 
 DeepSeek-V3 is the latest model from the DeepSeek team, building upon the instruction following and coding abilities of the previous versions. Pre-trained on nearly 15 trillion tokens, the reported evaluations reveal that the model outperforms other open-source models and rivals leading closed-source models. For model details, please visit the DeepSeek-V3 repo for more information.
 

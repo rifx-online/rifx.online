@@ -1,27 +1,37 @@
 ---
-title: "DeepSeek V3"
-meta_title: "DeepSeek V3"
-description: "DeepSeek V3"
-date: 2024-12-27T09:59:13Z
-image: "https://img.rifx.online/icons/deepseek-color.svg"
-categories: ["text 2 text"]
-author: "DeepSeek"
-tags: ["Programming", "Technology", "Machine Learning", "Natural Language Processing", "Generative AI", "New", "Hot"]
-model_tags: ['New', 'Hot']
-draft: False
-is_recommended: True
-is_active: True
-discount: 1
-is_free: False
-
-id: "deepseek/deepseek-chat"
+author: DeepSeek
+categories:
+- text 2 text
 context: 64000
-input: 1.4e-07
-output: 2.8e-07
+date: 2024-12-27 09:59:13+00:00
+description: DeepSeek V3
+discount: 1
+draft: false
+id: deepseek/deepseek-chat
+image: https://img.rifx.online/icons/deepseek-color.svg
 img: 0
+input: 1.4e-07
+is_active: false
+is_free: false
+is_recommended: true
+last_updated: 2024-12-27 09:59:13+00:00
+meta_title: DeepSeek V3
+model_tags:
+- New
+- Hot
+output: 2.8e-07
 request: 0
-last_updated: 2024-12-27T09:59:13Z
+tags:
+- Programming
+- Technology
+- Machine Learning
+- Natural Language Processing
+- Generative AI
+- New
+- Hot
+title: DeepSeek V3
 ---
+
 
 DeepSeek-V3 是 DeepSeek 团队最新的模型，基于之前版本的指令跟随和编码能力。该模型在近 15 万亿个标记上进行预训练，报告的评估显示该模型在性能上优于其他开源模型，并与领先的闭源模型相媲美。有关模型的详细信息，请访问 DeepSeek-V3 仓库以获取更多信息。
 
