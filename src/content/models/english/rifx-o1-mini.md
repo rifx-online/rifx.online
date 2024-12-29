@@ -1,8 +1,8 @@
 ---
-title: "o1-mini"
-meta_title: "o1-mini"
-description: "o1-mini"
-date: 2024-12-29T06:32:08Z
+title: "OpenAI: o1-mini"
+meta_title: "OpenAI: o1-mini"
+description: "OpenAI: o1-mini"
+date: 2024-12-29T15:15:06Z
 image: "https://img.rifx.online/icons/openai.svg"
 categories: ["text 2 text"]
 author: "OpenAI"
@@ -20,7 +20,7 @@ input: 3e-06
 output: 1.2e-05
 img: 0
 request: 0
-last_updated: 2024-12-29T06:32:08Z
+last_updated: 2024-12-29T15:15:06Z
 ---
 
 The latest and strongest model family from OpenAI, o1 is designed to spend more time thinking before responding.
