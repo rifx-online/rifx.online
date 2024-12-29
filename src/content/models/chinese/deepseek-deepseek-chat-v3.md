@@ -2,7 +2,7 @@
 title: "DeepSeek V3"
 meta_title: "DeepSeek V3"
 description: "DeepSeek V3"
-date: 2024-12-29T13:43:52Z
+date: 2024-12-29T15:07:38Z
 image: "https://img.rifx.online/icons/deepseek-color.svg"
 categories: ["text 2 text"]
 author: "DeepSeek"
@@ -20,7 +20,7 @@ input: 1.4e-07
 output: 2.8e-07
 img: 0
 request: 0
-last_updated: 2024-12-29T13:43:52Z
+last_updated: 2024-12-29T15:07:38Z
 ---
 
 ## 1. 介绍
@@ -33,8 +33,9 @@ last_updated: 2024-12-29T13:43:52Z
 尽管表现优异，DeepSeek-V3 完整训练仅需 2.788M H800 GPU 小时。
 此外，其训练过程极为稳定。 
 在整个训练过程中，我们没有经历任何不可恢复的损失峰值，也没有进行任何回滚。 
+
 <p align="center">
-  <img width="80%" src="figures/benchmark.png">
+  <img width="80%" src="https://wsrv.nl/?url=https://huggingface.co/deepseek-ai/DeepSeek-V3/resolve/main/figures/benchmark.png">
 </p>
 
 ## 2. 模型摘要
@@ -132,8 +133,9 @@ last_updated: 2024-12-29T13:43:52Z
 
 #### 上下文窗口
 <p align="center">
-  <img width="80%" src="figures/niah.png">
+  <img width="80%" src="https://wsrv.nl/?url=https://huggingface.co/deepseek-ai/DeepSeek-V3/resolve/main/figures/niah.png">
 </p>
+
 
 在 ``Needle In A Haystack`` (NIAH) 测试中的评估结果。DeepSeek-V3 在所有上下文窗口长度（最多 **128K**）上表现良好。
 
