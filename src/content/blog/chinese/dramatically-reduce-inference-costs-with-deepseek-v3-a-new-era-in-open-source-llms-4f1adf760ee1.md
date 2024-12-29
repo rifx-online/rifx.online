@@ -63,7 +63,44 @@ DeepSeek\-V3 是在传统的 Transformer 框架内构建的，但引入了多个
 
 ## 性能亮点
 
-来自官方文档和初步基准测试：
+根据官方评估结果，DeepSeek\-V3 在多个关键领域展现出卓越表现：
+
+- **知识测试**：在 MMLU 上得分 **88.5**，超越其他开源模型
+- **数学推理**：在 MATH-500 等测试中达到 **90.2%** 的准确率
+- **代码能力**：在 HumanEval-Mul 上达到 **82.6%** 的通过率
+- **多语言**：在中文评测 C-Eval 上达到 **86.5%** 的准确率
+
+> 💡 **选择 Rifx.online 快速开始使用 DeepSeek-V3**
+>
+> 看到这些令人印象深刻的评估结果，您可能已经迫不及待想要尝试 DeepSeek-V3。[Rifx.online](https://rifx.online) 平台为您提供了最便捷的使用方式：
+>
+> - 🚀 **即刻部署**：无需复杂的环境配置，通过统一的 API 接口直接调用
+> - 💰 **超值定价**：仅需 $0.14/1M tokens(输入)和 $0.28/1M tokens(输出)
+> - 🔄 **企业特性**：
+>   * 多区域部署确保服务稳定性
+>   * 智能负载均衡自动处理高并发
+>   * 实时监控和详细的使用分析
+>   * 完整的开发文档和技术支持
+> - 🌐 **全球加速**：多区域节点部署，确保低延迟访问
+>
+> 访问 [https://rifx.online/zh/models/deepseek-deepseek-chat-v3](https://rifx.online/zh/models/deepseek-deepseek-chat-v3) 立即开始体验！
+>
+> ```python
+> from openai import OpenAI
+> 
+> # 通过 Rifx.online 使用 DeepSeek-V3
+> client = OpenAI(
+>     base_url="https://api.rifx.online/v1",
+>     api_key="your-api-key"
+> )
+> 
+> response = await client.chat.completions.create(
+>     model="deepseek/deepseek-chat-v3",
+>     messages=[{"role": "user", "content": "请解决这道数学题：..."}]
+> )
+> ```
+
+## 部署选项
 
 * **知识测试**：DeepSeek\-V3 在 MMLU 上得分 **88\.5**，超越其他开源模型。它在中文事实知识方面也表现突出，在中文 SimpleQA 任务中超过了 GPT\-4o 和 Claude\-Sonnet\-3\.5 等专有模型。
 * **数学与推理**：在与数学相关的任务（例如 MATH\-500）中，DeepSeek\-V3 展现了先进的推理能力。在某些情况下，它甚至超越了某些专有预览，如 GPT\-o1\-preview。
