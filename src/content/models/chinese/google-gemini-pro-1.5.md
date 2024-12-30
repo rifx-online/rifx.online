@@ -6,8 +6,9 @@ date: 2024-12-02T13:47:00Z
 image: "https://img.rifx.online/icons/google-color.svg"
 categories: ["text image 2 text"]
 author: "Google"
-tags: ["Programming", "Technology", "Machine Learning", "Natural Language Processing", "Generative AI"]
+tags: ["Generative AI", "text editing", "Machine Learning", "Natural Language Processing", "multimodal model", "Programming", "Technology", "AI agents", "gemini-pro-1.5", "code generation", "Google"]
 model_tags: []
+labels: ["gemini-pro-1.5", "multimodal model", "code generation", "text editing", "AI agents"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 5e-06
 img: 0.00263
 request: 0
 last_updated: 2024-12-02T13:47:00Z
+
 ---
 
 Google最新的多模态模型，支持在文本或聊天提示中使用图像和视频。

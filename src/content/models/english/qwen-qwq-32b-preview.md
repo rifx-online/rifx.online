@@ -6,8 +6,9 @@ date: 2024-12-02T12:57:51Z
 image: "https://img.rifx.online/icons/qwen-color.svg"
 categories: ["text 2 text"]
 author: "Qwen"
-tags: ["Machine Learning", "Natural Language Processing", "Ethics", "Programming/Scripting"]
+tags: ["qwq-32b-preview", "Programming/Scripting", "Qwen", "Machine Learning", "Natural Language Processing", "safety considerations", "AI reasoning", "Ethics", "recursive loops", "language mixing"]
 model_tags: []
+labels: ["qwq-32b-preview", "AI reasoning", "language mixing", "recursive loops", "safety considerations"]
 draft: False
 is_recommended: True
 is_active: True
@@ -21,6 +22,7 @@ output: 6e-07
 img: 0
 request: 0
 last_updated: 2024-12-02T12:57:51Z
+
 ---
 
 QwQ-32B-Preview is an experimental research model focused on AI reasoning capabilities developed by the Qwen Team. As a preview release, it demonstrates promising analytical abilities while having several important limitations:

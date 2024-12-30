@@ -6,8 +6,9 @@ date: 2024-12-02T13:43:16Z
 image: "https://img.rifx.online/icons/ai21.svg"
 categories: ["text 2 text"]
 author: "Ai21"
-tags: ["Programming", "Technology", "Machine Learning", "Natural Language Processing", "Chatbots"]
+tags: ["Jamba", "Instruction Tuning", "Ai21", "Machine Learning", "Natural Language Processing", "Programming", "Technology", "Enterprise Optimization", "Chatbots", "Large Document Processing", "Safety Features"]
 model_tags: []
+labels: ["Jamba", "Large Document Processing", "Enterprise Optimization", "Safety Features", "Instruction Tuning"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 7e-07
 img: 0
 request: 0
 last_updated: 2024-12-02T13:43:16Z
+
 ---
 
 The Jamba-Instruct model, introduced by AI21 Labs, is an instruction-tuned variant of their hybrid SSM-Transformer Jamba model, specifically optimized for enterprise applications.

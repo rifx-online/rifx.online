@@ -6,8 +6,9 @@ date: 2024-12-02T04:23:57Z
 image: "https://img.rifx.online/icons/anthropic.svg"
 categories: ["text image 2 text"]
 author: "Anthropic"
-tags: ["Programming", "Technology", "Machine Learning", "Generative AI", "Chatbots"]
+tags: ["Generative AI", "instant responsiveness", "Machine Learning", "compact model", "targeted performance", "multimodal", "Programming", "Technology", "Chatbots", "Anthropic", "claude-3-haiku"]
 model_tags: []
+labels: ["claude-3-haiku", "instant responsiveness", "compact model", "targeted performance", "multimodal"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 1.25e-06
 img: 0.0004
 request: 0
 last_updated: 2024-12-02T04:23:57Z
+
 ---
 
 Claude 3 Haiku is Anthropic's fastest and most compact model for

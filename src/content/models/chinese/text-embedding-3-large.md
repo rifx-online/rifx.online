@@ -6,8 +6,9 @@ date: 2024-12-07T12:02:48Z
 image: "https://img.rifx.online/icons/openai.svg"
 categories: ["embedding"]
 author: "OpenAI"
-tags: ["Programming", "Machine Learning", "Natural Language Processing", "Data Science", "Technology"]
+tags: ["multilingual embeddings", "semantic search", "text-embedding-3-large", "Machine Learning", "Natural Language Processing", "retrieval augmented generation", "Programming", "Data Science", "Technology", "similarity matching", "OpenAI"]
 model_tags: []
+labels: ["text-embedding-3-large", "semantic search", "multilingual embeddings", "similarity matching", "retrieval augmented generation"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 0.0
 img: 0
 request: 0
 last_updated: 2024-12-07T12:02:48Z
+
 ---
 
 text-embedding-3-large 是 OpenAI 于2024年发布的最新文本嵌入模型。相比前代模型，它具有以下主要特点：

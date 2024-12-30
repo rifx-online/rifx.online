@@ -6,8 +6,9 @@ date: 2024-12-02T13:15:07Z
 image: "https://img.rifx.online/icons/mistral-color.svg"
 categories: ["text 2 text"]
 author: "MistralAI"
-tags: ["Programming", "Technology", "Machine Learning", "Data Science", "Generative AI"]
+tags: ["Generative AI", "MistralAI", "codestral-mamba", "code reasoning model", "Machine Learning", "transformer alternative", "Programming", "infinite sequence inference", "Data Science", "Technology", "large context window"]
 model_tags: []
+labels: ["codestral-mamba", "code reasoning model", "infinite sequence inference", "large context window", "transformer alternative"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 2.5e-07
 img: 0
 request: 0
 last_updated: 2024-12-02T13:15:07Z
+
 ---
 
 A 7.3B 参数的基于 Mamba 的模型，旨在处理代码和推理任务。

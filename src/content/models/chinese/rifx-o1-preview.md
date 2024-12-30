@@ -6,8 +6,9 @@ date: 2024-12-29T06:47:35Z
 image: "https://img.rifx.online/icons/openai.svg"
 categories: ["text 2 text"]
 author: "OpenAI"
-tags: ["Programming", "Science", "Technology", "Machine Learning", "Natural Language Processing"]
+tags: ["Science", "Machine Learning", "PhD-level accuracy", "Natural Language Processing", "experimental AI model", "Programming", "Technology", "STEM optimization", "advanced scientific computing", "o1-preview", "OpenAI"]
 model_tags: []
+labels: ["o1-preview", "STEM optimization", "PhD-level accuracy", "experimental AI model", "advanced scientific computing"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 6e-05
 img: 0
 request: 0
 last_updated: 2024-12-29T06:47:35Z
+
 ---
 
 OpenAI 最新和最强大的模型系列，o1 旨在在响应之前花更多时间思考。

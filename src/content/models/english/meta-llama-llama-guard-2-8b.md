@@ -6,8 +6,9 @@ date: 2024-12-03T02:56:08Z
 image: "https://img.rifx.online/icons/meta-color.svg"
 categories: ["text 2 text"]
 author: "Meta Llama"
-tags: ["Programming", "Machine Learning", "Natural Language Processing", "Ethics", "Chatbots"]
+tags: ["llama-guard-2-8b", "safety classification", "Meta Llama", "Machine Learning", "Natural Language Processing", "prompt response analysis", "Programming", "Ethics", "Chatbots", "content moderation", "Llama 3 family"]
 model_tags: []
+labels: ["llama-guard-2-8b", "safety classification", "content moderation", "prompt response analysis", "Llama 3 family"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 1.8e-07
 img: 0
 request: 0
 last_updated: 2024-12-03T02:56:08Z
+
 ---
 
 This safeguard model has 8B parameters and is based on the Llama 3 family. Just like is predecessor, [LlamaGuard 1](https://huggingface.co/meta-llama/LlamaGuard-7b), it can do both prompt and response classification.

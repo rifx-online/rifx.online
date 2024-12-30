@@ -6,8 +6,9 @@ date: 2024-12-03T02:30:10Z
 image: "https://img.rifx.online/icons/rifx.svg"
 categories: ["text 2 text"]
 author: "Alpindale"
-tags: ["Programming", "Machine Learning", "Natural Language Processing", "Generative AI", "Chatbots"]
+tags: ["Generative AI", "goliath-120b", "model merging", "Machine Learning", "large language model", "Natural Language Processing", "mergekit", "Programming", "fine-tuned Llama", "Chatbots", "Alpindale"]
 model_tags: []
+labels: ["goliath-120b", "large language model", "model merging", "fine-tuned Llama", "mergekit"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 9.375e-06
 img: 0
 request: 0
 last_updated: 2024-12-03T02:30:10Z
+
 ---
 
 A large LLM created by combining two fine-tuned Llama 70B models into one 120B model. Combines Xwin and Euryale.

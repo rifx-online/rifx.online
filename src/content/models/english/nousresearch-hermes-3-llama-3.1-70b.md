@@ -6,8 +6,9 @@ date: 2024-12-02T04:06:56Z
 image: "https://img.rifx.online/icons/rifx.svg"
 categories: ["text 2 text"]
 author: "NousreSearch"
-tags: ["Programming", "Natural Language Processing", "Machine Learning", "Generative AI", "Chatbots"]
+tags: ["Generative AI", "multi-turn conversation", "Machine Learning", "Natural Language Processing", "hermes-3-llama-3.1-70b", "Programming", "roleplaying enhancement", "Chatbots", "structured output", "code generation", "advanced agentic capabilities", "NousreSearch"]
 model_tags: []
+labels: ["hermes-3-llama-3.1-70b", "advanced agentic capabilities", "multi-turn conversation", "roleplaying enhancement", "structured output", "code generation"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 4e-07
 img: 0
 request: 0
 last_updated: 2024-12-02T04:06:56Z
+
 ---
 
 Hermes 3 is a generalist language model with many improvements over [Hermes 2](/nousresearch/nous-hermes-2-mistral-7b-dpo), including advanced agentic capabilities, much better roleplaying, reasoning, multi-turn conversation, long context coherence, and improvements across the board.

@@ -6,8 +6,9 @@ date: 2024-12-07T03:38:04Z
 image: "https://img.rifx.online/icons/rifx.svg"
 categories: ["text 2 text"]
 author: "Anthracite-org"
-tags: ["Programming", "Natural Language Processing", "Machine Learning", "Generative AI", "Chatbots"]
+tags: ["Generative AI", "Claude 3 quality", "Qwen 2.5 integration", "Machine Learning", "magnum-v4-72b", "Natural Language Processing", "fine-tuned model", "Programming", "Anthracite-org", "Chatbots", "prose generation"]
 model_tags: []
+labels: ["magnum-v4-72b", "prose generation", "Claude 3 quality", "fine-tuned model", "Qwen 2.5 integration"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 2.25e-06
 img: 0
 request: 0
 last_updated: 2024-12-07T03:38:04Z
+
 ---
 
 这是一个系列模型，旨在复制Claude 3模型的散文质量，特别是Sonnet(https://openrouter.ai/anthropic/claude-3.5-sonnet)和Opus(https://openrouter.ai/anthropic/claude-3-opus)。

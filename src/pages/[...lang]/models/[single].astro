@@ -34,10 +34,10 @@ export async function getStaticPaths() {
 }
 
 const { post } = Astro.props;
-const { title, meta_title, description, image, tags, model_tags, date, author } = post.data;
+const { title, meta_title, description, image, tags, model_tags, date, author, labels } = post.data;
 
 // 合并所有标签
-const allTags = [...(tags || []), ...(model_tags || [])];
+const allTags = [...(labels || []), ...(model_tags || [])];
 
 ---
 

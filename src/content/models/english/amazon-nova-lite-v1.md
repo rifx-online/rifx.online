@@ -6,8 +6,9 @@ date: 2024-12-06T01:21:30Z
 image: "https://img.rifx.online/icons/aws-color.svg"
 categories: ["text image 2 text"]
 author: "Amazon"
-tags: ["Programming", "Technology", "Machine Learning", "Natural Language Processing", "Computer Vision", "New"]
+tags: ["New", "document analysis", "visual question answering", "multimodal processing", "Machine Learning", "Natural Language Processing", "Amazon", "real-time interaction", "Programming", "Technology", "nova-lite-v1", "Computer Vision"]
 model_tags: ['New']
+labels: ["nova-lite-v1", "multimodal processing", "real-time interaction", "document analysis", "visual question answering"]
 draft: False
 is_recommended: True
 is_active: True
@@ -21,6 +22,7 @@ output: 2.4e-07
 img: 0
 request: 0
 last_updated: 2024-12-06T01:21:30Z
+
 ---
 
 Amazon Nova Lite 1.0 is a very low-cost multimodal model from Amazon that focused on fast processing of image, video, and text inputs to generate text output. Amazon Nova Lite can handle real-time customer interactions, document analysis, and visual question-answering tasks with high accuracy.

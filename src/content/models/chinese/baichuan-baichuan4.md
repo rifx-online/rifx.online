@@ -6,8 +6,9 @@ date: 2024-12-06T12:53:12Z
 image: "https://img.rifx.online/icons/baichuan-color.svg"
 categories: ["text 2 text"]
 author: "Baichuan"
-tags: ["Natural Language Processing", "Machine Learning", "Data Science", "Ethics", "Chatbots"]
+tags: ["baichuan4", "Machine Learning", "Natural Language Processing", "natural language processing", "contextual understanding", "Baichuan", "conversational AI", "Ethics", "Data Science", "Chatbots", "multilingual AI"]
 model_tags: []
+labels: ["baichuan4", "natural language processing", "multilingual AI", "contextual understanding", "conversational AI"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 1.43e-05
 img: 0
 request: 0
 last_updated: 2024-12-06T12:53:12Z
+
 ---
 
 ### Baichuan4 模型介绍

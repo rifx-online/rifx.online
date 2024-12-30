@@ -6,8 +6,9 @@ date: 2024-12-02T02:30:14Z
 image: "https://img.rifx.online/icons/meta-color.svg"
 categories: ["text 2 text"]
 author: "Meta Llama"
-tags: ["Natural Language Processing", "Programming", "Technology", "Machine Learning", "Data Science", "Free"]
+tags: ["efficient language processing", "Meta Llama", "Machine Learning", "Natural Language Processing", "multilingual text analysis", "dialogue summarization", "Programming", "low-resource NLP", "Data Science", "Technology", "Free", "llama-3.2-1b"]
 model_tags: ['Free']
+labels: ["llama-3.2-1b", "multilingual text analysis", "low-resource NLP", "efficient language processing", "dialogue summarization"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 0.0
 img: 0
 request: 0
 last_updated: 2024-12-02T02:30:14Z
+
 ---
 
 Llama 3.2 1B 是一个拥有 10 亿参数的语言模型，专注于高效执行自然语言任务，如摘要、对话和多语言文本分析。其较小的体积使其能够在低资源环境中高效运行，同时保持强大的任务性能。

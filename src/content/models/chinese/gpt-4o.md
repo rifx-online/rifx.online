@@ -6,8 +6,9 @@ date: 2024-12-02T03:19:29Z
 image: "https://img.rifx.online/icons/openai.svg"
 categories: ["text image 2 text"]
 author: "OpenAI"
-tags: ["Programming", "Technology", "Machine Learning", "Natural Language Processing", "Computer Vision"]
+tags: ["multilingual AI", "Machine Learning", "text and image processing", "Natural Language Processing", "Programming", "Technology", "gpt-4o", "cost-effective AI", "Computer Vision", "fast AI model", "OpenAI"]
 model_tags: []
+labels: ["gpt-4o", "text and image processing", "multilingual AI", "fast AI model", "cost-effective AI"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 1e-05
 img: 0.0036125
 request: 0
 last_updated: 2024-12-02T03:19:29Z
+
 ---
 
 GPT-4o（“o”代表“全能”）是OpenAI最新的AI模型，支持文本和图像输入，并输出文本。它保持了[GPT-4 Turbo](/openai/gpt-4-turbo)的智能水平，同时速度是其两倍，成本效益提高了50%。GPT-4o在处理非英语语言和增强视觉能力方面也提供了更好的性能。

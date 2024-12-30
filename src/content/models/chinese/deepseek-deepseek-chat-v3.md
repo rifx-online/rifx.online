@@ -6,8 +6,9 @@ date: 2024-12-29T15:07:38Z
 image: "https://img.rifx.online/icons/deepseek-color.svg"
 categories: ["text 2 text"]
 author: "DeepSeek"
-tags: ["Programming", "Technology", "Machine Learning", "Natural Language Processing", "Generative AI", "New", "Hot"]
+tags: ["Generative AI", "Multi-Token Prediction", "New", "deepseek-chat-v3", "DeepSeek", "Hot", "Machine Learning", "Mixture-of-Experts", "Natural Language Processing", "Load Balancing Strategy", "Programming", "Multi-head Latent Attention", "Technology"]
 model_tags: ['New', 'Hot']
+labels: ["deepseek-chat-v3", "Mixture-of-Experts", "Multi-head Latent Attention", "Multi-Token Prediction", "Load Balancing Strategy"]
 draft: False
 is_recommended: True
 is_active: True
@@ -21,6 +22,7 @@ output: 2.8e-07
 img: 0
 request: 0
 last_updated: 2024-12-29T15:07:38Z
+
 ---
 
 ## 1. 介绍

@@ -6,8 +6,9 @@ date: 2024-12-27T09:58:36Z
 image: "https://img.rifx.online/logo/rifx.svg"
 categories: ["text 2 text"]
 author: "Rifx.Online"
-tags: ["Roleplay", "Programming", "Machine Learning", "Natural Language Processing", "Generative AI"]
+tags: ["Generative AI", "creative logic", "strategic merge", "Machine Learning", "Natural Language Processing", "Programming", "general knowledge", "roleplaying model", "l3-lunaris-8b", "Rifx.Online", "Roleplay"]
 model_tags: []
+labels: ["l3-lunaris-8b", "roleplaying model", "creative logic", "strategic merge", "general knowledge"]
 draft: False
 is_recommended: True
 is_active: True
@@ -21,6 +22,7 @@ output: 6e-08
 img: 0
 request: 0
 last_updated: 2024-12-27T09:58:36Z
+
 ---
 
 Lunaris 8B 是一个基于 Llama 3 的多功能通用和角色扮演模型。它是多个模型的战略合并，旨在平衡创造力与改进的逻辑和一般知识。

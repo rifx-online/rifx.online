@@ -6,8 +6,9 @@ date: 2024-12-02T03:19:29Z
 image: "https://img.rifx.online/icons/openai.svg"
 categories: ["text image 2 text"]
 author: "OpenAI"
-tags: ["Programming", "Technology", "Machine Learning", "Natural Language Processing", "Computer Vision"]
+tags: ["multilingual AI", "Machine Learning", "text and image processing", "Natural Language Processing", "Programming", "Technology", "gpt-4o", "cost-effective AI", "Computer Vision", "fast AI model", "OpenAI"]
 model_tags: []
+labels: ["gpt-4o", "text and image processing", "multilingual AI", "fast AI model", "cost-effective AI"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 1e-05
 img: 0.0036125
 request: 0
 last_updated: 2024-12-02T03:19:29Z
+
 ---
 
 GPT-4o ("o" for "omni") is OpenAI's latest AI model, supporting both text and image inputs with text outputs. It maintains the intelligence level of [GPT-4 Turbo](/openai/gpt-4-turbo) while being twice as fast and 50% more cost-effective. GPT-4o also offers improved performance in processing non-English languages and enhanced visual capabilities.

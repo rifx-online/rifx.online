@@ -6,8 +6,9 @@ date: 2024-12-02T13:43:04Z
 image: "https://img.rifx.online/icons/azure-color.svg"
 categories: ["text 2 text"]
 author: "Microsoft Azure"
-tags: ["Natural Language Processing", "Machine Learning", "Data Science", "Programming", "Technology/Web"]
+tags: ["mathematics tasks", "Machine Learning", "Natural Language Processing", "language understanding", "Technology/Web", "logical reasoning", "Programming", "code processing", "Data Science", "phi-3-mini-128k", "Microsoft Azure"]
 model_tags: []
+labels: ["phi-3-mini-128k", "language understanding", "logical reasoning", "code processing", "mathematics tasks"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 1e-07
 img: 0
 request: 0
 last_updated: 2024-12-02T13:43:04Z
+
 ---
 
 Phi-3 Mini is a powerful 3.8B parameter model designed for advanced language understanding, reasoning, and instruction following. Optimized through supervised fine-tuning and preference adjustments, it excels in tasks involving common sense, mathematics, logical reasoning, and code processing.

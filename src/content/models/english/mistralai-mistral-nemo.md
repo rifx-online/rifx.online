@@ -6,8 +6,9 @@ date: 2024-12-02T13:15:03Z
 image: "https://img.rifx.online/icons/mistral-color.svg"
 categories: ["text 2 text"]
 author: "MistralAI"
-tags: ["Programming", "Technology", "Machine Learning", "Natural Language Processing", "Generative AI"]
+tags: ["Generative AI", "multilingual model", "large context length", "MistralAI", "12B parameters", "Machine Learning", "Natural Language Processing", "Programming", "function calling", "Technology", "mistral-nemo"]
 model_tags: []
+labels: ["mistral-nemo", "multilingual model", "large context length", "function calling", "12B parameters"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 1.3e-07
 img: 0
 request: 0
 last_updated: 2024-12-02T13:15:03Z
+
 ---
 
 A 12B parameter model with a 128k token context length built by Mistral in collaboration with NVIDIA.

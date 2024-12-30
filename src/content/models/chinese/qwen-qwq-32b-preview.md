@@ -6,8 +6,9 @@ date: 2024-12-02T12:57:51Z
 image: "https://img.rifx.online/icons/qwen-color.svg"
 categories: ["text 2 text"]
 author: "Qwen"
-tags: ["Machine Learning", "Natural Language Processing", "Ethics", "Programming/Scripting"]
+tags: ["qwq-32b-preview", "Programming/Scripting", "Qwen", "Machine Learning", "Natural Language Processing", "safety considerations", "AI reasoning", "Ethics", "recursive loops", "language mixing"]
 model_tags: []
+labels: ["qwq-32b-preview", "AI reasoning", "language mixing", "recursive loops", "safety considerations"]
 draft: False
 is_recommended: True
 is_active: True
@@ -21,6 +22,7 @@ output: 6e-07
 img: 0
 request: 0
 last_updated: 2024-12-02T12:57:51Z
+
 ---
 
 QwQ-32B-Preview 是一个专注于 AI 推理能力的实验研究模型，由 Qwen 团队开发。作为预览版本，它展示了有前景的分析能力，但也存在几个重要的限制：

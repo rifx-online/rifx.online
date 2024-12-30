@@ -6,8 +6,9 @@ date: 2024-12-06T12:53:00Z
 image: "https://img.rifx.online/icons/moonshot.svg"
 categories: ["text 2 text"]
 author: "Moonshot"
-tags: ["Natural Language Processing", "Machine Learning", "Chatbots", "Data Science", "Education"]
+tags: ["chatbot integration", "customer support automation", "text generation", "Machine Learning", "moonshot-v1-8k", "Natural Language Processing", "Moonshot", "Education", "semantic understanding", "Data Science", "instruction following", "Chatbots"]
 model_tags: []
+labels: ["moonshot-v1-8k", "semantic understanding", "instruction following", "text generation", "chatbot integration", "customer support automation"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 1.8999999999999998e-06
 img: 0
 request: 0
 last_updated: 2024-12-06T12:53:00Z
+
 ---
 
 ### Moonshot-v1-8k Model Introduction

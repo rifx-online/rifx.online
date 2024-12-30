@@ -6,8 +6,9 @@ date: 2024-12-02T13:46:55Z
 image: "https://img.rifx.online/icons/cohere-color.svg"
 categories: ["text 2 text"]
 author: "Cohere"
-tags: ["Technology", "Programming", "Data Science", "Machine Learning", "Ethics"]
+tags: ["high throughput", "hardware efficiency", "Machine Learning", "Programming", "Ethics", "Data Science", "Technology", "Cohere", "command-r-plus", "low latency", "performance upgrade"]
 model_tags: []
+labels: ["command-r-plus", "high throughput", "low latency", "hardware efficiency", "performance upgrade"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 1.425e-05
 img: 0
 request: 0
 last_updated: 2024-12-02T13:46:55Z
+
 ---
 
 command-r-plus-08-2024 是 [Command R+](/cohere/command-r-plus) 的更新，与之前的 Command R+ 版本相比，吞吐量提高了大约 50%，延迟降低了 25%，同时硬件占用保持不变。

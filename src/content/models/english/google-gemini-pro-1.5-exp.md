@@ -6,8 +6,9 @@ date: 2024-12-02T04:25:36Z
 image: "https://img.rifx.online/icons/google-color.svg"
 categories: ["text image 2 text"]
 author: "Google"
-tags: ["Programming", "Technology", "Machine Learning", "Natural Language Processing", "Generative AI", "Free"]
+tags: ["Generative AI", "text editing", "Machine Learning", "Natural Language Processing", "multimodal model", "Programming", "Free", "Technology", "AI agents", "gemini-pro-1.5", "code generation", "Google"]
 model_tags: ['Free']
+labels: ["gemini-pro-1.5", "multimodal model", "code generation", "text editing", "AI agents"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 0.0
 img: 0.00263
 request: 0
 last_updated: 2024-12-02T04:25:36Z
+
 ---
 
 Google's latest multimodal model, supporting image and video in text or chat prompts.

@@ -6,8 +6,9 @@ date: 2024-12-02T04:10:44Z
 image: "https://img.rifx.online/icons/qwen-color.svg"
 categories: ["text image 2 text"]
 author: "Qwen"
-tags: ["Technology", "Machine Learning", "Computer Vision", "Robotics", "Natural Language Processing"]
+tags: ["video question answering", "Qwen", "Machine Learning", "Natural Language Processing", "qwen-2-vl-7b", "multilingual text recognition", "Technology", "multimodal understanding", "mobile robot integration", "Robotics", "Computer Vision"]
 model_tags: []
+labels: ["qwen-2-vl-7b", "multimodal understanding", "video question answering", "multilingual text recognition", "mobile robot integration"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 1e-07
 img: 0.0001445
 request: 0
 last_updated: 2024-12-02T04:10:44Z
+
 ---
 
 Qwen2 VL 7B 是来自 Qwen 团队的多模态 LLM，具有以下关键增强功能：

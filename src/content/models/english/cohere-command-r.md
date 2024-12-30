@@ -6,8 +6,9 @@ date: 2024-12-02T13:42:47Z
 image: "https://img.rifx.online/icons/cohere-color.svg"
 categories: ["text 2 text"]
 author: "Cohere"
-tags: ["Natural Language Processing", "Chatbots", "Generative AI", "Programming", "Technology/Web"]
+tags: ["Generative AI", "command-r", "complex workflows", "Natural Language Processing", "conversational language tasks", "Technology/Web", "retrieval augmented generation", "Programming", "Cohere", "Chatbots", "code generation"]
 model_tags: []
+labels: ["command-r", "conversational language tasks", "code generation", "retrieval augmented generation", "complex workflows"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 1.425e-06
 img: 0
 request: 0
 last_updated: 2024-12-02T13:42:47Z
+
 ---
 
 Command-R is a 35B parameter model that performs conversational language tasks at a higher quality, more reliably, and with a longer context than previous models. It can be used for complex workflows like code generation, retrieval augmented generation (RAG), tool use, and agents.

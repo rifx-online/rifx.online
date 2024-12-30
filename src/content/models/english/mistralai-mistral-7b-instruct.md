@@ -6,8 +6,9 @@ date: 2024-12-02T13:43:08Z
 image: "https://img.rifx.online/icons/mistral-color.svg"
 categories: ["text 2 text"]
 author: "MistralAI"
-tags: ["Programming", "Technology", "Machine Learning", "Generative AI", "Data Science"]
+tags: ["Generative AI", "MistralAI", "mistral-7b", "parameter model", "Machine Learning", "context length", "Programming", "Data Science", "Technology", "industry-standard AI", "speed optimization"]
 model_tags: []
+labels: ["mistral-7b", "industry-standard AI", "speed optimization", "context length", "parameter model"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 5.5e-08
 img: 0
 request: 0
 last_updated: 2024-12-02T13:43:08Z
+
 ---
 
 A high-performing, industry-standard 7.3B parameter model, with optimizations for speed and context length.

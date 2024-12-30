@@ -6,8 +6,9 @@ date: 2024-12-05T05:05:26Z
 image: "https://img.rifx.online/icons/rifx.svg"
 categories: ["text 2 text"]
 author: "Undi95"
-tags: ["Programming", "Technology", "Generative AI", "Uncensored", "Machine Learning"]
+tags: ["Undi95", "Generative AI", "model merging", "task arithmetic", "Machine Learning", "Uncensored", "Programming", "Technology", "toppy-m-7b", "uncensored AI", "parameter blending"]
 model_tags: []
+labels: ["toppy-m-7b", "model merging", "task arithmetic", "parameter blending", "uncensored AI"]
 draft: False
 is_recommended: True
 is_active: True
@@ -21,6 +22,7 @@ output: 7e-08
 img: 0
 request: 0
 last_updated: 2024-12-05T05:05:26Z
+
 ---
 
 A wild 7B parameter model that merges several models using the new task_arithmetic merge method from mergekit.

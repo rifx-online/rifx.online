@@ -6,8 +6,9 @@ date: 2024-12-02T13:42:56Z
 image: "https://img.rifx.online/icons/google-color.svg"
 categories: ["text image 2 text"]
 author: "Google"
-tags: ["Programming", "Technology", "Machine Learning", "Natural Language Processing", "Computer Vision"]
+tags: ["visual understanding", "multimodal processing", "Machine Learning", "Natural Language Processing", "content generation", "Programming", "Technology", "gemini-flash-1.5", "high-frequency tasks", "Computer Vision", "Google"]
 model_tags: []
+labels: ["gemini-flash-1.5", "visual understanding", "content generation", "high-frequency tasks", "multimodal processing"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 3e-07
 img: 4e-05
 request: 0
 last_updated: 2024-12-02T13:42:56Z
+
 ---
 
 Gemini 1.5 Flash is a foundation model that performs well at a variety of multimodal tasks such as visual understanding, classification, summarization, and creating content from image, audio and video. It's adept at processing visual and text inputs such as photographs, documents, infographics, and screenshots.

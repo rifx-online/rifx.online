@@ -6,8 +6,9 @@ date: 2024-12-03T02:30:06Z
 image: "https://img.rifx.online/icons/google-color.svg"
 categories: ["text image 2 text"]
 author: "Google"
-tags: ["Programming", "Technology", "Machine Learning", "Natural Language Processing", "Computer Vision"]
+tags: ["Machine Learning", "text code response", "Natural Language Processing", "multimodal model", "gemini-pro-vision", "Programming", "image video processing", "Technology", "chat prompts", "Computer Vision", "Google"]
 model_tags: []
+labels: ["gemini-pro-vision", "multimodal model", "image video processing", "text code response", "chat prompts"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 1.5e-06
 img: 0.0025
 request: 0
 last_updated: 2024-12-03T02:30:06Z
+
 ---
 
 Google's flagship multimodal model, supporting image and video in text or chat prompts for a text or code response.

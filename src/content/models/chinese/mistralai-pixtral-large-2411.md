@@ -6,8 +6,9 @@ date: 2024-12-03T03:02:35Z
 image: "https://img.rifx.online/icons/mistral-color.svg"
 categories: ["text image 2 text"]
 author: "MistralAI"
-tags: ["Technology", "Machine Learning", "Natural Language Processing", "Computer Vision", "Data Science"]
+tags: ["natural image processing", "MistralAI", "document analysis", "Machine Learning", "Natural Language Processing", "pixtral-large-2411", "Data Science", "Technology", "chart interpretation", "multimodal understanding", "Computer Vision"]
 model_tags: []
+labels: ["pixtral-large-2411", "multimodal understanding", "document analysis", "chart interpretation", "natural image processing"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 6e-06
 img: 0.002888
 request: 0
 last_updated: 2024-12-03T03:02:35Z
+
 ---
 
 Pixtral Large 是一个 124B 开放权重的多模态模型，基于 [Mistral Large 2](/mistralai/mistral-large-2411) 构建。该模型能够理解文档、图表和自然图像。

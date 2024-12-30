@@ -6,8 +6,9 @@ date: 2024-12-22T03:55:35Z
 image: "https://img.rifx.online/logo/rifx.svg"
 categories: ["text 2 text"]
 author: "Rifx.Online"
-tags: ["Roleplay", "Generative AI", "Chatbots", "Technology", "Programming/Scripting"]
+tags: ["Generative AI", "storytelling AI", "Programming/Scripting", "l3.3-euryale-70b", "narrative generation", "creative roleplay", "Technology", "character simulation", "Rifx.Online", "Chatbots", "Roleplay"]
 model_tags: []
+labels: ["l3.3-euryale-70b", "creative roleplay", "storytelling AI", "narrative generation", "character simulation"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 1.5e-06
 img: 0
 request: 0
 last_updated: 2024-12-22T03:55:35Z
+
 ---
 
 Euryale L3.3 70B is a model focused on creative roleplay from [Sao10k](https://ko-fi.com/sao10k). It is the successor of [Euryale L3 70B v2.2](/models/sao10k/l3-euryale-70b).

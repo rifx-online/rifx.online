@@ -6,8 +6,9 @@ date: 2024-12-03T02:56:08Z
 image: "https://img.rifx.online/icons/meta-color.svg"
 categories: ["text 2 text"]
 author: "Meta Llama"
-tags: ["Programming", "Machine Learning", "Natural Language Processing", "Ethics", "Chatbots"]
+tags: ["llama-guard-2-8b", "safety classification", "Meta Llama", "Machine Learning", "Natural Language Processing", "prompt response analysis", "Programming", "Ethics", "Chatbots", "content moderation", "Llama 3 family"]
 model_tags: []
+labels: ["llama-guard-2-8b", "safety classification", "content moderation", "prompt response analysis", "Llama 3 family"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 1.8e-07
 img: 0
 request: 0
 last_updated: 2024-12-03T02:56:08Z
+
 ---
 
 该安全模型具有8B参数，并基于Llama 3系列。与其前身[LlamaGuard 1](https://huggingface.co/meta-llama/LlamaGuard-7b)一样，它可以进行提示和响应分类。

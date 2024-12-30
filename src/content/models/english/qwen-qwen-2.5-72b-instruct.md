@@ -6,8 +6,9 @@ date: 2024-12-02T02:37:43Z
 image: "https://img.rifx.online/icons/qwen-color.svg"
 categories: ["text 2 text"]
 author: "Qwen"
-tags: ["Programming", "Natural Language Processing", "Machine Learning", "Generative AI", "Chatbots"]
+tags: ["Generative AI", "structured data understanding", "Qwen", "Machine Learning", "Natural Language Processing", "coding capabilities", "Programming", "instruction following", "long-context processing", "Chatbots", "qwen-2.5-72b", "multilingual support"]
 model_tags: []
+labels: ["qwen-2.5-72b", "coding capabilities", "multilingual support", "long-context processing", "structured data understanding", "instruction following"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 4e-07
 img: 0
 request: 0
 last_updated: 2024-12-02T02:37:43Z
+
 ---
 
 Qwen2.5 72B is the latest series of Qwen large language models. Qwen2.5 brings the following improvements upon Qwen2:

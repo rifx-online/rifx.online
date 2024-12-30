@@ -6,8 +6,9 @@ date: 2024-12-03T02:31:32Z
 image: "https://img.rifx.online/icons/meta-color.svg"
 categories: ["text 2 text"]
 author: "Meta Llama"
-tags: ["Roleplay", "Programming", "Generative AI", "Uncensored", "Ethics"]
+tags: ["Generative AI", "Meta Llama", "Uncensored", "roleplay AI", "intelligent dialogue", "llama-3-lumimaid-70b", "Programming", "Ethics", "curated data", "uncensored chatbot", "Roleplay"]
 model_tags: []
+labels: ["llama-3-lumimaid-70b", "roleplay AI", "uncensored chatbot", "intelligent dialogue", "curated data"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 4.5e-06
 img: 0
 request: 0
 last_updated: 2024-12-03T02:31:32Z
+
 ---
 
 The NeverSleep team is back, with a Llama 3 70B finetune trained on their curated roleplay data. Striking a balance between eRP and RP, Lumimaid was designed to be serious, yet uncensored when necessary.

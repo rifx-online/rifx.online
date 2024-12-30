@@ -6,8 +6,9 @@ date: 2024-12-02T04:24:01Z
 image: "https://img.rifx.online/icons/anthropic.svg"
 categories: ["text image 2 text"]
 author: "Anthropic"
-tags: ["Technology", "Programming", "Data Science", "Machine Learning", "Generative AI"]
+tags: ["Generative AI", "claude-3-sonnet", "Machine Learning", "scaled deployments", "enterprise workloads", "Programming", "Data Science", "Technology", "cost-effective AI", "benchmark results", "Anthropic"]
 model_tags: []
+labels: ["claude-3-sonnet", "enterprise workloads", "scaled deployments", "cost-effective AI", "benchmark results"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 1.5e-05
 img: 0.0048
 request: 0
 last_updated: 2024-12-02T04:24:01Z
+
 ---
 
 Claude 3 Sonnet is an ideal balance of intelligence and speed for enterprise workloads. Maximum utility at a lower price, dependable, balanced for scaled deployments.

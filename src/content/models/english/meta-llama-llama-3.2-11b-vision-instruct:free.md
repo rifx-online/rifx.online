@@ -6,8 +6,9 @@ date: 2024-12-02T03:57:54Z
 image: "https://img.rifx.online/icons/meta-color.svg"
 categories: ["text image 2 text"]
 author: "Meta Llama"
-tags: ["Natural Language Processing", "Computer Vision", "Machine Learning", "Generative AI", "Ethics", "Free"]
+tags: ["Generative AI", "multimodal integration", "Meta Llama", "visual question answering", "Machine Learning", "Natural Language Processing", "image captioning", "visual-linguistic AI", "Free", "Ethics", "llama-3.2-11b-vision", "Computer Vision"]
 model_tags: ['Free']
+labels: ["llama-3.2-11b-vision", "multimodal integration", "image captioning", "visual question answering", "visual-linguistic AI"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 0.0
 img: 7.9475e-05
 request: 0
 last_updated: 2024-12-02T03:57:54Z
+
 ---
 
 Llama 3.2 11B Vision is a multimodal model with 11 billion parameters, designed to handle tasks combining visual and textual data. It excels in tasks such as image captioning and visual question answering, bridging the gap between language generation and visual reasoning. Pre-trained on a massive dataset of image-text pairs, it performs well in complex, high-accuracy image analysis.

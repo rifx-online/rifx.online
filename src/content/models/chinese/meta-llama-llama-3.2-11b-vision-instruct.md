@@ -6,8 +6,9 @@ date: 2024-12-02T03:46:15Z
 image: "https://img.rifx.online/icons/meta-color.svg"
 categories: ["text image 2 text"]
 author: "Meta Llama"
-tags: ["Natural Language Processing", "Computer Vision", "Machine Learning", "Generative AI", "Ethics"]
+tags: ["Generative AI", "multimodal integration", "Meta Llama", "visual question answering", "Machine Learning", "Natural Language Processing", "image captioning", "visual-linguistic AI", "Ethics", "llama-3.2-11b-vision", "Computer Vision"]
 model_tags: []
+labels: ["llama-3.2-11b-vision", "multimodal integration", "image captioning", "visual question answering", "visual-linguistic AI"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 5.5e-08
 img: 7.9475e-05
 request: 0
 last_updated: 2024-12-02T03:46:15Z
+
 ---
 
 Llama 3.2 11B Vision 是一个具有 110 亿参数的多模态模型，旨在处理结合视觉和文本数据的任务。它在图像描述和视觉问答等任务中表现出色，弥合了语言生成与视觉推理之间的差距。该模型在一个庞大的图像-文本对数据集上进行了预训练，能够在复杂的高精度图像分析中表现良好。

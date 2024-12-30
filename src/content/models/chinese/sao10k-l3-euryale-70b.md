@@ -6,8 +6,9 @@ date: 2024-12-02T13:43:12Z
 image: "https://img.rifx.online/logo/rifx.svg"
 categories: ["text 2 text"]
 author: "Rifx.Online"
-tags: ["Roleplay", "Programming", "Natural Language Processing", "Generative AI", "Chatbots"]
+tags: ["Generative AI", "unique formatting", "Natural Language Processing", "l3-euryale-70b", "creative roleplay", "prompt adherence", "Programming", "Rifx.Online", "Chatbots", "spatial awareness", "Roleplay"]
 model_tags: []
+labels: ["l3-euryale-70b", "creative roleplay", "prompt adherence", "spatial awareness", "unique formatting"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 4e-07
 img: 0
 request: 0
 last_updated: 2024-12-02T13:43:12Z
+
 ---
 
 Euryale 70B v2.1 是一个专注于创意角色扮演的模型，来自 [Sao10k](https://ko-fi.com/sao10k)。

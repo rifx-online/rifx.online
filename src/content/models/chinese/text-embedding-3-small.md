@@ -6,8 +6,9 @@ date: 2024-12-07T12:03:11Z
 image: "https://img.rifx.online/icons/openai.svg"
 categories: ["embedding"]
 author: "OpenAI"
-tags: ["OpenAI"]
+tags: ["text similarity matching", "multilingual text analysis", "budget-friendly NLP", "cost-effective embeddings", "text-embedding-3-small", "OpenAI"]
 model_tags: []
+labels: ["text-embedding-3-small", "cost-effective embeddings", "multilingual text analysis", "text similarity matching", "budget-friendly NLP"]
 draft: False
 is_recommended: True
 is_active: True
@@ -21,6 +22,7 @@ output: 0.0
 img: 0
 request: 0
 last_updated: 2024-12-07T12:03:11Z
+
 ---
 
 

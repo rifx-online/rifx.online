@@ -6,8 +6,9 @@ date: 2024-12-02T13:45:26Z
 image: "https://img.rifx.online/icons/rifx.svg"
 categories: ["text 2 text"]
 author: "Databricks"
-tags: ["Programming", "Machine Learning", "Natural Language Processing", "Data Science", "Generative AI"]
+tags: ["Generative AI", "Machine Learning", "large language model", "Natural Language Processing", "language understanding", "Programming", "Data Science", "Databricks", "code pre-training", "dbrx", "mixture-of-experts"]
 model_tags: []
+labels: ["dbrx", "large language model", "mixture-of-experts", "language understanding", "code pre-training"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 1.08e-06
 img: 0
 request: 0
 last_updated: 2024-12-02T13:45:26Z
+
 ---
 
 DBRX 是由 Databricks 开发的新开源大语言模型。在 132B 的参数量下，它在语言理解、编程、数学和逻辑的标准行业基准测试中超越了现有的开源 LLM，如 Llama 2 70B 和 [Mixtral-8x7b](/mistralai/mixtral-8x7b)。

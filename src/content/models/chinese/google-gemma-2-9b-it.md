@@ -6,8 +6,9 @@ date: 2024-12-02T13:20:08Z
 image: "https://img.rifx.online/icons/google-color.svg"
 categories: ["text 2 text"]
 author: "Google"
-tags: ["Programming", "Natural Language Processing", "Machine Learning", "Technology"]
+tags: ["open-source NLP", "Machine Learning", "efficient AI", "Natural Language Processing", "Programming", "Technology", "language model", "performance optimization", "gemma-2-9b-it", "Google"]
 model_tags: []
+labels: ["gemma-2-9b-it", "language model", "open-source NLP", "efficient AI", "performance optimization"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 6e-08
 img: 0
 request: 0
 last_updated: 2024-12-02T13:20:08Z
+
 ---
 
 Gemma 2 9B by Google 是一个先进的开源语言模型，在其尺寸类别中设定了效率和性能的新标准。

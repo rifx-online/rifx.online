@@ -6,8 +6,9 @@ date: 2024-12-02T04:08:59Z
 image: "https://img.rifx.online/icons/ai21.svg"
 categories: ["text 2 text"]
 author: "Ai21"
-tags: ["Technology", "Machine Learning", "Data Science", "Generative AI", "Chatbots"]
+tags: ["Generative AI", "SSM-Transformer", "jamba-1-5-large", "resource efficiency", "Ai21", "Machine Learning", "document summarization", "Data Science", "Technology", "context window", "Chatbots"]
 model_tags: []
+labels: ["jamba-1-5-large", "context window", "document summarization", "SSM-Transformer", "resource efficiency"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 8e-06
 img: 0
 request: 0
 last_updated: 2024-12-02T04:08:59Z
+
 ---
 
 Jamba 1.5 Large 是 AI21 新一代开放模型家族的一部分，提供卓越的速度、效率和质量。

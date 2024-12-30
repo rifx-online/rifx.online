@@ -6,8 +6,9 @@ date: 2024-12-03T03:01:33Z
 image: "https://img.rifx.online/icons/openai.svg"
 categories: ["text 2 text"]
 author: "OpenAI"
-tags: ["Programming", "Natural Language Processing", "Machine Learning", "Generative AI", "Chatbots"]
+tags: ["Generative AI", "parallel function calling", "Machine Learning", "Natural Language Processing", "reproducible outputs", "Programming", "gpt-3.5-turbo", "improved instruction following", "JSON mode", "Chatbots", "OpenAI"]
 model_tags: []
+labels: ["gpt-3.5-turbo", "improved instruction following", "JSON mode", "reproducible outputs", "parallel function calling"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 2e-06
 img: 0
 request: 0
 last_updated: 2024-12-03T03:01:33Z
+
 ---
 
 An older GPT-3.5 Turbo model with improved instruction following, JSON mode, reproducible outputs, parallel function calling, and more. Training data: up to Sep 2021.

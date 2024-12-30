@@ -6,8 +6,9 @@ date: 2024-12-22T03:59:20Z
 image: "https://img.rifx.online/icons/google-color.svg"
 categories: ["text image 2 text"]
 author: "Google"
-tags: ["Generative AI", "Machine Learning", "Natural Language Processing", "Chatbots", "Data Science", "Free"]
+tags: ["Generative AI", "thinking process generation", "Machine Learning", "Natural Language Processing", "advanced reasoning", "Free", "Data Science", "Chatbots", "reasoning capabilities", "gemini-2.0-flash-thinking-exp", "experimental AI model", "Google"]
 model_tags: ['Free']
+labels: ["gemini-2.0-flash-thinking-exp", "reasoning capabilities", "thinking process generation", "experimental AI model", "advanced reasoning"]
 draft: False
 is_recommended: True
 is_active: True
@@ -21,6 +22,7 @@ output: 0.0
 img: 0
 request: 0
 last_updated: 2024-12-22T03:59:20Z
+
 ---
 
 Gemini 2.0 Flash Thinking Mode is an experimental model that's trained to generate the "thinking process" the model goes through as part of its response. As a result, Thinking Mode is capable of stronger reasoning capabilities in its responses than the [base Gemini 2.0 Flash model](/google/gemini-2.0-flash-exp).

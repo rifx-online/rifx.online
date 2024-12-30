@@ -6,8 +6,9 @@ date: 2024-12-02T04:24:05Z
 image: "https://img.rifx.online/icons/anthropic.svg"
 categories: ["text image 2 text"]
 author: "Anthropic"
-tags: ["Programming", "Machine Learning", "Natural Language Processing", "Generative AI", "Chatbots"]
+tags: ["Generative AI", "deep understanding", "complex task solving", "Machine Learning", "claude-3-opus", "Natural Language Processing", "advanced intelligence", "high fluency", "Programming", "Chatbots", "Anthropic"]
 model_tags: []
+labels: ["claude-3-opus", "complex task solving", "advanced intelligence", "high fluency", "deep understanding"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 7.5e-05
 img: 0.024
 request: 0
 last_updated: 2024-12-02T04:24:05Z
+
 ---
 
 Claude 3 Opus 是 Anthropic 针对高度复杂任务推出的最强大模型。它具有顶级的性能、智能、流畅性和理解能力。

@@ -6,8 +6,9 @@ date: 2024-12-08T00:42:54Z
 image: "https://img.rifx.online/icons/meta-color.svg"
 categories: ["text 2 text"]
 author: "Meta Llama"
-tags: ["Generative AI", "Natural Language Processing", "Machine Learning", "Chatbots"]
+tags: ["Generative AI", "Meta Llama", "Machine Learning", "Natural Language Processing", "70B language model", "instruction tuned LLM", "multilingual text generation", "Chatbots", "llama-3.3-70b", "multilingual dialogue model"]
 model_tags: []
+labels: ["llama-3.3-70b", "multilingual dialogue model", "instruction tuned LLM", "70B language model", "multilingual text generation"]
 draft: False
 is_recommended: True
 is_active: True
@@ -21,6 +22,7 @@ output: 4e-07
 img: 0
 request: 0
 last_updated: 2024-12-08T00:42:54Z
+
 ---
 
 The Meta Llama 3.3 多语言大型语言模型 (LLM) 是一个经过预训练和指令调优的生成模型，参数为 70B（文本输入/文本输出）。Llama 3.3 指令调优的文本模型专为多语言对话用例优化，并在常见行业基准测试中超越了许多可用的开源和封闭聊天模型。

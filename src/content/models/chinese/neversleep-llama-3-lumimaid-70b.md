@@ -6,8 +6,9 @@ date: 2024-12-03T02:31:32Z
 image: "https://img.rifx.online/icons/meta-color.svg"
 categories: ["text 2 text"]
 author: "Meta Llama"
-tags: ["Roleplay", "Programming", "Generative AI", "Uncensored", "Ethics"]
+tags: ["Generative AI", "Meta Llama", "Uncensored", "roleplay AI", "intelligent dialogue", "llama-3-lumimaid-70b", "Programming", "Ethics", "curated data", "uncensored chatbot", "Roleplay"]
 model_tags: []
+labels: ["llama-3-lumimaid-70b", "roleplay AI", "uncensored chatbot", "intelligent dialogue", "curated data"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 4.5e-06
 img: 0
 request: 0
 last_updated: 2024-12-03T02:31:32Z
+
 ---
 
 The NeverSleep团队回来了，带来了基于他们精心挑选的角色扮演数据训练的Llama 3 70B微调模型。Lumimaid在eRP和RP之间取得了平衡，旨在在必要时保持严肃，但又不受限制。

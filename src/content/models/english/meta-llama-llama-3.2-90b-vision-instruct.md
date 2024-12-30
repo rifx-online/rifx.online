@@ -6,8 +6,9 @@ date: 2024-12-02T02:30:10Z
 image: "https://img.rifx.online/icons/meta-color.svg"
 categories: ["text image 2 text"]
 author: "Meta Llama"
-tags: ["Natural Language Processing", "Computer Vision", "Machine Learning", "Data Science", "Generative AI"]
+tags: ["Generative AI", "Meta Llama", "visual question answering", "Machine Learning", "Natural Language Processing", "image captioning", "multimodal AI", "visual reasoning", "Data Science", "llama-3.2-90b-vision", "Computer Vision"]
 model_tags: []
+labels: ["llama-3.2-90b-vision", "visual reasoning", "image captioning", "visual question answering", "multimodal AI"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 4e-07
 img: 0.00050575
 request: 0
 last_updated: 2024-12-02T02:30:10Z
+
 ---
 
 The Llama 90B Vision model is a top-tier, 90-billion-parameter multimodal model designed for the most challenging visual reasoning and language tasks. It offers unparalleled accuracy in image captioning, visual question answering, and advanced image-text comprehension. Pre-trained on vast multimodal datasets and fine-tuned with human feedback, the Llama 90B Vision is engineered to handle the most demanding image-based AI tasks.

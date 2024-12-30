@@ -6,8 +6,9 @@ date: 2024-12-02T02:37:49Z
 image: "https://img.rifx.online/icons/qwen-color.svg"
 categories: ["text image 2 text"]
 author: "Qwen"
-tags: ["Natural Language Processing", "Computer Vision", "Robotics", "Technology/Web"]
+tags: ["visual understanding", "video question answering", "Qwen", "Natural Language Processing", "multilingual text recognition", "Technology/Web", "mobile robot integration", "Robotics", "Computer Vision", "qwen-2-vl-72b"]
 model_tags: []
+labels: ["qwen-2-vl-72b", "visual understanding", "video question answering", "multilingual text recognition", "mobile robot integration"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 4e-07
 img: 0.000578
 request: 0
 last_updated: 2024-12-02T02:37:49Z
+
 ---
 
 Qwen2 VL 72B 是来自 Qwen 团队的多模态 LLM，具有以下关键增强功能：

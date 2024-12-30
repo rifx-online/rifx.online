@@ -6,8 +6,9 @@ date: 2024-12-03T03:02:48Z
 image: "https://img.rifx.online/icons/zeroone.svg"
 categories: ["text 2 text"]
 author: "01-ai"
-tags: ["Programming", "Natural Language Processing", "Chatbots", "Data Science", "Machine Learning"]
+tags: ["multilingual chatbots", "data classification", "Machine Learning", "01-ai", "Natural Language Processing", "Programming", "customer support AI", "Data Science", "Chatbots", "yi-large", "knowledge retrieval"]
 model_tags: []
+labels: ["yi-large", "multilingual chatbots", "knowledge retrieval", "data classification", "customer support AI"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 3e-06
 img: 0
 request: 0
 last_updated: 2024-12-03T03:02:48Z
+
 ---
 
 Yi Large 模型由 01.AI 设计，考虑了以下用例：知识搜索、数据分类、人类聊天机器人和客户服务。

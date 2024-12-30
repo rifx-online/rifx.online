@@ -6,8 +6,9 @@ date: 2024-12-02T03:11:52Z
 image: "https://img.rifx.online/icons/openai.svg"
 categories: ["text image 2 text"]
 author: "OpenAI"
-tags: ["Technology", "Machine Learning", "Natural Language Processing", "Generative AI", "Chatbots"]
+tags: ["Generative AI", "Machine Learning", "Natural Language Processing", "advanced small model", "SOTA intelligence", "Technology", "multimodal inputs", "Chatbots", "cost-effective AI", "gpt-4o-mini", "OpenAI"]
 model_tags: []
+labels: ["gpt-4o-mini", "cost-effective AI", "multimodal inputs", "SOTA intelligence", "advanced small model"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 6e-07
 img: 0.007225
 request: 0
 last_updated: 2024-12-02T03:11:52Z
+
 ---
 
 GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/openai/gpt-4o), supporting both text and image inputs with text outputs.

@@ -6,8 +6,9 @@ date: 2024-12-29T15:15:06Z
 image: "https://img.rifx.online/icons/openai.svg"
 categories: ["text 2 text"]
 author: "OpenAI"
-tags: ["Programming", "Science", "Technology", "Machine Learning", "Natural Language Processing", "Discount"]
+tags: ["Discount", "experimental model", "rate-limited", "o1-mini", "Science", "Machine Learning", "PhD-level accuracy", "Natural Language Processing", "Programming", "Technology", "STEM optimization", "OpenAI"]
 model_tags: ['Discount']
+labels: ["o1-mini", "STEM optimization", "PhD-level accuracy", "experimental model", "rate-limited"]
 draft: False
 is_recommended: True
 is_active: True
@@ -21,6 +22,7 @@ output: 1.2e-05
 img: 0
 request: 0
 last_updated: 2024-12-29T15:15:06Z
+
 ---
 
 The latest and strongest model family from OpenAI, o1 is designed to spend more time thinking before responding.

@@ -6,8 +6,9 @@ date: 2024-12-02T03:46:10Z
 image: "https://img.rifx.online/icons/meta-color.svg"
 categories: ["text 2 text"]
 author: "Meta Llama"
-tags: ["Programming", "Machine Learning", "Natural Language Processing", "Generative AI", "Ethics"]
+tags: ["Generative AI", "language processing", "Meta Llama", "Machine Learning", "Natural Language Processing", "improved dataset", "Programming", "Ethics", "finetune model", "chat optimization", "llama-3.1-lumimaid-8b"]
 model_tags: []
+labels: ["llama-3.1-lumimaid-8b", "finetune model", "improved dataset", "chat optimization", "language processing"]
 draft: False
 is_recommended: False
 is_active: True
@@ -21,6 +22,7 @@ output: 1.125e-06
 img: 0
 request: 0
 last_updated: 2024-12-02T03:46:10Z
+
 ---
 
 Lumimaid v0.2 8B is a finetune of [Llama 3.1 8B](/meta-llama/llama-3.1-8b-instruct) with a "HUGE step up dataset wise" compared to Lumimaid v0.1. Sloppy chats output were purged.

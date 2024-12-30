@@ -6,8 +6,9 @@ date: 2024-12-02T12:58:41Z
 image: "https://img.rifx.online/icons/anthropic.svg"
 categories: ["text image 2 text"]
 author: "Anthropic"
-tags: ["Programming", "Data Science", "Computer Vision", "Autonomous Systems", "Chatbots"]
+tags: ["data science expertise", "visual processing", "agentic tasks", "Programming", "Data Science", "claude-3.5-sonnet", "Autonomous Systems", "Chatbots", "autonomous coding", "Computer Vision", "Anthropic"]
 model_tags: []
+labels: ["claude-3.5-sonnet", "autonomous coding", "data science expertise", "visual processing", "agentic tasks"]
 draft: False
 is_recommended: True
 is_active: True
@@ -21,6 +22,7 @@ output: 1.5e-05
 img: 0.0048
 request: 0
 last_updated: 2024-12-02T12:58:41Z
+
 ---
 
 Claude 3.5 Sonnet delivers better-than-Opus capabilities, faster-than-Sonnet speeds, at the same Sonnet prices. Sonnet is particularly good at:

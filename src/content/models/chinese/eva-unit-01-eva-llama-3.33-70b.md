@@ -6,8 +6,9 @@ date: 2024-12-22T03:57:58Z
 image: "https://img.rifx.online/icons/rifx.svg"
 categories: ["text 2 text"]
 author: "Eva-unit-01"
-tags: ["Roleplay", "Programming", "Natural Language Processing", "Generative AI", "Chatbots", "Discount"]
+tags: ["Generative AI", "Discount", "Eva-unit-01", "roleplay model", "eva-llama-3.33-70b", "Natural Language Processing", "creative finetune", "narrative generation", "Programming", "Chatbots", "Roleplay", "storywriting AI"]
 model_tags: ['Discount']
+labels: ["eva-llama-3.33-70b", "roleplay model", "storywriting AI", "creative finetune", "narrative generation"]
 draft: False
 is_recommended: True
 is_active: True
@@ -21,6 +22,7 @@ output: 6e-06
 img: 0
 request: 0
 last_updated: 2024-12-22T03:57:58Z
+
 ---
 
 EVA Llama 3.33 70b 是一个角色扮演和故事创作的专业模型。它是对 [Llama-3.3-70B-Instruct](https://openrouter.ai/meta-llama/llama-3.3-70b-instruct) 在合成数据和自然数据混合上的全参数微调。

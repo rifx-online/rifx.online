@@ -6,8 +6,9 @@ date: 2024-12-02T12:59:11Z
 image: "https://img.rifx.online/icons/openai.svg"
 categories: ["text image 2 text"]
 author: "OpenAI"
-tags: ["Programming", "Machine Learning", "Natural Language Processing", "Chatbots", "Generative AI"]
+tags: ["Generative AI", "chatgpt-4o-latest", "research evaluation tool", "Machine Learning", "Natural Language Processing", "rate-limited chatbot", "Programming", "dynamic language model", "Chatbots", "experimental AI model", "OpenAI"]
 model_tags: []
+labels: ["chatgpt-4o-latest", "dynamic language model", "research evaluation tool", "experimental AI model", "rate-limited chatbot"]
 draft: False
 is_recommended: True
 is_active: True
@@ -21,6 +22,7 @@ output: 1.5e-05
 img: 0.007225
 request: 0
 last_updated: 2024-12-02T12:59:11Z
+
 ---
 
 Dynamic model continuously updated to the current version of [GPT-4o](/openai/gpt-4o) in ChatGPT. Intended for research and evaluation.
