@@ -2,7 +2,7 @@
 title: "OpenAI’s o3 + Swarm + RAG Python Project: Easy AI/Chat for your Docs | by Gao Dalie (高達烈) | Dec, 2024 | Towards AI"
 meta_title: "OpenAI’s o3 + Swarm + RAG Python Project: Easy AI/Chat for your Docs | by Gao Dalie (高達烈) | Dec, 2024 | Towards AI"
 description: "The article provides a tutorial on creating a multi-agent chatbot using OpenAIs o3 model, Swarm framework, and RAG techniques. It introduces the capabilities of the o3 model, which excels in inference tasks and surpasses human-level performance on the ARC-AGI benchmark. Swarm is highlighted as a lightweight framework for coordinating multiple AI agents, facilitating efficient problem-solving through task delegation. The tutorial includes coding examples for setting up agents to handle finance and sports queries, demonstrating the routing and handoff mechanisms within the Swarm client. Overall, it showcases the integration of advanced AI models and frameworks for enhanced chatbot functionality."
-date: 2024-12-30T02:59:03Z
+date: 2024-12-30T03:24:30Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*4JYFbwMYlpVWIe0elfyXrQ.png"
 categories: ["Chatbots", "Programming/Scripting", "Machine Learning"]
 author: "Rifx.Online"

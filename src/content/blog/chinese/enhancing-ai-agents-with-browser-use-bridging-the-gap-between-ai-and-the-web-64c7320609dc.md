@@ -1,8 +1,8 @@
 ---
-title: "“颠覆AI代理！如何借助Browser Use 实现网络互动的全新突破？”"
-meta_title: "“颠覆AI代理！如何借助Browser Use 实现网络互动的全新突破？”"
+title: "颠覆AI代理！如何借助Browser Use 实现网络互动的全新突破"
+meta_title: "颠覆AI代理！如何借助Browser Use 实现网络互动的全新突破"
 description: "Browser Use 是一个 Python 库，旨在增强 AI 代理与网页的互动能力，使其能够自主导航、提取信息并执行任务。该库的关键特性包括视觉和HTML提取、自动多标签管理、自定义操作、自我纠正机制以及与多种语言模型的兼容性。通过提供简单的安装和使用示例，Browser Use 使开发者能够高效地实现网页自动化，适用于求职申请、航班预订和数据收集等多种实际应用场景。"
-date: 2024-12-30T02:50:23Z
+date: 2024-12-30T03:24:30Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*geCyxLZlKXci4xzsleGhew.jpeg"
 categories: ["Programming", "Technology/Web", "Autonomous Systems"]
 author: "Rifx.Online"

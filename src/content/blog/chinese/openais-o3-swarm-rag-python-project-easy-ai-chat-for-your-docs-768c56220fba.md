@@ -1,8 +1,8 @@
 ---
-title: "OpenAI的o3 + Swarm + RAG Python项目：为您的文档提供简单的人工智能/聊天功能 | 作者：Gao Dalie (高达烈) | 2024年12月 | 走向人工智能"
-meta_title: "OpenAI的o3 + Swarm + RAG Python项目：为您的文档提供简单的人工智能/聊天功能 | 作者：Gao Dalie (高达烈) | 2024年12月 | 走向人工智能"
+title: "巧用OpenAI o3和Swarm，打造多元化聊天机器人！你准备好迎接高效智能沟通了吗？"
+meta_title: "巧用OpenAI o3和Swarm，打造多元化聊天机器人！你准备好迎接高效智能沟通了吗？"
 description: "OpenAI推出的o3系列模型在推理能力上超越了以往的AI模型，特别是在ARC-AGI基准测试中取得了87.5%的高分。Swarm框架则提供了一种轻量级的方式，支持多智能体系统的开发，使得构建复杂任务的AI聊天机器人变得更加简单和高效。通过结合o3模型和Swarm框架，用户可以创建强大的代理聊天功能，适用于各种商业和个人应用。"
-date: 2024-12-30T02:59:03Z
+date: 2024-12-30T03:24:30Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*4JYFbwMYlpVWIe0elfyXrQ.png"
 categories: ["Chatbots", "Programming/Scripting", "Machine Learning"]
 author: "Rifx.Online"
@@ -10,8 +10,6 @@ tags: ["o3", "Swarm", "RAG", "ARC-AGI", "chatbot"]
 draft: False
 
 ---
-
-
 
 
 
@@ -42,14 +40,6 @@ Swarm是一个轻量级的实验框架，旨在支持多智能体系统的开发
 使用Swarm客户端与智能体进行交互，演示`central_agent`如何将财务相关查询路由到财务智能体，展示智能体的功能或生成的响应。
 
 在这个故事中，我将为您概述OpenAI的o3，解释Swarm是什么，它的特点，为什么我们使用Swarm，以及如何将所有这些技术结合起来创建一个强大的聊天机器人。
-
-## 开始之前！🦸🏻‍♀️
-
-如果你喜欢这个主题并想支持我：
-
-1. **为**我的文章点赞50次；这对我真的很有帮助。👏
-2. [**关注**](https://medium.com/@mr.tarik098)我在Medium上的账号，并订阅以免费获取我最新的文章🫶
-3. 加入这个大家庭 — 订阅我的[**YouTube频道**](https://www.youtube.com/channel/UC6P5WCWjqhhXVFBqbJHNxyw)
 
 ## 什么是 o3
 
@@ -111,6 +101,7 @@ Swarm 的设计旨在轻量、可扩展且高度可定制。当许多独立功�
 ```python
 pip install -r requirements.txt
 ```
+
 完成后，让我们转到一个 Python 文件，我们将使用 Langchain\_community、Langchain\_openai、langchain\_core 和 swarm 来结合执行代码所需的指令和代理。
 
 ```python
@@ -125,6 +116,7 @@ from langchain.schema.runnable import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
 import os
 ```
+
 让我们处理 PDF 文件，使其可搜索，使用嵌入和向量存储。我使用 PyPDFLoader 从指定的文件路径加载 PDF，将其内容提取到 docs 中，其中每个元素对应于一页或一个部分，并打印加载的文档数量。之后，它使用 `RecursiveCharacterTextSplitter` 将文档拆分为更小、可管理的块，每个块大约 1,000 个字符，重叠 200 个字符以保持上下文。然后，它设置 `OpenAIEmbeddings` 模型（`text-embedding-ada-002`）将文本转换为向量表示。这些向量通过 `Chroma.from_documents` 保存，数据存储在一个文件夹（`./chroma_db`）中，以便后续轻松访问。最后，它从向量存储创建一个检索器。
 
 ```python
@@ -151,12 +143,14 @@ vectorstore = Chroma.from_documents(
 retriever = vectorstore.as_retriever()
 print("向量存储已创建并持久化到 './chroma_db'")
 ```
+
 OpenAI 尚未发布 o3 模型，但一旦模型发布，我会更新该模型。并且可以轻松将模型名称更改为 ‘o3\-mini’。
 
 ```python
 llm = ChatOpenAI(model="o1-preview",
                  temperature=1, top_p=0.85)
 ```
+
 我们创建一个名为 retrieve\_and\_generate\_Finance 的函数，该函数接受一个问题，检索相关文档，并根据这些文档生成答案。它使用模板将上下文和问题格式化为提示。`docs2str(docs)` 函数将检索到的文档转换为字符串，打印其内容。RAG 链结合了检索器、`docs2str` 问题和 OpenAI 以生成响应。
 
 ```python
@@ -187,6 +181,7 @@ def retrieve_and_generate_Finance(question):
     response = rag_chain.invoke(question)
     return response
 ```
+
 retrieve\_and\_generate\_sports 函数的情况也是如此，输出使用 `StrOutputParser()` 进行解析。该函数使用问题调用链并返回生成的响应，依赖于检索器、`RunnablePassthrough()` 和语言模型等关键组件进行处理。
 
 ```python
@@ -216,6 +211,7 @@ def retrieve_and_generate_sports(question):
     response = rag_chain.invoke(question)
     return response
 ```
+
 我们定义了三个代理：Finance\_agent、sports\_agent 和 central\_agent。Finance\_agent 负责从 Finance 知识库中检索信息并生成对与财务相关的查询的响应，使用 `retrieve_and_generate_Finance` 函数。sports\_agent 对于与体育相关的查询执行类似的角色，使用 `retrieve_and_generate_sports` 函数。central\_agent 确定查询是关于财务还是体育，并将其路由到相应的代理。
 
 ```python
@@ -238,6 +234,7 @@ central_agent = Agent(
     instructions="确定查询是关于财务还是体育，并相应地路由查询。"
 )
 ```
+
 然后我们定义两个移交函数 `transfer_to_Finance` 和 `transfer_to_sports`，负责将查询指向适当的代理。`transfer_to_Finance` 函数打印一条消息，指示转移到 Finance Agent，并返回 `Finance_agent` 以处理与财务相关的查询，而 `transfer_to_sports` 函数打印一条消息，指示转移到 Sports Agent，并返回 `sports_agent` 以处理与体育相关的查询。这些移交函数随后附加到 `central_agent`，使其能够根据查询内容将查询路由到财务或体育代理。
 
 ```python
@@ -255,6 +252,7 @@ def transfer_to_sports():
 ## 将移交函数附加到中央代理
 central_agent.functions = [transfer_to_Finance, transfer_to_sports]
 ```
+
 那么，让我们创建一个 Swarm 客户端与代理进行交互，并演示 `central_agent` 如何将与财务相关的查询路由到 Finance 代理。查询 "我如何知道我目前的财务状况？" 被发送到 `central_agent`，它确定适当的代理（财务或体育）。如果响应是一个代理，则打印其函数；如果不是，则显示最后一条消息（生成的答案）。这说明了 `central_agent` 如何根据内容将查询指向正确的代理。
 
 ```python
@@ -280,12 +278,4 @@ Swarm 使得构建一个多个代理协同工作的系统变得简单。路线�
 
 尤其是当 Grok-3 和 Claude 等新模型准备就绪时，OpenAI 的时间可能并不紧迫。
 
-醒醒吧，今年最好的 AI 公司仍然是 OpenAI，但明年由于不同的 AI 方向可能会出现无数的答案。
-
-幸运的是，作为用户，我们将在这次变革中成为最大的赢家。
-
-
-> **🧙‍♂️ 我是 AI 生成领域的专家！如果你想在项目上合作，请在 [这里询问](https://docs.google.com/forms/d/e/1FAIpQLSelxGSNOdTXULOG0HbhM21lIW_mTgq7NsDbUTbx4qw-xLEkMQ/viewform) 或与我预约 [一对一咨询](https://calendly.com/gao-dalie/ai-consulting-call) 电话。**
-
-*📚欢迎查看我的其他文章：*
 
