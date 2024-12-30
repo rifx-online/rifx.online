@@ -3,7 +3,7 @@ title: "Amazon: Nova Micro 1.0"
 meta_title: "Amazon: Nova Micro 1.0"
 description: "Amazon: Nova Micro 1.0"
 date: 2024-12-06T01:20:59Z
-image: "https://img.rifx.online/icons/Bedrock.svg"
+image: "https://img.rifx.online/icons/aws-color.svg"
 categories: ["text 2 text"]
 author: "Amazon"
 tags: ["Programming", "Natural Language Processing", "Chatbots", "Translation", "Data Science", "New"]

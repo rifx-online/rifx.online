@@ -3,7 +3,7 @@ title: "Amazon: Nova Pro 1.0"
 meta_title: "Amazon: Nova Pro 1.0"
 description: "Amazon: Nova Pro 1.0"
 date: 2024-12-06T01:21:43Z
-image: "https://img.rifx.online/icons/Bedrock.svg"
+image: "https://img.rifx.online/icons/aws-color.svg"
 categories: ["text image 2 text"]
 author: "Amazon"
 tags: ["Technology", "Machine Learning", "Natural Language Processing", "Computer Vision", "Data Science", "New"]

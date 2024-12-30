@@ -3,7 +3,7 @@ title: "Amazon: Nova Lite 1.0"
 meta_title: "Amazon: Nova Lite 1.0"
 description: "Amazon: Nova Lite 1.0"
 date: 2024-12-06T01:21:30Z
-image: "https://img.rifx.online/icons/Bedrock.svg"
+image: "https://img.rifx.online/icons/aws-color.svg"
 categories: ["text image 2 text"]
 author: "Amazon"
 tags: ["Programming", "Technology", "Machine Learning", "Natural Language Processing", "Computer Vision", "New"]
