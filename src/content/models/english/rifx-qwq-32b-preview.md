@@ -1,29 +1,46 @@
 ---
-title: "Qwen QwQ-32B-Preview"
-meta_title: "Qwen QwQ-32B-Preview"
-description: "Qwen QwQ-32B-Preview"
-date: 2024-12-31T01:44:34Z
-image: "https://img.rifx.online/icons/qwen-color.svg"
-categories: ["text 2 text"]
-author: "Qwen"
-tags: ["Programming/Scripting", "recursive loops", "Natural Language Processing", "qwq-32b-preview", "AI reasoning", "safety considerations", "language mixing", "Ethics", "Discount", "Qwen", "Machine Learning"]
-model_tags: ['Discount']
-labels: ["qwq-32b-preview", "AI reasoning", "language mixing", "recursive loops", "safety considerations"]
-draft: False
-is_recommended: True
-is_active: True
-discount: 0.3
-is_free: False
-
-id: "rifx/qwq-32b-preview"
+author: Qwen
+categories:
+- text 2 text
 context: 32768
-input: 1.2e-07
-output: 1.8e-07
+date: 2024-12-31 01:44:34+00:00
+description: Qwen QwQ-32B-Preview
+discount: 0.3
+draft: false
+id: rifx/qwq-32b-preview
+image: https://img.rifx.online/icons/qwen-color.svg
 img: 0
+input: 1.2e-07
+is_active: false
+is_free: false
+is_recommended: true
+labels:
+- qwq-32b-preview
+- AI reasoning
+- language mixing
+- recursive loops
+- safety considerations
+last_updated: 2024-12-31 01:44:34+00:00
+meta_title: Qwen QwQ-32B-Preview
+model_tags:
+- Discount
+output: 1.8e-07
 request: 0
-last_updated: 2024-12-31T01:44:34Z
-
+tags:
+- Programming/Scripting
+- recursive loops
+- Natural Language Processing
+- qwq-32b-preview
+- AI reasoning
+- safety considerations
+- language mixing
+- Ethics
+- Discount
+- Qwen
+- Machine Learning
+title: Qwen QwQ-32B-Preview
 ---
+
 
 ## Introduction
 
