@@ -8,7 +8,7 @@ import Header from "@/partials/Header.astro";
 import "@/styles/main.scss";
 import { ViewTransitions } from "astro:transitions";
 import SearchModal from "./helpers/SearchModal";
-import { getLangFromUrl } from "@/lib/utils/languageParser";
+import { getLangFromUrl, slugSelector } from "@/lib/utils/languageParser";
 import { SEO } from "astro-seo";
 
 export interface Props {
@@ -41,6 +41,28 @@ const {
 
 const language = lang || getLangFromUrl(Astro.url);
 const keywordsString = Array.isArray(keywords) ? keywords.join(", ") : keywords;
+
+// 计算规范链接
+const path = Astro.url.pathname;
+const isDefaultLanguage = language === config.settings.default_language;
+const canonicalPath = isDefaultLanguage ? path.replace(`/${language}`, '') : path;
+const computedCanonical = canonical || new URL(canonicalPath, config.site.base_url).toString();
+
+// 生成 hreflang 链接
+const supportedLanguages = ["en", "zh"];
+const hrefLangLinks = supportedLanguages.map(lang => ({
+  rel: "alternate",
+  hrefLang: lang,
+  href: new URL(slugSelector(path, lang), config.site.base_url).toString()
+}));
+
+// 添加 x-default hreflang
+const xDefaultPath = path.replace(`/${language}`, '');
+hrefLangLinks.push({
+  rel: "alternate",
+  hrefLang: "x-default",
+  href: new URL(xDefaultPath, config.site.base_url).toString()
+});
 
 // 构建 OpenGraph 配置
 const openGraphConfig: {
@@ -118,7 +140,7 @@ if (type === "article" || type === "model") {
       description={plainify(
         description ? description : config.metadata.meta_description
       )}
-      canonical={canonical}
+      canonical={computedCanonical}
       noindex={noindex}
       openGraph={openGraphConfig}
       twitter={{
@@ -162,6 +184,7 @@ if (type === "article" || type === "model") {
         link: [
           { rel: "shortcut icon", href: config.site.favicon },
           { rel: "sitemap", href: "/sitemap-index.xml" },
+          ...hrefLangLinks
         ],
       }}
     />
