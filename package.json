@@ -16,7 +16,8 @@
     "remove-multilang": "node scripts/removeMultilang.js && yarn format",
     "deploy": "astro build && wrangler pages deploy",
     "cf-typegen": "wrangler types",
-    "indexnow": "node scripts/indexnow.js"
+    "indexnow": "node scripts/indexnow.js",
+    "baidu-submit": "node scripts/baidu-submit.js"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
