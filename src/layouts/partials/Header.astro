@@ -23,7 +23,6 @@ if (disabledLanguages.includes(lang)) {
   lang = default_language;
 }
 
-const signInUrl = import.meta.env.ACCOUNT_LINK;
 ---
 
 <header class={`header z-30 ${settings.sticky_header && "sticky top-0"}`}>
@@ -130,7 +129,7 @@ const signInUrl = import.meta.env.ACCOUNT_LINK;
       {/* Theme switcher */}
       <ThemeSwitcher className="border-border text-dark hover:text-primary dark:border-darkmode-border inline-block border-r pr-5 dark:text-white dark:hover:text-darkmode-primary" />
       {/* 用户图标和个人中心链接 */}
-      <a class="btn" href={signInUrl}>
+      <a class="btn" href="https://user.rifx.online/dashboard">
         {menu.header.signIn}
       </a>
       
