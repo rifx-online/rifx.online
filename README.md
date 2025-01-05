@@ -35,3 +35,5 @@ For any questions or assistance, feel free to reach out to us:
 - **Social Media**: Follow us on Twitter, LinkedIn, and other platforms.
 
 We welcome your feedback and suggestions to help us continuously improve our services. Thank you for choosing Rifx.online!
+
+https://ziyuan.baidu.com/linksubmit/index?site=https://rifx.online/
