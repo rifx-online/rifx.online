@@ -2,17 +2,17 @@
 title: "OpenAI: o1-preview"
 meta_title: "OpenAI: o1-preview"
 description: "OpenAI: o1-preview"
-date: 2024-12-29T06:47:35Z
+date: 2025-01-05T04:09:07Z
 image: "https://img.rifx.online/icons/openai.svg"
 categories: ["text 2 text"]
 author: "OpenAI"
-tags: ["Science", "Machine Learning", "PhD-level accuracy", "Natural Language Processing", "experimental AI model", "Programming", "Technology", "STEM optimization", "advanced scientific computing", "o1-preview", "OpenAI"]
-model_tags: []
+tags: ["o1-preview", "OpenAI", "Programming", "Technology", "Natural Language Processing", "experimental AI model", "Machine Learning", "Discount", "advanced scientific computing", "STEM optimization", "Science", "PhD-level accuracy"]
+model_tags: ['Discount']
 labels: ["o1-preview", "STEM optimization", "PhD-level accuracy", "experimental AI model", "advanced scientific computing"]
 draft: False
-is_recommended: False
+is_recommended: True
 is_active: True
-discount: 1
+discount: 0.7
 is_free: False
 
 id: "rifx/o1-preview"
@@ -21,7 +21,7 @@ input: 1.5e-05
 output: 6e-05
 img: 0
 request: 0
-last_updated: 2024-12-29T06:47:35Z
+last_updated: 2025-01-05T04:09:07Z
 
 ---
 
