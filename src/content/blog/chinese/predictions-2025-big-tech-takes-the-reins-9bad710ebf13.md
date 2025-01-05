@@ -1,8 +1,8 @@
 ---
-title: "2025 年预测：大科技掌权"
-meta_title: "2025 年预测：大科技掌权"
+title: "2025年科技巨头将如何重塑世界？惊人预测大揭密！"
+meta_title: "2025年科技巨头将如何重塑世界？惊人预测大揭密！"
 description: "2025年的科技预测指出，科技巨头将在政治影响力上超越金融行业，TikTok将在美国继续运营，且对科技巨头的监管将不会有实质性进展。生成性人工智能将变得平淡，但将推动日常生活工具的开发。流媒体将成为大型事件的平台，提示数据将成为商业资产，而零售媒体将逐步整合。此外，苹果与OpenAI之间的竞争将加剧，谷歌可能迎来新CEO，健康产业将经历变革，加密货币市场将趋于稳定。"
-date: 2025-01-05T02:02:53Z
+date: 2025-01-05T03:33:30Z
 image: "https://wsrv.nl/?url=https://cdn-images-1.readmedium.com/v2/resize:fit:800/1*nE-yVCmu6SScFYCPTt2u-Q.png"
 categories: ["Technology", "Generative AI", "Health"]
 author: "Rifx.Online"
@@ -10,8 +10,6 @@ tags: ["BigTech", "TikTok", "GenerativeAI", "promptdata", "healthcare"]
 draft: False
 
 ---
-
-
 
 
 
@@ -36,100 +34,8 @@ draft: False
 9. **特朗普/马斯克的分歧？没有。疲惫？是的。** 我在引言中提到过这一点，但让我们在这里正式将其作为一个预测：到年底，马斯克和特朗普将对彼此感到厌倦，更愿意通过代理人进行商业往来。当然，至少有一个DOGE兄弟将会被特朗普毫无顾忌地抛弃。要在特朗普的好感中保持超过一年的时间，需要某种程度的投机精神。我认为All-In团队中的任何人都没有这个能力。然而，马斯克和特朗普都足够聪明，意识到他们需要彼此——因此他们将避免全面的媒体战。
 10. **谷歌将迎来新CEO。** 过去几年间，关于Sundar Pichai头上的呼声时有出现——但所有这些呼声都已消退。很难对谷歌的[五年股票表现](https://www.google.com/search?q=google+stock&rlz=1C5CHFA_enUS844US844&oq=google+stock+&gs_lcrp=EgZjaHJvbWUqBwgAEAAYjwIyBwgAEAAYjwIyEAgBEAAYkQIYsQMYgAQYigUyDQgCEAAYgwEYsQMYgAQyDQgDEAAYkQIYgAQYigUyDQgEEAAYkQIYgAQYigUyDQgFEAAYkQIYgAQYigUyDQgGEAAYkQIYgAQYigUyBggHEAUYQNIBCDI2MTNqMWo3qAIAsAIA&sourceid=chrome&ie=UTF-8)提出异议。但2025年标志着Pichai在其职务上任满十年，公司面临各种结构和政治障碍。我预测，谷歌将在年底之前宣布CEO继任过程，甚至可能更早。
 11. **健康成为中心。** 是的，RFK Jr.是个奇怪的人物，但健康产业即将迎来变革，而这一变革似乎正在到来，无论参议院是否确认一个反疫苗者担任最高政府职位。与科技政治相比，医疗保健行业将是2025年最有趣的故事。
-
 12. **加密货币横盘整理。** 我对过去几个月加密货币的上涨感到震惊——尽管考虑到加密货币游说团体基本上是[那些给我们带来DOGE的人](https://cointelegraph.com/news/crypto-industry-lobbying-us-elections)，这也有很多道理。我可以大胆预测，至少在一段时间内，加密货币将继续“上涨”。但现在仍然为时已晚，加密货币还无法达到它所获得的任何估值，预计该领域将在年底前回落。目前，比特币在保持在$100K以上方面遇到了困难，尽管它在全年可能会轻松超过这一里程碑，但到2025年时，它将重新回到现实中。*我认为。*
 
 这就是全部，关于2025年的十二个预测。TikTok、监管、AI、数据、零售媒体、流媒体、苹果、政治、谷歌、加密货币和健康。感谢你们的陪伴，我们将在明年12月看看我的预测结果如何！
 
-—
-
-[*你可以通过在这里注册我的网站通讯来关注我接下来要做的事情。感谢阅读。*](https://battellemedia.com/sign-up)
-
-—
-
-*之前的预测：*
-
-[2024年预测](https://battellemedia.com/archives/2023/12/predictions-2024-its-all-about-the-data)
-
-[2024年：我的表现](https://battellemedia.com/archives/2024/12/looking-back-at-2024-how-did-my-predictions-fare)
-
-[2023年预测](https://battellemedia.com/archives/2022/12/predictions-23-the-summary)
-
-[2023年：我的表现](https://battellemedia.com/archives/2023/12/grading-my-2023-predictions-the-batting-average-dips)
-
-[2022年预测](https://battellemedia.com/archives/2021/12/predictions-2022-crypto-climate-big-tech-streaming-offices-tik-tok-and-ugh-trump)
-
-[2022年：我的表现](https://battellemedia.com/archives/2022/12/predictions-2022-howd-i-do-strangely-my-best-year-ever)
-
-[2021年预测](https://battellemedia.com/archives/2021/01/predictions-2021-disinformation-spacs-africa-facebook-and-a-return-to-tech-optimism)
-
-[2021年：我的表现](https://battellemedia.com/archives/2021/12/predictions-2021-howd-i-do-pretty-damn-well)
-
-[2020年预测](https://battellemedia.com/archives/2020/01/predictions-2020-facebook-caves-google-zags-netflix-sells-out-and-data-policy-gets-sexy)
-
-[2020年：我的表现](https://battellemedia.com/archives/2020/12/well-that-was-a-year-a-review-of-my-2020-predictions)
-
-[2019年预测](https://battellemedia.com/archives/2019/01/predictions-2019-stay-stoney-my-friends)
-
-[2019年：我的表现](https://battellemedia.com/archives/2019/12/predictions-review-optimism-failed-in-2019)
-
-[2018年预测](https://battellemedia.com/archives/2018/01/my-predictions-for-2018)
-
-[2018年：我的表现](https://battellemedia.com/archives/2018/12/predictions-2018-how-i-did-pretty-damn-well-turns-out)
-
-[2017年预测](https://battellemedia.com/archives/2017/01/predictions-2017-a-chain-reaction)
-
-[2017年：我的表现](https://battellemedia.com/archives/2017/12/predictions-2017-howd-i-do-this-year)
-
-[2016年预测](http://battellemedia.com/archives/2016/01/predictions-2016-apple-tesla-google-medium-adtech-microsoft-iot-and-business-on-a-mission.php)
-
-[2016年：我的表现](http://battellemedia.com/archives/2016/12/predictions-2016-howd-i-do.php)
-
-[2015年预测](http://battellemedia.com/archives/2015/01/predictions-2015-2.php)
-
-[2015年：我的表现](http://battellemedia.com/archives/2015/12/predictions-2015-howd-i-do.php)
-
-[2014年预测](http://battellemedia.com/archives/2014/01/predictions-2014-a-difficult-year-to-see.php)
-
-[2014年：我的表现](http://battellemedia.com/archives/2014/12/predictions-2014-howd.php)
-
-[2013年预测](http://battellemedia.com/archives/2013/01/predictions-2013.php)
-
-[2013年：我的表现](http://battellemedia.com/archives/2013/12/looking-back-how-did-my-2013-predictions-fare.php)
-
-[2012年预测](http://battellemedia.com/archives/2012/01/predictions-2012-the-roundup.php)
-
-[2012年：我的表现](http://battellemedia.com/archives/2013/01/predictions-from-last-year-how-i-did-2012-edition.php)
-
-[2011年预测](http://battellemedia.com/archives/2011/01/predictions_2011.php)
-
-[2011年：我的表现](http://battellemedia.com/archives/2011/12/2011-predictions-how-did-i-do.php)
-
-[2010年预测](http://battellemedia.com/archives/2010/01/predictions_2010.php)
-
-[2010年：我的表现](http://battellemedia.com/archives/2010/12/predictions_2010_how_did_i_do_.php)
-
-[2009年预测](http://battellemedia.com/archives/2009/01/predictions_2009.php)
-
-[2009年：我的表现](http://battellemedia.com/archives/005083.php)
-
-[2008年预测](http://battellemedia.com/archives/2008/01/predictions_2008.php)
-
-[2008年：我的表现](http://battellemedia.com/archives/004769.php)
-
-[2007年预测](http://battellemedia.com/archives/2007/01/predictions_2007.php)
-
-[2007年：我的表现](http://battellemedia.com/archives/004169.php)
-
-[2006年预测](http://battellemedia.com/archives/2005/12/predictions_2006.php)
-
-[2006年：我的表现](http://battellemedia.com/archives/003216.php)
-
-[2005年预测](http://battellemedia.com/archives/2004/12/a_look_ahead.php)
-
-[2005年：我的表现](http://battellemedia.com/archives/002139.php)
-
-[2004年预测](http://battellemedia.com/archives/2003/12/thoughts_on_2004.php)
-
-[2004年：我的表现](http://battellemedia.com/archives/001150.php)
 
