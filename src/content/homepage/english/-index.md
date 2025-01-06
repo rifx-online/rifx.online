@@ -32,6 +32,8 @@ topic:
   content: "Integrate cutting-edge AI capabilities into your applications with our powerful API. 
           From natural language processing to computer vision, unlock the potential of AI with just a few lines of code."
   api_link: "https://api.rifx.online/v1"
+  api_link_backup_title: "Backup API Endpoint (China)"
+  api_link_backup: "https://zh.api.rifx.online/v1"
   placeholder: "AI API Endpoint"
   button:
     lable: "Copy API URL"

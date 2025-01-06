@@ -130,6 +130,23 @@ const freeModels = freeItems(posts);
               copy_lable={topic.button.copy_lable}
             />
           </div>
+          <p class="text-sm text-muted-foreground mt-4 mb-2">
+            {topic.api_link_backup_title}
+          </p>
+          <div class="flex space-x-2">
+            <Input
+              value={topic.api_link_backup}
+              readOnly
+              className="flex-grow text-xl font-bold h-12 text-black dark:text-white mr-4"
+              placeholder={topic.placeholder}
+            />
+            <CopyButton
+              textToCopy={topic.api_link_backup}
+              className="text-white dark:text-black bg-black dark:bg-white font-bold h-12"
+              label={topic.button.lable} client:load
+              copy_lable={topic.button.copy_lable}
+            />
+          </div>
           <p class="text-sm text-muted-foreground mt-8">
             {topic.remark}
           </p>

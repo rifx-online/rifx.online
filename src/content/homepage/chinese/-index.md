@@ -32,6 +32,8 @@ topic:
   content: "借助我们强大的API，轻松将前沿AI能力集成到您的应用中。
           从自然语言处理到计算机视觉，只需几行代码即可释放AI的无限潜力。"
   api_link: "https://api.rifx.online/v1"
+  api_link_backup_title: "备用中国区API地址"
+  api_link_backup: "https://zh.api.rifx.online/v1"
   placeholder: "AI API 接口"
   button:
     lable: "复制API地址"
